@@ -96,7 +96,7 @@
           "speaker": "Patient",
           "en": "John is fine, thanks.",
           "ko": "John이라고 불러주시면 돼요. 감사합니다.",
-          "audio": "audio/week-01/natural-tail/patient/06.m4a",
+          "audio": "audio/week-01/end-fix/patient/06.m4a",
           "start": 0.98,
           "end": 2.28
         },
@@ -134,7 +134,7 @@
           "speaker": "Patient",
           "en": "Not too bad. I found parking quite easily.",
           "ko": "괜찮았어요. 주차도 꽤 쉽게 했고요.",
-          "audio": "audio/week-01/natural-tail/patient/09.m4a",
+          "audio": "audio/week-01/end-fix/patient/09.m4a",
           "start": 2.28,
           "end": 4.75
         },
@@ -144,8 +144,8 @@
           "ko": "다행이네요. 오늘은 허리에 대해 몇 가지 질문을 드리고,",
           "turn": 4,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/10.m4a",
-            "male": "audio/week-01/natural-tail/male/10.m4a"
+            "female": "audio/week-01/end-fix/female/10.m4a",
+            "male": "audio/week-01/end-fix/male/10.m4a"
           },
           "segments": {
             "female": {
@@ -202,8 +202,8 @@
           "ko": "좋습니다. 시작하기 전에,",
           "turn": 5,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/14.m4a",
-            "male": "audio/week-01/natural-tail/male/14.m4a"
+            "female": "audio/week-01/end-fix/female/14.m4a",
+            "male": "audio/week-01/end-fix/male/14.m4a"
           },
           "segments": {
             "female": {
@@ -222,7 +222,7 @@
           "ko": "저에게 물어보고 싶은 게 있으세요?",
           "turn": 5,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/15.m4a",
+            "female": "audio/week-01/end-fix/female/15.m4a",
             "male": "audio/week-01/natural-tail/male/15.m4a"
           },
           "segments": {

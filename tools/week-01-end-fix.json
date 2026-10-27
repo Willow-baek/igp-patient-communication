@@ -1,0 +1,94 @@
+{
+  "method": "Manual waveform-informed boundaries with quiet-sample cuts; no appended silence. Shared adjacent boundaries also realigned. Individual clips transcribed with small.en; not a manual listening review.",
+  "clips": [
+    {
+      "voice": "patient",
+      "line": 6,
+      "text": "John is fine, thanks.",
+      "oldStart": 0.98,
+      "oldEnd": 2.28,
+      "start": 0.98,
+      "end": 2.3169375,
+      "url": "audio/week-01/end-fix/patient/06.m4a",
+      "recognised": "John is fine, thanks.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 10,
+      "text": "Good to hear. So today I'll ask you a few questions about your back,",
+      "oldStart": 13.7,
+      "oldEnd": 18.58,
+      "start": 13.7,
+      "end": 18.77975,
+      "url": "audio/week-01/end-fix/female/10.m4a",
+      "recognised": "Good to hear. So today, I'll ask you a few questions about your back.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 10,
+      "text": "Good to hear. So today I'll ask you a few questions about your back,",
+      "oldStart": 14.32,
+      "oldEnd": 18.54,
+      "start": 14.32,
+      "end": 19.0413125,
+      "url": "audio/week-01/end-fix/male/10.m4a",
+      "recognised": "Good to heal. So today I'll ask you a few questions about your back.",
+      "match": false
+    },
+    {
+      "voice": "female",
+      "line": 14,
+      "text": "Great. Before we start,",
+      "oldStart": 22.29,
+      "oldEnd": 24.34,
+      "start": 22.29,
+      "end": 24.4316875,
+      "url": "audio/week-01/end-fix/female/14.m4a",
+      "recognised": "Great, before we start",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 14,
+      "text": "Great. Before we start,",
+      "oldStart": 22.64,
+      "oldEnd": 25.34,
+      "start": 22.64,
+      "end": 25.46825,
+      "url": "audio/week-01/end-fix/male/14.m4a",
+      "recognised": "Great, before we start...",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 9,
+      "text": "Not too bad. I found parking quite easily.",
+      "oldStart": 2.28,
+      "oldEnd": 4.98,
+      "start": 2.3169375,
+      "end": 4.98,
+      "url": "audio/week-01/end-fix/patient/09.m4a",
+      "recognised": "not too bad. I found parking quite easily.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 15,
+      "text": "is there anything you'd like to ask me?",
+      "oldStart": 24.31,
+      "oldEnd": 26.6449,
+      "start": 24.4316875,
+      "end": 26.6449,
+      "url": "audio/week-01/end-fix/female/15.m4a",
+      "recognised": "Is there anything you'd like to ask me?",
+      "match": true
+    }
+  ],
+  "maleLine10SecondCheck": {
+    "model": "base.en",
+    "recognised": "Good to hear. So today I'll ask you a few questions about your back.",
+    "note": "small.en recognised hear as heal; source onset unchanged. No subsequent dialogue recognised."
+  }
+}
