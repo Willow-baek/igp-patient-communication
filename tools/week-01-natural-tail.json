@@ -1,0 +1,520 @@
+{
+  "method": "Removed appended silence. Re-extracted source PCM with up to 0.5s additional tail, capped before the next aligned speech onset (80ms safety margin) or source end. Never shorten an existing cut. No synthetic silence.",
+  "clips": [
+    {
+      "voice": "female",
+      "line": 1,
+      "text": "Hi, are you John Thompson?",
+      "original": "audio/week-01/revised/female/01.m4a",
+      "sourceWav": "female.wav",
+      "start": 0,
+      "previousEnd": 1.14,
+      "end": 1.22,
+      "extensionSeconds": 0.08,
+      "url": "audio/week-01/natural-tail/female/01.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 1,
+      "text": "Hi, are you John Thompson?",
+      "original": "audio/week-01/revised/male/01.m4a",
+      "sourceWav": "male.wav",
+      "start": 0,
+      "previousEnd": 1.56,
+      "end": 1.88,
+      "extensionSeconds": 0.32,
+      "url": "audio/week-01/natural-tail/male/01.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 2,
+      "text": "I'm Alex, I'll be your physiotherapist today.",
+      "original": "audio/week-01/female-v2/02.m4a",
+      "sourceWav": "female.wav",
+      "start": 1.29,
+      "previousEnd": 4.01,
+      "end": 4.24,
+      "extensionSeconds": 0.23,
+      "url": "audio/week-01/natural-tail/female/02.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 2,
+      "text": "I'm Alex, I'll be your physiotherapist today.",
+      "original": "audio/week-01/male-v2/02.m4a",
+      "sourceWav": "male.wav",
+      "start": 1.95,
+      "previousEnd": 5.08,
+      "end": 5.44,
+      "extensionSeconds": 0.36,
+      "url": "audio/week-01/natural-tail/male/02.m4a"
+    },
+    {
+      "voice": "patient",
+      "line": 3,
+      "text": "Yes, that's right.",
+      "original": "audio/week-01/patient/01.m4a",
+      "sourceWav": "patient.wav",
+      "start": 0,
+      "previousEnd": 0.98,
+      "end": 1.24,
+      "extensionSeconds": 0.26,
+      "url": "audio/week-01/natural-tail/patient/03.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 4,
+      "text": "Nice to meet you, John.",
+      "original": "audio/week-01/female-v2/03.m4a",
+      "sourceWav": "female.wav",
+      "start": 4.01,
+      "previousEnd": 5.65,
+      "end": 5.86,
+      "extensionSeconds": 0.21,
+      "url": "audio/week-01/natural-tail/female/04.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 4,
+      "text": "Nice to meet you, John.",
+      "original": "audio/week-01/male-v2/03.m4a",
+      "sourceWav": "male.wav",
+      "start": 5.08,
+      "previousEnd": 6.7,
+      "end": 6.94,
+      "extensionSeconds": 0.24,
+      "url": "audio/week-01/natural-tail/male/04.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 5,
+      "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "original": "audio/week-01/female-v2/04.m4a",
+      "sourceWav": "female.wav",
+      "start": 5.65,
+      "previousEnd": 9.27,
+      "end": 9.76,
+      "extensionSeconds": 0.49,
+      "url": "audio/week-01/natural-tail/female/05.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 5,
+      "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "original": "audio/week-01/male-v2/04.m4a",
+      "sourceWav": "male.wav",
+      "start": 6.7,
+      "previousEnd": 10.63,
+      "end": 11.1,
+      "extensionSeconds": 0.47,
+      "url": "audio/week-01/natural-tail/male/05.m4a"
+    },
+    {
+      "voice": "patient",
+      "line": 6,
+      "text": "John is fine, thanks.",
+      "original": "audio/week-01/patient/02.m4a",
+      "sourceWav": "patient.wav",
+      "start": 0.98,
+      "previousEnd": 2.28,
+      "end": 2.28,
+      "extensionSeconds": 0.0,
+      "url": "audio/week-01/natural-tail/patient/06.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 7,
+      "text": "Great, thanks, John.",
+      "original": "audio/week-01/female-v2/05.m4a",
+      "sourceWav": "female.wav",
+      "start": 9.27,
+      "previousEnd": 11.26,
+      "end": 11.76,
+      "extensionSeconds": 0.5,
+      "url": "audio/week-01/natural-tail/female/07.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 7,
+      "text": "Great, thanks, John.",
+      "original": "audio/week-01/male-v2/05.m4a",
+      "sourceWav": "male.wav",
+      "start": 10.63,
+      "previousEnd": 12.58,
+      "end": 12.76,
+      "extensionSeconds": 0.18,
+      "url": "audio/week-01/natural-tail/male/07.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 8,
+      "text": "How was your trip here today?",
+      "original": "audio/week-01/revised/female/08.m4a",
+      "sourceWav": "female.wav",
+      "start": 1.14,
+      "previousEnd": 2.44,
+      "end": 2.54,
+      "extensionSeconds": 0.1,
+      "url": "audio/week-01/natural-tail/female/08.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 8,
+      "text": "How was your trip here today?",
+      "original": "audio/week-01/revised/male/08.m4a",
+      "sourceWav": "male.wav",
+      "start": 1.56,
+      "previousEnd": 3.22,
+      "end": 3.5,
+      "extensionSeconds": 0.28,
+      "url": "audio/week-01/natural-tail/male/08.m4a"
+    },
+    {
+      "voice": "patient",
+      "line": 9,
+      "text": "Not too bad. I found parking quite easily.",
+      "original": "audio/week-01/patient/03.m4a",
+      "sourceWav": "patient.wav",
+      "start": 2.28,
+      "previousEnd": 4.75,
+      "end": 4.98,
+      "extensionSeconds": 0.23,
+      "url": "audio/week-01/natural-tail/patient/09.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 10,
+      "text": "Good to hear. So today I'll ask you a few questions about your back,",
+      "original": "audio/week-01/female-v2/07.m4a",
+      "sourceWav": "female.wav",
+      "start": 13.7,
+      "previousEnd": 18.58,
+      "end": 18.58,
+      "extensionSeconds": 0.0,
+      "url": "audio/week-01/natural-tail/female/10.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 10,
+      "text": "Good to hear. So today I'll ask you a few questions about your back,",
+      "original": "audio/week-01/male-v2/07.m4a",
+      "sourceWav": "male.wav",
+      "start": 14.32,
+      "previousEnd": 18.54,
+      "end": 18.54,
+      "extensionSeconds": 0.0,
+      "url": "audio/week-01/natural-tail/male/10.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 11,
+      "text": "and then see how your back moves.",
+      "original": "audio/week-01/revised/female/11.m4a",
+      "sourceWav": "female.wav",
+      "start": 2.44,
+      "previousEnd": 4.258,
+      "end": 4.2579,
+      "extensionSeconds": -0.0001,
+      "url": "audio/week-01/natural-tail/female/11.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 11,
+      "text": "and then see how your back moves.",
+      "original": "audio/week-01/revised/male/11.m4a",
+      "sourceWav": "male.wav",
+      "start": 3.22,
+      "previousEnd": 5.094,
+      "end": 5.0939,
+      "extensionSeconds": -0.0001,
+      "url": "audio/week-01/natural-tail/male/11.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 12,
+      "text": "Does that sound okay?",
+      "original": "audio/week-01/female-v2/09.m4a",
+      "sourceWav": "female.wav",
+      "start": 20.53,
+      "previousEnd": 22.29,
+      "end": 22.6,
+      "extensionSeconds": 0.31,
+      "url": "audio/week-01/natural-tail/female/12.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 12,
+      "text": "Does that sound okay?",
+      "original": "audio/week-01/male-v2/09.m4a",
+      "sourceWav": "male.wav",
+      "start": 20.93,
+      "previousEnd": 22.64,
+      "end": 23.02,
+      "extensionSeconds": 0.38,
+      "url": "audio/week-01/natural-tail/male/12.m4a"
+    },
+    {
+      "voice": "patient",
+      "line": 13,
+      "text": "Yes, that sounds fine.",
+      "original": "audio/week-01/patient/04.m4a",
+      "sourceWav": "patient.wav",
+      "start": 4.75,
+      "previousEnd": 6.51,
+      "end": 6.68,
+      "extensionSeconds": 0.17,
+      "url": "audio/week-01/natural-tail/patient/13.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 14,
+      "text": "Great. Before we start,",
+      "original": "audio/week-01/female-v2/10.m4a",
+      "sourceWav": "female.wav",
+      "start": 22.29,
+      "previousEnd": 24.31,
+      "end": 24.34,
+      "extensionSeconds": 0.03,
+      "url": "audio/week-01/natural-tail/female/14.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 14,
+      "text": "Great. Before we start,",
+      "original": "audio/week-01/male-v2/10.m4a",
+      "sourceWav": "male.wav",
+      "start": 22.64,
+      "previousEnd": 25.13,
+      "end": 25.34,
+      "extensionSeconds": 0.21,
+      "url": "audio/week-01/natural-tail/male/14.m4a"
+    },
+    {
+      "voice": "female",
+      "line": 15,
+      "text": "is there anything you'd like to ask me?",
+      "original": "audio/week-01/female-v2/11.m4a",
+      "sourceWav": "female.wav",
+      "start": 24.31,
+      "previousEnd": 26.645,
+      "end": 26.6449,
+      "extensionSeconds": -0.0001,
+      "url": "audio/week-01/natural-tail/female/15.m4a"
+    },
+    {
+      "voice": "male",
+      "line": 15,
+      "text": "is there anything you'd like to ask me?",
+      "original": "audio/week-01/male-v2/11.m4a",
+      "sourceWav": "male.wav",
+      "start": 25.13,
+      "previousEnd": 27.246,
+      "end": 27.2457,
+      "extensionSeconds": -0.0003,
+      "url": "audio/week-01/natural-tail/male/15.m4a"
+    },
+    {
+      "voice": "patient",
+      "line": 16,
+      "text": "No, I think that's everything.",
+      "original": "audio/week-01/patient/05.m4a",
+      "sourceWav": "patient.wav",
+      "start": 6.51,
+      "previousEnd": 8.438,
+      "end": 8.4376,
+      "extensionSeconds": -0.0004,
+      "url": "audio/week-01/natural-tail/patient/16.m4a"
+    }
+  ],
+  "verification": [
+    {
+      "voice": "female",
+      "line": 1,
+      "expected": "Hi, are you John Thompson?",
+      "actual": "Hi, are you John Thompson?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 1,
+      "expected": "Hi, are you John Thompson?",
+      "actual": "Hi, are you John Thompson?",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 2,
+      "expected": "I'm Alex, I'll be your physiotherapist today.",
+      "actual": "I'm Alex. I'll be your physiotherapist today.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 2,
+      "expected": "I'm Alex, I'll be your physiotherapist today.",
+      "actual": "I'm Alex, I'll be your physiotherapist today.",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 3,
+      "expected": "Yes, that's right.",
+      "actual": "Yes, that's right.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 4,
+      "expected": "Nice to meet you, John.",
+      "actual": "Nice to meet you, John.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 4,
+      "expected": "Nice to meet you, John.",
+      "actual": "Nice to meet you, John.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 5,
+      "expected": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "actual": "Is it okay if I call you John or would you prefer Mr. Thompson?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 5,
+      "expected": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "actual": "Is it okay if I call you John or would you prefer Mr Thompson?",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 6,
+      "expected": "John is fine, thanks.",
+      "actual": "John is fine. Thanks.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 7,
+      "expected": "Great, thanks, John.",
+      "actual": "Great, thanks John.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 7,
+      "expected": "Great, thanks, John.",
+      "actual": "Great, thanks John.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 8,
+      "expected": "How was your trip here today?",
+      "actual": "How was your trip here today?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 8,
+      "expected": "How was your trip here today?",
+      "actual": "How was your trip here today?",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 9,
+      "expected": "Not too bad. I found parking quite easily.",
+      "actual": "not too bad, I found parking quite easily.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 10,
+      "expected": "Good to hear. So today I'll ask you a few questions about your back,",
+      "actual": "Good to hear. So today I'll ask you a few questions about your back.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 10,
+      "expected": "Good to hear. So today I'll ask you a few questions about your back,",
+      "actual": "Good to hear. So today I'll ask you a few questions about your back.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 11,
+      "expected": "and then see how your back moves.",
+      "actual": "and then see how your back moves.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 11,
+      "expected": "and then see how your back moves.",
+      "actual": "and then see how your back moves.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 12,
+      "expected": "Does that sound okay?",
+      "actual": "Does that sound okay?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 12,
+      "expected": "Does that sound okay?",
+      "actual": "Does that sound okay?",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 13,
+      "expected": "Yes, that sounds fine.",
+      "actual": "Yes, that sounds fine.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 14,
+      "expected": "Great. Before we start,",
+      "actual": "Great. Before we start...",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 14,
+      "expected": "Great. Before we start,",
+      "actual": "Great. Before we start... ...",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "line": 15,
+      "expected": "is there anything you'd like to ask me?",
+      "actual": "Is there anything you'd like to ask me?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "line": 15,
+      "expected": "is there anything you'd like to ask me?",
+      "actual": "Is there anything you'd like to ask me?",
+      "match": true
+    },
+    {
+      "voice": "patient",
+      "line": 16,
+      "expected": "No, I think that's everything.",
+      "actual": "No, I think that's everything.",
+      "match": true
+    }
+  ]
+}
