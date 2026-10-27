@@ -35,3 +35,6 @@ Week 1 피지오 여성/남성 및 환자 음성이 등록되어 있습니다. �
 사용자가 보낸 최신 대본을 기준으로 `are you John Thompson`, `trip here today`, `see how your back moves`를 반영했습니다. revised 폴더에서 제공된 새 남녀 음성을 각 3개로 분리해 말풍선 1/8/11에 연결했습니다. 전체 듣기를 포함한 모든 대사 재생이 활성화되어 있습니다. 환자 음성과 나머지 대사는 기존 파일을 사용합니다. 수정 전 tools/ 검증 자료는 이전 음성의 기록이며, 최신 교체 음성의 검증 결과는 `tools/week-01-revised-audio-verification.json`에 있습니다.
 
 ElevenLabs용 `W1_Physio_revised.txt`는 전체 피지오 대본, `W1_Physio_changed_lines.txt`는 변경된 3개 문장입니다. 환자 대본은 바뀌지 않았습니다.
+
+## 문장 끝 여백
+현재 연결된 모든 음성(피지오 남녀 22개 + 환자 5개)에 1배속 기준 0.5초 무음을 추가했습니다. 다음 대사 구간을 늘리지 않고 기존 문장 파일 뒤에 무음을 붙였습니다. 원본은 보존하고 `tail-500ms/`의 파일을 재생합니다. ‘따라 말할 틈’은 이 여백과 별도로 작동합니다. 검증 기록: `tools/week-01-audio-tail-padding.json`.

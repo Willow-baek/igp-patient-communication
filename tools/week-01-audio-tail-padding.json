@@ -1,0 +1,222 @@
+{
+  "addedSilenceSeconds": 0.5,
+  "method": "Decode existing clip, append exactly 22050 silent PCM samples at 44100Hz, encode AAC; validate duration increase and quiet tail. No source boundaries extended.",
+  "clips": [
+    {
+      "voice": "female",
+      "line": 1,
+      "original": "audio/week-01/revised/female/01.m4a",
+      "padded": "audio/week-01/tail-500ms/female/01.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 1,
+      "original": "audio/week-01/revised/male/01.m4a",
+      "padded": "audio/week-01/tail-500ms/male/01.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 2,
+      "original": "audio/week-01/female-v2/02.m4a",
+      "padded": "audio/week-01/tail-500ms/female/02.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 2,
+      "original": "audio/week-01/male-v2/02.m4a",
+      "padded": "audio/week-01/tail-500ms/male/02.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "patient",
+      "line": 3,
+      "original": "audio/week-01/patient/01.m4a",
+      "padded": "audio/week-01/tail-500ms/patient/03.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 4,
+      "original": "audio/week-01/female-v2/03.m4a",
+      "padded": "audio/week-01/tail-500ms/female/04.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 4,
+      "original": "audio/week-01/male-v2/03.m4a",
+      "padded": "audio/week-01/tail-500ms/male/04.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 5,
+      "original": "audio/week-01/female-v2/04.m4a",
+      "padded": "audio/week-01/tail-500ms/female/05.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 5,
+      "original": "audio/week-01/male-v2/04.m4a",
+      "padded": "audio/week-01/tail-500ms/male/05.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "patient",
+      "line": 6,
+      "original": "audio/week-01/patient/02.m4a",
+      "padded": "audio/week-01/tail-500ms/patient/06.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 7,
+      "original": "audio/week-01/female-v2/05.m4a",
+      "padded": "audio/week-01/tail-500ms/female/07.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 7,
+      "original": "audio/week-01/male-v2/05.m4a",
+      "padded": "audio/week-01/tail-500ms/male/07.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 8,
+      "original": "audio/week-01/revised/female/08.m4a",
+      "padded": "audio/week-01/tail-500ms/female/08.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 8,
+      "original": "audio/week-01/revised/male/08.m4a",
+      "padded": "audio/week-01/tail-500ms/male/08.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "patient",
+      "line": 9,
+      "original": "audio/week-01/patient/03.m4a",
+      "padded": "audio/week-01/tail-500ms/patient/09.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 10,
+      "original": "audio/week-01/female-v2/07.m4a",
+      "padded": "audio/week-01/tail-500ms/female/10.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 10,
+      "original": "audio/week-01/male-v2/07.m4a",
+      "padded": "audio/week-01/tail-500ms/male/10.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 11,
+      "original": "audio/week-01/revised/female/11.m4a",
+      "padded": "audio/week-01/tail-500ms/female/11.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 11,
+      "original": "audio/week-01/revised/male/11.m4a",
+      "padded": "audio/week-01/tail-500ms/male/11.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 12,
+      "original": "audio/week-01/female-v2/09.m4a",
+      "padded": "audio/week-01/tail-500ms/female/12.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 12,
+      "original": "audio/week-01/male-v2/09.m4a",
+      "padded": "audio/week-01/tail-500ms/male/12.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "patient",
+      "line": 13,
+      "original": "audio/week-01/patient/04.m4a",
+      "padded": "audio/week-01/tail-500ms/patient/13.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 14,
+      "original": "audio/week-01/female-v2/10.m4a",
+      "padded": "audio/week-01/tail-500ms/female/14.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 14,
+      "original": "audio/week-01/male-v2/10.m4a",
+      "padded": "audio/week-01/tail-500ms/male/14.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "female",
+      "line": 15,
+      "original": "audio/week-01/female-v2/11.m4a",
+      "padded": "audio/week-01/tail-500ms/female/15.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "male",
+      "line": 15,
+      "original": "audio/week-01/male-v2/11.m4a",
+      "padded": "audio/week-01/tail-500ms/male/15.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    },
+    {
+      "voice": "patient",
+      "line": 16,
+      "original": "audio/week-01/patient/05.m4a",
+      "padded": "audio/week-01/tail-500ms/patient/16.m4a",
+      "addedSeconds": 0.5,
+      "tailPeakInt16": 0
+    }
+  ]
+}
