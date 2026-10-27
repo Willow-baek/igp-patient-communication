@@ -1,0 +1,80 @@
+{
+  "weeks": [
+    {
+      "id": "week-01",
+      "label": "Week 1",
+      "title": "Meeting your patient for the first time",
+      "shortTitle": "환자와의 첫 만남",
+      "description": "첫인사부터 호칭 확인, 세션 안내까지. 환자가 편안하게 대화를 시작할 수 있도록 연습해요.",
+      "scenario": "허리 통증으로 처음 내원한 John Thompson. 물리치료사 Alex가 환자를 맞이하고 오늘의 진행 과정을 안내합니다.",
+      "audio": null,
+      "expressions": [
+        "Is it okay if I call you John?",
+        "How was your trip in today?",
+        "Does that sound okay?"
+      ],
+      "lines": [
+        {
+          "speaker": "Physio",
+          "en": "Hi, you must be John Thompson? I'm Alex, I'll be your physiotherapist today.",
+          "ko": "안녕하세요, John Thompson 씨 맞으시죠? 저는 Alex이고, 오늘 담당 물리치료사입니다.",
+          "audio": null
+        },
+        {
+          "speaker": "Patient",
+          "en": "Yes, that's right.",
+          "ko": "네, 맞아요.",
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Nice to meet you, John. Is it okay if I call you John, or would you prefer Mr Thompson?",
+          "ko": "만나서 반갑습니다, John. John이라고 불러도 괜찮을까요, 아니면 Thompson 씨라고 불러드릴까요?",
+          "audio": null
+        },
+        {
+          "speaker": "Patient",
+          "en": "John is fine, thanks.",
+          "ko": "John이라고 불러주시면 돼요. 감사합니다.",
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Great, thanks, John. How was your trip in today?",
+          "ko": "좋아요, John. 오늘 오시는 길은 어떠셨어요?",
+          "audio": null
+        },
+        {
+          "speaker": "Patient",
+          "en": "Not too bad. I found parking quite easily.",
+          "ko": "괜찮았어요. 주차도 꽤 쉽게 했고요.",
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Good to hear. So today I'll ask you a few questions about your back, and then we'll do a physical assessment. Does that sound okay?",
+          "ko": "다행이네요. 오늘은 허리에 대해 몇 가지 질문을 드리고, 신체 평가를 진행할 거예요. 괜찮으실까요?",
+          "audio": null
+        },
+        {
+          "speaker": "Patient",
+          "en": "Yes, that sounds fine.",
+          "ko": "네, 좋아요.",
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Great. Before we start, is there anything you'd like to ask me?",
+          "ko": "좋습니다. 시작하기 전에 저에게 물어보고 싶은 게 있으세요?",
+          "audio": null
+        },
+        {
+          "speaker": "Patient",
+          "en": "No, I think that's everything.",
+          "ko": "아뇨, 더는 없는 것 같아요.",
+          "audio": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "week-02",
+  "label": "Week 2",
+  "title": "새 주제 제목",
+  "shortTitle": "새 주제",
+  "description": "첫인사부터 호칭 확인, 세션 안내까지. 환자가 편안하게 대화를 시작할 수 있도록 연습해요.",
+  "scenario": "허리 통증으로 처음 내원한 John Thompson. 물리치료사 Alex가 환자를 맞이하고 오늘의 진행 과정을 안내합니다.",
+  "audio": null,
+  "expressions": [
+    "Is it okay if I call you John?",
+    "How was your trip in today?",
+    "Does that sound okay?"
+  ],
+  "lines": []
+}
