@@ -13,3 +13,6 @@ Eng/Kor now persistently toggle language on click. Opposite-language bubbles use
 
 ## Unified controls
 One row in DOM and visually: language modes, physiotherapist voice, playback speed. On mobile hide redundant group labels visually while preserving accessible names; maintain 44px tap height and fit 320px without overflow. Guide is a collapsible reading surface with the learning goal, four practice steps, and weekly speaking-session encouragement.
+
+## Playback transport
+A single persistent transport moves between the mobile week-row right edge and the desktop slot between voice and speed. Play toggles ‘전체 듣기’ / ‘정지’, including while waiting between lines, and resizing preserves playback state. Mobile week row remains reachable while dialogue scrolls. Remove repeat. Gap is a compact checkbox with an accessible Korean description and supplies the existing shadowing pause. Completion remains below the dialogue.
