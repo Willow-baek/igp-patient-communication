@@ -10,3 +10,6 @@ Eng shows English with a shadowing suggestion. Kor shows Korean with an English 
 
 
 Eng/Kor now persistently toggle language on click. Opposite-language bubbles use ink #203e39 with white text and a 150ms text fade. Blind reveals Korean first, then toggles English. Reduced-motion preferences disable transitions. Week 1 uses 16 bubbles following the user’s phrase boundaries.
+
+## Unified controls
+One row in DOM and visually: language modes, physiotherapist voice, playback speed. On mobile hide redundant group labels visually while preserving accessible names; maintain 44px tap height and fit 320px without overflow. Guide is a collapsible reading surface with the learning goal, four practice steps, and weekly speaking-session encouragement.
