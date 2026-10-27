@@ -11,3 +11,29 @@ button.bubble{-webkit-touch-callout:none;-webkit-user-select:none;user-select:no
 .study-controls{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:18px;align-items:center}.study-controls .modes{display:flex;flex:0 0 auto;gap:2px}.study-controls .voice-choice{flex:0 0 auto;width:auto;gap:0}.control-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.study-controls .speed{margin-left:auto;width:auto}.session-guide{margin-top:20px;padding-top:16px;border-top:1px solid #bdcebd}.session-guide h3{font-size:15px;margin:0 0 6px}#guide>p{margin-bottom:14px;max-width:70ch}#guide ol{padding-left:20px;margin:0;max-width:70ch}#guide li{padding-left:3px;margin-bottom:12px}#guide .session-guide p{max-width:70ch}#guide strong{font-weight:650}@media(max-width:640px){.study-controls{display:flex;gap:8px;padding:6px 0}.study-controls .modes{gap:0}.study-controls .modes button{flex:0 0 auto;min-width:44px;min-height:44px;padding:6px;font-size:11px}.study-controls .voice-switch{gap:0;padding:2px}.study-controls .voice-switch button{min-width:44px;min-height:44px;padding:6px;font-size:11px}.study-controls .speed-label{display:none}.study-controls .speed{font-size:11px;margin-left:auto;gap:0}.study-controls .speed select{width:60px;min-width:0;min-height:44px;padding:6px 3px;font-size:11px}#guide{padding:18px;font-size:13px}#guide h2{font-size:18px}}@media(max-width:360px){.study-controls{gap:4px}.study-controls .voice-switch{padding:0}.study-controls .speed select{width:56px}}
 #transport{display:flex;align-items:center;gap:12px;white-space:nowrap}#playAll{min-width:90px;min-height:40px;padding:6px 14px;font-size:13px}.gap-control{display:flex;align-items:center;gap:6px;min-height:44px;font-size:12px;cursor:pointer}.gap-control input{width:16px;height:16px;margin:0}#desktopTransport{margin-left:auto}.study-controls .speed{margin-left:0}.playbar{justify-content:flex-end}.playbar .complete{margin-left:0}.week-row{min-width:0}@media(min-width:641px){#mobileTransport:empty{display:none}}@media(max-width:640px){aside{position:sticky;top:0;z-index:8;background:var(--paper)}.week-row{display:flex;align-items:center;gap:10px}#weeks{flex:1;min-width:0}#mobileTransport{flex:0 0 auto}#desktopTransport{display:none}#transport{gap:10px}#playAll{min-width:80px;min-height:44px;padding:6px 10px;font-size:12px}.gap-control{font-size:11px;gap:5px}.study-controls{top:61px}.playbar{padding-top:16px;margin-top:20px}.playbar .complete{margin:0}}@media(max-width:360px){.week-row{gap:6px}#transport{gap:6px}#playAll{min-width:76px}.gap-control{gap:4px}}
 @media(max-width:640px){.study-controls .speed{margin-left:auto}}
+
+/* Readable guide: distinct step headings and Korean word boundaries. */
+#guide{padding:30px 32px;line-height:1.8;word-break:keep-all;overflow-wrap:break-word}
+#guide h2{font-size:22px;line-height:1.45;letter-spacing:-.025em;margin:0 0 18px;text-wrap:balance}
+#guide>p,#guide ol,#guide .session-guide p{max-width:48rem}
+#guide>p.guide-intro{margin:0 0 6px}
+#guide .guide-steps{padding-left:24px;margin:26px 0 22px}
+#guide .guide-steps li{padding-left:8px;margin:0 0 22px}
+#guide .guide-steps li:last-child{margin-bottom:0}
+#guide .guide-steps li::marker{color:var(--muted);font-weight:600;font-variant-numeric:tabular-nums}
+#guide .guide-steps h3{font-size:15px;line-height:1.6;margin:0 0 5px;font-weight:650}
+#guide .guide-steps p{margin:0}
+#guide>p.guide-voice-note{font-size:13px;color:var(--muted);margin:0}
+#guide .session-guide{margin-top:24px;padding-top:22px}
+#guide .session-guide h3{font-size:16px;line-height:1.5;margin:0 0 10px}
+#guide .session-guide p+p{margin-top:10px}
+@media(max-width:640px){
+ #guide{padding:22px 18px;line-height:1.75}
+ #guide h2{font-size:18px;margin-bottom:14px;text-wrap:initial}
+ #guide .guide-steps{padding-left:20px;margin:22px 0 20px}
+ #guide .guide-steps li{padding-left:4px;margin-bottom:20px}
+ #guide .guide-steps h3{font-size:14px}
+ #guide>p.guide-voice-note{font-size:12px}
+ #guide .session-guide{margin-top:20px;padding-top:18px}
+ #guide .session-guide h3{font-size:15px}
+}
