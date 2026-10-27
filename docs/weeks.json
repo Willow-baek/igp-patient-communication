@@ -10,28 +10,18 @@
       "audio": null,
       "expressions": [
         "Is it okay if I call you John?",
-        "How was your trip in today?",
+        "How was your trip here today?",
         "Does that sound okay?"
       ],
       "lines": [
         {
           "speaker": "Physio",
-          "en": "Hi, you must be John Thompson?",
-          "ko": "안녕하세요, John Thompson 씨 맞으시죠?",
+          "en": "Hi, are you John Thompson?",
+          "ko": "안녕하세요, John Thompson 씨 맞으신가요?",
           "turn": 1,
           "audioVoices": {
-            "female": "audio/week-01/female-v2/01.m4a",
-            "male": "audio/week-01/male-v2/01.m4a"
-          },
-          "segments": {
-            "female": {
-              "start": 0,
-              "end": 1.29
-            },
-            "male": {
-              "start": 0,
-              "end": 1.95
-            }
+            "female": null,
+            "male": null
           }
         },
         {
@@ -132,22 +122,12 @@
         },
         {
           "speaker": "Physio",
-          "en": "How was your trip in today?",
-          "ko": "오늘 오시는 길은 어떠셨어요?",
+          "en": "How was your trip here today?",
+          "ko": "오늘 여기까지 오시는 길은 어떠셨어요?",
           "turn": 3,
           "audioVoices": {
-            "female": "audio/week-01/female-v2/06.m4a",
-            "male": "audio/week-01/male-v2/06.m4a"
-          },
-          "segments": {
-            "female": {
-              "start": 11.26,
-              "end": 13.7
-            },
-            "male": {
-              "start": 12.58,
-              "end": 14.32
-            }
+            "female": null,
+            "male": null
           }
         },
         {
@@ -180,22 +160,12 @@
         },
         {
           "speaker": "Physio",
-          "en": "and then we'll do a physical assessment.",
-          "ko": "그다음 신체 평가를 진행할 거예요.",
+          "en": "and then see how your back moves.",
+          "ko": "그다음 허리가 어떻게 움직이는지 살펴볼 거예요.",
           "turn": 4,
           "audioVoices": {
-            "female": "audio/week-01/female-v2/08.m4a",
-            "male": "audio/week-01/male-v2/08.m4a"
-          },
-          "segments": {
-            "female": {
-              "start": 18.58,
-              "end": 20.53
-            },
-            "male": {
-              "start": 18.54,
-              "end": 20.93
-            }
+            "female": null,
+            "male": null
           }
         },
         {
@@ -283,7 +253,8 @@
         "female": "audio/week-01/W1_PT_female.mp3",
         "male": "audio/week-01/W1_PT_male.mp3"
       },
-      "patientAudio": "audio/week-01/W1_pt.mp3"
+      "patientAudio": "audio/week-01/W1_pt.mp3",
+      "scriptRevision": "2026-10-27-user-revision-2"
     }
   ]
 }
