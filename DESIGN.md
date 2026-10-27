@@ -7,3 +7,5 @@ User requested minimal title, explanation and controls. Title 23px desktop / 20p
 
 ## Language practice
 Eng shows English with a shadowing suggestion. Kor shows Korean with an English recall suggestion. Blind conceals all lines until individually revealed. Native button bubbles toggle only their own English/Korean text, supporting touch and keyboard. Keep these hints compact below the toolbar.
+
+Eng/Kor translation is momentary: press and hold a bubble to peek at the opposite language; release, pointer cancellation, focus loss, or window blur restores the original. Space/Enter support the same hold interaction. Blind retains click-to-toggle Korean first, then English.
