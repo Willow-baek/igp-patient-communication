@@ -20,8 +20,8 @@
           "ko": "안녕하세요, John Thompson 씨 맞으신가요?",
           "turn": 1,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/revised/female/01.m4a",
+            "male": "audio/week-01/revised/male/01.m4a"
           }
         },
         {
@@ -126,8 +126,8 @@
           "ko": "오늘 여기까지 오시는 길은 어떠셨어요?",
           "turn": 3,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/revised/female/08.m4a",
+            "male": "audio/week-01/revised/male/08.m4a"
           }
         },
         {
@@ -164,8 +164,8 @@
           "ko": "그다음 허리가 어떻게 움직이는지 살펴볼 거예요.",
           "turn": 4,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/revised/female/11.m4a",
+            "male": "audio/week-01/revised/male/11.m4a"
           }
         },
         {
