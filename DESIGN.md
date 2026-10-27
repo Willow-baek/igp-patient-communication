@@ -1,18 +1,33 @@
 # IGP study interface
-Existing working-holiday study structure adapted to clinical conversations. Operate mode: clear navigation, readable dialogue and familiar playback controls.
-Tokens: paper #f3f6f4; surface #ffffff; ink #203e39; muted #526963; accent #256653; line #d9e1da; patient #ecefe8. System sans, 16px body, 1.6 line height. Sidebar on desktop; horizontal week navigation on mobile. All controls at least 44px. Flat surfaces and fine borders, no decorative imagery.
 
-## Compact study header
-User requested minimal title, explanation and controls. Title 23px desktop / 20px mobile; header 64px / 56px. Intro and scenario live in a native details disclosure. Voice, language mode and speed share one sticky control region; 2 rows on mobile with 44px tap targets. Audio pending state is plain inline text. Dialogue remains 16–17px for reading.
+Operate 모드의 대화 연습 도구. 기존 워홀 사이트의 문장별 학습 방식을 이어가되, 대사가 화면의 중심이다. 사용자의 최신 방향과 `STUDY_PRINCIPLES.md`를 우선한다.
 
-## Language practice
-Eng shows English with a shadowing suggestion. Kor shows Korean with an English recall suggestion. Blind conceals all lines until individually revealed. Native button bubbles toggle only their own English/Korean text, supporting touch and keyboard. Keep these hints compact below the toolbar.
+## Tokens
 
+- paper `#f3f6f4`, surface `#ffffff`, ink `#203e39`
+- muted `#526963`, accent `#256653`, line `#d9e1da`, patient `#ecefe8`
+- 시스템 sans, 대사 17px / 모바일 16px, 행간 1.65.
+- 제목 23px / 모바일 20px. 상단 로고 행 64px / 모바일 56px.
+- 평평한 표면, 얇은 경계선. 장식 이미지·대형 제목보다 대화 가독성을 우선한다.
 
-Eng/Kor now persistently toggle language on click. Opposite-language bubbles use ink #203e39 with white text and a 150ms text fade. Blind reveals Korean first, then toggles English. Reduced-motion preferences disable transitions. Week 1 uses 16 bubbles following the user’s phrase boundaries.
+## Layout
 
-## Unified controls
-One row in DOM and visually: language modes, physiotherapist voice, playback speed. On mobile hide redundant group labels visually while preserving accessible names; maintain 44px tap height and fit 320px without overflow. Guide is a collapsible reading surface with the learning goal, four practice steps, and weekly speaking-session encouragement.
+PC는 왼쪽 주차 목록과 오른쪽 대화. 모바일은 가로 주차 목록. 중복 주차·대사 수, 환자 이름·음성 고정 상태표시와 한국어 해석 안내 문구는 제거했다. 이용 가이드와 자세한 상황은 펼쳐보기로 둔다.
+
+언어 → 피지오 여성/남성 → 속도가 기본 순서다. 모바일에서도 한 줄로 유지하고, 버튼 가로 폭은 좁게 하되 터치 높이는 44px를 확보한다. 320px에서도 가로 넘침이 없어야 한다. 시각적으로 생략한 그룹 이름은 접근 가능한 이름으로 남긴다.
 
 ## Playback transport
-A single persistent transport moves between the mobile week-row right edge and the desktop slot between voice and speed. Play toggles ‘전체 듣기’ / ‘정지’, including while waiting between lines, and resizing preserves playback state. Mobile week row remains reachable while dialogue scrolls. Remove repeat. Gap is a compact checkbox with an accessible Korean description and supplies the existing shadowing pause. Completion remains below the dialogue.
+
+전체 듣기↔정지 단일 버튼과 Gap 체크박스를 사용한다. 모바일은 Week 행 오른쪽 가장자리, PC는 성별과 속도 사이. 모바일 주차 행은 스크롤 중에도 접근 가능하게 유지한다. 재생 사이 대기 중에도 정지할 수 있고, 종료·중지·오류·음성 전환 시 상태가 돌아온다. 화면 크기를 바꿔도 버튼은 하나이며 재생 상태를 유지한다. 자동 반복과 별도 정지 버튼은 없다. 복습 완료는 대화 아래에 있다.
+
+## Language practice
+
+Eng는 영어와 쉐도잉 안내, Kor는 한국어와 영어 회상 안내, Blind는 빈 말풍선이다. Blind의 첫 클릭은 한국어, 다음은 영어. 모든 모드에서 말풍선을 클릭할 때마다 그 대사만 한영 전환하며, 손을 떼도 유지한다.
+
+반대 언어를 보는 말풍선은 ink 배경과 흰 글씨로 바뀌고 텍스트는 약 150ms 페이드한다. 모션 감소 설정에서는 전환 효과를 줄인다. 자연스러운 버튼 포커스와 키보드 조작을 유지한다. 각 말풍선의 재생 버튼은 언어 전환과 별개다.
+
+## Guide and content
+
+가이드는 학습 목표, 전체 흐름 듣기, 문장별 쉐도잉, Kor/Blind 회상, Gap 활용과 반복, 피지오 두 보이스·환자 고정, 주 1회 스피킹 세션 참여를 안내한다. 준비 단계 안내와 폐기된 기능을 남기지 않는다.
+
+긴 피지오 대사는 사용자가 표시한 의미·호흡 단위로 나눈다. Week 1은 16개 말풍선이지만 후속 주차는 대본에 맞춘다. 한국어도 같은 단위를 따른다.
