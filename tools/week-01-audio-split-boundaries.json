@@ -1,0 +1,163 @@
+{
+  "method": "User slash-based split; original word timestamps. Each segment checked by independent ASR; see verification report.",
+  "boundaries": {
+    "female": [
+      {
+        "text": "Hi, you must be John Thompson?",
+        "speechStart": 0.0,
+        "speechEnd": 1.02,
+        "start": 0,
+        "end": 1.29
+      },
+      {
+        "text": "I'm Alex, I'll be your physiotherapist today.",
+        "speechStart": 1.56,
+        "speechEnd": 3.7,
+        "start": 1.29,
+        "end": 4.01
+      },
+      {
+        "text": "Nice to meet you, John.",
+        "speechStart": 4.32,
+        "speechEnd": 5.36,
+        "start": 4.01,
+        "end": 5.65
+      },
+      {
+        "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+        "speechStart": 5.94,
+        "speechEnd": 8.7,
+        "start": 5.65,
+        "end": 9.27
+      },
+      {
+        "text": "Great, thanks, John.",
+        "speechStart": 9.84,
+        "speechEnd": 10.68,
+        "start": 9.27,
+        "end": 11.26
+      },
+      {
+        "text": "How was your trip in today?",
+        "speechStart": 11.84,
+        "speechEnd": 13.16,
+        "start": 11.26,
+        "end": 13.7
+      },
+      {
+        "text": "Good to hear. So today I'll ask you a few questions about your back,",
+        "speechStart": 14.24,
+        "speechEnd": 18.58,
+        "start": 13.7,
+        "end": 18.58
+      },
+      {
+        "text": "and then we'll do a physical assessment.",
+        "speechStart": 18.58,
+        "speechEnd": 20.14,
+        "start": 18.58,
+        "end": 20.53
+      },
+      {
+        "text": "Does that sound okay?",
+        "speechStart": 20.92,
+        "speechEnd": 21.9,
+        "start": 20.53,
+        "end": 22.29
+      },
+      {
+        "text": "Great. Before we start,",
+        "speechStart": 22.68,
+        "speechEnd": 24.2,
+        "start": 22.29,
+        "end": 24.31
+      },
+      {
+        "text": "is there anything you'd like to ask me?",
+        "speechStart": 24.42,
+        "speechEnd": 26.1,
+        "start": 24.31,
+        "end": 26.645
+      }
+    ],
+    "male": [
+      {
+        "text": "Hi, you must be John Thompson?",
+        "speechStart": 0.0,
+        "speechEnd": 1.38,
+        "start": 0,
+        "end": 1.95
+      },
+      {
+        "text": "I'm Alex, I'll be your physiotherapist today.",
+        "speechStart": 2.52,
+        "speechEnd": 4.64,
+        "start": 1.95,
+        "end": 5.08
+      },
+      {
+        "text": "Nice to meet you, John.",
+        "speechStart": 5.52,
+        "speechEnd": 6.38,
+        "start": 5.08,
+        "end": 6.7
+      },
+      {
+        "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+        "speechStart": 7.02,
+        "speechEnd": 10.08,
+        "start": 6.7,
+        "end": 10.63
+      },
+      {
+        "text": "Great, thanks, John.",
+        "speechStart": 11.18,
+        "speechEnd": 12.32,
+        "start": 10.63,
+        "end": 12.58
+      },
+      {
+        "text": "How was your trip in today?",
+        "speechStart": 12.84,
+        "speechEnd": 13.78,
+        "start": 12.58,
+        "end": 14.32
+      },
+      {
+        "text": "Good to hear. So today I'll ask you a few questions about your back,",
+        "speechStart": 14.86,
+        "speechEnd": 18.54,
+        "start": 14.32,
+        "end": 18.54
+      },
+      {
+        "text": "and then we'll do a physical assessment.",
+        "speechStart": 18.54,
+        "speechEnd": 20.48,
+        "start": 18.54,
+        "end": 20.93
+      },
+      {
+        "text": "Does that sound okay?",
+        "speechStart": 21.38,
+        "speechEnd": 22.18,
+        "start": 20.93,
+        "end": 22.64
+      },
+      {
+        "text": "Great. Before we start,",
+        "speechStart": 23.1,
+        "speechEnd": 24.84,
+        "start": 22.64,
+        "end": 25.13
+      },
+      {
+        "text": "is there anything you'd like to ask me?",
+        "speechStart": 25.42,
+        "speechEnd": 26.84,
+        "start": 25.13,
+        "end": 27.246
+      }
+    ]
+  }
+}

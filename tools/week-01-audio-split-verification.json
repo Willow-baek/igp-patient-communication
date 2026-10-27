@@ -1,0 +1,162 @@
+{
+  "method": "Isolated segment ASR, punctuation and case ignored; not a manual listening review.",
+  "matches": 21,
+  "total": 22,
+  "note": "Male clip 6 recognises was as is in isolation; original full-track ASR recognises was. Clip retains the complete original phrase with margins on both sides. User listening review pending.",
+  "results": [
+    {
+      "voice": "female",
+      "clip": 1,
+      "expected": "Hi, you must be John Thompson?",
+      "actual": "Hi, you must be John Thompson.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 2,
+      "expected": "I'm Alex, I'll be your physiotherapist today.",
+      "actual": "I'm Alex, I'll be your physiotherapist today.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 3,
+      "expected": "Nice to meet you, John.",
+      "actual": "Nice to meet you, John.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 4,
+      "expected": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "actual": "Is it okay if I call you John or would you prefer Mr. Thompson?",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 5,
+      "expected": "Great, thanks, John.",
+      "actual": "Great, thanks John.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 6,
+      "expected": "How was your trip in today?",
+      "actual": "How was your trip in today?",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 7,
+      "expected": "Good to hear. So today I'll ask you a few questions about your back,",
+      "actual": "Good to hear. So today I'll ask you a few questions about your back.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 8,
+      "expected": "and then we'll do a physical assessment.",
+      "actual": "and then we'll do a physical assessment.",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 9,
+      "expected": "Does that sound okay?",
+      "actual": "Does that sound okay?",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 10,
+      "expected": "Great. Before we start,",
+      "actual": "Great. Before we start...",
+      "match": true
+    },
+    {
+      "voice": "female",
+      "clip": 11,
+      "expected": "is there anything you'd like to ask me?",
+      "actual": "Is there anything you'd like to ask me?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 1,
+      "expected": "Hi, you must be John Thompson?",
+      "actual": "Hi, you must be John Thompson.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 2,
+      "expected": "I'm Alex, I'll be your physiotherapist today.",
+      "actual": "I'm Alex, I'll be your physiotherapist today.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 3,
+      "expected": "Nice to meet you, John.",
+      "actual": "Nice to meet you, John.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 4,
+      "expected": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+      "actual": "Is it okay if I call you John or would you prefer Mr Thompson?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 5,
+      "expected": "Great, thanks, John.",
+      "actual": "Great. Thanks, John.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 6,
+      "expected": "How was your trip in today?",
+      "actual": "How is your trip in today?",
+      "match": false
+    },
+    {
+      "voice": "male",
+      "clip": 7,
+      "expected": "Good to hear. So today I'll ask you a few questions about your back,",
+      "actual": "Good to hear. So today I'll ask you a few questions about your back.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 8,
+      "expected": "and then we'll do a physical assessment.",
+      "actual": "and then we'll do a physical assessment.",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 9,
+      "expected": "Does that sound okay?",
+      "actual": "Does that sound okay?",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 10,
+      "expected": "Great. Before we start,",
+      "actual": "Great. Before we start... ...",
+      "match": true
+    },
+    {
+      "voice": "male",
+      "clip": 11,
+      "expected": "is there anything you'd like to ask me?",
+      "actual": "Is there anything you'd like to ask me?",
+      "match": true
+    }
+  ]
+}
