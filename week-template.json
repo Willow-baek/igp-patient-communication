@@ -11,5 +11,14 @@
     "How was your trip in today?",
     "Does that sound okay?"
   ],
-  "lines": []
+  "lines": [],
+  "patient": {
+    "id": "patient-id",
+    "name": "환자 이름"
+  },
+  "physioAudio": {
+    "female": null,
+    "male": null
+  },
+  "patientAudio": null
 }
