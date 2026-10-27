@@ -1,0 +1,131 @@
+{
+  "method": "Local base.en word timestamp alignment; all 15 isolated segments transcribed again and matched to script, ignoring punctuation/case. Original sources retained unchanged. Not a manual listening review.",
+  "boundaries": {
+    "female": [
+      {
+        "line": 0,
+        "speechStart": 0.0,
+        "speechEnd": 3.7,
+        "text": "Hi, you must be John Thompson? I'm Alex, I'll be your physiotherapist today.",
+        "start": 0,
+        "end": 4.01
+      },
+      {
+        "line": 2,
+        "speechStart": 4.32,
+        "speechEnd": 8.7,
+        "text": "Nice to meet you, John. Is it okay if I call you John, or would you prefer Mr Thompson?",
+        "start": 4.01,
+        "end": 9.27
+      },
+      {
+        "line": 4,
+        "speechStart": 9.84,
+        "speechEnd": 13.16,
+        "text": "Great, thanks, John. How was your trip in today?",
+        "start": 9.27,
+        "end": 13.7
+      },
+      {
+        "line": 6,
+        "speechStart": 14.24,
+        "speechEnd": 21.9,
+        "text": "Good to hear. So today I'll ask you a few questions about your back, and then we'll do a physical assessment. Does that sound okay?",
+        "start": 13.7,
+        "end": 22.29
+      },
+      {
+        "line": 8,
+        "speechStart": 22.68,
+        "speechEnd": 26.1,
+        "text": "Great. Before we start, is there anything you'd like to ask me?",
+        "start": 22.29,
+        "end": 26.645
+      }
+    ],
+    "male": [
+      {
+        "line": 0,
+        "speechStart": 0.0,
+        "speechEnd": 4.64,
+        "text": "Hi, you must be John Thompson? I'm Alex, I'll be your physiotherapist today.",
+        "start": 0,
+        "end": 5.08
+      },
+      {
+        "line": 2,
+        "speechStart": 5.52,
+        "speechEnd": 10.08,
+        "text": "Nice to meet you, John. Is it okay if I call you John, or would you prefer Mr Thompson?",
+        "start": 5.08,
+        "end": 10.63
+      },
+      {
+        "line": 4,
+        "speechStart": 11.18,
+        "speechEnd": 13.78,
+        "text": "Great, thanks, John. How was your trip in today?",
+        "start": 10.63,
+        "end": 14.32
+      },
+      {
+        "line": 6,
+        "speechStart": 14.86,
+        "speechEnd": 22.18,
+        "text": "Good to hear. So today I'll ask you a few questions about your back, and then we'll do a physical assessment. Does that sound okay?",
+        "start": 14.32,
+        "end": 22.64
+      },
+      {
+        "line": 8,
+        "speechStart": 23.1,
+        "speechEnd": 26.84,
+        "text": "Great. Before we start, is there anything you'd like to ask me?",
+        "start": 22.64,
+        "end": 27.246
+      }
+    ],
+    "patient": [
+      {
+        "line": 1,
+        "speechStart": 0.0,
+        "speechEnd": 0.64,
+        "text": "Yes, that's right.",
+        "start": 0,
+        "end": 0.98
+      },
+      {
+        "line": 3,
+        "speechStart": 1.32,
+        "speechEnd": 2.2,
+        "text": "John is fine, thanks.",
+        "start": 0.98,
+        "end": 2.28
+      },
+      {
+        "line": 5,
+        "speechStart": 2.36,
+        "speechEnd": 4.44,
+        "text": "Not too bad. I found parking quite easily.",
+        "start": 2.28,
+        "end": 4.75
+      },
+      {
+        "line": 7,
+        "speechStart": 5.06,
+        "speechEnd": 6.26,
+        "text": "Yes, that sounds fine.",
+        "start": 4.75,
+        "end": 6.51
+      },
+      {
+        "line": 9,
+        "speechStart": 6.76,
+        "speechEnd": 7.86,
+        "text": "No, I think that's everything.",
+        "start": 6.51,
+        "end": 8.438
+      }
+    ]
+  }
+}

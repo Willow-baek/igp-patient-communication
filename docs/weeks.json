@@ -20,15 +20,27 @@
           "ko": "안녕하세요, John Thompson 씨 맞으시죠? 저는 Alex이고, 오늘 담당 물리치료사입니다.",
           "audio": null,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/female/01.m4a",
+            "male": "audio/week-01/male/01.m4a"
+          },
+          "segments": {
+            "female": {
+              "start": 0,
+              "end": 4.01
+            },
+            "male": {
+              "start": 0,
+              "end": 5.08
+            }
           }
         },
         {
           "speaker": "Patient",
           "en": "Yes, that's right.",
           "ko": "네, 맞아요.",
-          "audio": null
+          "audio": "audio/week-01/patient/01.m4a",
+          "start": 0,
+          "end": 0.98
         },
         {
           "speaker": "Physio",
@@ -36,15 +48,27 @@
           "ko": "만나서 반갑습니다, John. John이라고 불러도 괜찮을까요, 아니면 Thompson 씨라고 불러드릴까요?",
           "audio": null,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/female/02.m4a",
+            "male": "audio/week-01/male/02.m4a"
+          },
+          "segments": {
+            "female": {
+              "start": 4.01,
+              "end": 9.27
+            },
+            "male": {
+              "start": 5.08,
+              "end": 10.63
+            }
           }
         },
         {
           "speaker": "Patient",
           "en": "John is fine, thanks.",
           "ko": "John이라고 불러주시면 돼요. 감사합니다.",
-          "audio": null
+          "audio": "audio/week-01/patient/02.m4a",
+          "start": 0.98,
+          "end": 2.28
         },
         {
           "speaker": "Physio",
@@ -52,15 +76,27 @@
           "ko": "좋아요, John. 오늘 오시는 길은 어떠셨어요?",
           "audio": null,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/female/03.m4a",
+            "male": "audio/week-01/male/03.m4a"
+          },
+          "segments": {
+            "female": {
+              "start": 9.27,
+              "end": 13.7
+            },
+            "male": {
+              "start": 10.63,
+              "end": 14.32
+            }
           }
         },
         {
           "speaker": "Patient",
           "en": "Not too bad. I found parking quite easily.",
           "ko": "괜찮았어요. 주차도 꽤 쉽게 했고요.",
-          "audio": null
+          "audio": "audio/week-01/patient/03.m4a",
+          "start": 2.28,
+          "end": 4.75
         },
         {
           "speaker": "Physio",
@@ -68,15 +104,27 @@
           "ko": "다행이네요. 오늘은 허리에 대해 몇 가지 질문을 드리고, 신체 평가를 진행할 거예요. 괜찮으실까요?",
           "audio": null,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/female/04.m4a",
+            "male": "audio/week-01/male/04.m4a"
+          },
+          "segments": {
+            "female": {
+              "start": 13.7,
+              "end": 22.29
+            },
+            "male": {
+              "start": 14.32,
+              "end": 22.64
+            }
           }
         },
         {
           "speaker": "Patient",
           "en": "Yes, that sounds fine.",
           "ko": "네, 좋아요.",
-          "audio": null
+          "audio": "audio/week-01/patient/04.m4a",
+          "start": 4.75,
+          "end": 6.51
         },
         {
           "speaker": "Physio",
@@ -84,15 +132,27 @@
           "ko": "좋습니다. 시작하기 전에 저에게 물어보고 싶은 게 있으세요?",
           "audio": null,
           "audioVoices": {
-            "female": null,
-            "male": null
+            "female": "audio/week-01/female/05.m4a",
+            "male": "audio/week-01/male/05.m4a"
+          },
+          "segments": {
+            "female": {
+              "start": 22.29,
+              "end": 26.645
+            },
+            "male": {
+              "start": 22.64,
+              "end": 27.246
+            }
           }
         },
         {
           "speaker": "Patient",
           "en": "No, I think that's everything.",
           "ko": "아뇨, 더는 없는 것 같아요.",
-          "audio": null
+          "audio": "audio/week-01/patient/05.m4a",
+          "start": 6.51,
+          "end": 8.438
         }
       ],
       "patient": {
@@ -100,10 +160,10 @@
         "name": "John Thompson"
       },
       "physioAudio": {
-        "female": null,
-        "male": null
+        "female": "audio/week-01/W1_PT_female.mp3",
+        "male": "audio/week-01/W1_PT_male.mp3"
       },
-      "patientAudio": null
+      "patientAudio": "audio/week-01/W1_pt.mp3"
     }
   ]
 }
