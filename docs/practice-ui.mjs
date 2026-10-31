@@ -1,5 +1,5 @@
 import {practiceForLine,practiceSteps} from './practice-model.mjs?v=1';
-import {createLongPress} from './long-press.mjs?v=1';
+import {createLongPress,createMouseClicks} from './long-press.mjs?v=2';
 
 const closeIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>';
 const backIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>';
@@ -7,15 +7,18 @@ const playIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 const stopIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-export function createPractice({getWeek,getVoice,stop,play}){
+export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureBubble}){
   let unit=null,anchor=null,stage=0,playing=false,seen=false;
-  try{seen=localStorage.getItem('igp-practice-discovered')==='yes';}catch{}
+  try{seen=localStorage.getItem('igp-practice-discovered-v2')==='yes';}catch{}
   const $=s=>document.querySelector(s);
   const gesture=createLongPress({open:button=>open(Number(button.dataset.bubble))});
+  const mouseClicks=createMouseClicks();
+  let pointer={type:'mouse',target:null};
+  const isTouch=event=>['touch','pen'].includes(event.pointerType||pointer.type);
   const eligible=button=>button?.matches('.bubble[data-bubble]')&&practiceForLine(getWeek(),Number(button.dataset.bubble));
   function markExpanded(){document.querySelectorAll('.bubble[data-bubble]').forEach(button=>{
     const candidate=practiceForLine(getWeek(),Number(button.dataset.bubble));
-    if(candidate){button.setAttribute('aria-expanded',String(candidate===unit));button.setAttribute('aria-controls','practicePanel');button.setAttribute('aria-keyshortcuts','Shift+Enter');button.title='길게 누르거나 Shift+Enter로 나눠 연습';}
+    if(candidate){button.setAttribute('aria-expanded',String(candidate===unit));button.setAttribute('aria-controls','practicePanel');button.setAttribute('aria-keyshortcuts','Shift+Enter');button.title='마우스 더블클릭 · 터치 길게 누르기 · Shift+Enter로 나눠 연습';}
   });}
   function markup(){
     const steps=practiceSteps(unit,getVoice()),step=steps[stage];
@@ -32,13 +35,13 @@ export function createPractice({getWeek,getVoice,stop,play}){
   function open(index){
     const candidate=practiceForLine(getWeek(),index);
     if(!candidate||!practiceSteps(candidate,getVoice()).length)return;
-    stop();unit=candidate;anchor=index;stage=0;playing=false;seen=true;
-    try{localStorage.setItem('igp-practice-discovered','yes');}catch{}
+    mouseClicks.cancel();gesture.cancel();stop();unit=candidate;anchor=index;stage=0;playing=false;seen=true;
+    try{localStorage.setItem('igp-practice-discovered-v2','yes');}catch{}
     $('#practiceHint')?.remove();draw('play');
     $('#practicePanel')?.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   }
   function close({restoreFocus=false}={}){
-    gesture.cancel();const previous=anchor;
+    gesture.cancel();mouseClicks.cancel();const previous=anchor;
     if(playing)stop();unit=null;anchor=null;stage=0;playing=false;
     $('#practicePanel')?.remove();markExpanded();
     if(restoreFocus)$(`.bubble[data-bubble="${previous}"]`)?.focus({preventScroll:true});
@@ -49,26 +52,33 @@ export function createPractice({getWeek,getVoice,stop,play}){
     if(button){button.innerHTML=`${playing?stopIcon:playIcon}<span>${playing?'정지':'듣기'}</span>`;button.setAttribute('aria-pressed',String(playing));}
   }
   function decorate(){
-    markExpanded();
+    mouseClicks.cancel();markExpanded();
     if(!seen&&getWeek()?.practice?.units?.some(u=>practiceForLine(getWeek(),u.lines[0]))){
-      $('.mode-hint')?.insertAdjacentHTML('afterend','<p id="practiceHint" class="practice-hint">긴 대사를 길게 누르면 나눠 연습할 수 있어요. <span>키보드: Shift + Enter</span></p>');
+      $('.mode-hint')?.insertAdjacentHTML('afterend','<p id="practiceHint" class="practice-hint">나눠 연습: 마우스는 더블클릭, 터치는 길게 누르세요. <span>키보드: Shift + Enter</span></p>');
     }
     if(unit){unit=practiceForLine(getWeek(),anchor);if(unit)draw();else close();}
   }
-  document.addEventListener('pointerdown',event=>{const button=event.target.closest?.('.bubble');if(eligible(button))gesture.start(button,event);});
+  document.addEventListener('pointerdown',event=>{const button=event.target.closest?.('.bubble');pointer={type:event.pointerType,target:button};if(eligible(button))gesture.start(button,event);});
+  document.addEventListener('dblclick',event=>{const button=event.target.closest?.('.bubble');if(eligible(button)&&!isTouch(event)){event.preventDefault();mouseClicks.doubleClick(button);open(Number(button.dataset.bubble));}});
   document.addEventListener('pointermove',gesture.move,{passive:true});
   document.addEventListener('pointerup',gesture.end);
   document.addEventListener('pointercancel',gesture.cancel);
   document.addEventListener('scroll',gesture.cancel,{capture:true,passive:true});
-  window.addEventListener('blur',gesture.cancel);
-  document.addEventListener('contextmenu',event=>{const button=event.target.closest?.('.bubble');if(eligible(button))event.preventDefault();});
+  window.addEventListener('blur',()=>{gesture.cancel();mouseClicks.cancel();});
+  document.addEventListener('contextmenu',event=>{const button=event.target.closest?.('.bubble');if(eligible(button)&&isTouch(event))event.preventDefault();});
   document.addEventListener('keydown',event=>{
     if(event.key==='Escape'&&unit){event.preventDefault();close({restoreFocus:true});}
     const button=event.target.closest?.('.bubble');
     if(event.key==='Enter'&&event.shiftKey&&eligible(button)){event.preventDefault();gesture.cancel();open(Number(button.dataset.bubble));}
   });
   return {decorate,close,syncPlayback,
-    consumeBubbleClick:button=>gesture.consume(button),
+    handleBubbleClick(button,event){
+      if(gesture.consume(button))return true;
+      if(!eligible(button))return false;
+      if(event.detail===0||isTouch(event)){toggleBubble(button);return true;}
+      mouseClicks.click(button,event.detail,()=>toggleBubble(button),()=>captureBubble(button));
+      return true;
+    },
     handleClick(button){
       const action=button.dataset.practice;if(!action)return false;
       if(action==='close'){close({restoreFocus:true});return true;}

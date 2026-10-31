@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {practiceForLine,practiceSteps} from '../docs/practice-model.mjs';
-import {createLongPress} from '../docs/long-press.mjs';
+import {createLongPress,createMouseClicks} from '../docs/long-press.mjs';
 
 const weeks=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
 test('every published unit covers the unchanged script and has complete voice tracks',()=>{
@@ -30,7 +30,7 @@ test('stale script metadata and unsupported weeks do not open practice',()=>{
 function gesture(){
   let callback=null,time=0;const opened=[];
   const g=createLongPress({open:t=>opened.push(t),setTimer:fn=>(callback=fn,1),clearTimer:()=>callback=null,now:()=>time});
-  const target={id:'bubble'},event={button:0,isPrimary:true,pointerId:1,clientX:20,clientY:30};
+  const target={id:'bubble'},event={pointerType:'touch',button:0,isPrimary:true,pointerId:1,clientX:20,clientY:30};
   return {g,target,event,opened,fire(){callback?.();},advance(ms){time+=ms;}};
 }
 test('short tap does not open or consume the existing language toggle',()=>{
@@ -50,4 +50,29 @@ test('right clicks and additional pointers do not activate a long press',()=>{
   for(const event of [{button:2},{isPrimary:false}]){
     const h=gesture();h.g.start(h.target,{...h.event,...event});h.fire();assert.equal(h.opened.length,0);
   }
+});
+
+test('only touch and pen can open practice by holding',()=>{
+  for(const [pointerType,expected] of [['mouse',0],['touch',1],['pen',1]]){
+    const h=gesture();h.g.start(h.target,{...h.event,pointerType});h.fire();assert.equal(h.opened.length,expected);
+  }
+});
+function clicks(){
+  const timers=new Map();let id=0,language='hidden';
+  const mouse=createMouseClicks({setTimer:fn=>(timers.set(++id,fn),id),clearTimer:n=>timers.delete(n)});
+  const target={id:'bubble'},toggle=()=>{language=language==='hidden'?'ko':'en';},capture=()=>{const saved=language;return()=>language=saved;};
+  return {mouse,target,toggle,capture,get language(){return language;},fire(){for(const [id,fn] of timers){timers.delete(id);fn();}}};
+}
+test('a single mouse click changes language after double-click detection',()=>{
+  const h=clicks();h.mouse.click(h.target,1,h.toggle,h.capture);assert.equal(h.language,'hidden');h.fire();assert.equal(h.language,'ko');
+});
+test('a fast mouse double click never changes the bubble language',()=>{
+  const h=clicks();h.mouse.click(h.target,1,h.toggle,h.capture);h.mouse.click(h.target,2,h.toggle,h.capture);h.mouse.doubleClick(h.target);h.fire();assert.equal(h.language,'hidden');
+});
+test('a slower OS double click restores the exact original Blind state',()=>{
+  const h=clicks();h.mouse.click(h.target,1,h.toggle,h.capture);h.fire();assert.equal(h.language,'ko');
+  h.mouse.click(h.target,2,h.toggle,h.capture);h.mouse.doubleClick(h.target);assert.equal(h.language,'hidden');
+});
+test('navigation cancels any pending mouse language change',()=>{
+  const h=clicks();h.mouse.click(h.target,1,h.toggle,h.capture);h.mouse.cancel();h.fire();assert.equal(h.language,'hidden');
 });

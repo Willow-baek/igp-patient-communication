@@ -4,7 +4,7 @@ export function createLongPress({open,setTimer=setTimeout,clearTimer=clearTimeou
   return {
     start(target,event){
       cancel();
-      if(event.button!==0||event.isPrimary===false)return;
+      if(!['touch','pen'].includes(event.pointerType)||event.button!==0||event.isPrimary===false)return;
       const press={target,id:event.pointerId,x:event.clientX,y:event.clientY,timer:null};
       press.timer=setTimer(()=>{if(pending!==press)return;pending=null;suppressed={target,until:now()+1000};open(target);},delay);
       pending=press;
@@ -17,5 +17,26 @@ export function createLongPress({open,setTimer=setTimeout,clearTimer=clearTimeou
     },
     cancel,
     consume(target){if(suppressed?.target===target&&now()<=suppressed.until){suppressed=null;return true;}return false;},
+  };
+}
+
+// Delay mouse language changes until a possible double click is resolved.
+// Restore the original language if the OS recognises a slower double click.
+export function createMouseClicks({setTimer=setTimeout,clearTimer=clearTimeout,delay=300}={}){
+  let pending=null;
+  function cancel(){if(pending)clearTimer(pending.timer);pending=null;}
+  return {
+    cancel,
+    click(target,detail,toggle,capture){
+      if(detail>1){if(pending?.target===target)clearTimer(pending.timer);return;}
+      if(pending){clearTimer(pending.timer);if(!pending.fired)pending.toggle();}
+      const state={target,toggle,restore:capture(),fired:false,timer:null};
+      state.timer=setTimer(()=>{if(pending===state){state.fired=true;state.toggle();}},delay);
+      pending=state;
+    },
+    doubleClick(target){
+      if(pending?.target===target){clearTimer(pending.timer);if(pending.fired)pending.restore();}
+      pending=null;
+    },
   };
 }
