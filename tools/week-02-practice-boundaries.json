@@ -1,0 +1,268 @@
+{
+  "method": "Learning chunks selected from the exact script; base.en word alignment plus 48kHz waveform inspection and isolated clip ASR. No synthetic silence or concatenation. Direct listening review remains separate.",
+  "scriptRevision": "2026-10-31-user-day-2-split-3",
+  "units": [
+    {
+      "id": "w2-turn-01",
+      "lines": [
+        0
+      ],
+      "speaker": "Physio",
+      "text": "John, what would you most like to get back to doing?",
+      "chunks": [
+        "John, what would you most like",
+        "to get back to doing?"
+      ]
+    },
+    {
+      "id": "w2-turn-02",
+      "lines": [
+        1
+      ],
+      "speaker": "Patient",
+      "text": "I'd like to sit at work without constantly having to change positions.",
+      "chunks": [
+        "I'd like to sit at work",
+        "without constantly having to change positions."
+      ]
+    },
+    {
+      "id": "w2-turn-03",
+      "lines": [
+        2
+      ],
+      "speaker": "Physio",
+      "text": "How long do you usually need to sit for at work?",
+      "chunks": [
+        "How long do you usually need",
+        "to sit for at work?"
+      ]
+    },
+    {
+      "id": "w2-turn-04",
+      "lines": [
+        3
+      ],
+      "speaker": "Patient",
+      "text": "Sometimes I have meetings that last about half an hour.",
+      "chunks": [
+        "Sometimes I have meetings",
+        "that last about half an hour."
+      ]
+    },
+    {
+      "id": "w2-turn-05",
+      "lines": [
+        4
+      ],
+      "speaker": "Physio",
+      "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "chunks": [
+        "So sitting through a 30-minute meeting more comfortably",
+        "would be useful?"
+      ]
+    },
+    {
+      "id": "w2-turn-07",
+      "lines": [
+        6,
+        7
+      ],
+      "speaker": "Physio",
+      "text": "You also mentioned wanting to get back to running. Is that another priority for you?",
+      "chunks": [
+        "You also mentioned",
+        "wanting to get back to running.",
+        "Is that another priority for you?"
+      ]
+    },
+    {
+      "id": "w2-turn-08",
+      "lines": [
+        8,
+        9
+      ],
+      "speaker": "Patient",
+      "text": "Yes, I'd really like to run again, but sitting at work is the main problem at the moment.",
+      "chunks": [
+        "Yes, I'd really like to run again,",
+        "but sitting at work",
+        "is the main problem at the moment."
+      ]
+    },
+    {
+      "id": "w2-turn-09",
+      "lines": [
+        10,
+        11,
+        12
+      ],
+      "speaker": "Physio",
+      "text": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+      "chunks": [
+        "That makes sense.",
+        "Shall we start with the meeting goal",
+        "as a short-term goal",
+        "and work towards",
+        "getting you back to running over time?"
+      ]
+    },
+    {
+      "id": "w2-turn-10",
+      "lines": [
+        13
+      ],
+      "speaker": "Patient",
+      "text": "Yes, that sounds like a good place to start.",
+      "chunks": [
+        "Yes, that sounds like",
+        "a good place to start."
+      ]
+    }
+  ],
+  "tracks": {
+    "female": [
+      {
+        "unit": 0,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 0,
+        "end": 3.55,
+        "cuts": [
+          2.033
+        ]
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 3.55,
+        "end": 6.2,
+        "cuts": [
+          4.905
+        ]
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 6.2,
+        "end": 10.0,
+        "cuts": [
+          8.6
+        ]
+      },
+      {
+        "unit": 5,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 10.0,
+        "end": 15.4,
+        "cuts": [
+          11.14,
+          12.634
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 15.4,
+        "end": 23.066125,
+        "cuts": [
+          17.07,
+          19.32,
+          20.52,
+          21.103
+        ]
+      }
+    ],
+    "male": [
+      {
+        "unit": 0,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 0,
+        "end": 3.25,
+        "cuts": [
+          1.945
+        ]
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 3.25,
+        "end": 6.0,
+        "cuts": [
+          4.505
+        ]
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 6.0,
+        "end": 10.6,
+        "cuts": [
+          8.85
+        ]
+      },
+      {
+        "unit": 5,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 10.6,
+        "end": 16.065,
+        "cuts": [
+          11.705,
+          13.252
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 16.065,
+        "end": 23.118375,
+        "cuts": [
+          17.12,
+          18.783,
+          20.224,
+          21.28
+        ]
+      }
+    ],
+    "patient": [
+      {
+        "unit": 1,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 0,
+        "end": 3.25,
+        "cuts": [
+          0.805
+        ]
+      },
+      {
+        "unit": 3,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 3.25,
+        "end": 5.95,
+        "cuts": [
+          4.4
+        ]
+      },
+      {
+        "unit": 6,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 7.45,
+        "end": 11.4,
+        "cuts": [
+          9.01,
+          9.86
+        ]
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 11.4,
+        "end": 13.688166666666667,
+        "cuts": [
+          12.391
+        ]
+      }
+    ]
+  },
+  "week": "week-02",
+  "boundaryReview": "Initial ASR found words straddling several cuts; these cuts were moved and all clips rechecked. Different models are recorded separately."
+}

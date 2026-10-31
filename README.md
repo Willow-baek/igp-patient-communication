@@ -16,6 +16,8 @@
 - 속도 선택은 문장별·전체 재생과 재생 중 변경에 적용되며, 다음 대사나 주차·보이스·언어 모드 전환 뒤에도 유지된다.
 - Gap은 전체 듣기의 문장 사이에 따라 말할 시간을 주는 체크박스다. 원본 오디오의 끝 여백과 별개다.
 - 모바일: 전체 듣기와 Gap은 Week 행 오른쪽. PC: 성별과 속도 사이. 모바일 언어·성별·속도는 한 줄이다.
+- 2주차의 긴 말풍선을 550ms 길게 누르면 아래에 나눠 연습 영역이 열린다. 짧은 클릭은 한영 전환이며, 스크롤·포인터 취소는 길게 누르기를 취소한다. 키보드는 Shift+Enter, 닫기는 Escape도 지원한다.
+- 추천 구간별 연습 → 앞 구간부터 점진적으로 연결 → 전체 발화 순서다. 한 번에 하나만 열리며 단계 이동은 수동이다. 남녀·환자 음성과 속도 설정을 함께 사용한다. 단어 자유 선택·자동 반복은 제공하지 않는다.
 - 복습 완료는 브라우저에 저장된다.
 
 Week 2에는 목표 정하기 대본을 등록했다. 원문은 `W2/W2_script.md`에 보존하며, 피지오 남녀 음성과 환자 고정 음성을 14개 말풍선에 연결했다. 원본은 `docs/audio/week-02/original/`, 현재 조각은 `2026-10-31-v1/`에 보존한다. 분할 경계와 ASR 대조는 `tools/week-02-audio-*.json`에 기록했으며 직접 청취 검수는 별도다. 빈 주차에서는 재생 조절과 복습 완료를 표시하지 않는다.
@@ -71,10 +73,20 @@ W2/
 
 ```sh
 node --input-type=module --check < docs/app.js
-node --test tools/playback-speed.test.mjs
+node --test tools/*.test.mjs
 python3 -m http.server 8080 --directory docs
 ```
 
 로컬 미리보기: `http://localhost:8080`. 모든 오디오 경로, 남녀 전환 시 환자 음성 고정, 말풍선 전환, 전체 듣기 시작·정지·자연 종료, Gap, 모바일 320/390px와 PC를 변경 범위에 맞춰 확인한다. ASR 대조를 직접 청취 검수라고 보고하지 않는다.
 
 `.github/workflows/pages.yml`이 main의 `docs/`를 GitHub Pages에 자동 배포한다. 코드 수정 시 JS/CSS 자산 버전도 갱신한다. 배포 성공 후 링크를 전달해 사용자가 청취 검수할 수 있게 한다.
+
+## 나눠 연습 자료 추가
+
+현재 첫 적용 범위는 Week 2의 9개 발화다. 기존 대본·말풍선·일반 재생은 유지하며, 같은 발화의 여러 말풍선에서 하나의 연습 내용을 열 수 있다.
+
+`weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`, 원문과 정확히 일치하는 `text`·`chunks`, `audio`를 가진다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
+
+`tools/week-02-practice-boundaries.json`에 원본별 경계를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
+
+생성 예시: `python tools/build-practice-audio.py tools/week-02-practice-boundaries.json` (imageio-ffmpeg 필요). 새 음성이나 경계 수정은 새 자산 버전 경로를 사용한다. ASR 기록은 `tools/week-02-practice-verification.json`이며 직접 청취 검수와 구분한다.

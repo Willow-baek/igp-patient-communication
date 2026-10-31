@@ -37,3 +37,32 @@ button.bubble{-webkit-touch-callout:none;-webkit-user-select:none;user-select:no
  #guide .session-guide{margin-top:20px;padding-top:18px}
  #guide .session-guide h3{font-size:15px}
 }
+
+/* Contextual practice stays beside the dialogue; no persistent row controls. */
+.practice-hint{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0 0;word-break:keep-all}
+.practice-hint span{white-space:nowrap;margin-left:6px}
+.bubble[aria-expanded=true]{outline:2px solid var(--accent);outline-offset:3px}
+.practice-panel{grid-column:2 / 3;min-width:0;padding:18px 20px 20px;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-top:2px;animation:practice-open 160ms ease-out}
+.practice-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.practice-heading h3{font-size:15px;margin:0;font-weight:650}
+.practice-panel button{width:auto;min-height:44px;padding:8px 12px;font-size:13px;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.practice-panel button svg{width:18px;height:18px;flex:0 0 auto}
+.practice-panel .practice-close{width:44px;padding:10px;border-color:transparent;background:transparent}
+.practice-close:hover{background:var(--paper)}
+.practice-status{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.practice-text{font-size:19px;line-height:1.7;margin:14px 0 12px;overflow-wrap:break-word}
+.practice-cue{font-size:12px;line-height:1.6;color:var(--muted);margin:0 0 18px;word-break:keep-all}
+.practice-actions{display:flex;align-items:center;gap:8px}
+.practice-panel .practice-previous{width:44px;flex:0 0 auto;padding:10px}
+.practice-panel .practice-listen{min-width:90px;background:var(--accent);color:var(--surface);border-color:var(--accent)}
+.practice-panel .practice-listen:hover{background:#1a5141}
+.practice-panel .practice-next{margin-left:auto}
+@keyframes practice-open{from{opacity:.5;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:640px){
+ .practice-hint{font-size:11px}.practice-hint span{display:none}
+ .practice-panel{grid-column:1 / -1;padding:14px 14px 16px}
+ .practice-heading{margin-bottom:10px}.practice-text{font-size:17px;margin:12px 0}
+ .practice-actions{gap:6px}.practice-panel button{font-size:12px;padding:8px 10px}
+ .practice-panel .practice-listen{min-width:82px}
+}
+@media(prefers-reduced-motion:reduce){.practice-panel{animation:none}}

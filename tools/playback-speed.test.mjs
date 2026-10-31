@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import {resolveAudio} from '../docs/audio-source.mjs';
 
-const script=fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8').replace(/^import .*?;\n/,'');
+const script=fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8').replace(/^import .*?;\n/gm,'');
 const content=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
 function app(weekIndex=1,voice='female'){
   const elements=new Map(),listeners=new Map(),timers=new Map();let timerId=0;
@@ -20,7 +20,7 @@ function app(weekIndex=1,voice='female'){
     play(){this.plays.push({url:this.src,rate:this.playbackRate});return Promise.resolve();}
     pause(){}
   }
-  const sandbox={resolveAudio,Audio:Media,localStorage:{getItem(){return null;}},
+  const sandbox={resolveAudio,createPractice:()=>({close(){},syncPlayback(){},handleClick(){return false;}}),Audio:Media,localStorage:{getItem(){return null;}},
     document:{querySelector:element,querySelectorAll(){return [];},addEventListener:(name,fn)=>listeners.set(name,fn)},
     window:{addEventListener(){}},matchMedia:()=>({matches:false,addEventListener(){}}),
     fetch:()=>new Promise(()=>{}),setTimeout:fn=>{timers.set(++timerId,fn);return timerId;},clearTimeout:id=>timers.delete(id),
@@ -66,5 +66,17 @@ test('full dialogue keeps the rate across patient/physio files and changes durin
     }
     assert.equal(a.audio.plays.length,content[1].lines.length);
     a.audio.onended();assert.equal(a.element('#playAll').textContent,'전체 듣기');
+  }
+});
+
+
+test('practice audio uses the same selected speed as normal dialogue',async()=>{
+  const unit=content[1].practice.units[0];
+  for(const voice of ['female','male'])for(const rate of ['0.75','0.9','1','1.1','1.25']){
+    const a=app(1,voice);a.select(rate);
+    const url=unit.audio[voice].chunks[0];
+    await a.play(unit.lines[0],false,{url,start:0,end:null});
+    assert.equal(a.audio.plays.at(-1).url,url);
+    assert.equal(a.audio.plays.at(-1).rate,Number(rate));
   }
 });
