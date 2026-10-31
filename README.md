@@ -17,6 +17,7 @@
 - Gap은 전체 듣기의 문장 사이에 따라 말할 시간을 주는 체크박스다. 원본 오디오의 끝 여백과 별개다.
 - 모바일: 전체 듣기와 Gap은 Week 행 오른쪽. PC: 성별과 속도 사이. 모바일 언어·성별·속도는 한 줄이다.
 - 2주차의 긴 말풍선은 마우스 더블클릭, 터치·펜 입력은 550ms 길게 누르면 아래에 나눠 연습 영역이 열린다. 짧은 클릭은 한영 전환이며, 스크롤·포인터 취소는 길게 누르기를 취소한다. 키보드는 Shift+Enter, 닫기는 Escape도 지원한다.
+- 연습 영역은 영어 구간·숫자 진행 표시와 모여 있는 아이콘 버튼만 표시한다. 별도의 제목·설명·긴 툴팁은 없다. 아이콘에는 접근 가능한 이름을 유지한다.
 - 추천 구간별 연습 → 앞 구간부터 점진적으로 연결 → 전체 발화 순서다. 한 번에 하나만 열리며 단계 이동은 수동이다. 남녀·환자 음성과 속도 설정을 함께 사용한다. 단어 자유 선택·자동 반복은 제공하지 않는다.
 - 복습 완료는 브라우저에 저장된다.
 
@@ -87,6 +88,6 @@ python3 -m http.server 8080 --directory docs
 
 `weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`, 원문과 정확히 일치하는 `text`·`chunks`, `audio`를 가진다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
 
-`tools/week-02-practice-boundaries.json`에 원본별 경계를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
+`tools/week-02-practice-boundaries.json`은 최초 경계 이력이며, 현재는 `tools/week-02-practice-tail-v2.json`에 원본별 경계와 끝 여유를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
 
-생성 예시: `python tools/build-practice-audio.py tools/week-02-practice-boundaries.json` (imageio-ffmpeg 필요). 새 음성이나 경계 수정은 새 자산 버전 경로를 사용한다. ASR 기록은 `tools/week-02-practice-verification.json`이며 직접 청취 검수와 구분한다.
+생성 예시: `python tools/build-practice-audio.py tools/week-02-practice-tail-v2.json` (imageio-ffmpeg 필요). 새 음성이나 경계 수정은 새 자산 버전 경로를 사용한다. 현재 연습 음성은 `practice-v2/`를 사용하며, `assetVersion`으로 새 자산 경로를 지정한다. 각 구간 끝에 원본 여유 0.1~0.3초를 목표로 더하되, 다음 단어가 붙는 곳은 경계별로 더 짧게 제한한다. 합성 무음은 추가하지 않는다. ASR 기록은 `tools/week-02-practice-tail-v2-verification.json`이며 직접 청취 검수와 구분한다. 이전 파일과 검증 기록은 유지한다.

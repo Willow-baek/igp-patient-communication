@@ -2,14 +2,15 @@ import {practiceForLine,practiceSteps} from './practice-model.mjs?v=1';
 import {createLongPress,createMouseClicks} from './long-press.mjs?v=2';
 
 const closeIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>';
-const backIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>';
+const backIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m14 6-6 6 6 6M5 6v12"/></svg>';
 const playIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>';
+const nextIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m10 6 6 6-6 6M19 6v12"/></svg>';
+const restartIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg>';
 const stopIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureBubble}){
-  let unit=null,anchor=null,stage=0,playing=false,seen=false;
-  try{seen=localStorage.getItem('igp-practice-discovered-v2')==='yes';}catch{}
+  let unit=null,anchor=null,stage=0,playing=false;
   const $=s=>document.querySelector(s);
   const gesture=createLongPress({open:button=>open(Number(button.dataset.bubble))});
   const mouseClicks=createMouseClicks();
@@ -18,12 +19,12 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
   const eligible=button=>button?.matches('.bubble[data-bubble]')&&practiceForLine(getWeek(),Number(button.dataset.bubble));
   function markExpanded(){document.querySelectorAll('.bubble[data-bubble]').forEach(button=>{
     const candidate=practiceForLine(getWeek(),Number(button.dataset.bubble));
-    if(candidate){button.setAttribute('aria-expanded',String(candidate===unit));button.setAttribute('aria-controls','practicePanel');button.setAttribute('aria-keyshortcuts','Shift+Enter');button.title='마우스 더블클릭 · 터치 길게 누르기 · Shift+Enter로 나눠 연습';}
+    if(candidate){button.setAttribute('aria-expanded',String(candidate===unit));button.setAttribute('aria-controls','practicePanel');button.setAttribute('aria-keyshortcuts','Shift+Enter');button.removeAttribute('title');button.setAttribute('aria-description','마우스 더블클릭, 터치 길게 누르기, 또는 Shift+Enter로 구간 연습 열기');}
   });}
   function markup(){
     const steps=practiceSteps(unit,getVoice()),step=steps[stage];
     if(!step)return '';
-    return `<section class="practice-panel" id="practicePanel" aria-labelledby="practiceTitle"><div class="practice-heading"><h3 id="practiceTitle">나눠 연습</h3><button class="practice-close" data-practice="close" aria-label="나눠 연습 닫기">${closeIcon}</button></div><div class="practice-status" role="status"><span>${esc(step.label)}</span><span>${stage+1} / ${steps.length}단계</span></div><p class="practice-text" lang="en">${esc(step.text)}</p><p class="practice-cue">${step.kind==='full'?'이번에는 전체를 이어서 말해 보세요.':'듣고 따라 말한 뒤, 다음 단계로 이어 보세요.'}</p><div class="practice-actions"><button data-practice="previous" class="practice-previous" aria-label="이전 연습 단계" ${stage===0?'disabled':''}>${backIcon}</button><button data-practice="play" class="practice-listen" aria-pressed="${playing}">${playing?stopIcon:playIcon}<span>${playing?'정지':'듣기'}</span></button><button data-practice="next" class="practice-next">${stage===steps.length-1?'다시 연습':'다음 단계'}</button></div></section>`;
+    return `<section class="practice-panel" id="practicePanel" aria-label="구간별 대화 연습"><p class="practice-text" lang="en">${esc(step.text)}</p><div class="practice-actions" role="group" aria-label="구간 연습 조작"><button data-practice="previous" aria-label="이전 구간" ${stage===0?'disabled':''}>${backIcon}</button><button data-practice="play" class="practice-listen" aria-label="${playing?'구간 음성 정지':'구간 음성 재생'}" aria-pressed="${playing}">${playing?stopIcon:playIcon}</button><button data-practice="next" aria-label="${stage===steps.length-1?'처음부터 다시 연습':'다음 구간'}">${stage===steps.length-1?restartIcon:nextIcon}</button><span class="practice-position" role="status" aria-label="${stage+1} / ${steps.length}단계">${stage+1} / ${steps.length}</span><button class="practice-close" data-practice="close" aria-label="구간 연습 닫기">${closeIcon}</button></div></section>`;
   }
   function draw(focusAction){
     $('#practicePanel')?.remove();
@@ -35,9 +36,7 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
   function open(index){
     const candidate=practiceForLine(getWeek(),index);
     if(!candidate||!practiceSteps(candidate,getVoice()).length)return;
-    mouseClicks.cancel();gesture.cancel();stop();unit=candidate;anchor=index;stage=0;playing=false;seen=true;
-    try{localStorage.setItem('igp-practice-discovered-v2','yes');}catch{}
-    $('#practiceHint')?.remove();draw('play');
+    mouseClicks.cancel();gesture.cancel();stop();unit=candidate;anchor=index;stage=0;playing=false;draw('play');
     $('#practicePanel')?.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   }
   function close({restoreFocus=false}={}){
@@ -49,13 +48,11 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
   function syncPlayback(active){
     playing=active;
     const button=$('#practicePanel [data-practice="play"]');
-    if(button){button.innerHTML=`${playing?stopIcon:playIcon}<span>${playing?'정지':'듣기'}</span>`;button.setAttribute('aria-pressed',String(playing));}
+    if(button){button.innerHTML=playing?stopIcon:playIcon;button.setAttribute('aria-label',playing?'구간 음성 정지':'구간 음성 재생');button.setAttribute('aria-pressed',String(playing));}
   }
   function decorate(){
     mouseClicks.cancel();markExpanded();
-    if(!seen&&getWeek()?.practice?.units?.some(u=>practiceForLine(getWeek(),u.lines[0]))){
-      $('.mode-hint')?.insertAdjacentHTML('afterend','<p id="practiceHint" class="practice-hint">나눠 연습: 마우스는 더블클릭, 터치는 길게 누르세요. <span>키보드: Shift + Enter</span></p>');
-    }
+
     if(unit){unit=practiceForLine(getWeek(),anchor);if(unit)draw();else close();}
   }
   document.addEventListener('pointerdown',event=>{const button=event.target.closest?.('.bubble');pointer={type:event.pointerType,target:button};if(eligible(button))gesture.start(button,event);});

@@ -76,3 +76,22 @@ test('a slower OS double click restores the exact original Blind state',()=>{
 test('navigation cancels any pending mouse language change',()=>{
   const h=clicks();h.mouse.click(h.target,1,h.toggle,h.capture);h.mouse.cancel();h.fire();assert.equal(h.language,'hidden');
 });
+
+test('tail extensions preserve original source starts, stay within originals, and use new assets',()=>{
+  const original=JSON.parse(fs.readFileSync(new URL('./week-02-practice-boundaries.json',import.meta.url)));
+  const revised=JSON.parse(fs.readFileSync(new URL('./week-02-practice-tail-v2.json',import.meta.url)));
+  const sources=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
+  assert.equal(revised.assetVersion,'practice-v2');
+  for(const [voice,tracks] of Object.entries(revised.tracks))for(const track of tracks){
+    const before=original.tracks[voice].find(t=>t.unit===track.unit);
+    assert.equal(track.source,before.source);assert.equal(track.start,before.start);assert.equal(track.end,before.end);
+    assert.deepEqual(track.cuts,before.cuts);
+    assert.equal(track.tailPadding.length,track.cuts.length+1);
+    assert.equal(track.tailPadding.at(-1),0);
+    for(const [i,pad] of track.tailPadding.entries()){
+      assert(pad>=0&&pad<=.3);
+      assert((track.cuts[i]??track.end)+pad<=sources.tracks[voice].duration);
+    }
+  }
+  for(const u of weeks[1].practice.units)for(const track of Object.values(u.audio))for(const path of [...track.chunks,...track.buildUp,track.full])assert(path.includes('/practice-v2/'));
+});

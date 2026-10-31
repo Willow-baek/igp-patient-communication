@@ -420,23 +420,23 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-01/female/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-01/female/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-01/female/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-01/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-01/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-01/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-01/male/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-01/male/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-01/male/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-01/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-01/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-01/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
               }
             }
           },
@@ -454,13 +454,13 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-02/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-02/patient/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-02/patient/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-02/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-02/patient/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-02/patient/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
               }
             }
           },
@@ -478,23 +478,23 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-03/female/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-03/female/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-03/female/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-03/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-03/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-03/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-03/male/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-03/male/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-03/male/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-03/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-03/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-03/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
               }
             }
           },
@@ -512,13 +512,13 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-04/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-04/patient/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-04/patient/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-04/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-04/patient/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-04/patient/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
               }
             }
           },
@@ -536,23 +536,23 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-05/female/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-05/female/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-05/female/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-05/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-05/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-05/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-05/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-05/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-05/male/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-05/male/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-05/male/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-05/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-05/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-05/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-05/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-05/male/full.m4a"
               }
             }
           },
@@ -572,27 +572,27 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-07/female/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/female/chunk-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/female/chunk-3.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-07/female/build-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-07/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-07/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-07/male/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/male/chunk-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/male/chunk-3.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-07/male/build-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-07/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-07/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-07/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-07/male/full.m4a"
               }
             }
           },
@@ -612,15 +612,15 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-08/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-08/patient/chunk-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-08/patient/chunk-3.m4a"
+                  "audio/week-02/practice-v2/w2-turn-08/patient/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-08/patient/chunk-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-08/patient/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-08/patient/build-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-08/patient/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-08/patient/build-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-08/patient/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-08/patient/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-08/patient/full.m4a"
               }
             }
           },
@@ -643,35 +643,35 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-09/female/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/chunk-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/chunk-3.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/chunk-4.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/chunk-5.m4a"
+                  "audio/week-02/practice-v2/w2-turn-09/female/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/chunk-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/chunk-3.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/chunk-4.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/chunk-5.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-09/female/build-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/build-3.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/build-4.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-09/female/build-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/build-3.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/build-4.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-09/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-09/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-09/male/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/chunk-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/chunk-3.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/chunk-4.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/chunk-5.m4a"
+                  "audio/week-02/practice-v2/w2-turn-09/male/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/chunk-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/chunk-3.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/chunk-4.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/chunk-5.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-09/male/build-2.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/build-3.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/build-4.m4a",
-                  "audio/week-02/practice-v1/w2-turn-09/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-09/male/build-2.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/build-3.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/build-4.m4a",
+                  "audio/week-02/practice-v2/w2-turn-09/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-09/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-09/male/full.m4a"
               }
             }
           },
@@ -689,13 +689,13 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v1/w2-turn-10/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v1/w2-turn-10/patient/chunk-2.m4a"
+                  "audio/week-02/practice-v2/w2-turn-10/patient/chunk-1.m4a",
+                  "audio/week-02/practice-v2/w2-turn-10/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v1/w2-turn-10/patient/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v1/w2-turn-10/patient/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
               }
             }
           }
