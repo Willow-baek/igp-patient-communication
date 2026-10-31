@@ -564,40 +564,68 @@
           {
             "id": "w2-turn-07",
             "lines": [
-              6,
-              7
+              6
             ],
             "speaker": "Physio",
-            "text": "You also mentioned wanting to get back to running. Is that another priority for you?",
+            "text": "You also mentioned wanting to get back to running.",
             "chunks": [
               "You also mentioned",
-              "wanting to get back to running.",
-              "Is that another priority for you?"
+              "wanting to get back to running."
             ],
             "audio": {
               "female": {
                 "chunks": [
                   "audio/week-02/practice-v2/w2-turn-07/female/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-2.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-3.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/female/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-07/female/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
               },
               "male": {
                 "chunks": [
                   "audio/week-02/practice-v2/w2-turn-07/male/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-2.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-3.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/male/full.m4a"
+                  "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-07/male/full.m4a"
+                "full": "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
+              }
+            }
+          },
+          {
+            "id": "w2-priority-question",
+            "lines": [
+              7
+            ],
+            "speaker": "Physio",
+            "text": "Is that another priority for you?",
+            "chunks": [
+              "Is that another priority",
+              "for you?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-02/practice-v4/w2-priority-question/female/chunk-1.m4a",
+                  "audio/week-02/practice-v4/w2-priority-question/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-02/practice-v4/w2-priority-question/female/full.m4a"
+                ],
+                "full": "audio/week-02/practice-v4/w2-priority-question/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-02/practice-v4/w2-priority-question/male/chunk-1.m4a",
+                  "audio/week-02/practice-v4/w2-priority-question/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-02/practice-v4/w2-priority-question/male/full.m4a"
+                ],
+                "full": "audio/week-02/practice-v4/w2-priority-question/male/full.m4a"
               }
             }
           },
@@ -638,14 +666,12 @@
           {
             "id": "w2-turn-09",
             "lines": [
-              10,
               11,
               12
             ],
             "speaker": "Physio",
-            "text": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+            "text": "Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
             "chunks": [
-              "That makes sense.",
               "Shall we start with",
               "the meeting goal",
               "as a short-term goal",
@@ -656,43 +682,39 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-1.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-3.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-4.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-5.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-6.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/chunk-7.m4a"
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-1.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-2.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-3.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-4.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-5.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/chunk-6.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v3/w2-turn-09/female/build-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/build-3.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/build-4.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/build-5.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/build-6.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/female/full.m4a"
+                  "audio/week-02/practice-v4/w2-turn-09/female/build-2.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/build-3.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/build-4.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/build-5.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v3/w2-turn-09/female/full.m4a"
+                "full": "audio/week-02/practice-v4/w2-turn-09/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-1.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-3.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-4.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-5.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-6.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/chunk-7.m4a"
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-1.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-2.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-3.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-4.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-5.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/chunk-6.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v3/w2-turn-09/male/build-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/build-3.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/build-4.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/build-5.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/build-6.m4a",
-                  "audio/week-02/practice-v3/w2-turn-09/male/full.m4a"
+                  "audio/week-02/practice-v4/w2-turn-09/male/build-2.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/build-3.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/build-4.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/build-5.m4a",
+                  "audio/week-02/practice-v4/w2-turn-09/male/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v3/w2-turn-09/male/full.m4a"
+                "full": "audio/week-02/practice-v4/w2-turn-09/male/full.m4a"
               }
             }
           },

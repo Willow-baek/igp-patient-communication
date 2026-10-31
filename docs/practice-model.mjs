@@ -6,6 +6,8 @@ export function practiceForLine(week,index){
   if(!unit||!Array.isArray(unit.chunks)||unit.chunks.length<2)return null;
   const lines=unit.lines.map(i=>week.lines[i]);
   if(lines.some(l=>!l)||new Set(lines.map(l=>l.speaker)).size!==1)return null;
+  // A speaker turn may contain several sentences; practice cannot cross one.
+  if(lines.slice(0,-1).some(l=>/[.!?][\"'”’)\]]*\s*$/.test(l.en)))return null;
   const joined=lines.map(l=>l.en).join(' ');
   if(joined!==unit.text||unit.chunks.join(' ')!==unit.text)return null;
   return unit;

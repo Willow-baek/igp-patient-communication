@@ -119,11 +119,11 @@ test('long practice units are finer without changing their original script',()=>
   const fine=JSON.parse(fs.readFileSync(new URL('./week-02-practice-fine-v3.json',import.meta.url)));
   const week=weeks[1];
   for(const unit of week.practice.units){
-    const before=old.units.find(u=>u.id===unit.id);
-    assert.equal(unit.text,before.text);assert.deepEqual(unit.lines,before.lines);
+    const before=old.units.find(u=>u.lines.includes(unit.lines[0]));
+    assert(before.text.includes(unit.text));assert(unit.lines.every(i=>before.lines.includes(i)));
     assert(unit.chunks.every(text=>text.split(/\s+/).length<=6));
     if(['w2-turn-05','w2-turn-08','w2-turn-09'].includes(unit.id))assert(unit.chunks.length>before.chunks.length);
-    else assert.deepEqual(unit.chunks,before.chunks);
+    else if(JSON.stringify(unit.lines)===JSON.stringify(before.lines))assert.deepEqual(unit.chunks,before.chunks);
   }
   const source=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
   for(const [voice,tracks] of Object.entries(fine.tracks))for(const t of tracks){
@@ -132,7 +132,42 @@ test('long practice units are finer without changing their original script',()=>
     const bounds=[t.start,...t.cuts,t.end];
     assert(bounds.every((v,i)=>!i||v>bounds[i-1]));
     assert(t.cuts.every((v,i)=>v+t.tailPadding[i]<=source.tracks[voice].duration));
-    const current=week.practice.units[t.unit].audio[voice];
-    assert([...current.chunks,...current.buildUp].every(path=>path.includes('/practice-v3/')));
+
+  }
+});
+
+
+test('completed sentences remain independent even when spoken by the same person',()=>{
+  const week=weeks[1];
+  assert.equal(practiceForLine(week,10),null); // That makes sense. has its own normal playback.
+  assert.deepEqual(practiceForLine(week,11).lines,[11,12]);
+  assert.equal(practiceForLine(week,11),practiceForLine(week,12));
+  assert(!practiceForLine(week,11).text.includes('That makes sense'));
+  assert.deepEqual(practiceForLine(week,6).lines,[6]);
+  assert.deepEqual(practiceForLine(week,7).lines,[7]);
+  assert.notEqual(practiceForLine(week,6),practiceForLine(week,7));
+  for(const unit of week.practice.units){
+    const priorLines=unit.lines.slice(0,-1);
+    assert(priorLines.every(i=>!/[.!?]$/.test(week.lines[i].en.trim())));
+    for(const step of practiceSteps(unit,'female'))assert(unit.text.includes(step.text));
+  }
+});
+test('runtime rejects a merged finished sentence even if its text matches the script',()=>{
+  const week=structuredClone(weeks[1]);
+  const goal=week.practice.units.find(u=>u.lines.includes(11));
+  goal.lines.unshift(10);goal.text=week.lines[10].en+' '+goal.text;goal.chunks.unshift(week.lines[10].en);
+  assert.equal(practiceForLine(week,11),null);
+});
+
+test('independent question audio starts after the preceding sentence has finished',()=>{
+  const plan=JSON.parse(fs.readFileSync(new URL('./week-02-practice-sentences-v4.json',import.meta.url)));
+  const original=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
+  for(const voice of ['female','male']){
+    const question=plan.tracks[voice].find(t=>plan.units[t.unit].id==='w2-turn-09');
+    const preceding=original.tracks[voice].clips.find(c=>c.line===11);
+    assert(question.start>=preceding.speechEnd);
+    const priority=plan.tracks[voice].find(t=>plan.units[t.unit].id==='w2-priority-question');
+    const mentioned=original.tracks[voice].clips.find(c=>c.line===7);
+    assert(priority.start>=mentioned.speechEnd);
   }
 });

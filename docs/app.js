@@ -1,5 +1,5 @@
 import {resolveAudio} from './audio-source.mjs';
-import {createPractice} from './practice-ui.mjs?v=4';
+import {createPractice} from './practice-ui.mjs?v=5';
 'use strict';
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const playIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>';
