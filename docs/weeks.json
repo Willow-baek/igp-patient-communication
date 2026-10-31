@@ -255,6 +255,17 @@
       },
       "patientAudio": "audio/week-01/W1_pt.mp3",
       "scriptRevision": "2026-10-27-user-revision-2"
+    },
+    {
+      "id": "week-02",
+      "label": "Week 2",
+      "title": "Conversation",
+      "shortTitle": "Conversation",
+      "description": "",
+      "scenario": "",
+      "audio": null,
+      "expressions": [],
+      "lines": []
     }
   ]
 }
