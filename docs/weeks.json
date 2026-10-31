@@ -296,8 +296,14 @@
         },
         {
           "speaker": "Physio",
-          "en": "So sitting through a 30-minute meeting more comfortably would be useful?",
-          "ko": "그러면 30분 회의 동안 좀 더 편하게 앉아 있을 수 있으면 도움이 되겠네요?",
+          "en": "So sitting through a 30-minute meeting",
+          "ko": "그러면 30분 회의 동안",
+          "turn": 5
+        },
+        {
+          "speaker": "Physio",
+          "en": "more comfortably would be useful?",
+          "ko": "좀 더 편하게 앉아 있을 수 있으면 도움이 되겠네요?",
           "turn": 5
         },
         {
@@ -320,8 +326,14 @@
         },
         {
           "speaker": "Patient",
-          "en": "Yes, I'd really like to run again, but sitting at work is the main problem at the moment.",
-          "ko": "네, 정말 다시 달리고 싶어요. 하지만 지금은 직장에서 앉아 있는 게 가장 큰 문제예요.",
+          "en": "Yes, I'd really like to run again,",
+          "ko": "네, 정말 다시 달리고 싶어요.",
+          "turn": 8
+        },
+        {
+          "speaker": "Patient",
+          "en": "but sitting at work is the main problem at the moment.",
+          "ko": "하지만 지금은 직장에서 앉아 있는 게 가장 큰 문제예요.",
           "turn": 8
         },
         {
@@ -353,7 +365,7 @@
         "id": "john-thompson",
         "name": "John Thompson"
       },
-      "scriptRevision": "2026-10-31-user-day-2"
+      "scriptRevision": "2026-10-31-user-day-2-split-2"
     }
   ]
 }
