@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {practiceForLine,practiceSteps} from '../docs/practice-model.mjs';
+import {practiceForLine,practiceSteps,practiceHighlightSlices} from '../docs/practice-model.mjs';
 import {createLongPress,createMouseClicks} from '../docs/long-press.mjs';
 
 const weeks=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
@@ -94,4 +94,21 @@ test('tail extensions preserve original source starts, stay within originals, an
     }
   }
   for(const u of weeks[1].practice.units)for(const track of Object.values(u.audio))for(const path of [...track.chunks,...track.buildUp,track.full])assert(path.includes('/practice-v2/'));
+});
+
+
+test('every practice step highlights exactly its source words in the existing bubbles',()=>{
+  const week=weeks[1];
+  for(const unit of week.practice.units)for(const step of practiceSteps(unit,'female')){
+    const slices=practiceHighlightSlices(week,unit,step);
+    assert.equal(slices.map(p=>p.selected).filter(Boolean).join(' '),step.text);
+    for(const part of slices)assert.equal(part.before+part.selected+part.after,week.lines[part.index].en);
+    assert.equal(unit.text.slice(step.start,step.end),step.text);
+  }
+});
+test('repeated phrases are highlighted by source offsets rather than the first text match',()=>{
+  const unit={lines:[0],text:'go again go again',chunks:['go again','go again'],speaker:'Patient',audio:{patient:{chunks:['a','b'],buildUp:['full'],full:'full'}}};
+  const week={lines:[{en:unit.text}]};
+  const step=practiceSteps(unit,'female')[1];
+  assert.deepEqual(practiceHighlightSlices(week,unit,step),[{index:0,before:'go again ',selected:'go again',after:''}]);
 });

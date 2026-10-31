@@ -40,18 +40,17 @@ button.bubble{-webkit-touch-callout:none;-webkit-user-select:none;user-select:no
 
 /* One compact transport for contextual practice. */
 .bubble[aria-expanded=true]{outline:2px solid var(--accent);outline-offset:3px}
-.practice-panel{grid-column:2 / 3;min-width:0;padding:18px 20px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-top:2px;animation:practice-open 160ms ease-out}
-.practice-text{font-size:19px;line-height:1.7;margin:0 0 14px;overflow-wrap:break-word}
+.practice-panel{grid-column:2 / 3;min-width:0;padding:4px 0 2px;margin:0;animation:practice-open 160ms ease-out}
+.practice-reading .practice-rest{color:var(--muted)}
+.practice-reading .practice-current{background:var(--accent);color:var(--surface);padding:1px 0;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .practice-actions{display:flex;align-items:center;justify-content:center;gap:6px}
 .practice-panel button{width:44px;min-width:44px;height:44px;min-height:44px;padding:10px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px}
 .practice-panel button svg{width:20px;height:20px;flex:0 0 auto}
 .practice-panel .practice-listen{background:var(--accent);color:var(--surface);border-color:var(--accent)}
 .practice-panel .practice-listen:hover{background:#1a5141}
-.practice-position{min-width:38px;text-align:center;font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
 @keyframes practice-open{from{opacity:.5;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:640px){
- .practice-panel{grid-column:1 / -1;padding:14px}
- .practice-text{font-size:17px;margin:0 0 12px}
+ .practice-panel{grid-column:1 / -1;padding:2px 0}
  .practice-actions{gap:4px}
 }
 @media(prefers-reduced-motion:reduce){.practice-panel{animation:none}}

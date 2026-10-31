@@ -1,4 +1,4 @@
-import {practiceForLine,practiceSteps} from './practice-model.mjs?v=1';
+import {practiceForLine,practiceSteps,practiceHighlightSlices} from './practice-model.mjs?v=2';
 import {createLongPress,createMouseClicks} from './long-press.mjs?v=2';
 
 const closeIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>';
@@ -10,7 +10,8 @@ const stopIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureBubble}){
-  let unit=null,anchor=null,stage=0,playing=false;
+  let unit=null,anchor=null,stage=0,playing=false,panelLine=null;
+  const originals=new Map();
   const $=s=>document.querySelector(s);
   const gesture=createLongPress({open:button=>open(Number(button.dataset.bubble))});
   const mouseClicks=createMouseClicks();
@@ -24,24 +25,46 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
   function markup(){
     const steps=practiceSteps(unit,getVoice()),step=steps[stage];
     if(!step)return '';
-    return `<section class="practice-panel" id="practicePanel" aria-label="구간별 대화 연습"><p class="practice-text" lang="en">${esc(step.text)}</p><div class="practice-actions" role="group" aria-label="구간 연습 조작"><button data-practice="previous" aria-label="이전 구간" ${stage===0?'disabled':''}>${backIcon}</button><button data-practice="play" class="practice-listen" aria-label="${playing?'구간 음성 정지':'구간 음성 재생'}" aria-pressed="${playing}">${playing?stopIcon:playIcon}</button><button data-practice="next" aria-label="${stage===steps.length-1?'처음부터 다시 연습':'다음 구간'}">${stage===steps.length-1?restartIcon:nextIcon}</button><span class="practice-position" role="status" aria-label="${stage+1} / ${steps.length}단계">${stage+1} / ${steps.length}</span><button class="practice-close" data-practice="close" aria-label="구간 연습 닫기">${closeIcon}</button></div></section>`;
+    return `<section class="practice-panel" id="practicePanel" aria-label="구간별 대화 연습"><div class="practice-actions" role="group" aria-label="구간 연습 조작"><button data-practice="previous" aria-label="이전 구간" ${stage===0?'disabled':''}>${backIcon}</button><button data-practice="play" class="practice-listen" aria-label="${playing?'구간 음성 정지':'구간 음성 재생'}" aria-pressed="${playing}">${playing?stopIcon:playIcon}</button><button data-practice="next" aria-label="${stage===steps.length-1?'처음부터 다시 연습':'다음 구간'}">${stage===steps.length-1?restartIcon:nextIcon}</button><button class="practice-close" data-practice="close" aria-label="구간 연습 닫기">${closeIcon}</button></div></section>`;
+  }
+  function restoreBubbles(){
+    for(const saved of originals.values())if(saved.button.isConnected){
+      saved.button.innerHTML=saved.html;saved.button.className=saved.classes;saved.button.lang=saved.lang;
+      saved.button.setAttribute('aria-label',saved.label);
+    }
+    originals.clear();
+  }
+  function highlight(){
+    const step=practiceSteps(unit,getVoice())[stage];
+    const slices=practiceHighlightSlices(getWeek(),unit,step);
+    for(const part of slices){
+      const button=$(`.bubble[data-bubble="${part.index}"]`);if(!button)continue;
+      if(originals.get(part.index)?.button!==button)originals.set(part.index,{button,html:button.innerHTML,classes:button.className,lang:button.lang,label:button.getAttribute('aria-label')});
+      button.innerHTML=`<span class="bubble-text"><span class="practice-rest">${esc(part.before)}</span>${part.selected?`<mark class="practice-current">${esc(part.selected)}</mark>`:''}<span class="practice-rest">${esc(part.after)}</span></span>`;
+      button.lang='en';button.classList.remove('translated');button.classList.add('practice-reading');
+      button.setAttribute('aria-label',`${part.index+1}번째 대사: ${getWeek().lines[part.index].en}. 현재 연습 구간: ${part.selected||'다른 말풍선에 표시됨'}`);
+    }
+    panelLine=slices.filter(p=>p.selected).at(-1)?.index??anchor;
   }
   function draw(focusAction){
     $('#practicePanel')?.remove();
     if(!unit)return;
-    const row=$(`#line-${anchor}`);if(!row){unit=null;return;}
+    highlight();
+    const row=$(`#line-${panelLine}`);if(!row){close();return;}
     row.insertAdjacentHTML('beforeend',markup());markExpanded();
-    if(focusAction)$(`#practicePanel [data-practice="${focusAction}"]`)?.focus({preventScroll:true});
+    if(focusAction){
+      $(`#practicePanel [data-practice="${focusAction}"]`)?.focus({preventScroll:true});
+      $('#practicePanel')?.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    }
   }
   function open(index){
     const candidate=practiceForLine(getWeek(),index);
     if(!candidate||!practiceSteps(candidate,getVoice()).length)return;
-    mouseClicks.cancel();gesture.cancel();stop();unit=candidate;anchor=index;stage=0;playing=false;draw('play');
-    $('#practicePanel')?.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    mouseClicks.cancel();gesture.cancel();stop();restoreBubbles();unit=candidate;anchor=index;stage=0;playing=false;draw('play');
   }
-  function close({restoreFocus=false}={}){
-    gesture.cancel();mouseClicks.cancel();const previous=anchor;
-    if(playing)stop();unit=null;anchor=null;stage=0;playing=false;
+  function close({restoreFocus=false,preserveMouse=false}={}){
+    gesture.cancel();if(!preserveMouse)mouseClicks.cancel();const previous=anchor;
+    if(playing)stop();restoreBubbles();unit=null;anchor=null;panelLine=null;stage=0;playing=false;
     $('#practicePanel')?.remove();markExpanded();
     if(restoreFocus)$(`.bubble[data-bubble="${previous}"]`)?.focus({preventScroll:true});
   }
@@ -71,9 +94,10 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
   return {decorate,close,syncPlayback,
     handleBubbleClick(button,event){
       if(gesture.consume(button))return true;
-      if(!eligible(button))return false;
-      if(event.detail===0||isTouch(event)){toggleBubble(button);return true;}
-      mouseClicks.click(button,event.detail,()=>toggleBubble(button),()=>captureBubble(button));
+      if(!eligible(button)){if(unit)close();return false;}
+      const toggle=()=>{if(unit)close({preserveMouse:true});toggleBubble(button);};
+      if(event.detail===0||isTouch(event)){toggle();return true;}
+      mouseClicks.click(button,event.detail,toggle,()=>captureBubble(button));
       return true;
     },
     handleClick(button){
@@ -81,7 +105,7 @@ export function createPractice({getWeek,getVoice,stop,play,toggleBubble,captureB
       if(action==='close'){close({restoreFocus:true});return true;}
       const steps=practiceSteps(unit,getVoice());if(!steps.length)return true;
       if(action==='play'){
-        if(playing)stop();else play(anchor,false,{url:steps[stage].url,start:0,end:null});
+        if(playing)stop();else play(panelLine,false,{url:steps[stage].url,start:0,end:null});
       }else{
         stop();stage=action==='previous'?Math.max(0,stage-1):(stage+1)%steps.length;draw(action);
       }
