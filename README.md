@@ -88,6 +88,8 @@ python3 -m http.server 8080 --directory docs
 
 `weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`, 원문과 정확히 일치하는 `text`·`chunks`, `audio`를 가진다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
 
-`tools/week-02-practice-boundaries.json`은 최초 경계 이력이며, 현재는 `tools/week-02-practice-tail-v2.json`에 원본별 경계와 끝 여유를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
+`tools/week-02-practice-boundaries.json`은 최초 경계 이력이고 `tools/week-02-practice-tail-v2.json`은 끝 여유 조정 기록이다. 최신 `tools/week-02-practice-fine-v3.json`에 긴 세 발화의 더 짧은 구간과 원본별 경계를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
 
-생성 예시: `python tools/build-practice-audio.py tools/week-02-practice-tail-v2.json` (imageio-ffmpeg 필요). 새 음성이나 경계 수정은 새 자산 버전 경로를 사용한다. 현재 연습 음성은 `practice-v2/`를 사용하며, `assetVersion`으로 새 자산 경로를 지정한다. 각 구간 끝에 원본 여유 0.1~0.3초를 목표로 더하되, 다음 단어가 붙는 곳은 경계별로 더 짧게 제한한다. 합성 무음은 추가하지 않는다. ASR 기록은 `tools/week-02-practice-tail-v2-verification.json`이며 직접 청취 검수와 구분한다. 이전 파일과 검증 기록은 유지한다.
+생성 예시: `python tools/build-practice-audio.py tools/week-02-practice-fine-v3.json` (imageio-ffmpeg 필요). 새 음성이나 경계 수정은 새 자산 버전 경로를 사용한다. 긴 세 발화는 `practice-v3/`를 사용하고 나머지는 검증된 `practice-v2/`를 재사용한다. 최신 계획 파일의 기존 `audio` 연결은 유지하고 `tracks`에 지정한 역할만 교체한다. `assetVersion`으로 새 자산 경로를 지정한다. 각 구간 끝에 원본 여유 0.1~0.3초를 목표로 더하되, 다음 단어가 붙는 곳은 경계별로 더 짧게 제한한다. 합성 무음은 추가하지 않는다. 새로 세분화한 구간의 ASR 기록은 `tools/week-02-practice-fine-v3-verification.json`이며 직접 청취 검수와 구분한다. 이전 파일과 검증 기록은 유지한다.
+
+현재 W2의 개별 연습 구간은 최대 여섯 단어로 구성한다. 특히 회의 목표, 환자의 달리기·직장 목표, 단기·장기 목표 제안 발화를 더 잘게 나눴다. 연결 연습과 전체 발화는 의도적으로 더 길어지며, 영어 원문과 일반 재생용 말풍선은 바꾸지 않는다.

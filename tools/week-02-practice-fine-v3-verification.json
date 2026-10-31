@@ -1,0 +1,394 @@
+{
+  "method": "Isolated base.en ASR with separately recorded small.en rechecks and a tiny.en third check for a remaining ambiguous prefix. Punctuation/case ignored. Newly refined v3 clips only. Not direct listening.",
+  "matches": 41,
+  "total": 45,
+  "results": [
+    {
+      "unit": "w2-turn-05",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-05/female/chunk-1.m4a",
+      "expected": "So sitting through a 30-minute meeting",
+      "actual": "So he's sitting through a 30-minute meeting.",
+      "match": false,
+      "secondCheck": {
+        "model": "small.en",
+        "actual": "So sitting through a 30 minute meeting.",
+        "match": true
+      }
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-05/female/chunk-2.m4a",
+      "expected": "more comfortably",
+      "actual": "more comfortably.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-05/female/chunk-3.m4a",
+      "expected": "would be useful?",
+      "actual": "would be useful.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-05/female/build-2.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably",
+      "actual": "So sitting through a 30-minute meeting more comfortably.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-05/female/full.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "actual": "So sitting through a 30 minute meeting more comfortably would be useful.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-05/male/chunk-1.m4a",
+      "expected": "So sitting through a 30-minute meeting",
+      "actual": "So, sitting through a 30 minute meeting.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-05/male/chunk-2.m4a",
+      "expected": "more comfortably",
+      "actual": "more comfortably.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-05/male/chunk-3.m4a",
+      "expected": "would be useful?",
+      "actual": "would be useful.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-05/male/build-2.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably",
+      "actual": "So, sitting through a 30-minute meeting more comfortably...",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-05",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-05/male/full.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "actual": "So, sitting through a 30-minute meeting more comfortably would be useful.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/chunk-1.m4a",
+      "expected": "Yes, I'd really like to",
+      "actual": "Yes, I'd really like to...",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/chunk-2.m4a",
+      "expected": "run again,",
+      "actual": "Run again.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/chunk-3.m4a",
+      "expected": "but sitting at work",
+      "actual": "but sitting at work.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/chunk-4.m4a",
+      "expected": "is the main problem",
+      "actual": "is the main problem.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/chunk-5.m4a",
+      "expected": "at the moment.",
+      "actual": "at the moment.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/build-2.m4a",
+      "expected": "Yes, I'd really like to run again,",
+      "actual": "Yes, I'd really like to run again.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/build-3.m4a",
+      "expected": "Yes, I'd really like to run again, but sitting at work",
+      "actual": "Yes, I'd really like to run again, but sitting at work",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/build-4.m4a",
+      "expected": "Yes, I'd really like to run again, but sitting at work is the main problem",
+      "actual": "Yes, I'd really like to run again, but sitting at work is the main problem.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-08",
+      "voice": "patient",
+      "url": "audio/week-02/practice-v3/w2-turn-08/patient/full.m4a",
+      "expected": "Yes, I'd really like to run again, but sitting at work is the main problem at the moment.",
+      "actual": "Yes, I'd really like to run again, but sitting at work is the main problem at the moment.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-1.m4a",
+      "expected": "That makes sense.",
+      "actual": "That makes sense.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-2.m4a",
+      "expected": "Shall we start with",
+      "actual": "Shall we start with...",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-3.m4a",
+      "expected": "the meeting goal",
+      "actual": "the meeting goal.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-4.m4a",
+      "expected": "as a short-term goal",
+      "actual": "as a short term goal.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-5.m4a",
+      "expected": "and work towards",
+      "actual": "and work towards...",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-6.m4a",
+      "expected": "getting you back to running",
+      "actual": "getting you back to running.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/chunk-7.m4a",
+      "expected": "over time?",
+      "actual": "over time.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/build-2.m4a",
+      "expected": "That makes sense. Shall we start with",
+      "actual": "That makes sense. Shall we start with the",
+      "match": false,
+      "secondCheck": {
+        "model": "small.en",
+        "actual": "If that makes sense. Shall we start with...",
+        "match": false
+      },
+      "thirdCheck": {
+        "model": "tiny.en",
+        "actual": "That makes sense Shall we start with",
+        "match": true
+      }
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/build-3.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal",
+      "actual": "That makes sense. Shall we start with the meeting goal?",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/build-4.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal?",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/build-5.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/build-6.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running",
+      "actual": "that makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "female",
+      "url": "audio/week-02/practice-v3/w2-turn-09/female/full.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-1.m4a",
+      "expected": "That makes sense.",
+      "actual": "That makes sense.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-2.m4a",
+      "expected": "Shall we start with",
+      "actual": "Shall we start with the",
+      "match": false,
+      "secondCheck": {
+        "model": "small.en",
+        "actual": "Shall we start with",
+        "match": true
+      }
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-3.m4a",
+      "expected": "the meeting goal",
+      "actual": "the meeting goal.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-4.m4a",
+      "expected": "as a short-term goal",
+      "actual": "as a short-term goal.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-5.m4a",
+      "expected": "and work towards",
+      "actual": "and work towards...",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-6.m4a",
+      "expected": "getting you back to running",
+      "actual": "getting you back to running.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/chunk-7.m4a",
+      "expected": "over time?",
+      "actual": "over time.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/build-2.m4a",
+      "expected": "That makes sense. Shall we start with",
+      "actual": "That makes sense. Shall we start with the",
+      "match": false,
+      "secondCheck": {
+        "model": "small.en",
+        "actual": "That makes sense. Shall we start with-",
+        "match": true
+      }
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/build-3.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal",
+      "actual": "That makes sense. Shall we start with the meeting goal?",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/build-4.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short term goal?",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/build-5.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/build-6.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running.",
+      "match": true
+    },
+    {
+      "unit": "w2-turn-09",
+      "voice": "male",
+      "url": "audio/week-02/practice-v3/w2-turn-09/male/full.m4a",
+      "expected": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+      "actual": "That makes sense. Shall we start with the meeting goal as a short-term goal and work towards getting you back to running over time?",
+      "match": true
+    }
+  ],
+  "resolvedMatches": 45,
+  "note": "Full utterances and original scripts are unchanged. Short incomplete phrases can trigger contextual ASR insertions; each model result is recorded separately. Human listening review remains separate."
+}

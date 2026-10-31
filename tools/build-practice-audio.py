@@ -13,7 +13,8 @@ manifestPath=Path(sys.argv[1]);manifest=json.loads(manifestPath.read_text())
 weekPath=root/'docs/weeks.json';data=json.loads(weekPath.read_text());week=next(w for w in data['weeks'] if w['id']==manifest['week'])
 assert week['scriptRevision']==manifest['scriptRevision']
 units=manifest['units']
-for unit in units:unit['audio']={}
+# Keep verified tracks for unchanged units; supplied tracks replace only their voice.
+for unit in units:unit['audio']=dict(unit.get('audio',{}))
 for voice,tracks in manifest['tracks'].items():
     for track in tracks:
         unit=units[track['unit']];count=len(unit['chunks']);bounds=[track['start']]+track['cuts']+[track['end']]

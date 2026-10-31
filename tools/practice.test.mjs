@@ -93,7 +93,7 @@ test('tail extensions preserve original source starts, stay within originals, an
       assert((track.cuts[i]??track.end)+pad<=sources.tracks[voice].duration);
     }
   }
-  for(const u of weeks[1].practice.units)for(const track of Object.values(u.audio))for(const path of [...track.chunks,...track.buildUp,track.full])assert(path.includes('/practice-v2/'));
+
 });
 
 
@@ -111,4 +111,28 @@ test('repeated phrases are highlighted by source offsets rather than the first t
   const week={lines:[{en:unit.text}]};
   const step=practiceSteps(unit,'female')[1];
   assert.deepEqual(practiceHighlightSlices(week,unit,step),[{index:0,before:'go again ',selected:'go again',after:''}]);
+});
+
+
+test('long practice units are finer without changing their original script',()=>{
+  const old=JSON.parse(fs.readFileSync(new URL('./week-02-practice-tail-v2.json',import.meta.url)));
+  const fine=JSON.parse(fs.readFileSync(new URL('./week-02-practice-fine-v3.json',import.meta.url)));
+  const week=weeks[1];
+  for(const unit of week.practice.units){
+    const before=old.units.find(u=>u.id===unit.id);
+    assert.equal(unit.text,before.text);assert.deepEqual(unit.lines,before.lines);
+    assert(unit.chunks.every(text=>text.split(/\s+/).length<=6));
+    if(['w2-turn-05','w2-turn-08','w2-turn-09'].includes(unit.id))assert(unit.chunks.length>before.chunks.length);
+    else assert.deepEqual(unit.chunks,before.chunks);
+  }
+  const source=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
+  for(const [voice,tracks] of Object.entries(fine.tracks))for(const t of tracks){
+    assert.equal(t.cuts.length+1,fine.units[t.unit].chunks.length);
+    assert.equal(t.tailPadding.length,t.cuts.length+1);
+    const bounds=[t.start,...t.cuts,t.end];
+    assert(bounds.every((v,i)=>!i||v>bounds[i-1]));
+    assert(t.cuts.every((v,i)=>v+t.tailPadding[i]<=source.tracks[voice].duration));
+    const current=week.practice.units[t.unit].audio[voice];
+    assert([...current.chunks,...current.buildUp].every(path=>path.includes('/practice-v3/')));
+  }
 });
