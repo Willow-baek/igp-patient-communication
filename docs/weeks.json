@@ -259,13 +259,101 @@
     {
       "id": "week-02",
       "label": "Week 2",
-      "title": "Conversation",
-      "shortTitle": "Conversation",
-      "description": "",
-      "scenario": "",
+      "title": "Reading & Key Expressions",
+      "shortTitle": "목표 정하기",
+      "description": "먼저 눈으로 읽으며 의미를 이해한 뒤, 소리 내어 읽어 보세요. 명확하고 자연스러운 속도에 집중하세요.",
+      "scenario": "John says he wants to sit more comfortably at work, sleep better and return to his usual walks. He is unsure which goal to focus on first.",
       "audio": null,
-      "expressions": [],
-      "lines": []
+      "expressions": [
+        "What would you most like to get back to doing?",
+        "Is that another priority for you?",
+        "That sounds like a good place to start."
+      ],
+      "lines": [
+        {
+          "speaker": "Physio",
+          "en": "John, what would you most like to get back to doing?",
+          "ko": "John, 어떤 활동을 가장 다시 하고 싶으세요?",
+          "turn": 1
+        },
+        {
+          "speaker": "Patient",
+          "en": "I'd like to sit at work without constantly having to change positions.",
+          "ko": "직장에서 계속 자세를 바꾸지 않고 앉아 있고 싶어요.",
+          "turn": 2
+        },
+        {
+          "speaker": "Physio",
+          "en": "How long do you usually need to sit for at work?",
+          "ko": "직장에서는 보통 얼마나 오래 앉아 계셔야 하나요?",
+          "turn": 3
+        },
+        {
+          "speaker": "Patient",
+          "en": "Sometimes I have meetings that last about half an hour.",
+          "ko": "가끔 30분 정도 이어지는 회의가 있어요.",
+          "turn": 4
+        },
+        {
+          "speaker": "Physio",
+          "en": "So sitting through a 30-minute meeting more comfortably would be useful?",
+          "ko": "그러면 30분 회의 동안 좀 더 편하게 앉아 있을 수 있으면 도움이 되겠네요?",
+          "turn": 5
+        },
+        {
+          "speaker": "Patient",
+          "en": "Yes, definitely.",
+          "ko": "네, 정말요.",
+          "turn": 6
+        },
+        {
+          "speaker": "Physio",
+          "en": "You also mentioned wanting to get back to running.",
+          "ko": "달리기도 다시 하고 싶다고 하셨죠.",
+          "turn": 7
+        },
+        {
+          "speaker": "Physio",
+          "en": "Is that another priority for you?",
+          "ko": "그것도 중요하게 생각하시는 목표인가요?",
+          "turn": 7
+        },
+        {
+          "speaker": "Patient",
+          "en": "Yes, I'd really like to run again, but sitting at work is the main problem at the moment.",
+          "ko": "네, 정말 다시 달리고 싶어요. 하지만 지금은 직장에서 앉아 있는 게 가장 큰 문제예요.",
+          "turn": 8
+        },
+        {
+          "speaker": "Physio",
+          "en": "That makes sense.",
+          "ko": "그렇군요.",
+          "turn": 9
+        },
+        {
+          "speaker": "Physio",
+          "en": "Shall we start with the meeting goal as a short-term goal",
+          "ko": "회의 때 편하게 앉아 있는 것을 단기 목표로 먼저 삼고,",
+          "turn": 9
+        },
+        {
+          "speaker": "Physio",
+          "en": "and work towards getting you back to running over time?",
+          "ko": "시간을 두고 다시 달릴 수 있도록 함께해 볼까요?",
+          "turn": 9
+        },
+        {
+          "speaker": "Patient",
+          "en": "Yes, that sounds like a good place to start.",
+          "ko": "네, 거기서부터 시작하면 좋겠어요.",
+          "turn": 10
+        }
+      ],
+      "patient": {
+        "id": "john-thompson",
+        "name": "John Thompson"
+      },
+      "scriptRevision": "2026-10-31-user-day-2"
     }
   ]
 }
