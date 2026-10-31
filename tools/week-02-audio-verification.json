@@ -1,0 +1,189 @@
+{
+  "method": "Independent isolated-clip local faster-whisper tiny.en ASR. Case, punctuation, whitespace, and hyphens ignored. No manual listening review.",
+  "matches": 21,
+  "total": 22,
+  "results": [
+    {
+      "voice": "female",
+      "line": 1,
+      "expected": "John, what would you most like to get back to doing?",
+      "actual": "John, what would you most like to get back to doing?",
+      "match": true,
+      "duration": 3.5526875
+    },
+    {
+      "voice": "female",
+      "line": 3,
+      "expected": "How long do you usually need to sit for at work?",
+      "actual": "How long do you usually need to sit for at work?",
+      "match": true,
+      "duration": 2.6703125
+    },
+    {
+      "voice": "female",
+      "line": 5,
+      "expected": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "actual": "So sitting through a 30 minute meeting more comfortably would be useful.",
+      "match": true,
+      "duration": 3.8080625
+    },
+    {
+      "voice": "female",
+      "line": 7,
+      "expected": "You also mentioned wanting to get back to running.",
+      "actual": "You also mentioned wanting to get back to running.",
+      "match": true,
+      "duration": 2.7399375
+    },
+    {
+      "voice": "female",
+      "line": 8,
+      "expected": "Is that another priority for you?",
+      "actual": "Is that another priority for you?",
+      "match": true,
+      "duration": 2.6935
+    },
+    {
+      "voice": "female",
+      "line": 11,
+      "expected": "That makes sense.",
+      "actual": "That makes sense",
+      "match": true,
+      "duration": 1.8111875
+    },
+    {
+      "voice": "female",
+      "line": 12,
+      "expected": "Shall we start with the meeting goal as a short-term goal",
+      "actual": "Shall we start with the meeting goal as a short term goal?",
+      "match": true,
+      "duration": 3.3204375
+    },
+    {
+      "voice": "female",
+      "line": 13,
+      "expected": "and work towards getting you back to running over time?",
+      "actual": "and work towards getting you back to running over time.",
+      "match": true,
+      "duration": 2.5541875
+    },
+    {
+      "voice": "male",
+      "line": 1,
+      "expected": "John, what would you most like to get back to doing?",
+      "actual": "John, what would you most like to get back to doing?",
+      "match": true,
+      "duration": 3.2508125
+    },
+    {
+      "voice": "male",
+      "line": 3,
+      "expected": "How long do you usually need to sit for at work?",
+      "actual": "How long do you usually need to sit for it work?",
+      "match": false,
+      "duration": 2.7631875,
+      "secondCheck": {
+        "model": "base.en",
+        "actual": "How long do you usually need to sit for at work?",
+        "match": true
+      }
+    },
+    {
+      "voice": "male",
+      "line": 5,
+      "expected": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "actual": "So sitting through a 30 minute meeting more comfortably would be useful.",
+      "match": true,
+      "duration": 4.6208125
+    },
+    {
+      "voice": "male",
+      "line": 7,
+      "expected": "You also mentioned wanting to get back to running.",
+      "actual": "You also mentioned wanting to get back to running.",
+      "match": true,
+      "duration": 2.809625
+    },
+    {
+      "voice": "male",
+      "line": 8,
+      "expected": "Is that another priority for you?",
+      "actual": "Is that another priority for you?",
+      "match": true,
+      "duration": 2.6703125
+    },
+    {
+      "voice": "male",
+      "line": 11,
+      "expected": "That makes sense.",
+      "actual": "That makes sense.",
+      "match": true,
+      "duration": 1.3003125
+    },
+    {
+      "voice": "male",
+      "line": 12,
+      "expected": "Shall we start with the meeting goal as a short-term goal",
+      "actual": "Shall we start with the meeting goal as a short term goal?",
+      "match": true,
+      "duration": 2.9721875
+    },
+    {
+      "voice": "male",
+      "line": 13,
+      "expected": "and work towards getting you back to running over time?",
+      "actual": "and work towards getting you back to running over time.",
+      "match": true,
+      "duration": 2.832875
+    },
+    {
+      "voice": "patient",
+      "line": 2,
+      "expected": "I'd like to sit at work without constantly having to change positions.",
+      "actual": "I'd like to sit at work without constantly having to change positions.",
+      "match": true,
+      "duration": 3.2508125
+    },
+    {
+      "voice": "patient",
+      "line": 4,
+      "expected": "Sometimes I have meetings that last about half an hour.",
+      "actual": "Sometimes I have meetings that last about half an hour.",
+      "match": true,
+      "duration": 2.71675
+    },
+    {
+      "voice": "patient",
+      "line": 6,
+      "expected": "Yes, definitely.",
+      "actual": "Yes, definitely.",
+      "match": true,
+      "duration": 1.5093125
+    },
+    {
+      "voice": "patient",
+      "line": 9,
+      "expected": "Yes, I'd really like to run again,",
+      "actual": "Yes, I'd really like to run again.",
+      "match": true,
+      "duration": 1.8111875
+    },
+    {
+      "voice": "patient",
+      "line": 10,
+      "expected": "but sitting at work is the main problem at the moment.",
+      "actual": "but sitting at work is the main problem at the moment.",
+      "match": true,
+      "duration": 2.1594375
+    },
+    {
+      "voice": "patient",
+      "line": 14,
+      "expected": "Yes, that sounds like a good place to start.",
+      "actual": "Yes, that sounds like a good place to start.",
+      "match": true,
+      "duration": 2.2988125
+    }
+  ],
+  "resolvedMatches": 22
+}

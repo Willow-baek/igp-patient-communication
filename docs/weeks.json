@@ -274,92 +274,135 @@
           "speaker": "Physio",
           "en": "John, what would you most like to get back to doing?",
           "ko": "John, 어떤 활동을 가장 다시 하고 싶으세요?",
-          "turn": 1
+          "turn": 1,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/01.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/01.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "en": "I'd like to sit at work without constantly having to change positions.",
           "ko": "직장에서 계속 자세를 바꾸지 않고 앉아 있고 싶어요.",
-          "turn": 2
+          "turn": 2,
+          "audio": "audio/week-02/2026-10-31-v1/patient/02.m4a"
         },
         {
           "speaker": "Physio",
           "en": "How long do you usually need to sit for at work?",
           "ko": "직장에서는 보통 얼마나 오래 앉아 계셔야 하나요?",
-          "turn": 3
+          "turn": 3,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/03.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/03.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "en": "Sometimes I have meetings that last about half an hour.",
           "ko": "가끔 30분 정도 이어지는 회의가 있어요.",
-          "turn": 4
+          "turn": 4,
+          "audio": "audio/week-02/2026-10-31-v1/patient/04.m4a"
         },
         {
           "speaker": "Physio",
           "en": "So sitting through a 30-minute meeting more comfortably would be useful?",
           "ko": "그러면 30분 회의 동안 좀 더 편하게 앉아 있을 수 있으면 도움이 되겠네요?",
-          "turn": 5
+          "turn": 5,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/05.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/05.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "en": "Yes, definitely.",
           "ko": "네, 정말요.",
-          "turn": 6
+          "turn": 6,
+          "audio": "audio/week-02/2026-10-31-v1/patient/06.m4a"
         },
         {
           "speaker": "Physio",
           "en": "You also mentioned wanting to get back to running.",
           "ko": "달리기도 다시 하고 싶다고 하셨죠.",
-          "turn": 7
+          "turn": 7,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/07.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/07.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "en": "Is that another priority for you?",
           "ko": "그것도 중요하게 생각하시는 목표인가요?",
-          "turn": 7
+          "turn": 7,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/08.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/08.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "en": "Yes, I'd really like to run again,",
           "ko": "네, 정말 다시 달리고 싶어요.",
-          "turn": 8
+          "turn": 8,
+          "audio": "audio/week-02/2026-10-31-v1/patient/09.m4a"
         },
         {
           "speaker": "Patient",
           "en": "but sitting at work is the main problem at the moment.",
           "ko": "하지만 지금은 직장에서 앉아 있는 게 가장 큰 문제예요.",
-          "turn": 8
+          "turn": 8,
+          "audio": "audio/week-02/2026-10-31-v1/patient/10.m4a"
         },
         {
           "speaker": "Physio",
           "en": "That makes sense.",
           "ko": "그렇군요.",
-          "turn": 9
+          "turn": 9,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/11.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/11.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "en": "Shall we start with the meeting goal as a short-term goal",
           "ko": "회의 때 편하게 앉아 있는 것을 단기 목표로 먼저 삼고,",
-          "turn": 9
+          "turn": 9,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/12.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/12.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "en": "and work towards getting you back to running over time?",
           "ko": "시간을 두고 다시 달릴 수 있도록 함께해 볼까요?",
-          "turn": 9
+          "turn": 9,
+          "audioVoices": {
+            "female": "audio/week-02/2026-10-31-v1/female/13.m4a",
+            "male": "audio/week-02/2026-10-31-v1/male/13.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "en": "Yes, that sounds like a good place to start.",
           "ko": "네, 거기서부터 시작하면 좋겠어요.",
-          "turn": 10
+          "turn": 10,
+          "audio": "audio/week-02/2026-10-31-v1/patient/14.m4a"
         }
       ],
       "patient": {
         "id": "john-thompson",
         "name": "John Thompson"
       },
-      "scriptRevision": "2026-10-31-user-day-2-split-3"
+      "scriptRevision": "2026-10-31-user-day-2-split-3",
+      "physioAudio": {
+        "female": "audio/week-02/original/W2_PT_female.mp3",
+        "male": "audio/week-02/original/W2_PT_male.mp3"
+      },
+      "patientAudio": "audio/week-02/original/W2_pt.mp3"
     }
   ]
 }

@@ -1,0 +1,1559 @@
+{
+  "method": "Local faster-whisper tiny.en word alignment plus inspected 5ms RMS waveforms. Shared cuts retain original tails and the next onset; no synthetic silence, no fades, no manual listening review.",
+  "scriptRevision": "2026-10-31-user-day-2-split-3",
+  "sampleRateForWaveform": 48000,
+  "tracks": {
+    "female": {
+      "source": "audio/week-02/original/W2_PT_female.mp3",
+      "sha256": "6cab19a224235bd10b3537aaba89431d705a6232627e1c0dec8b5cc9ba0ab5e7",
+      "duration": 23.066125,
+      "clips": [
+        {
+          "line": 1,
+          "text": "John, what would you most like to get back to doing?",
+          "speechStart": 0.0,
+          "speechEnd": 3.08,
+          "start": 0,
+          "end": 3.55,
+          "output": "audio/week-02/2026-10-31-v1/female/01.m4a"
+        },
+        {
+          "line": 3,
+          "text": "How long do you usually need to sit for at work?",
+          "speechStart": 3.84,
+          "speechEnd": 6.08,
+          "start": 3.55,
+          "end": 6.2,
+          "output": "audio/week-02/2026-10-31-v1/female/03.m4a"
+        },
+        {
+          "line": 5,
+          "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
+          "speechStart": 6.42,
+          "speechEnd": 9.5,
+          "start": 6.2,
+          "end": 10.0,
+          "output": "audio/week-02/2026-10-31-v1/female/05.m4a"
+        },
+        {
+          "line": 7,
+          "text": "You also mentioned wanting to get back to running.",
+          "speechStart": 10.38,
+          "speechEnd": 12.34,
+          "start": 10.0,
+          "end": 12.72,
+          "output": "audio/week-02/2026-10-31-v1/female/07.m4a"
+        },
+        {
+          "line": 8,
+          "text": "Is that another priority for you?",
+          "speechStart": 12.94,
+          "speechEnd": 14.98,
+          "start": 12.72,
+          "end": 15.4,
+          "output": "audio/week-02/2026-10-31-v1/female/08.m4a"
+        },
+        {
+          "line": 11,
+          "text": "That makes sense.",
+          "speechStart": 15.66,
+          "speechEnd": 16.7,
+          "start": 15.4,
+          "end": 17.2,
+          "output": "audio/week-02/2026-10-31-v1/female/11.m4a"
+        },
+        {
+          "line": 12,
+          "text": "Shall we start with the meeting goal as a short-term goal",
+          "speechStart": 17.96,
+          "speechEnd": 20.52,
+          "start": 17.2,
+          "end": 20.52,
+          "output": "audio/week-02/2026-10-31-v1/female/12.m4a"
+        },
+        {
+          "line": 13,
+          "text": "and work towards getting you back to running over time?",
+          "speechStart": 20.52,
+          "speechEnd": 22.66,
+          "start": 20.52,
+          "end": 23.066125,
+          "output": "audio/week-02/2026-10-31-v1/female/13.m4a"
+        }
+      ],
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 5.2,
+          "text": " John, what would you most like to get back to doing? How long do you usually need to",
+          "words": [
+            {
+              "word": " John,",
+              "start": 0.0,
+              "end": 0.44,
+              "probability": 0.8415507078170776
+            },
+            {
+              "word": " what",
+              "start": 1.12,
+              "end": 1.18,
+              "probability": 0.980279803276062
+            },
+            {
+              "word": " would",
+              "start": 1.18,
+              "end": 1.42,
+              "probability": 0.9974378347396851
+            },
+            {
+              "word": " you",
+              "start": 1.42,
+              "end": 1.66,
+              "probability": 0.9857038855552673
+            },
+            {
+              "word": " most",
+              "start": 1.66,
+              "end": 1.92,
+              "probability": 0.9960048794746399
+            },
+            {
+              "word": " like",
+              "start": 1.92,
+              "end": 2.16,
+              "probability": 0.9972251653671265
+            },
+            {
+              "word": " to",
+              "start": 2.16,
+              "end": 2.26,
+              "probability": 0.9985301494598389
+            },
+            {
+              "word": " get",
+              "start": 2.26,
+              "end": 2.4,
+              "probability": 0.9988309741020203
+            },
+            {
+              "word": " back",
+              "start": 2.4,
+              "end": 2.64,
+              "probability": 0.9986624717712402
+            },
+            {
+              "word": " to",
+              "start": 2.64,
+              "end": 2.8,
+              "probability": 0.9984112977981567
+            },
+            {
+              "word": " doing?",
+              "start": 2.8,
+              "end": 3.08,
+              "probability": 0.997890293598175
+            },
+            {
+              "word": " How",
+              "start": 3.84,
+              "end": 4.04,
+              "probability": 0.994337260723114
+            },
+            {
+              "word": " long",
+              "start": 4.04,
+              "end": 4.28,
+              "probability": 0.9993849992752075
+            },
+            {
+              "word": " do",
+              "start": 4.28,
+              "end": 4.42,
+              "probability": 0.9981745481491089
+            },
+            {
+              "word": " you",
+              "start": 4.42,
+              "end": 4.78,
+              "probability": 0.9960197806358337
+            },
+            {
+              "word": " usually",
+              "start": 4.78,
+              "end": 4.78,
+              "probability": 0.9930433034896851
+            },
+            {
+              "word": " need",
+              "start": 4.78,
+              "end": 5.02,
+              "probability": 0.9990031123161316
+            },
+            {
+              "word": " to",
+              "start": 5.02,
+              "end": 5.2,
+              "probability": 0.9984970092773438
+            }
+          ]
+        },
+        {
+          "start": 5.2,
+          "end": 9.5,
+          "text": " sit for at work, so sitting through a 30 minute meeting more comfortably would be useful?",
+          "words": [
+            {
+              "word": " sit",
+              "start": 5.2,
+              "end": 5.4,
+              "probability": 0.9889310002326965
+            },
+            {
+              "word": " for",
+              "start": 5.4,
+              "end": 5.56,
+              "probability": 0.9960857629776001
+            },
+            {
+              "word": " at",
+              "start": 5.56,
+              "end": 5.74,
+              "probability": 0.8438193202018738
+            },
+            {
+              "word": " work,",
+              "start": 5.74,
+              "end": 6.08,
+              "probability": 0.9995297193527222
+            },
+            {
+              "word": " so",
+              "start": 6.42,
+              "end": 6.58,
+              "probability": 0.9933691620826721
+            },
+            {
+              "word": " sitting",
+              "start": 6.58,
+              "end": 6.84,
+              "probability": 0.9697171449661255
+            },
+            {
+              "word": " through",
+              "start": 6.84,
+              "end": 7.06,
+              "probability": 0.995740532875061
+            },
+            {
+              "word": " a",
+              "start": 7.06,
+              "end": 7.32,
+              "probability": 0.9986704587936401
+            },
+            {
+              "word": " 30",
+              "start": 7.32,
+              "end": 7.48,
+              "probability": 0.929581344127655
+            },
+            {
+              "word": " minute",
+              "start": 7.48,
+              "end": 7.72,
+              "probability": 0.7322388291358948
+            },
+            {
+              "word": " meeting",
+              "start": 7.72,
+              "end": 7.98,
+              "probability": 0.9979152083396912
+            },
+            {
+              "word": " more",
+              "start": 7.98,
+              "end": 8.26,
+              "probability": 0.9984508752822876
+            },
+            {
+              "word": " comfortably",
+              "start": 8.26,
+              "end": 8.62,
+              "probability": 0.9986866116523743
+            },
+            {
+              "word": " would",
+              "start": 8.62,
+              "end": 8.9,
+              "probability": 0.9874886870384216
+            },
+            {
+              "word": " be",
+              "start": 8.9,
+              "end": 9.08,
+              "probability": 0.9975318908691406
+            },
+            {
+              "word": " useful?",
+              "start": 9.08,
+              "end": 9.5,
+              "probability": 0.9992953538894653
+            }
+          ]
+        },
+        {
+          "start": 10.38,
+          "end": 14.98,
+          "text": " You also mentioned wanting to get back to running. Is that another priority for you?",
+          "words": [
+            {
+              "word": " You",
+              "start": 10.38,
+              "end": 10.54,
+              "probability": 0.990056574344635
+            },
+            {
+              "word": " also",
+              "start": 10.54,
+              "end": 10.82,
+              "probability": 0.9906864762306213
+            },
+            {
+              "word": " mentioned",
+              "start": 10.82,
+              "end": 11.12,
+              "probability": 0.9864215850830078
+            },
+            {
+              "word": " wanting",
+              "start": 11.12,
+              "end": 11.4,
+              "probability": 0.9976266026496887
+            },
+            {
+              "word": " to",
+              "start": 11.4,
+              "end": 11.54,
+              "probability": 0.9986158609390259
+            },
+            {
+              "word": " get",
+              "start": 11.54,
+              "end": 11.68,
+              "probability": 0.9980871677398682
+            },
+            {
+              "word": " back",
+              "start": 11.68,
+              "end": 11.88,
+              "probability": 0.9972279667854309
+            },
+            {
+              "word": " to",
+              "start": 11.88,
+              "end": 12.06,
+              "probability": 0.9990609288215637
+            },
+            {
+              "word": " running.",
+              "start": 12.06,
+              "end": 12.34,
+              "probability": 0.9969576597213745
+            },
+            {
+              "word": " Is",
+              "start": 12.94,
+              "end": 13.24,
+              "probability": 0.9946797490119934
+            },
+            {
+              "word": " that",
+              "start": 13.24,
+              "end": 13.42,
+              "probability": 0.9977191090583801
+            },
+            {
+              "word": " another",
+              "start": 13.42,
+              "end": 13.7,
+              "probability": 0.9959511756896973
+            },
+            {
+              "word": " priority",
+              "start": 13.7,
+              "end": 14.08,
+              "probability": 0.9984776377677917
+            },
+            {
+              "word": " for",
+              "start": 14.08,
+              "end": 14.4,
+              "probability": 0.9959583878517151
+            },
+            {
+              "word": " you?",
+              "start": 14.4,
+              "end": 14.98,
+              "probability": 0.9992901086807251
+            }
+          ]
+        },
+        {
+          "start": 15.66,
+          "end": 21.26,
+          "text": " That makes sense. Shall we start with the meeting goal as a short-term goal and work towards",
+          "words": [
+            {
+              "word": " That",
+              "start": 15.66,
+              "end": 15.94,
+              "probability": 0.980940043926239
+            },
+            {
+              "word": " makes",
+              "start": 15.94,
+              "end": 16.22,
+              "probability": 0.9277761578559875
+            },
+            {
+              "word": " sense.",
+              "start": 16.22,
+              "end": 16.7,
+              "probability": 0.9998555183410645
+            },
+            {
+              "word": " Shall",
+              "start": 17.96,
+              "end": 18.14,
+              "probability": 0.9645700454711914
+            },
+            {
+              "word": " we",
+              "start": 18.14,
+              "end": 18.32,
+              "probability": 0.9993287324905396
+            },
+            {
+              "word": " start",
+              "start": 18.32,
+              "end": 18.52,
+              "probability": 0.999303936958313
+            },
+            {
+              "word": " with",
+              "start": 18.52,
+              "end": 18.66,
+              "probability": 0.9957042336463928
+            },
+            {
+              "word": " the",
+              "start": 18.66,
+              "end": 18.82,
+              "probability": 0.858269989490509
+            },
+            {
+              "word": " meeting",
+              "start": 18.82,
+              "end": 19.04,
+              "probability": 0.9901686906814575
+            },
+            {
+              "word": " goal",
+              "start": 19.04,
+              "end": 19.32,
+              "probability": 0.9965006113052368
+            },
+            {
+              "word": " as",
+              "start": 19.32,
+              "end": 19.58,
+              "probability": 0.9864963889122009
+            },
+            {
+              "word": " a",
+              "start": 19.58,
+              "end": 19.84,
+              "probability": 0.9944228529930115
+            },
+            {
+              "word": " short",
+              "start": 19.84,
+              "end": 19.92,
+              "probability": 0.9962371587753296
+            },
+            {
+              "word": "-term",
+              "start": 19.92,
+              "end": 20.12,
+              "probability": 0.6746057271957397
+            },
+            {
+              "word": " goal",
+              "start": 20.12,
+              "end": 20.52,
+              "probability": 0.9987504482269287
+            },
+            {
+              "word": " and",
+              "start": 20.52,
+              "end": 20.76,
+              "probability": 0.8973596096038818
+            },
+            {
+              "word": " work",
+              "start": 20.76,
+              "end": 20.96,
+              "probability": 0.9877915978431702
+            },
+            {
+              "word": " towards",
+              "start": 20.96,
+              "end": 21.26,
+              "probability": 0.9897761344909668
+            }
+          ]
+        },
+        {
+          "start": 21.26,
+          "end": 22.66,
+          "text": " getting you back to running over time?",
+          "words": [
+            {
+              "word": " getting",
+              "start": 21.26,
+              "end": 21.5,
+              "probability": 0.6398643851280212
+            },
+            {
+              "word": " you",
+              "start": 21.5,
+              "end": 21.68,
+              "probability": 0.9958341121673584
+            },
+            {
+              "word": " back",
+              "start": 21.68,
+              "end": 21.86,
+              "probability": 0.9996206760406494
+            },
+            {
+              "word": " to",
+              "start": 21.86,
+              "end": 22.08,
+              "probability": 0.9974888563156128
+            },
+            {
+              "word": " running",
+              "start": 22.08,
+              "end": 22.18,
+              "probability": 0.9989633560180664
+            },
+            {
+              "word": " over",
+              "start": 22.18,
+              "end": 22.36,
+              "probability": 0.9607572555541992
+            },
+            {
+              "word": " time?",
+              "start": 22.36,
+              "end": 22.66,
+              "probability": 0.9972877502441406
+            }
+          ]
+        }
+      ]
+    },
+    "male": {
+      "source": "audio/week-02/original/W2_PT_male.mp3",
+      "sha256": "4360b3c7e4ae5849a8f048fe283c5194bbf3ec4ec5caa778f12f51c7c63ee1d7",
+      "duration": 23.118375,
+      "clips": [
+        {
+          "line": 1,
+          "text": "John, what would you most like to get back to doing?",
+          "speechStart": 0.0,
+          "speechEnd": 2.88,
+          "start": 0,
+          "end": 3.25,
+          "output": "audio/week-02/2026-10-31-v1/male/01.m4a"
+        },
+        {
+          "line": 3,
+          "text": "How long do you usually need to sit for at work?",
+          "speechStart": 3.56,
+          "speechEnd": 5.68,
+          "start": 3.25,
+          "end": 6.0,
+          "output": "audio/week-02/2026-10-31-v1/male/03.m4a"
+        },
+        {
+          "line": 5,
+          "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
+          "speechStart": 6.32,
+          "speechEnd": 10.12,
+          "start": 6.0,
+          "end": 10.6,
+          "output": "audio/week-02/2026-10-31-v1/male/05.m4a"
+        },
+        {
+          "line": 7,
+          "text": "You also mentioned wanting to get back to running.",
+          "speechStart": 11.04,
+          "speechEnd": 13.06,
+          "start": 10.6,
+          "end": 13.4,
+          "output": "audio/week-02/2026-10-31-v1/male/07.m4a"
+        },
+        {
+          "line": 8,
+          "text": "Is that another priority for you?",
+          "speechStart": 13.68,
+          "speechEnd": 15.88,
+          "start": 13.4,
+          "end": 16.065,
+          "output": "audio/week-02/2026-10-31-v1/male/08.m4a"
+        },
+        {
+          "line": 11,
+          "text": "That makes sense.",
+          "speechStart": 16.04,
+          "speechEnd": 17.0,
+          "start": 16.065,
+          "end": 17.35,
+          "output": "audio/week-02/2026-10-31-v1/male/11.m4a"
+        },
+        {
+          "line": 12,
+          "text": "Shall we start with the meeting goal as a short-term goal",
+          "speechStart": 17.56,
+          "speechEnd": 20.2,
+          "start": 17.35,
+          "end": 20.3,
+          "output": "audio/week-02/2026-10-31-v1/male/12.m4a"
+        },
+        {
+          "line": 13,
+          "text": "and work towards getting you back to running over time?",
+          "speechStart": 20.2,
+          "speechEnd": 22.8,
+          "start": 20.3,
+          "end": 23.118375,
+          "output": "audio/week-02/2026-10-31-v1/male/13.m4a"
+        }
+      ],
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 2.88,
+          "text": " John, what would you most like to get back to doing?",
+          "words": [
+            {
+              "word": " John,",
+              "start": 0.0,
+              "end": 0.38,
+              "probability": 0.7422817349433899
+            },
+            {
+              "word": " what",
+              "start": 1.02,
+              "end": 1.14,
+              "probability": 0.9857024550437927
+            },
+            {
+              "word": " would",
+              "start": 1.14,
+              "end": 1.34,
+              "probability": 0.9957736134529114
+            },
+            {
+              "word": " you",
+              "start": 1.34,
+              "end": 1.56,
+              "probability": 0.9915472865104675
+            },
+            {
+              "word": " most",
+              "start": 1.56,
+              "end": 1.82,
+              "probability": 0.9923741221427917
+            },
+            {
+              "word": " like",
+              "start": 1.82,
+              "end": 2.08,
+              "probability": 0.9964538812637329
+            },
+            {
+              "word": " to",
+              "start": 2.08,
+              "end": 2.16,
+              "probability": 0.9983201622962952
+            },
+            {
+              "word": " get",
+              "start": 2.16,
+              "end": 2.3,
+              "probability": 0.99769526720047
+            },
+            {
+              "word": " back",
+              "start": 2.3,
+              "end": 2.5,
+              "probability": 0.9982300400733948
+            },
+            {
+              "word": " to",
+              "start": 2.5,
+              "end": 2.64,
+              "probability": 0.9979056119918823
+            },
+            {
+              "word": " doing?",
+              "start": 2.64,
+              "end": 2.88,
+              "probability": 0.9985851049423218
+            }
+          ]
+        },
+        {
+          "start": 3.56,
+          "end": 5.68,
+          "text": " How long do you usually need to sit for at work?",
+          "words": [
+            {
+              "word": " How",
+              "start": 3.56,
+              "end": 3.76,
+              "probability": 0.9928504228591919
+            },
+            {
+              "word": " long",
+              "start": 3.76,
+              "end": 3.94,
+              "probability": 0.9994828701019287
+            },
+            {
+              "word": " do",
+              "start": 3.94,
+              "end": 4.04,
+              "probability": 0.9972530007362366
+            },
+            {
+              "word": " you",
+              "start": 4.04,
+              "end": 4.34,
+              "probability": 0.9909238219261169
+            },
+            {
+              "word": " usually",
+              "start": 4.34,
+              "end": 4.38,
+              "probability": 0.9922466278076172
+            },
+            {
+              "word": " need",
+              "start": 4.38,
+              "end": 4.62,
+              "probability": 0.9991313815116882
+            },
+            {
+              "word": " to",
+              "start": 4.62,
+              "end": 4.76,
+              "probability": 0.9984684586524963
+            },
+            {
+              "word": " sit",
+              "start": 4.76,
+              "end": 4.96,
+              "probability": 0.9816802740097046
+            },
+            {
+              "word": " for",
+              "start": 4.96,
+              "end": 5.12,
+              "probability": 0.9971218705177307
+            },
+            {
+              "word": " at",
+              "start": 5.12,
+              "end": 5.3,
+              "probability": 0.8477723002433777
+            },
+            {
+              "word": " work?",
+              "start": 5.3,
+              "end": 5.68,
+              "probability": 0.9989017248153687
+            }
+          ]
+        },
+        {
+          "start": 6.32,
+          "end": 10.12,
+          "text": " So sitting through a 30 minute meeting more comfortably would be useful.",
+          "words": [
+            {
+              "word": " So",
+              "start": 6.32,
+              "end": 6.62,
+              "probability": 0.988172709941864
+            },
+            {
+              "word": " sitting",
+              "start": 6.62,
+              "end": 6.84,
+              "probability": 0.49048417806625366
+            },
+            {
+              "word": " through",
+              "start": 6.84,
+              "end": 7.16,
+              "probability": 0.9974803328514099
+            },
+            {
+              "word": " a",
+              "start": 7.16,
+              "end": 7.38,
+              "probability": 0.9985148310661316
+            },
+            {
+              "word": " 30",
+              "start": 7.38,
+              "end": 7.58,
+              "probability": 0.9605183005332947
+            },
+            {
+              "word": " minute",
+              "start": 7.58,
+              "end": 7.78,
+              "probability": 0.795542299747467
+            },
+            {
+              "word": " meeting",
+              "start": 7.78,
+              "end": 8.08,
+              "probability": 0.9969989061355591
+            },
+            {
+              "word": " more",
+              "start": 8.08,
+              "end": 8.36,
+              "probability": 0.9952268600463867
+            },
+            {
+              "word": " comfortably",
+              "start": 8.36,
+              "end": 8.8,
+              "probability": 0.9985238909721375
+            },
+            {
+              "word": " would",
+              "start": 8.8,
+              "end": 9.54,
+              "probability": 0.9037066102027893
+            },
+            {
+              "word": " be",
+              "start": 9.54,
+              "end": 9.74,
+              "probability": 0.9990554451942444
+            },
+            {
+              "word": " useful.",
+              "start": 9.74,
+              "end": 10.12,
+              "probability": 0.9994850158691406
+            }
+          ]
+        },
+        {
+          "start": 11.04,
+          "end": 13.06,
+          "text": " You also mentioned wanting to get back to running.",
+          "words": [
+            {
+              "word": " You",
+              "start": 11.04,
+              "end": 11.16,
+              "probability": 0.9951359629631042
+            },
+            {
+              "word": " also",
+              "start": 11.16,
+              "end": 11.5,
+              "probability": 0.9855669736862183
+            },
+            {
+              "word": " mentioned",
+              "start": 11.5,
+              "end": 11.86,
+              "probability": 0.9985791444778442
+            },
+            {
+              "word": " wanting",
+              "start": 11.86,
+              "end": 12.12,
+              "probability": 0.9983683228492737
+            },
+            {
+              "word": " to",
+              "start": 12.12,
+              "end": 12.28,
+              "probability": 0.9989537000656128
+            },
+            {
+              "word": " get",
+              "start": 12.28,
+              "end": 12.44,
+              "probability": 0.9985969662666321
+            },
+            {
+              "word": " back",
+              "start": 12.44,
+              "end": 12.62,
+              "probability": 0.9984446167945862
+            },
+            {
+              "word": " to",
+              "start": 12.62,
+              "end": 12.78,
+              "probability": 0.9992927312850952
+            },
+            {
+              "word": " running.",
+              "start": 12.78,
+              "end": 13.06,
+              "probability": 0.9956371188163757
+            }
+          ]
+        },
+        {
+          "start": 13.68,
+          "end": 15.88,
+          "text": " Is that another priority for you?",
+          "words": [
+            {
+              "word": " Is",
+              "start": 13.68,
+              "end": 13.94,
+              "probability": 0.9936781525611877
+            },
+            {
+              "word": " that",
+              "start": 13.94,
+              "end": 14.12,
+              "probability": 0.99858558177948
+            },
+            {
+              "word": " another",
+              "start": 14.12,
+              "end": 14.42,
+              "probability": 0.9961035251617432
+            },
+            {
+              "word": " priority",
+              "start": 14.42,
+              "end": 14.82,
+              "probability": 0.9973715543746948
+            },
+            {
+              "word": " for",
+              "start": 14.82,
+              "end": 15.16,
+              "probability": 0.9948282837867737
+            },
+            {
+              "word": " you?",
+              "start": 15.16,
+              "end": 15.88,
+              "probability": 0.9994475245475769
+            }
+          ]
+        },
+        {
+          "start": 16.04,
+          "end": 17.0,
+          "text": " That makes sense.",
+          "words": [
+            {
+              "word": " That",
+              "start": 16.04,
+              "end": 16.3,
+              "probability": 0.9944426417350769
+            },
+            {
+              "word": " makes",
+              "start": 16.3,
+              "end": 16.58,
+              "probability": 0.9680473208427429
+            },
+            {
+              "word": " sense.",
+              "start": 16.58,
+              "end": 17.0,
+              "probability": 0.9997544884681702
+            }
+          ]
+        },
+        {
+          "start": 17.56,
+          "end": 20.2,
+          "text": " Shall we start with the meeting goal as a short term goal",
+          "words": [
+            {
+              "word": " Shall",
+              "start": 17.56,
+              "end": 17.68,
+              "probability": 0.9822365045547485
+            },
+            {
+              "word": " we",
+              "start": 17.68,
+              "end": 17.88,
+              "probability": 0.998931348323822
+            },
+            {
+              "word": " start",
+              "start": 17.88,
+              "end": 18.08,
+              "probability": 0.9993103742599487
+            },
+            {
+              "word": " with",
+              "start": 18.08,
+              "end": 18.26,
+              "probability": 0.9973485469818115
+            },
+            {
+              "word": " the",
+              "start": 18.26,
+              "end": 18.46,
+              "probability": 0.9862335920333862
+            },
+            {
+              "word": " meeting",
+              "start": 18.46,
+              "end": 18.66,
+              "probability": 0.9495180249214172
+            },
+            {
+              "word": " goal",
+              "start": 18.66,
+              "end": 18.94,
+              "probability": 0.995452344417572
+            },
+            {
+              "word": " as",
+              "start": 18.94,
+              "end": 19.14,
+              "probability": 0.9715675115585327
+            },
+            {
+              "word": " a",
+              "start": 19.14,
+              "end": 19.44,
+              "probability": 0.994745135307312
+            },
+            {
+              "word": " short",
+              "start": 19.44,
+              "end": 19.52,
+              "probability": 0.9990488886833191
+            },
+            {
+              "word": " term",
+              "start": 19.52,
+              "end": 19.78,
+              "probability": 0.7596442103385925
+            },
+            {
+              "word": " goal",
+              "start": 19.78,
+              "end": 20.2,
+              "probability": 0.996589183807373
+            }
+          ]
+        },
+        {
+          "start": 20.2,
+          "end": 22.8,
+          "text": " and work towards getting you back to running over time?",
+          "words": [
+            {
+              "word": " and",
+              "start": 20.2,
+              "end": 20.8,
+              "probability": 0.781955897808075
+            },
+            {
+              "word": " work",
+              "start": 20.8,
+              "end": 21.02,
+              "probability": 0.9925529360771179
+            },
+            {
+              "word": " towards",
+              "start": 21.02,
+              "end": 21.3,
+              "probability": 0.9872223734855652
+            },
+            {
+              "word": " getting",
+              "start": 21.3,
+              "end": 21.54,
+              "probability": 0.9989112615585327
+            },
+            {
+              "word": " you",
+              "start": 21.54,
+              "end": 21.76,
+              "probability": 0.9957024455070496
+            },
+            {
+              "word": " back",
+              "start": 21.76,
+              "end": 21.94,
+              "probability": 0.9988808035850525
+            },
+            {
+              "word": " to",
+              "start": 21.94,
+              "end": 22.18,
+              "probability": 0.9971621632575989
+            },
+            {
+              "word": " running",
+              "start": 22.18,
+              "end": 22.28,
+              "probability": 0.9982476234436035
+            },
+            {
+              "word": " over",
+              "start": 22.28,
+              "end": 22.48,
+              "probability": 0.8206039071083069
+            },
+            {
+              "word": " time?",
+              "start": 22.48,
+              "end": 22.8,
+              "probability": 0.9991174340248108
+            }
+          ]
+        }
+      ]
+    },
+    "patient": {
+      "source": "audio/week-02/original/W2_pt.mp3",
+      "sha256": "46cf71c24be940164b2e196d39f70bf319eb2b93460d29d5c7115c520fdbbef5",
+      "duration": 13.688166666666667,
+      "clips": [
+        {
+          "line": 2,
+          "text": "I'd like to sit at work without constantly having to change positions.",
+          "speechStart": 0.0,
+          "speechEnd": 2.76,
+          "start": 0,
+          "end": 3.25,
+          "output": "audio/week-02/2026-10-31-v1/patient/02.m4a"
+        },
+        {
+          "line": 4,
+          "text": "Sometimes I have meetings that last about half an hour.",
+          "speechStart": 3.6,
+          "speechEnd": 5.66,
+          "start": 3.25,
+          "end": 5.95,
+          "output": "audio/week-02/2026-10-31-v1/patient/04.m4a"
+        },
+        {
+          "line": 6,
+          "text": "Yes, definitely.",
+          "speechStart": 6.14,
+          "speechEnd": 7.0,
+          "start": 5.95,
+          "end": 7.45,
+          "output": "audio/week-02/2026-10-31-v1/patient/06.m4a"
+        },
+        {
+          "line": 9,
+          "text": "Yes, I'd really like to run again,",
+          "speechStart": 7.74,
+          "speechEnd": 9.04,
+          "start": 7.45,
+          "end": 9.26,
+          "output": "audio/week-02/2026-10-31-v1/patient/09.m4a"
+        },
+        {
+          "line": 10,
+          "text": "but sitting at work is the main problem at the moment.",
+          "speechStart": 9.36,
+          "speechEnd": 11.1,
+          "start": 9.26,
+          "end": 11.4,
+          "output": "audio/week-02/2026-10-31-v1/patient/10.m4a"
+        },
+        {
+          "line": 14,
+          "text": "Yes, that sounds like a good place to start.",
+          "speechStart": 11.66,
+          "speechEnd": 13.32,
+          "start": 11.4,
+          "end": 13.688166666666667,
+          "output": "audio/week-02/2026-10-31-v1/patient/14.m4a"
+        }
+      ],
+      "asr": [
+        {
+          "start": 0.0,
+          "end": 2.76,
+          "text": " I'd like to sit at work without constantly having to change positions.",
+          "words": [
+            {
+              "word": " I'd",
+              "start": 0.0,
+              "end": 0.32,
+              "probability": 0.9083904325962067
+            },
+            {
+              "word": " like",
+              "start": 0.32,
+              "end": 0.4,
+              "probability": 0.998279333114624
+            },
+            {
+              "word": " to",
+              "start": 0.4,
+              "end": 0.52,
+              "probability": 0.9984400868415833
+            },
+            {
+              "word": " sit",
+              "start": 0.52,
+              "end": 0.6,
+              "probability": 0.9332171678543091
+            },
+            {
+              "word": " at",
+              "start": 0.6,
+              "end": 0.76,
+              "probability": 0.9930368065834045
+            },
+            {
+              "word": " work",
+              "start": 0.76,
+              "end": 0.92,
+              "probability": 0.9990849494934082
+            },
+            {
+              "word": " without",
+              "start": 0.92,
+              "end": 1.16,
+              "probability": 0.9166034460067749
+            },
+            {
+              "word": " constantly",
+              "start": 1.16,
+              "end": 1.52,
+              "probability": 0.9932264685630798
+            },
+            {
+              "word": " having",
+              "start": 1.52,
+              "end": 1.76,
+              "probability": 0.9932186007499695
+            },
+            {
+              "word": " to",
+              "start": 1.76,
+              "end": 1.92,
+              "probability": 0.9975584745407104
+            },
+            {
+              "word": " change",
+              "start": 1.92,
+              "end": 2.18,
+              "probability": 0.9985492825508118
+            },
+            {
+              "word": " positions.",
+              "start": 2.18,
+              "end": 2.76,
+              "probability": 0.9973952770233154
+            }
+          ]
+        },
+        {
+          "start": 3.6,
+          "end": 5.66,
+          "text": " Sometimes I have meetings that last about half an hour.",
+          "words": [
+            {
+              "word": " Sometimes",
+              "start": 3.6,
+              "end": 3.9,
+              "probability": 0.9824472069740295
+            },
+            {
+              "word": " I",
+              "start": 3.9,
+              "end": 4.06,
+              "probability": 0.9198164939880371
+            },
+            {
+              "word": " have",
+              "start": 4.06,
+              "end": 4.2,
+              "probability": 0.9753811955451965
+            },
+            {
+              "word": " meetings",
+              "start": 4.2,
+              "end": 4.42,
+              "probability": 0.9928730726242065
+            },
+            {
+              "word": " that",
+              "start": 4.42,
+              "end": 4.62,
+              "probability": 0.9795864224433899
+            },
+            {
+              "word": " last",
+              "start": 4.62,
+              "end": 4.8,
+              "probability": 0.9802818298339844
+            },
+            {
+              "word": " about",
+              "start": 4.8,
+              "end": 5.06,
+              "probability": 0.9824472069740295
+            },
+            {
+              "word": " half",
+              "start": 5.06,
+              "end": 5.24,
+              "probability": 0.987995445728302
+            },
+            {
+              "word": " an",
+              "start": 5.24,
+              "end": 5.36,
+              "probability": 0.9981196522712708
+            },
+            {
+              "word": " hour.",
+              "start": 5.36,
+              "end": 5.66,
+              "probability": 0.9998013377189636
+            }
+          ]
+        },
+        {
+          "start": 6.14,
+          "end": 7.0,
+          "text": " Yes, definitely.",
+          "words": [
+            {
+              "word": " Yes,",
+              "start": 6.14,
+              "end": 6.5,
+              "probability": 0.9620589017868042
+            },
+            {
+              "word": " definitely.",
+              "start": 6.82,
+              "end": 7.0,
+              "probability": 0.9944990873336792
+            }
+          ]
+        },
+        {
+          "start": 7.74,
+          "end": 9.04,
+          "text": " Yes, I'd really like to run again,",
+          "words": [
+            {
+              "word": " Yes,",
+              "start": 7.74,
+              "end": 7.92,
+              "probability": 0.9791187644004822
+            },
+            {
+              "word": " I'd",
+              "start": 8.0,
+              "end": 8.1,
+              "probability": 0.9848986566066742
+            },
+            {
+              "word": " really",
+              "start": 8.1,
+              "end": 8.22,
+              "probability": 0.9596284031867981
+            },
+            {
+              "word": " like",
+              "start": 8.22,
+              "end": 8.42,
+              "probability": 0.9971234202384949
+            },
+            {
+              "word": " to",
+              "start": 8.42,
+              "end": 8.52,
+              "probability": 0.9988692402839661
+            },
+            {
+              "word": " run",
+              "start": 8.52,
+              "end": 8.66,
+              "probability": 0.9983227849006653
+            },
+            {
+              "word": " again,",
+              "start": 8.66,
+              "end": 9.04,
+              "probability": 0.9953423738479614
+            }
+          ]
+        },
+        {
+          "start": 9.36,
+          "end": 11.1,
+          "text": " but sitting at work is the main problem at the moment.",
+          "words": [
+            {
+              "word": " but",
+              "start": 9.36,
+              "end": 9.5,
+              "probability": 0.9924967288970947
+            },
+            {
+              "word": " sitting",
+              "start": 9.5,
+              "end": 9.6,
+              "probability": 0.9845563173294067
+            },
+            {
+              "word": " at",
+              "start": 9.6,
+              "end": 9.8,
+              "probability": 0.9982331991195679
+            },
+            {
+              "word": " work",
+              "start": 9.8,
+              "end": 9.94,
+              "probability": 0.9993871450424194
+            },
+            {
+              "word": " is",
+              "start": 9.94,
+              "end": 10.08,
+              "probability": 0.9978256821632385
+            },
+            {
+              "word": " the",
+              "start": 10.08,
+              "end": 10.2,
+              "probability": 0.9975219368934631
+            },
+            {
+              "word": " main",
+              "start": 10.2,
+              "end": 10.4,
+              "probability": 0.9994243383407593
+            },
+            {
+              "word": " problem",
+              "start": 10.4,
+              "end": 10.6,
+              "probability": 0.9990814924240112
+            },
+            {
+              "word": " at",
+              "start": 10.6,
+              "end": 10.76,
+              "probability": 0.9900864958763123
+            },
+            {
+              "word": " the",
+              "start": 10.76,
+              "end": 10.88,
+              "probability": 0.9968098998069763
+            },
+            {
+              "word": " moment.",
+              "start": 10.88,
+              "end": 11.1,
+              "probability": 0.9998291730880737
+            }
+          ]
+        },
+        {
+          "start": 11.66,
+          "end": 13.32,
+          "text": " Yes, that sounds like a good place to start.",
+          "words": [
+            {
+              "word": " Yes,",
+              "start": 11.66,
+              "end": 11.92,
+              "probability": 0.9920315742492676
+            },
+            {
+              "word": " that",
+              "start": 12.0,
+              "end": 12.12,
+              "probability": 0.9930115342140198
+            },
+            {
+              "word": " sounds",
+              "start": 12.12,
+              "end": 12.3,
+              "probability": 0.9952717423439026
+            },
+            {
+              "word": " like",
+              "start": 12.3,
+              "end": 12.5,
+              "probability": 0.9980948567390442
+            },
+            {
+              "word": " a",
+              "start": 12.5,
+              "end": 12.58,
+              "probability": 0.9978808164596558
+            },
+            {
+              "word": " good",
+              "start": 12.58,
+              "end": 12.72,
+              "probability": 0.9988561868667603
+            },
+            {
+              "word": " place",
+              "start": 12.72,
+              "end": 12.9,
+              "probability": 0.9978939890861511
+            },
+            {
+              "word": " to",
+              "start": 12.9,
+              "end": 13.06,
+              "probability": 0.999040424823761
+            },
+            {
+              "word": " start.",
+              "start": 13.06,
+              "end": 13.32,
+              "probability": 0.9995087385177612
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
