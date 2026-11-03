@@ -1,0 +1,432 @@
+{
+  "week": "week-02",
+  "scriptRevision": "2026-10-31-user-day-2-split-3",
+  "assetVersion": "practice-v5",
+  "method": "Sentence-scoped practice. A period/question mark ends the unit even within the same speaker turn. Reuse already verified first-sentence audio where possible; extract independent question prefixes directly from original recordings. Not direct listening.",
+  "units": [
+    {
+      "id": "w2-turn-01",
+      "lines": [
+        0
+      ],
+      "speaker": "Physio",
+      "text": "John, what would you most like to get back to doing?",
+      "chunks": [
+        "John, what would you most like",
+        "to get back to doing?"
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-01/female/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-01/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-01/male/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-01/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-02",
+      "lines": [
+        1
+      ],
+      "speaker": "Patient",
+      "text": "I'd like to sit at work without constantly having to change positions.",
+      "chunks": [
+        "I'd like to sit at work",
+        "without constantly having to change positions."
+      ],
+      "audio": {
+        "patient": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-02/patient/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-02/patient/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-03",
+      "lines": [
+        2
+      ],
+      "speaker": "Physio",
+      "text": "How long do you usually need to sit for at work?",
+      "chunks": [
+        "How long do you usually need",
+        "to sit for at work?"
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-03/female/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-03/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-03/male/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-03/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-04",
+      "lines": [
+        3
+      ],
+      "speaker": "Patient",
+      "text": "Sometimes I have meetings that last about half an hour.",
+      "chunks": [
+        "Sometimes I have meetings",
+        "that last about half an hour."
+      ],
+      "audio": {
+        "patient": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-04/patient/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-04/patient/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-05",
+      "lines": [
+        4
+      ],
+      "speaker": "Physio",
+      "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
+      "chunks": [
+        "So sitting through a 30-minute meeting",
+        "more comfortably",
+        "would be useful?"
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-02/practice-v3/w2-turn-05/female/chunk-1.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/female/chunk-2.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/female/chunk-3.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v3/w2-turn-05/female/build-2.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/female/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v3/w2-turn-05/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-02/practice-v3/w2-turn-05/male/chunk-1.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/male/chunk-2.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/male/chunk-3.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v3/w2-turn-05/male/build-2.m4a",
+            "audio/week-02/practice-v3/w2-turn-05/male/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v3/w2-turn-05/male/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-07",
+      "lines": [
+        6
+      ],
+      "speaker": "Physio",
+      "text": "You also mentioned wanting to get back to running.",
+      "chunks": [
+        "You also mentioned",
+        "wanting to get back to running."
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-07/female/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-07/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-07/male/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-07/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-priority-question",
+      "lines": [
+        7
+      ],
+      "speaker": "Physio",
+      "text": "Is that another priority for you?",
+      "chunks": [
+        "Is that another",
+        "priority for you?"
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-02/practice-v4/w2-priority-question/female/chunk-1.m4a",
+            "audio/week-02/practice-v4/w2-priority-question/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v4/w2-priority-question/female/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v4/w2-priority-question/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-02/practice-v4/w2-priority-question/male/chunk-1.m4a",
+            "audio/week-02/practice-v4/w2-priority-question/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v4/w2-priority-question/male/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v4/w2-priority-question/male/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "w2-turn-08-bubble-1",
+      "lines": [
+        8
+      ],
+      "speaker": "Patient",
+      "text": "Yes, I'd really like to run again,",
+      "chunks": [
+        "Yes, I'd really like to",
+        "run again,"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "w2-turn-08-bubble-2",
+      "lines": [
+        9
+      ],
+      "speaker": "Patient",
+      "text": "but sitting at work is the main problem at the moment.",
+      "chunks": [
+        "but sitting at work",
+        "is the main problem",
+        "at the moment."
+      ],
+      "audio": {}
+    },
+    {
+      "id": "w2-turn-09-bubble-1",
+      "lines": [
+        11
+      ],
+      "speaker": "Physio",
+      "text": "Shall we start with the meeting goal as a short-term goal",
+      "chunks": [
+        "Shall we start with",
+        "the meeting goal",
+        "as a short-term goal"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "w2-turn-09-bubble-2",
+      "lines": [
+        12
+      ],
+      "speaker": "Physio",
+      "text": "and work towards getting you back to running over time?",
+      "chunks": [
+        "and work towards",
+        "getting you back to running",
+        "over time?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "w2-turn-10",
+      "lines": [
+        13
+      ],
+      "speaker": "Patient",
+      "text": "Yes, that sounds like a good place to start.",
+      "chunks": [
+        "Yes, that sounds like",
+        "a good place to start."
+      ],
+      "audio": {
+        "patient": {
+          "chunks": [
+            "audio/week-02/practice-v2/w2-turn-10/patient/chunk-1.m4a",
+            "audio/week-02/practice-v2/w2-turn-10/patient/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
+          ],
+          "full": "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
+        }
+      }
+    }
+  ],
+  "tracks": {
+    "female": [
+      {
+        "unit": 6,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 12.72,
+        "end": 15.4,
+        "cuts": [
+          13.7
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 9,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 17.2,
+        "end": 20.54,
+        "cuts": [
+          18.58,
+          19.32
+        ],
+        "tailPadding": [
+          0,
+          0.02,
+          0
+        ]
+      },
+      {
+        "unit": 10,
+        "source": "audio/week-02/original/W2_PT_female.mp3",
+        "start": 20.52,
+        "end": 23.066125,
+        "cuts": [
+          21.103,
+          22.12
+        ],
+        "tailPadding": [
+          0.1,
+          0,
+          0
+        ]
+      }
+    ],
+    "male": [
+      {
+        "unit": 6,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 13.4,
+        "end": 16.065,
+        "cuts": [
+          14.36
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 9,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 17.12,
+        "end": 20.424,
+        "cuts": [
+          18.22,
+          18.783
+        ],
+        "tailPadding": [
+          0,
+          0.15,
+          0
+        ]
+      },
+      {
+        "unit": 10,
+        "source": "audio/week-02/original/W2_PT_male.mp3",
+        "start": 20.224,
+        "end": 23.118375,
+        "cuts": [
+          21.28,
+          22.215
+        ],
+        "tailPadding": [
+          0.02,
+          0,
+          0
+        ]
+      }
+    ],
+    "patient": [
+      {
+        "unit": 7,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 7.45,
+        "end": 9.26,
+        "cuts": [
+          8.5
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-02/original/W2_pt.mp3",
+        "start": 9.01,
+        "end": 11.4,
+        "cuts": [
+          9.86,
+          10.56
+        ],
+        "tailPadding": [
+          0.03,
+          0.02,
+          0
+        ]
+      }
+    ]
+  }
+}

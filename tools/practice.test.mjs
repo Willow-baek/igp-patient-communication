@@ -122,7 +122,7 @@ test('long practice units are finer without changing their original script',()=>
     const before=old.units.find(u=>u.lines.includes(unit.lines[0]));
     assert(before.text.includes(unit.text));assert(unit.lines.every(i=>before.lines.includes(i)));
     assert(unit.chunks.every(text=>text.split(/\s+/).length<=6));
-    if(['w2-turn-05','w2-turn-08','w2-turn-09'].includes(unit.id))assert(unit.chunks.length>before.chunks.length);
+    if(unit.id==='w2-turn-05')assert(unit.chunks.length>before.chunks.length);
     else if(JSON.stringify(unit.lines)===JSON.stringify(before.lines))assert.deepEqual(unit.chunks,before.chunks);
   }
   const source=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
@@ -140,11 +140,15 @@ test('long practice units are finer without changing their original script',()=>
 test('completed sentences remain independent even when spoken by the same person',()=>{
   const week=weeks[1];
   assert.equal(practiceForLine(week,10),null); // That makes sense. has its own normal playback.
-  assert.deepEqual(practiceForLine(week,11).lines,[11,12]);
-  assert.equal(practiceForLine(week,11),practiceForLine(week,12));
+  for(const index of [8,9,11,12]){
+    const unit=practiceForLine(week,index);
+    assert.deepEqual(unit.lines,[index]);
+    assert.equal(unit.text,week.lines[index].en);
+  }
   assert(!practiceForLine(week,11).text.includes('That makes sense'));
   assert.deepEqual(practiceForLine(week,6).lines,[6]);
   assert.deepEqual(practiceForLine(week,7).lines,[7]);
+  assert.deepEqual(practiceForLine(week,7).chunks,['Is that another','priority for you?']);
   assert.notEqual(practiceForLine(week,6),practiceForLine(week,7));
   for(const unit of week.practice.units){
     const priorLines=unit.lines.slice(0,-1);
@@ -160,10 +164,10 @@ test('runtime rejects a merged finished sentence even if its text matches the sc
 });
 
 test('independent question audio starts after the preceding sentence has finished',()=>{
-  const plan=JSON.parse(fs.readFileSync(new URL('./week-02-practice-sentences-v4.json',import.meta.url)));
+  const plan=JSON.parse(fs.readFileSync(new URL('./week-02-practice-bubbles-v5.json',import.meta.url)));
   const original=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
   for(const voice of ['female','male']){
-    const question=plan.tracks[voice].find(t=>plan.units[t.unit].id==='w2-turn-09');
+    const question=plan.tracks[voice].find(t=>plan.units[t.unit].id==='w2-turn-09-bubble-1');
     const preceding=original.tracks[voice].clips.find(c=>c.line===11);
     assert(question.start>=preceding.speechEnd);
     const priority=plan.tracks[voice].find(t=>plan.units[t.unit].id==='w2-priority-question');
