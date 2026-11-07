@@ -72,6 +72,14 @@ W2/
 
 ## 검증·배포
 
+### 운영자 접속 집계 제외
+
+`https://willow-baek.github.io/igp-patient-communication/analytics-settings.html?analytics=off`를 본인이 사용하는 각 브라우저에서 한 번 열면 접속 제외가 저장된다. 이 설정 링크는 팀원에게 공유하지 않는다. 상태 확인·해제는 `analytics-settings.html`에서 한다. 설정 페이지 자체는 집계하지 않는다.
+
+설정은 `igp-analytics-excluded`라는 브라우저 저장값으로 유지되므로 국가·IP·와이파이·모바일 데이터 변경과 무관하다. 기기·브라우저별로 설정하며, 시크릿 모드·사이트 데이터 삭제·브라우저의 저장 데이터 자동 정리 후에는 재설정이 필요할 수 있다. 같은 브라우저를 공유하면 그 브라우저를 쓰는 다른 사람도 제외된다. 이미 열린 다른 학습 탭도 제외 설정을 받으면 수집을 중단하고 새로고침한다. 해제 후에는 기존 학습 탭을 새로고침한다.
+
+`analytics.js`는 공개 호스트의 프로젝트 경로에서만 GA를 불러온다. localhost·로컬 미리보기·저장 접근이 차단된 브라우저는 수집하지 않는다. 과거 GA 기록은 변경하지 않으며, 공개 사이트를 통한 운영자 방문도 제외 설정 이전 기록에는 남아 있다.
+
 ```sh
 node --input-type=module --check < docs/app.js
 node --test tools/*.test.mjs
