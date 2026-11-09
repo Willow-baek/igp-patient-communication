@@ -254,7 +254,118 @@
         "male": "audio/week-01/W1_PT_male.mp3"
       },
       "patientAudio": "audio/week-01/W1_pt.mp3",
-      "scriptRevision": "2026-10-27-user-revision-2"
+      "scriptRevision": "2026-10-27-user-revision-2",
+      "practice": {
+        "scriptRevision": "2026-10-27-user-revision-2",
+        "units": [
+          {
+            "id": "week-01-line-02",
+            "lines": [
+              1
+            ],
+            "speaker": "Physio",
+            "text": "I'm Alex, I'll be your physiotherapist today.",
+            "chunks": [
+              "I'm Alex,",
+              "I'll be your physiotherapist today."
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/02.m4a"
+                ],
+                "full": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/02.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/natural-tail/male/02.m4a"
+                ],
+                "full": "audio/week-01/natural-tail/male/02.m4a"
+              }
+            }
+          },
+          {
+            "id": "week-01-line-05",
+            "lines": [
+              4
+            ],
+            "speaker": "Physio",
+            "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+            "chunks": [
+              "Is it okay if I call you John,",
+              "or would you prefer Mr Thompson?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/05.m4a"
+                ],
+                "full": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/05.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/natural-tail/male/05.m4a"
+                ],
+                "full": "audio/week-01/natural-tail/male/05.m4a"
+              }
+            }
+          },
+          {
+            "id": "week-01-line-10",
+            "lines": [
+              9
+            ],
+            "speaker": "Physio",
+            "text": "So today I'll ask you a few questions about your back,",
+            "chunks": [
+              "So today",
+              "I'll ask you a few questions about your back,"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/full.m4a"
+                ],
+                "full": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-1.m4a",
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/full.m4a"
+                ],
+                "full": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/full.m4a"
+              }
+            },
+            "range": {
+              "start": 14,
+              "end": 68
+            }
+          }
+        ]
+      }
     },
     {
       "id": "week-02",
@@ -407,41 +518,41 @@
         "scriptRevision": "2026-10-31-user-day-2-split-3",
         "units": [
           {
-            "id": "w2-turn-01",
+            "id": "week-02-line-01",
             "lines": [
               0
             ],
             "speaker": "Physio",
             "text": "John, what would you most like to get back to doing?",
             "chunks": [
-              "John, what would you most like",
-              "to get back to doing?"
+              "John,",
+              "what would you most like to get back to doing?"
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/01.m4a"
                 ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/01.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-01/male/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-01/male/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
+                  "audio/week-02/2026-10-31-v1/male/01.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-01/male/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/male/01.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-02",
+            "id": "week-02-line-02",
             "lines": [
               1
             ],
@@ -454,52 +565,18 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-02/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-02/patient/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
+                  "audio/week-02/2026-10-31-v1/patient/02.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-02/patient/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/patient/02.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-03",
-            "lines": [
-              2
-            ],
-            "speaker": "Physio",
-            "text": "How long do you usually need to sit for at work?",
-            "chunks": [
-              "How long do you usually need",
-              "to sit for at work?"
-            ],
-            "audio": {
-              "female": {
-                "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/full.m4a"
-                ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/full.m4a"
-              },
-              "male": {
-                "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-03/male/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-03/male/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
-                ],
-                "full": "audio/week-02/practice-v2/w2-turn-03/male/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w2-turn-04",
+            "id": "week-02-line-04",
             "lines": [
               3
             ],
@@ -512,57 +589,52 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-04/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-04/patient/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
+                  "audio/week-02/2026-10-31-v1/patient/04.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-04/patient/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/patient/04.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-05",
+            "id": "week-02-line-05",
             "lines": [
               4
             ],
             "speaker": "Physio",
             "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
             "chunks": [
-              "So sitting through a 30-minute meeting",
-              "more comfortably",
+              "So sitting through a 30-minute meeting more comfortably",
               "would be useful?"
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/build-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/05.m4a"
                 ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/05.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v3/w2-turn-05/male/chunk-1.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/male/chunk-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/male/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v3/w2-turn-05/male/build-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/male/full.m4a"
+                  "audio/week-02/2026-10-31-v1/male/05.m4a"
                 ],
-                "full": "audio/week-02/practice-v3/w2-turn-05/male/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/male/05.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-07",
+            "id": "week-02-line-07",
             "lines": [
               6
             ],
@@ -575,86 +647,28 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/build-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/07.m4a"
                 ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/build-2.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/07.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/male/chunk-2.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
+                  "audio/week-02/2026-10-31-v1/male/07.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-07/male/build-2.m4a"
+                "full": "audio/week-02/2026-10-31-v1/male/07.m4a"
               }
             }
           },
           {
-            "id": "w2-priority-question",
-            "lines": [
-              7
-            ],
-            "speaker": "Physio",
-            "text": "Is that another priority for you?",
-            "chunks": [
-              "Is that another",
-              "priority for you?"
-            ],
-            "audio": {
-              "female": {
-                "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/full.m4a"
-                ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/full.m4a"
-              },
-              "male": {
-                "chunks": [
-                  "audio/week-02/practice-v5/w2-priority-question/male/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-priority-question/male/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/practice-v5/w2-priority-question/male/full.m4a"
-                ],
-                "full": "audio/week-02/practice-v5/w2-priority-question/male/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w2-turn-08-bubble-1",
-            "lines": [
-              8
-            ],
-            "speaker": "Patient",
-            "text": "Yes, I'd really like to run again,",
-            "chunks": [
-              "Yes, I'd really like to",
-              "run again,"
-            ],
-            "audio": {
-              "patient": {
-                "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-1/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-1/patient/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-1/patient/full.m4a"
-                ],
-                "full": "audio/week-02/practice-v5/w2-turn-08-bubble-1/patient/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w2-turn-08-bubble-2",
+            "id": "week-02-line-10",
             "lines": [
               9
             ],
@@ -662,65 +676,57 @@
             "text": "but sitting at work is the main problem at the moment.",
             "chunks": [
               "but sitting at work",
-              "is the main problem",
-              "at the moment."
+              "is the main problem at the moment."
             ],
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/chunk-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/build-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/full.m4a"
+                  "audio/week-02/2026-10-31-v1/patient/10.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-turn-08-bubble-2/patient/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/patient/10.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-09-bubble-1",
+            "id": "week-02-line-12",
             "lines": [
               11
             ],
             "speaker": "Physio",
             "text": "Shall we start with the meeting goal as a short-term goal",
             "chunks": [
-              "Shall we start with",
-              "the meeting goal",
+              "Shall we start with the meeting goal",
               "as a short-term goal"
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/build-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/12.m4a"
                 ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/12.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/chunk-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/build-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/full.m4a"
+                  "audio/week-02/2026-10-31-v1/male/12.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-turn-09-bubble-1/male/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/male/12.m4a"
               }
             }
           },
           {
-            "id": "w2-turn-09-bubble-2",
+            "id": "week-02-line-13",
             "lines": [
               12
             ],
@@ -728,57 +734,28 @@
             "text": "and work towards getting you back to running over time?",
             "chunks": [
               "and work towards",
-              "getting you back to running",
-              "over time?"
+              "getting you back to running over time?"
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-1.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/build-2.m4a",
-                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/13.m4a"
                 ],
-                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/13.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/chunk-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/chunk-3.m4a"
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-1.m4a",
+                  "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/build-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/full.m4a"
+                  "audio/week-02/2026-10-31-v1/male/13.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-turn-09-bubble-2/male/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w2-turn-10",
-            "lines": [
-              13
-            ],
-            "speaker": "Patient",
-            "text": "Yes, that sounds like a good place to start.",
-            "chunks": [
-              "Yes, that sounds like",
-              "a good place to start."
-            ],
-            "audio": {
-              "patient": {
-                "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-10/patient/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-10/patient/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
-                ],
-                "full": "audio/week-02/practice-v2/w2-turn-10/patient/full.m4a"
+                "full": "audio/week-02/2026-10-31-v1/male/13.m4a"
               }
             }
           }
@@ -1012,7 +989,69 @@
             }
           },
           {
-            "id": "w3-line-04",
+            "id": "week-03-line-02",
+            "lines": [
+              1
+            ],
+            "speaker": "Patient",
+            "text": "My back has been feeling achy for a while now.",
+            "chunks": [
+              "My back has been feeling achy",
+              "for a while now."
+            ],
+            "audio": {
+              "patient": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/2026-11-09-v1/patient/02.m4a"
+                ],
+                "full": "audio/week-03/2026-11-09-v1/patient/02.m4a"
+              }
+            }
+          },
+          {
+            "id": "week-03-line-03",
+            "lines": [
+              2
+            ],
+            "speaker": "Physio",
+            "text": "Whereabouts in your back do you feel it?",
+            "chunks": [
+              "Whereabouts in your back",
+              "do you feel it?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/full.m4a"
+              }
+            },
+            "range": {
+              "start": 6,
+              "end": 46
+            }
+          },
+          {
+            "id": "week-03-line-04",
             "lines": [
               3
             ],
@@ -1025,79 +1064,104 @@
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-2.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/full.m4a"
+                  "audio/week-03/2026-11-09-v1/patient/04.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/patient/04.m4a"
               }
             }
           },
           {
-            "id": "w3-line-05",
-            "lines": [
-              4
-            ],
-            "speaker": "Physio",
-            "text": "And when did you first notice it?",
-            "chunks": [
-              "And when did you",
-              "first notice it?"
-            ],
-            "audio": {
-              "female": {
-                "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
-                ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
-              },
-              "male": {
-                "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/full.m4a"
-                ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w3-line-08",
+            "id": "week-03-line-08",
             "lines": [
               7
             ],
             "speaker": "Patient",
             "text": "Sitting at my desk for too long, especially when I'm working.",
             "chunks": [
-              "Sitting at my desk",
-              "for too long,",
+              "Sitting at my desk for too long,",
               "especially when I'm working."
             ],
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-3.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/full.m4a"
+                  "audio/week-03/2026-11-09-v1/patient/08.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/patient/08.m4a"
               }
             }
           },
           {
-            "id": "w3-line-11",
+            "id": "week-03-line-09",
+            "lines": [
+              8
+            ],
+            "speaker": "Physio",
+            "text": "Does anything seem to help it settle?",
+            "chunks": [
+              "Does anything seem",
+              "to help it settle?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/full.m4a"
+              }
+            },
+            "range": {
+              "start": 7,
+              "end": 44
+            }
+          },
+          {
+            "id": "week-03-line-10",
+            "lines": [
+              9
+            ],
+            "speaker": "Patient",
+            "text": "Getting up and having a bit of a walk usually helps.",
+            "chunks": [
+              "Getting up and",
+              "having a bit of a walk usually helps."
+            ],
+            "audio": {
+              "patient": {
+                "chunks": [
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/2026-11-09-v1/patient/10.m4a"
+                ],
+                "full": "audio/week-03/2026-11-09-v1/patient/10.m4a"
+              }
+            }
+          },
+          {
+            "id": "week-03-line-11",
             "lines": [
               10
             ],
@@ -1110,28 +1174,28 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/chunk-2.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/11.m4a"
                 ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/11.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-2.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/full.m4a"
+                  "audio/week-03/2026-11-09-v1/male/11.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/male/11.m4a"
               }
             }
           },
           {
-            "id": "w3-line-13",
+            "id": "week-03-line-13",
             "lines": [
               12
             ],
@@ -1139,26 +1203,23 @@
             "text": "It's making it hard to sit through long meetings at work.",
             "chunks": [
               "It's making it hard",
-              "to sit through long meetings",
-              "at work."
+              "to sit through long meetings at work."
             ],
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-3.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/full.m4a"
+                  "audio/week-03/2026-11-09-v1/patient/13.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/patient/13.m4a"
               }
             }
           },
           {
-            "id": "w3-line-14",
+            "id": "week-03-line-14",
             "lines": [
               13
             ],
@@ -1171,96 +1232,57 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/chunk-2.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/14.m4a"
                 ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/14.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-2.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/full.m4a"
+                  "audio/week-03/2026-11-09-v1/male/14.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/male/14.m4a"
               }
             }
           },
           {
-            "id": "w3-line-15",
+            "id": "week-03-line-15",
             "lines": [
               14
             ],
             "speaker": "Physio",
             "text": "and getting up for a short walk seems to help.",
             "chunks": [
-              "and getting up",
-              "for a short walk",
+              "and getting up for a short walk",
               "seems to help."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-2.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-3.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/build-2.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/15.m4a"
                 ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/15.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-3.m4a"
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-1.m4a",
+                  "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/full.m4a"
+                  "audio/week-03/2026-11-09-v1/male/15.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/full.m4a"
-              }
-            }
-          },
-          {
-            "id": "w3-line-16",
-            "lines": [
-              15
-            ],
-            "speaker": "Physio",
-            "text": "It's also affecting how long you can sit at work.",
-            "chunks": [
-              "It's also affecting how long",
-              "you can sit at work."
-            ],
-            "audio": {
-              "female": {
-                "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
-                ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
-              },
-              "male": {
-                "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-2.m4a"
-                ],
-                "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/full.m4a"
-                ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/full.m4a"
+                "full": "audio/week-03/2026-11-09-v1/male/15.m4a"
               }
             }
           }

@@ -1,0 +1,4672 @@
+{
+  "date": "2026-11-09",
+  "method": "All 48 dialogue bubbles reviewed. Prefer audible low-energy pauses near syntactically meaningful boundaries; use phrase meaning when a long sentence has no usable pause. No fixed word count. Short one-breath utterances remain ordinary playback. Waveform/ASR analysis is not human listening. User-specified Week 3 opening preserved.",
+  "weeks": [
+    {
+      "id": "week-01",
+      "scriptRevision": "2026-10-27-user-revision-2",
+      "units": [
+        {
+          "id": "week-01-line-02",
+          "line": 2,
+          "text": "I'm Alex, I'll be your physiotherapist today.",
+          "chunks": [
+            "I'm Alex,",
+            "I'll be your physiotherapist today."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/02.m4a",
+              "words": [
+                {
+                  "word": " I'm",
+                  "start": 0.0,
+                  "end": 0.36
+                },
+                {
+                  "word": " Alex.",
+                  "start": 0.36,
+                  "end": 0.62
+                },
+                {
+                  "word": " I'll",
+                  "start": 1.02,
+                  "end": 1.08
+                },
+                {
+                  "word": " be",
+                  "start": 1.08,
+                  "end": 1.2
+                },
+                {
+                  "word": " your",
+                  "start": 1.2,
+                  "end": 1.3
+                },
+                {
+                  "word": " physiotherapist",
+                  "start": 1.3,
+                  "end": 2.06
+                },
+                {
+                  "word": " today.",
+                  "start": 2.06,
+                  "end": 2.42
+                }
+              ],
+              "asr": "I'm Alex. I'll be your physiotherapist today.",
+              "duration": 2.9721875,
+              "quietIntervals": [
+                {
+                  "start": 0.81,
+                  "end": 0.915
+                },
+                {
+                  "start": 0.935,
+                  "end": 1.0
+                },
+                {
+                  "start": 2.16,
+                  "end": 2.22
+                },
+                {
+                  "start": 2.62,
+                  "end": 2.97
+                }
+              ],
+              "rmsThreshold": 0.012695428915321827,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.9721875,
+              "cuts": [
+                0.8625
+              ],
+              "boundaryReview": [
+                {
+                  "after": "I'm Alex,",
+                  "precedingWord": {
+                    "word": " Alex.",
+                    "start": 0.36,
+                    "end": 0.62
+                  },
+                  "nextWord": {
+                    "word": " I'll",
+                    "start": 1.02,
+                    "end": 1.08
+                  },
+                  "cut": 0.8625,
+                  "quietInterval": {
+                    "start": 0.81,
+                    "end": 0.915
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0341
+                }
+              ],
+              "tailPadding": [
+                0.0341,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.8966000000000001,
+                  "expected": "I'm Alex,",
+                  "sha256": "0adcf503946a540b39e2668da015bd9e0bd9722a21e3cedd947e71de74cc8e83"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-2.m4a",
+                  "start": 0.8625,
+                  "end": 2.9721875,
+                  "expected": "I'll be your physiotherapist today.",
+                  "sha256": "312928d633350e7ff83336b1c662224c4b2b3b42a022ef73ddd190e0375ada88"
+                }
+              ],
+              "sourceSha256": "b52397b4332c11efe80c616d3ea12216a72cc67bc6cce0378a80b409edea1c08"
+            },
+            "male": {
+              "source": "audio/week-01/natural-tail/male/02.m4a",
+              "words": [
+                {
+                  "word": " I'm",
+                  "start": 0.0,
+                  "end": 0.68
+                },
+                {
+                  "word": " Alex,",
+                  "start": 0.68,
+                  "end": 0.86
+                },
+                {
+                  "word": " I'll",
+                  "start": 1.32,
+                  "end": 1.42
+                },
+                {
+                  "word": " be",
+                  "start": 1.42,
+                  "end": 1.52
+                },
+                {
+                  "word": " your",
+                  "start": 1.52,
+                  "end": 1.64
+                },
+                {
+                  "word": " physiotherapist",
+                  "start": 1.64,
+                  "end": 2.36
+                },
+                {
+                  "word": " today.",
+                  "start": 2.36,
+                  "end": 2.72
+                }
+              ],
+              "asr": "I'm Alex, I'll be your physiotherapist today.",
+              "duration": 3.50475,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.575
+                },
+                {
+                  "start": 0.935,
+                  "end": 1.005
+                },
+                {
+                  "start": 1.135,
+                  "end": 1.355
+                },
+                {
+                  "start": 2.05,
+                  "end": 2.11
+                },
+                {
+                  "start": 2.775,
+                  "end": 3.5
+                }
+              ],
+              "rmsThreshold": 0.010497934371232987,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.50475,
+              "cuts": [
+                1.245
+              ],
+              "boundaryReview": [
+                {
+                  "after": "I'm Alex,",
+                  "precedingWord": {
+                    "word": " Alex,",
+                    "start": 0.68,
+                    "end": 0.86
+                  },
+                  "nextWord": {
+                    "word": " I'll",
+                    "start": 1.32,
+                    "end": 1.42
+                  },
+                  "cut": 1.245,
+                  "quietInterval": {
+                    "start": 1.135,
+                    "end": 1.355
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0715
+                }
+              ],
+              "tailPadding": [
+                0.0715,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.3165,
+                  "expected": "I'm Alex,",
+                  "sha256": "041ed38dd9c36076070bb9d31b9b7462f7826c9c8e227fdb18f06bbb78ef9b70"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-2.m4a",
+                  "start": 1.245,
+                  "end": 3.50475,
+                  "expected": "I'll be your physiotherapist today.",
+                  "sha256": "267486771bcd515a9a6ce1ec76a4f3d7cf2609ed37fec0c585ccdde04676a82e"
+                }
+              ],
+              "sourceSha256": "d240648c771c9c40bcafcf9306e324537002680791e026d8140f24ddae67605a"
+            }
+          }
+        },
+        {
+          "id": "week-01-line-05",
+          "line": 5,
+          "text": "Is it okay if I call you John, or would you prefer Mr Thompson?",
+          "chunks": [
+            "Is it okay if I call you John,",
+            "or would you prefer Mr Thompson?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/05.m4a",
+              "words": [
+                {
+                  "word": " Is",
+                  "start": 0.0,
+                  "end": 0.38
+                },
+                {
+                  "word": " it",
+                  "start": 0.38,
+                  "end": 0.46
+                },
+                {
+                  "word": " okay",
+                  "start": 0.46,
+                  "end": 0.68
+                },
+                {
+                  "word": " if",
+                  "start": 0.68,
+                  "end": 0.9
+                },
+                {
+                  "word": " I",
+                  "start": 0.9,
+                  "end": 0.98
+                },
+                {
+                  "word": " call",
+                  "start": 0.98,
+                  "end": 1.18
+                },
+                {
+                  "word": " you",
+                  "start": 1.18,
+                  "end": 1.36
+                },
+                {
+                  "word": " John",
+                  "start": 1.36,
+                  "end": 1.62
+                },
+                {
+                  "word": " or",
+                  "start": 1.62,
+                  "end": 1.94
+                },
+                {
+                  "word": " would",
+                  "start": 1.94,
+                  "end": 2.1
+                },
+                {
+                  "word": " you",
+                  "start": 2.1,
+                  "end": 2.2
+                },
+                {
+                  "word": " prefer",
+                  "start": 2.2,
+                  "end": 2.48
+                },
+                {
+                  "word": " Mr.",
+                  "start": 2.48,
+                  "end": 2.7
+                },
+                {
+                  "word": " Thompson?",
+                  "start": 2.98,
+                  "end": 3.04
+                }
+              ],
+              "asr": "Is it okay if I call you John or would you prefer Mr. Thompson?",
+              "duration": 4.1331875,
+              "quietIntervals": [
+                {
+                  "start": 0.1,
+                  "end": 0.295
+                },
+                {
+                  "start": 3.395,
+                  "end": 4.13
+                }
+              ],
+              "rmsThreshold": 0.00867123007774353,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 4.1331875,
+              "cuts": [
+                1.625
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Is it okay if I call you John,",
+                  "precedingWord": {
+                    "word": " John",
+                    "start": 1.36,
+                    "end": 1.62
+                  },
+                  "nextWord": {
+                    "word": " or",
+                    "start": 1.62,
+                    "end": 1.94
+                  },
+                  "cut": 1.625,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.625,
+                  "expected": "Is it okay if I call you John,",
+                  "sha256": "2cc6640dc3741b5ec2aa631092b2ec8f835f06a78c1881feebadeaef7f7a7128"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-2.m4a",
+                  "start": 1.625,
+                  "end": 4.1331875,
+                  "expected": "or would you prefer Mr Thompson?",
+                  "sha256": "91c2491f1f4691b6d535955bb9ecdca4362d4889b33c0b040014c53bba41ed94"
+                }
+              ],
+              "sourceSha256": "f50537cd70f0d7c3946a6ab24f0b159943eef10c7a73688f159d65e61ffe694e"
+            },
+            "male": {
+              "source": "audio/week-01/natural-tail/male/05.m4a",
+              "words": [
+                {
+                  "word": " Is",
+                  "start": 0.0,
+                  "end": 0.36
+                },
+                {
+                  "word": " it",
+                  "start": 0.36,
+                  "end": 0.46
+                },
+                {
+                  "word": " okay",
+                  "start": 0.46,
+                  "end": 0.68
+                },
+                {
+                  "word": " if",
+                  "start": 0.68,
+                  "end": 0.9
+                },
+                {
+                  "word": " I",
+                  "start": 0.9,
+                  "end": 0.98
+                },
+                {
+                  "word": " call",
+                  "start": 0.98,
+                  "end": 1.14
+                },
+                {
+                  "word": " you",
+                  "start": 1.14,
+                  "end": 1.3
+                },
+                {
+                  "word": " John",
+                  "start": 1.3,
+                  "end": 1.52
+                },
+                {
+                  "word": " or",
+                  "start": 1.52,
+                  "end": 2.3
+                },
+                {
+                  "word": " would",
+                  "start": 2.3,
+                  "end": 2.42
+                },
+                {
+                  "word": " you",
+                  "start": 2.42,
+                  "end": 2.52
+                },
+                {
+                  "word": " prefer",
+                  "start": 2.52,
+                  "end": 2.76
+                },
+                {
+                  "word": " Mr.",
+                  "start": 2.76,
+                  "end": 3.04
+                },
+                {
+                  "word": " Thompson?",
+                  "start": 3.4,
+                  "end": 3.4
+                }
+              ],
+              "asr": "Is it okay if I call you John or would you prefer Mr. Thompson?",
+              "duration": 4.410375,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.305
+                },
+                {
+                  "start": 1.705,
+                  "end": 2.24
+                },
+                {
+                  "start": 3.58,
+                  "end": 4.41
+                }
+              ],
+              "rmsThreshold": 0.010325865447521211,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 4.410375,
+              "cuts": [
+                1.7525
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Is it okay if I call you John,",
+                  "precedingWord": {
+                    "word": " John",
+                    "start": 1.3,
+                    "end": 1.52
+                  },
+                  "nextWord": {
+                    "word": " or",
+                    "start": 1.52,
+                    "end": 2.3
+                  },
+                  "cut": 1.7525,
+                  "quietInterval": {
+                    "start": 1.705,
+                    "end": 1.8
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0309
+                }
+              ],
+              "tailPadding": [
+                0.0309,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.7833999999999999,
+                  "expected": "Is it okay if I call you John,",
+                  "sha256": "c8a3356087e1c83bb3380e80a07fadab35cf91ea7139b376e8616b342d64906b"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-2.m4a",
+                  "start": 1.7525,
+                  "end": 4.410375,
+                  "expected": "or would you prefer Mr Thompson?",
+                  "sha256": "5a1da951031be8e4baea8796e2e247268f54307d320482047b5082e15206d0fd"
+                }
+              ],
+              "sourceSha256": "da3605116e526f228a78cdc6bc940bed8614101907a0849ce9bd8cb848943705"
+            }
+          }
+        },
+        {
+          "id": "week-01-line-10",
+          "line": 10,
+          "text": "So today I'll ask you a few questions about your back,",
+          "chunks": [
+            "So today",
+            "I'll ask you a few questions about your back,"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-01/volume-balanced-2026-11-09/end-fix/female/10.m4a",
+              "words": [
+                {
+                  "word": " Good",
+                  "start": 0.0,
+                  "end": 0.68
+                },
+                {
+                  "word": " to",
+                  "start": 0.68,
+                  "end": 0.82
+                },
+                {
+                  "word": " hear.",
+                  "start": 0.82,
+                  "end": 1.02
+                },
+                {
+                  "word": " So",
+                  "start": 2.22,
+                  "end": 2.28
+                },
+                {
+                  "word": " today,",
+                  "start": 2.28,
+                  "end": 2.64
+                },
+                {
+                  "word": " I'll",
+                  "start": 2.74,
+                  "end": 3.08
+                },
+                {
+                  "word": " ask",
+                  "start": 3.08,
+                  "end": 3.36
+                },
+                {
+                  "word": " you",
+                  "start": 3.36,
+                  "end": 3.5
+                },
+                {
+                  "word": " a",
+                  "start": 3.5,
+                  "end": 3.6
+                },
+                {
+                  "word": " few",
+                  "start": 3.6,
+                  "end": 3.72
+                },
+                {
+                  "word": " questions",
+                  "start": 3.72,
+                  "end": 4.08
+                },
+                {
+                  "word": " about",
+                  "start": 4.08,
+                  "end": 4.48
+                },
+                {
+                  "word": " your",
+                  "start": 4.48,
+                  "end": 4.66
+                },
+                {
+                  "word": " back.",
+                  "start": 4.66,
+                  "end": 4.86
+                }
+              ],
+              "asr": "Good to hear. So today, I'll ask you a few questions about your back.",
+              "duration": 5.0851875,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.55
+                },
+                {
+                  "start": 1.23,
+                  "end": 2.2
+                }
+              ],
+              "rmsThreshold": 0.010002249479293825,
+              "alignmentRatio": 1.0,
+              "start": 1.715,
+              "end": 5.0851875,
+              "cuts": [
+                2.695
+              ],
+              "boundaryReview": [
+                {
+                  "after": "So today",
+                  "precedingWord": {
+                    "word": " today,",
+                    "start": 2.28,
+                    "end": 2.64
+                  },
+                  "nextWord": {
+                    "word": " I'll",
+                    "start": 2.74,
+                    "end": 3.08
+                  },
+                  "cut": 2.695,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-1.m4a",
+                  "start": 1.715,
+                  "end": 2.695,
+                  "expected": "So today",
+                  "sha256": "bd8df96469b64eafc63310a9bffbf26758ffbedffd6f47eea6490b41c3a0aca5"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-2.m4a",
+                  "start": 2.695,
+                  "end": 5.0851875,
+                  "expected": "I'll ask you a few questions about your back,",
+                  "sha256": "2541a595ae846d9b3bb01a1afe8a768a752beafa447682b0afcfc34b2afe5a33"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/full.m4a",
+                  "start": 1.715,
+                  "end": 5.0851875,
+                  "expected": "So today I'll ask you a few questions about your back,",
+                  "sha256": "9d5f2f6adb0703a833bbff2b65a406c30c4677598f03b49c272f7d2ebcd0f468"
+                }
+              ],
+              "sourceSha256": "9bccc3b2a7d4767e4446176b40892c5dfa5ad0b9122aa64d003a5b8413f184f2"
+            },
+            "male": {
+              "source": "audio/week-01/end-fix/male/10.m4a",
+              "words": [
+                {
+                  "word": " Good",
+                  "start": 0.0,
+                  "end": 0.62
+                },
+                {
+                  "word": " to",
+                  "start": 0.62,
+                  "end": 0.76
+                },
+                {
+                  "word": " hear.",
+                  "start": 0.76,
+                  "end": 0.94
+                },
+                {
+                  "word": " So",
+                  "start": 2.04,
+                  "end": 2.2
+                },
+                {
+                  "word": " today",
+                  "start": 2.2,
+                  "end": 2.44
+                },
+                {
+                  "word": " I'll",
+                  "start": 2.44,
+                  "end": 2.66
+                },
+                {
+                  "word": " ask",
+                  "start": 2.66,
+                  "end": 2.82
+                },
+                {
+                  "word": " you",
+                  "start": 2.82,
+                  "end": 2.96
+                },
+                {
+                  "word": " a",
+                  "start": 2.96,
+                  "end": 3.04
+                },
+                {
+                  "word": " few",
+                  "start": 3.04,
+                  "end": 3.18
+                },
+                {
+                  "word": " questions",
+                  "start": 3.18,
+                  "end": 3.48
+                },
+                {
+                  "word": " about",
+                  "start": 3.48,
+                  "end": 3.82
+                },
+                {
+                  "word": " your",
+                  "start": 3.82,
+                  "end": 4.0
+                },
+                {
+                  "word": " back.",
+                  "start": 4.0,
+                  "end": 4.2
+                }
+              ],
+              "asr": "Good to hear. So today I'll ask you a few questions about your back.",
+              "duration": 4.7354375,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.57
+                },
+                {
+                  "start": 1.08,
+                  "end": 2.105
+                },
+                {
+                  "start": 4.28,
+                  "end": 4.39
+                },
+                {
+                  "start": 4.395,
+                  "end": 4.735
+                }
+              ],
+              "rmsThreshold": 0.01183595433831215,
+              "alignmentRatio": 1.0,
+              "start": 1.5925,
+              "end": 4.7354375,
+              "cuts": [
+                2.52
+              ],
+              "boundaryReview": [
+                {
+                  "after": "So today",
+                  "precedingWord": {
+                    "word": " today",
+                    "start": 2.2,
+                    "end": 2.44
+                  },
+                  "nextWord": {
+                    "word": " I'll",
+                    "start": 2.44,
+                    "end": 2.66
+                  },
+                  "cut": 2.52,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 2.4,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-1.m4a",
+                  "start": 1.5925,
+                  "end": 2.52,
+                  "expected": "So today",
+                  "sha256": "dc9302191798b673108eef12a1648770fdd94c080f020567d155eea00ba262da"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-2.m4a",
+                  "start": 2.52,
+                  "end": 4.7354375,
+                  "expected": "I'll ask you a few questions about your back,",
+                  "sha256": "5041b3ac8bc29c8ca166d3ab7cf659c0aa28b7299022d221a53ad5f36959c470"
+                },
+                {
+                  "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/full.m4a",
+                  "start": 1.5925,
+                  "end": 4.7354375,
+                  "expected": "So today I'll ask you a few questions about your back,",
+                  "sha256": "072cf66f4baf680587a4ca086c1297dd7fd2a5a83cb56454d8b33ef5000bc445"
+                }
+              ],
+              "sourceSha256": "d3b5c9e14a292ea7bdb2a7168148c126899ecc2f3b063b15fcf0caa5e834f7b7"
+            }
+          },
+          "range": {
+            "start": 14,
+            "end": 68
+          }
+        }
+      ],
+      "wholeBubbleLines": [
+        {
+          "line": 1,
+          "text": "Hi, are you John Thompson?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 3,
+          "text": "Yes, that's right.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 4,
+          "text": "Nice to meet you, John.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 6,
+          "text": "John is fine, thanks.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 7,
+          "text": "Great, thanks, John.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 8,
+          "text": "How was your trip here today?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 9,
+          "text": "Not too bad. I found parking quite easily.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 11,
+          "text": "and then see how your back moves.",
+          "reason": "Short connected utterance with no reliable internal breath break; trial fragments leaked syllables across the shared boundary. Keep natural whole-bubble playback instead of forcing a split."
+        },
+        {
+          "line": 12,
+          "text": "Does that sound okay?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 13,
+          "text": "Yes, that sounds fine.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 14,
+          "text": "Great. Before we start,",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 15,
+          "text": "is there anything you'd like to ask me?",
+          "reason": "Short connected utterance with no reliable internal breath break; trial fragments leaked syllables across the shared boundary. Keep natural whole-bubble playback instead of forcing a split."
+        },
+        {
+          "line": 16,
+          "text": "No, I think that's everything.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        }
+      ]
+    },
+    {
+      "id": "week-02",
+      "scriptRevision": "2026-10-31-user-day-2-split-3",
+      "units": [
+        {
+          "id": "week-02-line-01",
+          "line": 1,
+          "text": "John, what would you most like to get back to doing?",
+          "chunks": [
+            "John,",
+            "what would you most like to get back to doing?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/01.m4a",
+              "words": [
+                {
+                  "word": " John,",
+                  "start": 0.0,
+                  "end": 0.24
+                },
+                {
+                  "word": " what",
+                  "start": 0.62,
+                  "end": 1.02
+                },
+                {
+                  "word": " would",
+                  "start": 1.02,
+                  "end": 1.22
+                },
+                {
+                  "word": " you",
+                  "start": 1.22,
+                  "end": 1.44
+                },
+                {
+                  "word": " most",
+                  "start": 1.44,
+                  "end": 1.66
+                },
+                {
+                  "word": " like",
+                  "start": 1.66,
+                  "end": 2.02
+                },
+                {
+                  "word": " to",
+                  "start": 2.02,
+                  "end": 2.16
+                },
+                {
+                  "word": " get",
+                  "start": 2.16,
+                  "end": 2.28
+                },
+                {
+                  "word": " back",
+                  "start": 2.28,
+                  "end": 2.46
+                },
+                {
+                  "word": " to",
+                  "start": 2.46,
+                  "end": 2.64
+                },
+                {
+                  "word": " doing?",
+                  "start": 2.64,
+                  "end": 2.94
+                }
+              ],
+              "asr": "John, what would you most like to get back to doing?",
+              "duration": 3.5526875,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.085
+                },
+                {
+                  "start": 0.495,
+                  "end": 0.825
+                },
+                {
+                  "start": 3.07,
+                  "end": 3.55
+                }
+              ],
+              "rmsThreshold": 0.011229564249515534,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.5526875,
+              "cuts": [
+                0.6025
+              ],
+              "boundaryReview": [
+                {
+                  "after": "John,",
+                  "precedingWord": {
+                    "word": " John,",
+                    "start": 0.0,
+                    "end": 0.24
+                  },
+                  "nextWord": {
+                    "word": " what",
+                    "start": 0.62,
+                    "end": 1.02
+                  },
+                  "cut": 0.6025,
+                  "quietInterval": {
+                    "start": 0.495,
+                    "end": 0.71
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0699
+                }
+              ],
+              "tailPadding": [
+                0.0699,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.6724,
+                  "expected": "John,",
+                  "sha256": "a6dca367d9e42c8f27b3968c4b2995809e592cb3ea32168e058825fbd1f713a8"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-2.m4a",
+                  "start": 0.6025,
+                  "end": 3.5526875,
+                  "expected": "what would you most like to get back to doing?",
+                  "sha256": "f0ccf4d494bdd42e68ff2532e237f956496bebaa05b4b2c6b331cf90b66db989"
+                }
+              ],
+              "sourceSha256": "6e5d85eab90d06037377c3f6ac1ddd4620a6c6d48709d97bcdc81daa13b28228"
+            },
+            "male": {
+              "source": "audio/week-02/2026-10-31-v1/male/01.m4a",
+              "words": [
+                {
+                  "word": " John,",
+                  "start": 0.0,
+                  "end": 0.2
+                },
+                {
+                  "word": " what",
+                  "start": 0.54,
+                  "end": 1.0
+                },
+                {
+                  "word": " would",
+                  "start": 1.0,
+                  "end": 1.16
+                },
+                {
+                  "word": " you",
+                  "start": 1.16,
+                  "end": 1.36
+                },
+                {
+                  "word": " most",
+                  "start": 1.36,
+                  "end": 1.6
+                },
+                {
+                  "word": " like",
+                  "start": 1.6,
+                  "end": 1.92
+                },
+                {
+                  "word": " to",
+                  "start": 1.92,
+                  "end": 2.06
+                },
+                {
+                  "word": " get",
+                  "start": 2.06,
+                  "end": 2.18
+                },
+                {
+                  "word": " back",
+                  "start": 2.18,
+                  "end": 2.34
+                },
+                {
+                  "word": " to",
+                  "start": 2.34,
+                  "end": 2.5
+                },
+                {
+                  "word": " doing?",
+                  "start": 2.5,
+                  "end": 2.76
+                }
+              ],
+              "asr": "John, what would you most like to get back to doing?",
+              "duration": 3.2508125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.095
+                },
+                {
+                  "start": 0.375,
+                  "end": 0.915
+                },
+                {
+                  "start": 1.94,
+                  "end": 2.025
+                },
+                {
+                  "start": 2.205,
+                  "end": 2.28
+                },
+                {
+                  "start": 2.375,
+                  "end": 2.49
+                },
+                {
+                  "start": 2.74,
+                  "end": 3.25
+                }
+              ],
+              "rmsThreshold": 0.01429649293422699,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.2508125,
+              "cuts": [
+                0.5125
+              ],
+              "boundaryReview": [
+                {
+                  "after": "John,",
+                  "precedingWord": {
+                    "word": " John,",
+                    "start": 0.0,
+                    "end": 0.2
+                  },
+                  "nextWord": {
+                    "word": " what",
+                    "start": 0.54,
+                    "end": 1.0
+                  },
+                  "cut": 0.5125,
+                  "quietInterval": {
+                    "start": 0.375,
+                    "end": 0.65
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0894
+                }
+              ],
+              "tailPadding": [
+                0.0894,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.6019,
+                  "expected": "John,",
+                  "sha256": "a6f9bb3d7656627028c26c7060e42ea11a74fe2975d59ca7307ff97ccf6010bb"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-2.m4a",
+                  "start": 0.5125,
+                  "end": 3.2508125,
+                  "expected": "what would you most like to get back to doing?",
+                  "sha256": "4db6d73c731c6a12a1e4d58e3ae15a14bf711d997e58f1c2edbf860965396ab3"
+                }
+              ],
+              "sourceSha256": "0ac0c310908e51d602347c427dfccb749ae9e2866b91497db41e1163bc19c1c2"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-02",
+          "line": 2,
+          "text": "I'd like to sit at work without constantly having to change positions.",
+          "chunks": [
+            "I'd like to sit at work",
+            "without constantly having to change positions."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-02/2026-10-31-v1/patient/02.m4a",
+              "words": [
+                {
+                  "word": " I'd",
+                  "start": 0.0,
+                  "end": 0.16
+                },
+                {
+                  "word": " like",
+                  "start": 0.16,
+                  "end": 0.26
+                },
+                {
+                  "word": " to",
+                  "start": 0.26,
+                  "end": 0.38
+                },
+                {
+                  "word": " sit",
+                  "start": 0.38,
+                  "end": 0.5
+                },
+                {
+                  "word": " at",
+                  "start": 0.5,
+                  "end": 0.6
+                },
+                {
+                  "word": " work",
+                  "start": 0.6,
+                  "end": 0.76
+                },
+                {
+                  "word": " without",
+                  "start": 0.76,
+                  "end": 1.02
+                },
+                {
+                  "word": " constantly",
+                  "start": 1.02,
+                  "end": 1.36
+                },
+                {
+                  "word": " having",
+                  "start": 1.36,
+                  "end": 1.66
+                },
+                {
+                  "word": " to",
+                  "start": 1.66,
+                  "end": 1.8
+                },
+                {
+                  "word": " change",
+                  "start": 1.8,
+                  "end": 1.98
+                },
+                {
+                  "word": " positions.",
+                  "start": 1.98,
+                  "end": 2.3
+                }
+              ],
+              "asr": "I'd like to sit at work without constantly having to change positions.",
+              "duration": 3.2508125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.125
+                },
+                {
+                  "start": 1.07,
+                  "end": 1.14
+                },
+                {
+                  "start": 2.12,
+                  "end": 2.19
+                },
+                {
+                  "start": 2.46,
+                  "end": 2.575
+                },
+                {
+                  "start": 2.685,
+                  "end": 3.25
+                }
+              ],
+              "rmsThreshold": 0.019480836391448975,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.2508125,
+              "cuts": [
+                0.79
+              ],
+              "boundaryReview": [
+                {
+                  "after": "I'd like to sit at work",
+                  "precedingWord": {
+                    "word": " work",
+                    "start": 0.6,
+                    "end": 0.76
+                  },
+                  "nextWord": {
+                    "word": " without",
+                    "start": 0.76,
+                    "end": 1.02
+                  },
+                  "cut": 0.79,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.79,
+                  "expected": "I'd like to sit at work",
+                  "sha256": "4803e91185236f9ea38daff2f8be39679fb02e528c693c7ec5caebeb0509776d"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-2.m4a",
+                  "start": 0.79,
+                  "end": 3.2508125,
+                  "expected": "without constantly having to change positions.",
+                  "sha256": "d9289b967825b508ce07f7e76a1c28b869714848cf13d78cc4d14926f372c79b"
+                }
+              ],
+              "sourceSha256": "521c1218ba956e321bef7a13359b4d753b3537bd5e8d6903466fb22517f796c9"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-04",
+          "line": 4,
+          "text": "Sometimes I have meetings that last about half an hour.",
+          "chunks": [
+            "Sometimes I have meetings",
+            "that last about half an hour."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-02/2026-10-31-v1/patient/04.m4a",
+              "words": [
+                {
+                  "word": " Sometimes",
+                  "start": 0.0,
+                  "end": 0.52
+                },
+                {
+                  "word": " I",
+                  "start": 0.52,
+                  "end": 0.76
+                },
+                {
+                  "word": " have",
+                  "start": 0.76,
+                  "end": 0.82
+                },
+                {
+                  "word": " meetings",
+                  "start": 0.82,
+                  "end": 1.02
+                },
+                {
+                  "word": " that",
+                  "start": 1.02,
+                  "end": 1.22
+                },
+                {
+                  "word": " last",
+                  "start": 1.22,
+                  "end": 1.4
+                },
+                {
+                  "word": " about",
+                  "start": 1.4,
+                  "end": 1.62
+                },
+                {
+                  "word": " half",
+                  "start": 1.62,
+                  "end": 1.86
+                },
+                {
+                  "word": " an",
+                  "start": 1.86,
+                  "end": 1.98
+                },
+                {
+                  "word": " hour.",
+                  "start": 1.98,
+                  "end": 2.14
+                }
+              ],
+              "asr": "Sometimes I have meetings that last about half an hour.",
+              "duration": 2.71675,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.28
+                },
+                {
+                  "start": 2.24,
+                  "end": 2.715
+                }
+              ],
+              "rmsThreshold": 0.018357300758361818,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.71675,
+              "cuts": [
+                1.165
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Sometimes I have meetings",
+                  "precedingWord": {
+                    "word": " meetings",
+                    "start": 0.82,
+                    "end": 1.02
+                  },
+                  "nextWord": {
+                    "word": " that",
+                    "start": 1.02,
+                    "end": 1.22
+                  },
+                  "cut": 1.165,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 1.015,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.165,
+                  "expected": "Sometimes I have meetings",
+                  "sha256": "e32384b0a15a1fbbc9255f560f3b0752d9008e844ab8cbc6cf415286e93f30bc"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-2.m4a",
+                  "start": 1.165,
+                  "end": 2.71675,
+                  "expected": "that last about half an hour.",
+                  "sha256": "5ea2624f2a88277abaf9fc1513d18aff671431dbfbabcf09666628a226796b82"
+                }
+              ],
+              "sourceSha256": "665199f38c0ee9411cfefbaa0fa751c9d70da48ca6d9742beb0eec335135e2b3"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-05",
+          "line": 5,
+          "text": "So sitting through a 30-minute meeting more comfortably would be useful?",
+          "chunks": [
+            "So sitting through a 30-minute meeting more comfortably",
+            "would be useful?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/05.m4a",
+              "words": [
+                {
+                  "word": " So",
+                  "start": 0.0,
+                  "end": 0.18
+                },
+                {
+                  "word": " sitting",
+                  "start": 0.18,
+                  "end": 0.44
+                },
+                {
+                  "word": " through",
+                  "start": 0.44,
+                  "end": 0.72
+                },
+                {
+                  "word": " a",
+                  "start": 0.72,
+                  "end": 0.84
+                },
+                {
+                  "word": " 30",
+                  "start": 0.84,
+                  "end": 1.06
+                },
+                {
+                  "word": " minute",
+                  "start": 1.06,
+                  "end": 1.34
+                },
+                {
+                  "word": " meeting",
+                  "start": 1.34,
+                  "end": 1.56
+                },
+                {
+                  "word": " more",
+                  "start": 1.56,
+                  "end": 1.86
+                },
+                {
+                  "word": " comfortably",
+                  "start": 1.86,
+                  "end": 2.22
+                },
+                {
+                  "word": " would",
+                  "start": 2.22,
+                  "end": 2.56
+                },
+                {
+                  "word": " be",
+                  "start": 2.56,
+                  "end": 2.7
+                },
+                {
+                  "word": " useful.",
+                  "start": 2.7,
+                  "end": 2.98
+                }
+              ],
+              "asr": "So sitting through a 30 minute meeting more comfortably would be useful.",
+              "duration": 3.8080625,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.085
+                },
+                {
+                  "start": 3.29,
+                  "end": 3.805
+                }
+              ],
+              "rmsThreshold": 0.010694074630737306,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.8080625,
+              "cuts": [
+                2.44
+              ],
+              "boundaryReview": [
+                {
+                  "after": "So sitting through a 30-minute meeting more comfortably",
+                  "precedingWord": {
+                    "word": " comfortably",
+                    "start": 1.86,
+                    "end": 2.22
+                  },
+                  "nextWord": {
+                    "word": " would",
+                    "start": 2.22,
+                    "end": 2.56
+                  },
+                  "cut": 2.44,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 2.185,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous. Final boundary calibrated to the previously verified original 8.60s cut relative to the current 6.20s source start, retaining the final syllable of comfortably. Shared cut moved 40ms later to keep the final -ly vowel out of the would segment; no overlapping padding."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 2.44,
+                  "expected": "So sitting through a 30-minute meeting more comfortably",
+                  "sha256": "d993ae9ea81ec12bfdb3125bc7b6fb2303760fc585a5bbb7cf80f6030d30ea0b"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-2.m4a",
+                  "start": 2.44,
+                  "end": 3.8080625,
+                  "expected": "would be useful?",
+                  "sha256": "4dbb755e37c9b389491050242869d439a4e86976d08f9c00a4849fe5d061a4c9"
+                }
+              ],
+              "sourceSha256": "5137474f307ff82be5d7dd659983d1609cd39772f886089509dd7e9839d8c2d9"
+            },
+            "male": {
+              "source": "audio/week-02/2026-10-31-v1/male/05.m4a",
+              "words": [
+                {
+                  "word": " So,",
+                  "start": 0.0,
+                  "end": 0.3
+                },
+                {
+                  "word": " sitting",
+                  "start": 0.52,
+                  "end": 0.7
+                },
+                {
+                  "word": " through",
+                  "start": 0.7,
+                  "end": 1.02
+                },
+                {
+                  "word": " a",
+                  "start": 1.02,
+                  "end": 1.16
+                },
+                {
+                  "word": " 30",
+                  "start": 1.16,
+                  "end": 1.4
+                },
+                {
+                  "word": "-minute",
+                  "start": 1.4,
+                  "end": 1.64
+                },
+                {
+                  "word": " meeting",
+                  "start": 1.64,
+                  "end": 1.86
+                },
+                {
+                  "word": " more",
+                  "start": 1.86,
+                  "end": 2.18
+                },
+                {
+                  "word": " comfortably",
+                  "start": 2.18,
+                  "end": 2.64
+                },
+                {
+                  "word": " would",
+                  "start": 2.64,
+                  "end": 3.38
+                },
+                {
+                  "word": " be",
+                  "start": 3.38,
+                  "end": 3.56
+                },
+                {
+                  "word": " useful.",
+                  "start": 3.56,
+                  "end": 3.86
+                }
+              ],
+              "asr": "So, sitting through a 30-minute meeting more comfortably would be useful.",
+              "duration": 4.6208125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.19
+                },
+                {
+                  "start": 1.24,
+                  "end": 1.325
+                },
+                {
+                  "start": 2.22,
+                  "end": 2.3
+                },
+                {
+                  "start": 2.455,
+                  "end": 2.55
+                },
+                {
+                  "start": 2.81,
+                  "end": 3.31
+                },
+                {
+                  "start": 3.89,
+                  "end": 3.965
+                },
+                {
+                  "start": 4.05,
+                  "end": 4.62
+                }
+              ],
+              "rmsThreshold": 0.01263016164302826,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 4.6208125,
+              "cuts": [
+                2.865
+              ],
+              "boundaryReview": [
+                {
+                  "after": "So sitting through a 30-minute meeting more comfortably",
+                  "precedingWord": {
+                    "word": " comfortably",
+                    "start": 2.18,
+                    "end": 2.64
+                  },
+                  "nextWord": {
+                    "word": " would",
+                    "start": 2.64,
+                    "end": 3.38
+                  },
+                  "cut": 2.865,
+                  "quietInterval": {
+                    "start": 2.81,
+                    "end": 2.92
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0357
+                }
+              ],
+              "tailPadding": [
+                0.0357,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 2.9007,
+                  "expected": "So sitting through a 30-minute meeting more comfortably",
+                  "sha256": "193013f71683e0a9b976e26424814b889693b90db144d42abde7d00abfedd135"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-2.m4a",
+                  "start": 2.865,
+                  "end": 4.6208125,
+                  "expected": "would be useful?",
+                  "sha256": "425d525c943b2abdcd5788110e655eae61b4df139fcbee4ab350481e33427a79"
+                }
+              ],
+              "sourceSha256": "af0e32e9ca4e3f0ff352f91f876c2ad07c9985c89b30cc9795f8ef5435ec0f1f"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-07",
+          "line": 7,
+          "text": "You also mentioned wanting to get back to running.",
+          "chunks": [
+            "You also mentioned",
+            "wanting to get back to running."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/07.m4a",
+              "words": [
+                {
+                  "word": " You",
+                  "start": 0.0,
+                  "end": 0.44
+                },
+                {
+                  "word": " also",
+                  "start": 0.44,
+                  "end": 0.58
+                },
+                {
+                  "word": " mentioned",
+                  "start": 0.58,
+                  "end": 0.96
+                },
+                {
+                  "word": " wanting",
+                  "start": 0.96,
+                  "end": 1.2
+                },
+                {
+                  "word": " to",
+                  "start": 1.2,
+                  "end": 1.42
+                },
+                {
+                  "word": " get",
+                  "start": 1.42,
+                  "end": 1.54
+                },
+                {
+                  "word": " back",
+                  "start": 1.54,
+                  "end": 1.7
+                },
+                {
+                  "word": " to",
+                  "start": 1.7,
+                  "end": 1.88
+                },
+                {
+                  "word": " running.",
+                  "start": 1.88,
+                  "end": 2.12
+                }
+              ],
+              "asr": "You also mentioned wanting to get back to running.",
+              "duration": 2.7399375,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.36
+                },
+                {
+                  "start": 2.375,
+                  "end": 2.735
+                }
+              ],
+              "rmsThreshold": 0.01189882978796959,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.7399375,
+              "cuts": [
+                0.99
+              ],
+              "boundaryReview": [
+                {
+                  "after": "You also mentioned",
+                  "precedingWord": {
+                    "word": " mentioned",
+                    "start": 0.58,
+                    "end": 0.96
+                  },
+                  "nextWord": {
+                    "word": " wanting",
+                    "start": 0.96,
+                    "end": 1.2
+                  },
+                  "cut": 0.99,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.99,
+                  "expected": "You also mentioned",
+                  "sha256": "3febce87308dfec3d366fae8a2742ddfe29f5f929a2425e9af1b9bcac2754673"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-2.m4a",
+                  "start": 0.99,
+                  "end": 2.7399375,
+                  "expected": "wanting to get back to running.",
+                  "sha256": "057faf1b5ba163911bb5cc2238caaaa8463c7fb5ddbd40514d7768a460162ebf"
+                }
+              ],
+              "sourceSha256": "a6a0853b4fc7f3f2a34a2e009ce435d2815b2ae1f7d53befca121e982fa3f83b"
+            },
+            "male": {
+              "source": "audio/week-02/2026-10-31-v1/male/07.m4a",
+              "words": [
+                {
+                  "word": " You",
+                  "start": 0.0,
+                  "end": 0.44
+                },
+                {
+                  "word": " also",
+                  "start": 0.44,
+                  "end": 0.58
+                },
+                {
+                  "word": " mentioned",
+                  "start": 0.58,
+                  "end": 1.06
+                },
+                {
+                  "word": " wanting",
+                  "start": 1.06,
+                  "end": 1.38
+                },
+                {
+                  "word": " to",
+                  "start": 1.38,
+                  "end": 1.58
+                },
+                {
+                  "word": " get",
+                  "start": 1.58,
+                  "end": 1.68
+                },
+                {
+                  "word": " back",
+                  "start": 1.68,
+                  "end": 1.86
+                },
+                {
+                  "word": " to",
+                  "start": 1.86,
+                  "end": 2.02
+                },
+                {
+                  "word": " running.",
+                  "start": 2.02,
+                  "end": 2.22
+                }
+              ],
+              "asr": "You also mentioned wanting to get back to running.",
+              "duration": 2.809625,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.385
+                },
+                {
+                  "start": 1.73,
+                  "end": 1.805
+                },
+                {
+                  "start": 1.89,
+                  "end": 1.97
+                },
+                {
+                  "start": 2.05,
+                  "end": 2.125
+                },
+                {
+                  "start": 2.325,
+                  "end": 2.805
+                }
+              ],
+              "rmsThreshold": 0.012195131182670594,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.809625,
+              "cuts": [
+                1.09
+              ],
+              "boundaryReview": [
+                {
+                  "after": "You also mentioned",
+                  "precedingWord": {
+                    "word": " mentioned",
+                    "start": 0.58,
+                    "end": 1.06
+                  },
+                  "nextWord": {
+                    "word": " wanting",
+                    "start": 1.06,
+                    "end": 1.38
+                  },
+                  "cut": 1.09,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.09,
+                  "expected": "You also mentioned",
+                  "sha256": "391c13c7bc460fccdcc0019103b8c10c4fc0bc9f9d39c00f934b157256786835"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-2.m4a",
+                  "start": 1.09,
+                  "end": 2.809625,
+                  "expected": "wanting to get back to running.",
+                  "sha256": "7d0c2e0827832383a7f3ebeeca588735f597b3cf0428bdd6b9df5140e1c03f24"
+                }
+              ],
+              "sourceSha256": "dfebc38a871bcda3ce82d55f8f5d6cabbd5ede92d44dcbf8d0eb624237b959af"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-10",
+          "line": 10,
+          "text": "but sitting at work is the main problem at the moment.",
+          "chunks": [
+            "but sitting at work",
+            "is the main problem at the moment."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-02/2026-10-31-v1/patient/10.m4a",
+              "words": [
+                {
+                  "word": " but",
+                  "start": 0.0,
+                  "end": 0.06
+                },
+                {
+                  "word": " sitting",
+                  "start": 0.06,
+                  "end": 0.22
+                },
+                {
+                  "word": " at",
+                  "start": 0.22,
+                  "end": 0.38
+                },
+                {
+                  "word": " work",
+                  "start": 0.38,
+                  "end": 0.52
+                },
+                {
+                  "word": " is",
+                  "start": 0.52,
+                  "end": 0.7
+                },
+                {
+                  "word": " the",
+                  "start": 0.7,
+                  "end": 0.82
+                },
+                {
+                  "word": " main",
+                  "start": 0.82,
+                  "end": 0.92
+                },
+                {
+                  "word": " problem",
+                  "start": 0.92,
+                  "end": 1.18
+                },
+                {
+                  "word": " at",
+                  "start": 1.18,
+                  "end": 1.36
+                },
+                {
+                  "word": " the",
+                  "start": 1.36,
+                  "end": 1.44
+                },
+                {
+                  "word": " moment.",
+                  "start": 1.44,
+                  "end": 1.68
+                }
+              ],
+              "asr": "but sitting at work is the main problem at the moment.",
+              "duration": 2.1594375,
+              "quietIntervals": [
+                {
+                  "start": 1.735,
+                  "end": 2.155
+                }
+              ],
+              "rmsThreshold": 0.013362942636013031,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.1594375,
+              "cuts": [
+                0.585
+              ],
+              "boundaryReview": [
+                {
+                  "after": "but sitting at work",
+                  "precedingWord": {
+                    "word": " work",
+                    "start": 0.38,
+                    "end": 0.52
+                  },
+                  "nextWord": {
+                    "word": " is",
+                    "start": 0.52,
+                    "end": 0.7
+                  },
+                  "cut": 0.585,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 0.485,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.585,
+                  "expected": "but sitting at work",
+                  "sha256": "5a5c04c942b34a94cbfb6c1059168fe482b15b1a5d1575da4e57777b7e03e7b8"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-2.m4a",
+                  "start": 0.585,
+                  "end": 2.1594375,
+                  "expected": "is the main problem at the moment.",
+                  "sha256": "eb1ad0851489ee4a405fb9133e61fa420fa308d2bdc4b5eacbe7a6176c00078c"
+                }
+              ],
+              "sourceSha256": "2f9127f7ae98db81b361af6a2e548f8721033f7ec63ca79486ad6da9140af14e"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-12",
+          "line": 12,
+          "text": "Shall we start with the meeting goal as a short-term goal",
+          "chunks": [
+            "Shall we start with the meeting goal",
+            "as a short-term goal"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/12.m4a",
+              "words": [
+                {
+                  "word": " Shall",
+                  "start": 0.0,
+                  "end": 0.82
+                },
+                {
+                  "word": " we",
+                  "start": 0.82,
+                  "end": 0.94
+                },
+                {
+                  "word": " start",
+                  "start": 0.94,
+                  "end": 1.16
+                },
+                {
+                  "word": " with",
+                  "start": 1.16,
+                  "end": 1.34
+                },
+                {
+                  "word": " the",
+                  "start": 1.34,
+                  "end": 1.44
+                },
+                {
+                  "word": " meeting",
+                  "start": 1.44,
+                  "end": 1.66
+                },
+                {
+                  "word": " goal",
+                  "start": 1.66,
+                  "end": 1.94
+                },
+                {
+                  "word": " as",
+                  "start": 1.94,
+                  "end": 2.22
+                },
+                {
+                  "word": " a",
+                  "start": 2.22,
+                  "end": 2.34
+                },
+                {
+                  "word": " short",
+                  "start": 2.34,
+                  "end": 2.56
+                },
+                {
+                  "word": "-term",
+                  "start": 2.56,
+                  "end": 2.78
+                },
+                {
+                  "word": " goal?",
+                  "start": 2.78,
+                  "end": 3.04
+                }
+              ],
+              "asr": "Shall we start with the meeting goal as a short-term goal?",
+              "duration": 3.3204375,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.695
+                },
+                {
+                  "start": 3.25,
+                  "end": 3.32
+                }
+              ],
+              "rmsThreshold": 0.01200438141822815,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.3204375,
+              "cuts": [
+                2.025
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Shall we start with the meeting goal",
+                  "precedingWord": {
+                    "word": " goal",
+                    "start": 1.66,
+                    "end": 1.94
+                  },
+                  "nextWord": {
+                    "word": " as",
+                    "start": 1.94,
+                    "end": 2.22
+                  },
+                  "cut": 2.025,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 1.905,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 2.025,
+                  "expected": "Shall we start with the meeting goal",
+                  "sha256": "a476b235a7e0b0fd92c169c81ba6eefc373c3cc435e3eb9358d507bc70311017"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-2.m4a",
+                  "start": 2.025,
+                  "end": 3.3204375,
+                  "expected": "as a short-term goal",
+                  "sha256": "cc7a20d1d3e277dd1e2825db78e5a593eb23eb717b3923b0612489ea020743fd"
+                }
+              ],
+              "sourceSha256": "c85682f73a5945a2e0889aeb61de702e394e242ec5d24a1dfb2c551cf697de3a"
+            },
+            "male": {
+              "source": "audio/week-02/2026-10-31-v1/male/12.m4a",
+              "words": [
+                {
+                  "word": " Shall",
+                  "start": 0.0,
+                  "end": 0.24
+                },
+                {
+                  "word": " we",
+                  "start": 0.24,
+                  "end": 0.34
+                },
+                {
+                  "word": " start",
+                  "start": 0.34,
+                  "end": 0.58
+                },
+                {
+                  "word": " with",
+                  "start": 0.58,
+                  "end": 0.76
+                },
+                {
+                  "word": " the",
+                  "start": 0.76,
+                  "end": 0.88
+                },
+                {
+                  "word": " meeting",
+                  "start": 0.88,
+                  "end": 1.14
+                },
+                {
+                  "word": " goal",
+                  "start": 1.14,
+                  "end": 1.4
+                },
+                {
+                  "word": " as",
+                  "start": 1.4,
+                  "end": 1.66
+                },
+                {
+                  "word": " a",
+                  "start": 1.66,
+                  "end": 1.76
+                },
+                {
+                  "word": " short",
+                  "start": 1.76,
+                  "end": 2.0
+                },
+                {
+                  "word": "-term",
+                  "start": 2.0,
+                  "end": 2.24
+                },
+                {
+                  "word": " goal?",
+                  "start": 2.24,
+                  "end": 2.48
+                }
+              ],
+              "asr": "Shall we start with the meeting goal as a short-term goal?",
+              "duration": 2.9721875,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.13
+                },
+                {
+                  "start": 2.595,
+                  "end": 2.97
+                }
+              ],
+              "rmsThreshold": 0.010364768654108049,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.9721875,
+              "cuts": [
+                1.425
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Shall we start with the meeting goal",
+                  "precedingWord": {
+                    "word": " goal",
+                    "start": 1.14,
+                    "end": 1.4
+                  },
+                  "nextWord": {
+                    "word": " as",
+                    "start": 1.4,
+                    "end": 1.66
+                  },
+                  "cut": 1.425,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.425,
+                  "expected": "Shall we start with the meeting goal",
+                  "sha256": "3ff6988b118cec155346673000ab525e0f0ceeb1b716afaf01d16ed2835509bd"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-2.m4a",
+                  "start": 1.425,
+                  "end": 2.9721875,
+                  "expected": "as a short-term goal",
+                  "sha256": "f3db93411fe0f725c5d9a6f8de7a23dffa8e0cbb6702488926d4e62a7f10dc6a"
+                }
+              ],
+              "sourceSha256": "0262d75e848d696ceb0fe4c8fc4a71a3af4d4954173545adedf67325d8a4391e"
+            }
+          }
+        },
+        {
+          "id": "week-02-line-13",
+          "line": 13,
+          "text": "and work towards getting you back to running over time?",
+          "chunks": [
+            "and work towards",
+            "getting you back to running over time?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/13.m4a",
+              "words": [
+                {
+                  "word": " and",
+                  "start": 0.0,
+                  "end": 0.1
+                },
+                {
+                  "word": " work",
+                  "start": 0.1,
+                  "end": 0.24
+                },
+                {
+                  "word": " towards",
+                  "start": 0.24,
+                  "end": 0.52
+                },
+                {
+                  "word": " getting",
+                  "start": 0.52,
+                  "end": 0.8
+                },
+                {
+                  "word": " you",
+                  "start": 0.8,
+                  "end": 1.02
+                },
+                {
+                  "word": " back",
+                  "start": 1.02,
+                  "end": 1.18
+                },
+                {
+                  "word": " to",
+                  "start": 1.18,
+                  "end": 1.34
+                },
+                {
+                  "word": " running",
+                  "start": 1.34,
+                  "end": 1.48
+                },
+                {
+                  "word": " over",
+                  "start": 1.48,
+                  "end": 1.74
+                },
+                {
+                  "word": " time.",
+                  "start": 1.74,
+                  "end": 2.0
+                }
+              ],
+              "asr": "and work towards getting you back to running over time.",
+              "duration": 2.5541875,
+              "quietIntervals": [
+                {
+                  "start": 2.185,
+                  "end": 2.55
+                }
+              ],
+              "rmsThreshold": 0.008066444098949433,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.5541875,
+              "cuts": [
+                0.665
+              ],
+              "boundaryReview": [
+                {
+                  "after": "and work towards",
+                  "precedingWord": {
+                    "word": " towards",
+                    "start": 0.24,
+                    "end": 0.52
+                  },
+                  "nextWord": {
+                    "word": " getting",
+                    "start": 0.52,
+                    "end": 0.8
+                  },
+                  "cut": 0.665,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 0.485,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.665,
+                  "expected": "and work towards",
+                  "sha256": "8802ddad9b49ee0bd3d2d2f9509a81d6a673bd11984a2333f51b68a14d116b2a"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-2.m4a",
+                  "start": 0.665,
+                  "end": 2.5541875,
+                  "expected": "getting you back to running over time?",
+                  "sha256": "5ed46f86f2351b0f962219ad0b3bf852befd8deda354cc6998dbd329fc5e1733"
+                }
+              ],
+              "sourceSha256": "6ed6f881218a44a3b6a5857455e04a6fc7244060a01d6244e77e9fc289830824"
+            },
+            "male": {
+              "source": "audio/week-02/2026-10-31-v1/male/13.m4a",
+              "words": [
+                {
+                  "word": " and",
+                  "start": 0.0,
+                  "end": 0.34
+                },
+                {
+                  "word": " work",
+                  "start": 0.34,
+                  "end": 0.52
+                },
+                {
+                  "word": " towards",
+                  "start": 0.52,
+                  "end": 0.8
+                },
+                {
+                  "word": " getting",
+                  "start": 0.8,
+                  "end": 1.08
+                },
+                {
+                  "word": " you",
+                  "start": 1.08,
+                  "end": 1.28
+                },
+                {
+                  "word": " back",
+                  "start": 1.28,
+                  "end": 1.46
+                },
+                {
+                  "word": " to",
+                  "start": 1.46,
+                  "end": 1.62
+                },
+                {
+                  "word": " running",
+                  "start": 1.62,
+                  "end": 1.8
+                },
+                {
+                  "word": " over",
+                  "start": 1.8,
+                  "end": 2.06
+                },
+                {
+                  "word": " time.",
+                  "start": 2.06,
+                  "end": 2.32
+                }
+              ],
+              "asr": "and work towards getting you back to running over time.",
+              "duration": 2.832875,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.27
+                },
+                {
+                  "start": 0.605,
+                  "end": 0.665
+                },
+                {
+                  "start": 1.505,
+                  "end": 1.59
+                },
+                {
+                  "start": 1.63,
+                  "end": 1.73
+                },
+                {
+                  "start": 2.495,
+                  "end": 2.83
+                }
+              ],
+              "rmsThreshold": 0.006847278773784638,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.832875,
+              "cuts": [
+                0.98
+              ],
+              "boundaryReview": [
+                {
+                  "after": "and work towards",
+                  "precedingWord": {
+                    "word": " towards",
+                    "start": 0.52,
+                    "end": 0.8
+                  },
+                  "nextWord": {
+                    "word": " getting",
+                    "start": 0.8,
+                    "end": 1.08
+                  },
+                  "cut": 0.98,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 0.635,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous. Final cut calibrated against the previously verified original-source towards/getting boundary at 21.28s, relative to the current 20.30s source start."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.98,
+                  "expected": "and work towards",
+                  "sha256": "6c3ddbce73a860e4bb5e9cf981554ad11d7c1ab248e66c761e889722333d5d9f"
+                },
+                {
+                  "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-2.m4a",
+                  "start": 0.98,
+                  "end": 2.832875,
+                  "expected": "getting you back to running over time?",
+                  "sha256": "6c347383184f4684078bec52fa5624d303ae831dd4c66cbae8c346041de9c383"
+                }
+              ],
+              "sourceSha256": "e3ec5042575ad0d032ba5841b59e44f18bccab043637c0d4453ef216d004c857"
+            }
+          }
+        }
+      ],
+      "wholeBubbleLines": [
+        {
+          "line": 3,
+          "text": "How long do you usually need to sit for at work?",
+          "reason": "Short connected utterance with no reliable internal breath break; trial fragments leaked syllables across the shared boundary. Keep natural whole-bubble playback instead of forcing a split."
+        },
+        {
+          "line": 6,
+          "text": "Yes, definitely.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 8,
+          "text": "Is that another priority for you?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 9,
+          "text": "Yes, I'd really like to run again,",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 11,
+          "text": "That makes sense.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 14,
+          "text": "Yes, that sounds like a good place to start.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        }
+      ]
+    },
+    {
+      "id": "week-03",
+      "scriptRevision": "2026-11-09-user-week-03",
+      "units": [
+        {
+          "id": "w3-line-01",
+          "line": 1,
+          "preservedUnit": {
+            "id": "w3-line-01",
+            "lines": [
+              0
+            ],
+            "speaker": "Physio",
+            "text": "Can you tell me more about what's been happening with your back?",
+            "chunks": [
+              "Can you tell me more about",
+              "what's been happening",
+              "with your back?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-1.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/build-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-1.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/build-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/full.m4a"
+              }
+            }
+          },
+          "reason": "Explicit user phrase boundaries; preserve previously verified audio."
+        },
+        {
+          "id": "week-03-line-02",
+          "line": 2,
+          "text": "My back has been feeling achy for a while now.",
+          "chunks": [
+            "My back has been feeling achy",
+            "for a while now."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-03/2026-11-09-v1/patient/02.m4a",
+              "words": [
+                {
+                  "word": " My",
+                  "start": 0.0,
+                  "end": 0.16
+                },
+                {
+                  "word": " back",
+                  "start": 0.16,
+                  "end": 0.3
+                },
+                {
+                  "word": " has",
+                  "start": 0.3,
+                  "end": 0.44
+                },
+                {
+                  "word": " been",
+                  "start": 0.44,
+                  "end": 0.58
+                },
+                {
+                  "word": " feeling",
+                  "start": 0.58,
+                  "end": 0.82
+                },
+                {
+                  "word": " achy",
+                  "start": 0.82,
+                  "end": 1.14
+                },
+                {
+                  "word": " for",
+                  "start": 1.14,
+                  "end": 1.28
+                },
+                {
+                  "word": " a",
+                  "start": 1.28,
+                  "end": 1.34
+                },
+                {
+                  "word": " while",
+                  "start": 1.34,
+                  "end": 1.5
+                },
+                {
+                  "word": " now.",
+                  "start": 1.5,
+                  "end": 1.74
+                }
+              ],
+              "asr": "My back has been feeling achy for a while now.",
+              "duration": 2.0898125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.11
+                },
+                {
+                  "start": 1.81,
+                  "end": 2.085
+                }
+              ],
+              "rmsThreshold": 0.017673379182815554,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.0898125,
+              "cuts": [
+                1.2
+              ],
+              "boundaryReview": [
+                {
+                  "after": "My back has been feeling achy",
+                  "precedingWord": {
+                    "word": " achy",
+                    "start": 0.82,
+                    "end": 1.14
+                  },
+                  "nextWord": {
+                    "word": " for",
+                    "start": 1.14,
+                    "end": 1.28
+                  },
+                  "cut": 1.2,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 1.145,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.2,
+                  "expected": "My back has been feeling achy",
+                  "sha256": "d8ef887892d5196726a984c35c86531c9076153dae164e55c940228984fff4a8"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-2.m4a",
+                  "start": 1.2,
+                  "end": 2.0898125,
+                  "expected": "for a while now.",
+                  "sha256": "3fbfcba02574610c87bfcebc806b7e68279649cf208a622b1a2302e822e1c24d"
+                }
+              ],
+              "sourceSha256": "247db43aac711dab9e9a1fa27758439f4f31983c7add9d09a625273dd17b207f"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-03",
+          "line": 3,
+          "text": "Whereabouts in your back do you feel it?",
+          "chunks": [
+            "Whereabouts in your back",
+            "do you feel it?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/03.m4a",
+              "words": [
+                {
+                  "word": " Okay,",
+                  "start": 0.0,
+                  "end": 0.46
+                },
+                {
+                  "word": " where",
+                  "start": 1.02,
+                  "end": 1.32
+                },
+                {
+                  "word": " abouts",
+                  "start": 1.32,
+                  "end": 1.66
+                },
+                {
+                  "word": " in",
+                  "start": 1.66,
+                  "end": 1.74
+                },
+                {
+                  "word": " your",
+                  "start": 1.74,
+                  "end": 1.84
+                },
+                {
+                  "word": " back?",
+                  "start": 1.84,
+                  "end": 2.02
+                },
+                {
+                  "word": " Do",
+                  "start": 2.18,
+                  "end": 2.18
+                },
+                {
+                  "word": " you",
+                  "start": 2.18,
+                  "end": 2.28
+                },
+                {
+                  "word": " feel",
+                  "start": 2.28,
+                  "end": 2.46
+                },
+                {
+                  "word": " it?",
+                  "start": 2.46,
+                  "end": 2.68
+                }
+              ],
+              "asr": "Okay, where abouts in your back? Do you feel it?",
+              "duration": 3.08825,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.13
+                },
+                {
+                  "start": 0.695,
+                  "end": 1.235
+                },
+                {
+                  "start": 2.725,
+                  "end": 3.085
+                }
+              ],
+              "rmsThreshold": 0.011370472609996796,
+              "alignmentRatio": 1.0,
+              "start": 0.965,
+              "end": 3.08825,
+              "cuts": [
+                2.13
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Whereabouts in your back",
+                  "precedingWord": {
+                    "word": " back?",
+                    "start": 1.84,
+                    "end": 2.02
+                  },
+                  "nextWord": {
+                    "word": " Do",
+                    "start": 2.18,
+                    "end": 2.18
+                  },
+                  "cut": 2.13,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-1.m4a",
+                  "start": 0.965,
+                  "end": 2.13,
+                  "expected": "Whereabouts in your back",
+                  "sha256": "803df1d1a745f7f254a82b9a9269eb0fbca4b4005c5ef46031572fc0ae0d6be5"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-2.m4a",
+                  "start": 2.13,
+                  "end": 3.08825,
+                  "expected": "do you feel it?",
+                  "sha256": "b00b9340b0bf2a4e191f5a2946128c06bd9ac22d9ed280b68f0505993fe7501d"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/full.m4a",
+                  "start": 0.965,
+                  "end": 3.08825,
+                  "expected": "Whereabouts in your back do you feel it?",
+                  "sha256": "8a17113b9bb4393c3f03ce68473d57c504fdbdb1d6e48f660b21bbc8aca160d3"
+                }
+              ],
+              "sourceSha256": "66255d583531ad619827e53f15a60c47ae12a2c797489e78bfee3a32c009040c"
+            },
+            "male": {
+              "source": "audio/week-03/2026-11-09-v1/male/03.m4a",
+              "words": [
+                {
+                  "word": " Okay.",
+                  "start": 0.0,
+                  "end": 0.78
+                },
+                {
+                  "word": " Whereabouts",
+                  "start": 1.7,
+                  "end": 2.1
+                },
+                {
+                  "word": " in",
+                  "start": 2.1,
+                  "end": 2.3
+                },
+                {
+                  "word": " your",
+                  "start": 2.3,
+                  "end": 2.4
+                },
+                {
+                  "word": " back",
+                  "start": 2.4,
+                  "end": 2.6
+                },
+                {
+                  "word": " do",
+                  "start": 2.6,
+                  "end": 2.78
+                },
+                {
+                  "word": " you",
+                  "start": 2.78,
+                  "end": 2.86
+                },
+                {
+                  "word": " feel",
+                  "start": 2.86,
+                  "end": 3.12
+                },
+                {
+                  "word": " it?",
+                  "start": 3.12,
+                  "end": 3.26
+                }
+              ],
+              "asr": "Okay. Whereabouts in your back do you feel it?",
+              "duration": 3.599125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.56
+                },
+                {
+                  "start": 0.92,
+                  "end": 1.795
+                },
+                {
+                  "start": 2.65,
+                  "end": 2.735
+                },
+                {
+                  "start": 3.265,
+                  "end": 3.595
+                }
+              ],
+              "rmsThreshold": 0.01262481063604355,
+              "alignmentRatio": 1.0,
+              "start": 1.3575,
+              "end": 3.599125,
+              "cuts": [
+                2.69
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Whereabouts in your back",
+                  "precedingWord": {
+                    "word": " back",
+                    "start": 2.4,
+                    "end": 2.6
+                  },
+                  "nextWord": {
+                    "word": " do",
+                    "start": 2.6,
+                    "end": 2.78
+                  },
+                  "cut": 2.69,
+                  "quietInterval": {
+                    "start": 2.65,
+                    "end": 2.73
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.026
+                }
+              ],
+              "tailPadding": [
+                0.026,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-1.m4a",
+                  "start": 1.3575,
+                  "end": 2.7159999999999997,
+                  "expected": "Whereabouts in your back",
+                  "sha256": "0bcfca7f7d2303d34e41925d8df78805012b9080ad13a87316091addfc67b6ec"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-2.m4a",
+                  "start": 2.69,
+                  "end": 3.599125,
+                  "expected": "do you feel it?",
+                  "sha256": "213456ec10143e4ca40806a82a0524b246c710c61845615bc42acfc4aa860e24"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/full.m4a",
+                  "start": 1.3575,
+                  "end": 3.599125,
+                  "expected": "Whereabouts in your back do you feel it?",
+                  "sha256": "8aaa82c3dc42d23816dd0790dd62c767c5e8c57ea1a366e206aba3b0b2fb861d"
+                }
+              ],
+              "sourceSha256": "1d57195f9da4463ecfd905a889c2a306a75a499970e4b64c0701de666a05fffb"
+            }
+          },
+          "range": {
+            "start": 6,
+            "end": 46
+          }
+        },
+        {
+          "id": "week-03-line-04",
+          "line": 4,
+          "text": "Mostly in the middle of my lower back.",
+          "chunks": [
+            "Mostly in the middle",
+            "of my lower back."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-03/2026-11-09-v1/patient/04.m4a",
+              "words": [
+                {
+                  "word": " Mostly",
+                  "start": 0.0,
+                  "end": 0.48
+                },
+                {
+                  "word": " in",
+                  "start": 0.48,
+                  "end": 0.64
+                },
+                {
+                  "word": " the",
+                  "start": 0.64,
+                  "end": 0.7
+                },
+                {
+                  "word": " middle",
+                  "start": 0.7,
+                  "end": 0.84
+                },
+                {
+                  "word": " of",
+                  "start": 0.84,
+                  "end": 0.96
+                },
+                {
+                  "word": " my",
+                  "start": 0.96,
+                  "end": 1.08
+                },
+                {
+                  "word": " lower",
+                  "start": 1.08,
+                  "end": 1.24
+                },
+                {
+                  "word": " back.",
+                  "start": 1.24,
+                  "end": 1.5
+                }
+              ],
+              "asr": "Mostly in the middle of my lower back.",
+              "duration": 1.9505,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.245
+                },
+                {
+                  "start": 1.635,
+                  "end": 1.95
+                }
+              ],
+              "rmsThreshold": 0.016659888625144958,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 1.9505,
+              "cuts": [
+                0.9
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Mostly in the middle",
+                  "precedingWord": {
+                    "word": " middle",
+                    "start": 0.7,
+                    "end": 0.84
+                  },
+                  "nextWord": {
+                    "word": " of",
+                    "start": 0.84,
+                    "end": 0.96
+                  },
+                  "cut": 0.9,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 0.82,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 0.9,
+                  "expected": "Mostly in the middle",
+                  "sha256": "22eea3135558b0086c69fdc80b8eca655f08f0841530c5c2e583ab8efdb57a3e"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-2.m4a",
+                  "start": 0.9,
+                  "end": 1.9505,
+                  "expected": "of my lower back.",
+                  "sha256": "f6af33fb46dcb043125f6c9c51ec383e9bafcb7189cebd2061d9ba988ee1b820"
+                }
+              ],
+              "sourceSha256": "5406152d949fa1dc5398373028f356c59585783076fecce927da22e12b64b429"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-08",
+          "line": 8,
+          "text": "Sitting at my desk for too long, especially when I'm working.",
+          "chunks": [
+            "Sitting at my desk for too long,",
+            "especially when I'm working."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-03/2026-11-09-v1/patient/08.m4a",
+              "words": [
+                {
+                  "word": " Sitting",
+                  "start": 0.0,
+                  "end": 0.64
+                },
+                {
+                  "word": " at",
+                  "start": 0.64,
+                  "end": 0.78
+                },
+                {
+                  "word": " my",
+                  "start": 0.78,
+                  "end": 0.86
+                },
+                {
+                  "word": " desk",
+                  "start": 0.86,
+                  "end": 1.04
+                },
+                {
+                  "word": " for",
+                  "start": 1.04,
+                  "end": 1.28
+                },
+                {
+                  "word": " too",
+                  "start": 1.28,
+                  "end": 1.42
+                },
+                {
+                  "word": " long,",
+                  "start": 1.42,
+                  "end": 1.62
+                },
+                {
+                  "word": " especially",
+                  "start": 1.86,
+                  "end": 2.02
+                },
+                {
+                  "word": " when",
+                  "start": 2.02,
+                  "end": 2.28
+                },
+                {
+                  "word": " I'm",
+                  "start": 2.28,
+                  "end": 2.38
+                },
+                {
+                  "word": " working.",
+                  "start": 2.38,
+                  "end": 2.62
+                }
+              ],
+              "asr": "Sitting at my desk for too long, especially when I'm working.",
+              "duration": 3.181125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.485
+                },
+                {
+                  "start": 1.785,
+                  "end": 1.88
+                },
+                {
+                  "start": 2.76,
+                  "end": 3.18
+                }
+              ],
+              "rmsThreshold": 0.012510137259960176,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.181125,
+              "cuts": [
+                1.8325
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Sitting at my desk for too long,",
+                  "precedingWord": {
+                    "word": " long,",
+                    "start": 1.42,
+                    "end": 1.62
+                  },
+                  "nextWord": {
+                    "word": " especially",
+                    "start": 1.86,
+                    "end": 2.02
+                  },
+                  "cut": 1.8325,
+                  "quietInterval": {
+                    "start": 1.785,
+                    "end": 1.88
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0309
+                }
+              ],
+              "tailPadding": [
+                0.0309,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.8634,
+                  "expected": "Sitting at my desk for too long,",
+                  "sha256": "1074eda2fd4da86a128f72bb10e5dcb80f45e4f883e56a01c039a2ffe58d5a21"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-2.m4a",
+                  "start": 1.8325,
+                  "end": 3.181125,
+                  "expected": "especially when I'm working.",
+                  "sha256": "a7bdfe474427dc71156e9bd4861e6e7b84624669f2b3bbbc7bfa9c89cf38ea4b"
+                }
+              ],
+              "sourceSha256": "bcd40efcbfe3fb74c2073a143c24bb49d5c774791d72755bd991f1e2bf9738dd"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-09",
+          "line": 9,
+          "text": "Does anything seem to help it settle?",
+          "chunks": [
+            "Does anything seem",
+            "to help it settle?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/09.m4a",
+              "words": [
+                {
+                  "word": " I",
+                  "start": 0.0,
+                  "end": 0.12
+                },
+                {
+                  "word": " see.",
+                  "start": 0.12,
+                  "end": 0.34
+                },
+                {
+                  "word": " Does",
+                  "start": 1.24,
+                  "end": 1.54
+                },
+                {
+                  "word": " anything",
+                  "start": 1.54,
+                  "end": 1.78
+                },
+                {
+                  "word": " seem",
+                  "start": 1.78,
+                  "end": 2.14
+                },
+                {
+                  "word": " to",
+                  "start": 2.14,
+                  "end": 2.28
+                },
+                {
+                  "word": " help",
+                  "start": 2.28,
+                  "end": 2.46
+                },
+                {
+                  "word": " it",
+                  "start": 2.46,
+                  "end": 2.58
+                },
+                {
+                  "word": " settle?",
+                  "start": 2.58,
+                  "end": 2.8
+                }
+              ],
+              "asr": "I see. Does anything seem to help it settle?",
+              "duration": 3.3204375,
+              "quietIntervals": [
+                {
+                  "start": 0.535,
+                  "end": 1.48
+                },
+                {
+                  "start": 3.095,
+                  "end": 3.32
+                }
+              ],
+              "rmsThreshold": 0.011537782847881317,
+              "alignmentRatio": 1.0,
+              "start": 1.0075,
+              "end": 3.3204375,
+              "cuts": [
+                2.16
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Does anything seem",
+                  "precedingWord": {
+                    "word": " seem",
+                    "start": 1.78,
+                    "end": 2.14
+                  },
+                  "nextWord": {
+                    "word": " to",
+                    "start": 2.14,
+                    "end": 2.28
+                  },
+                  "cut": 2.16,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-1.m4a",
+                  "start": 1.0075,
+                  "end": 2.16,
+                  "expected": "Does anything seem",
+                  "sha256": "0edd522b3096d94db9ea10249130f4205fd95801f8ebb049d566a9fb01f9031f"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-2.m4a",
+                  "start": 2.16,
+                  "end": 3.3204375,
+                  "expected": "to help it settle?",
+                  "sha256": "9105bb01f0467d333f2a9d424416d09b181537da2c56b160e8a95e8579dfba5c"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/full.m4a",
+                  "start": 1.0075,
+                  "end": 3.3204375,
+                  "expected": "Does anything seem to help it settle?",
+                  "sha256": "984867cc003e4d5e1a5c814cd51d73a41880492b72d44c473b15aa519bb3424c"
+                }
+              ],
+              "sourceSha256": "b8d33f9f37ba511eaa087a2c73cea97d63cef6097bce58cdd754f1250d2a804f"
+            },
+            "male": {
+              "source": "audio/week-03/2026-11-09-v1/male/09.m4a",
+              "words": [
+                {
+                  "word": " I",
+                  "start": 0.0,
+                  "end": 0.52
+                },
+                {
+                  "word": " see.",
+                  "start": 0.52,
+                  "end": 0.74
+                },
+                {
+                  "word": " Does",
+                  "start": 1.74,
+                  "end": 2.1
+                },
+                {
+                  "word": " anything",
+                  "start": 2.1,
+                  "end": 2.42
+                },
+                {
+                  "word": " seem",
+                  "start": 2.42,
+                  "end": 2.92
+                },
+                {
+                  "word": " to",
+                  "start": 2.92,
+                  "end": 3.18
+                },
+                {
+                  "word": " help",
+                  "start": 3.18,
+                  "end": 3.42
+                },
+                {
+                  "word": " its",
+                  "start": 3.42,
+                  "end": 3.58
+                },
+                {
+                  "word": " settle?",
+                  "start": 3.58,
+                  "end": 3.88
+                }
+              ],
+              "asr": "I see. Does anything seem to help its settle?",
+              "duration": 4.3189375,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.45
+                },
+                {
+                  "start": 0.85,
+                  "end": 2.04
+                },
+                {
+                  "start": 4.025,
+                  "end": 4.315
+                }
+              ],
+              "rmsThreshold": 0.011014436930418016,
+              "alignmentRatio": 0.9855072463768116,
+              "start": 1.445,
+              "end": 4.3189375,
+              "cuts": [
+                2.97
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Does anything seem",
+                  "precedingWord": {
+                    "word": " seem",
+                    "start": 2.42,
+                    "end": 2.92
+                  },
+                  "nextWord": {
+                    "word": " to",
+                    "start": 2.92,
+                    "end": 3.18
+                  },
+                  "cut": 2.97,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 2.885,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-1.m4a",
+                  "start": 1.445,
+                  "end": 2.97,
+                  "expected": "Does anything seem",
+                  "sha256": "296f1d317cf94b711391dfdc58cbd2115b1e594986e8ca100bf1aace96bfcd7e"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-2.m4a",
+                  "start": 2.97,
+                  "end": 4.3189375,
+                  "expected": "to help it settle?",
+                  "sha256": "b5e9974ea6bd10e342be87a2a393d695d012599320795067ce2d525ecb3315d0"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/full.m4a",
+                  "start": 1.445,
+                  "end": 4.3189375,
+                  "expected": "Does anything seem to help it settle?",
+                  "sha256": "28187d73d31f1ecb7ad4fbb6fd09843b6225673611c61406c7d8de297f280c96"
+                }
+              ],
+              "sourceSha256": "4bf0722faa9b9f2c0db38329f9910959377488b8ebe7f874a5ade8723e43a31c"
+            }
+          },
+          "range": {
+            "start": 7,
+            "end": 44
+          }
+        },
+        {
+          "id": "week-03-line-10",
+          "line": 10,
+          "text": "Getting up and having a bit of a walk usually helps.",
+          "chunks": [
+            "Getting up and",
+            "having a bit of a walk usually helps."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-03/2026-11-09-v1/patient/10.m4a",
+              "words": [
+                {
+                  "word": " Getting",
+                  "start": 0.0,
+                  "end": 0.8
+                },
+                {
+                  "word": " up",
+                  "start": 0.8,
+                  "end": 1.02
+                },
+                {
+                  "word": " and",
+                  "start": 1.02,
+                  "end": 1.22
+                },
+                {
+                  "word": " having",
+                  "start": 1.22,
+                  "end": 1.7
+                },
+                {
+                  "word": " a",
+                  "start": 1.7,
+                  "end": 1.88
+                },
+                {
+                  "word": " bit",
+                  "start": 1.88,
+                  "end": 1.96
+                },
+                {
+                  "word": " of",
+                  "start": 1.96,
+                  "end": 2.06
+                },
+                {
+                  "word": " a",
+                  "start": 2.06,
+                  "end": 2.12
+                },
+                {
+                  "word": " walk",
+                  "start": 2.12,
+                  "end": 2.34
+                },
+                {
+                  "word": " usually",
+                  "start": 2.34,
+                  "end": 2.64
+                },
+                {
+                  "word": " helps.",
+                  "start": 2.64,
+                  "end": 2.9
+                }
+              ],
+              "asr": "Getting up and having a bit of a walk usually helps.",
+              "duration": 3.366875,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.74
+                },
+                {
+                  "start": 1.075,
+                  "end": 1.14
+                },
+                {
+                  "start": 1.32,
+                  "end": 1.655
+                },
+                {
+                  "start": 2.915,
+                  "end": 2.975
+                },
+                {
+                  "start": 3.13,
+                  "end": 3.365
+                }
+              ],
+              "rmsThreshold": 0.015869154036045077,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.366875,
+              "cuts": [
+                1.41
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Getting up and",
+                  "precedingWord": {
+                    "word": " and",
+                    "start": 1.02,
+                    "end": 1.22
+                  },
+                  "nextWord": {
+                    "word": " having",
+                    "start": 1.22,
+                    "end": 1.7
+                  },
+                  "cut": 1.41,
+                  "quietInterval": {
+                    "start": 1.32,
+                    "end": 1.5
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0585
+                }
+              ],
+              "tailPadding": [
+                0.0585,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.4685,
+                  "expected": "Getting up and",
+                  "sha256": "d6136da88062906f06caae66f8843ab28a1d1c018482a3ae366be136e6f9fb03"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-2.m4a",
+                  "start": 1.41,
+                  "end": 3.366875,
+                  "expected": "having a bit of a walk usually helps.",
+                  "sha256": "eb7b2b1c19e3eeceb62cc7edb1dfa49acfa3b54ab70a18548d0d9424656e983a"
+                }
+              ],
+              "sourceSha256": "df6388dcf5d21d649ae40a81787396fa6d09933493a6ef685293dbd93677ff2f"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-11",
+          "line": 11,
+          "text": "And how's it affecting you day to day?",
+          "chunks": [
+            "And how's it affecting you",
+            "day to day?"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/11.m4a",
+              "words": [
+                {
+                  "word": " And",
+                  "start": 0.0,
+                  "end": 0.34
+                },
+                {
+                  "word": " how's",
+                  "start": 0.34,
+                  "end": 0.54
+                },
+                {
+                  "word": " it",
+                  "start": 0.54,
+                  "end": 0.62
+                },
+                {
+                  "word": " affecting",
+                  "start": 0.62,
+                  "end": 0.82
+                },
+                {
+                  "word": " you",
+                  "start": 0.82,
+                  "end": 1.16
+                },
+                {
+                  "word": " day",
+                  "start": 1.16,
+                  "end": 1.32
+                },
+                {
+                  "word": " to",
+                  "start": 1.32,
+                  "end": 1.46
+                },
+                {
+                  "word": " day?",
+                  "start": 1.46,
+                  "end": 1.62
+                }
+              ],
+              "asr": "And how's it affecting you day to day?",
+              "duration": 1.92725,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.265
+                }
+              ],
+              "rmsThreshold": 0.011581872403621674,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 1.92725,
+              "cuts": [
+                1.185
+              ],
+              "boundaryReview": [
+                {
+                  "after": "And how's it affecting you",
+                  "precedingWord": {
+                    "word": " you",
+                    "start": 0.82,
+                    "end": 1.16
+                  },
+                  "nextWord": {
+                    "word": " day",
+                    "start": 1.16,
+                    "end": 1.32
+                  },
+                  "cut": 1.185,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.185,
+                  "expected": "And how's it affecting you",
+                  "sha256": "d29c3972b8bd0cfd76c727f21febff81845ec2155ad4c96ca70ad8e92cdfb742"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-2.m4a",
+                  "start": 1.185,
+                  "end": 1.92725,
+                  "expected": "day to day?",
+                  "sha256": "e821114233cf8f689332fff3cb3f7b95eb94729048a83edd2d92f79cdc39abe7"
+                }
+              ],
+              "sourceSha256": "7531323d70bb03a5aedd25c22d111732cd3491c5b3a880adb505c2275caf4409"
+            },
+            "male": {
+              "source": "audio/week-03/2026-11-09-v1/male/11.m4a",
+              "words": [
+                {
+                  "word": " And",
+                  "start": 0.0,
+                  "end": 0.6
+                },
+                {
+                  "word": " how's",
+                  "start": 0.6,
+                  "end": 0.88
+                },
+                {
+                  "word": " it",
+                  "start": 0.88,
+                  "end": 0.98
+                },
+                {
+                  "word": " affecting",
+                  "start": 0.98,
+                  "end": 1.38
+                },
+                {
+                  "word": " you",
+                  "start": 1.38,
+                  "end": 1.56
+                },
+                {
+                  "word": " day",
+                  "start": 1.56,
+                  "end": 1.78
+                },
+                {
+                  "word": " to",
+                  "start": 1.78,
+                  "end": 1.98
+                },
+                {
+                  "word": " day?",
+                  "start": 1.98,
+                  "end": 2.18
+                }
+              ],
+              "asr": "And how's it affecting you day to day?",
+              "duration": 2.6703125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.535
+                },
+                {
+                  "start": 2.265,
+                  "end": 2.67
+                }
+              ],
+              "rmsThreshold": 0.010469511151313782,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.6703125,
+              "cuts": [
+                1.565
+              ],
+              "boundaryReview": [
+                {
+                  "after": "And how's it affecting you",
+                  "precedingWord": {
+                    "word": " you",
+                    "start": 1.38,
+                    "end": 1.56
+                  },
+                  "nextWord": {
+                    "word": " day",
+                    "start": 1.56,
+                    "end": 1.78
+                  },
+                  "cut": 1.565,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.565,
+                  "expected": "And how's it affecting you",
+                  "sha256": "b228a079e9948f9c368e36ee1c86f45d19403eac7a472903d9e98f1f41448faa"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-2.m4a",
+                  "start": 1.565,
+                  "end": 2.6703125,
+                  "expected": "day to day?",
+                  "sha256": "79c66264606c52e4b6c3db4a9a788a70729073acd22da102b86880eb5dbad6eb"
+                }
+              ],
+              "sourceSha256": "7fe39818d8bcb7d279bfd16bb5f0063d6f9219abe39277e82be684959f9cb943"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-13",
+          "line": 13,
+          "text": "It's making it hard to sit through long meetings at work.",
+          "chunks": [
+            "It's making it hard",
+            "to sit through long meetings at work."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "patient": {
+              "source": "audio/week-03/2026-11-09-v1/patient/13.m4a",
+              "words": [
+                {
+                  "word": " It's",
+                  "start": 0.0,
+                  "end": 0.5
+                },
+                {
+                  "word": " making",
+                  "start": 0.5,
+                  "end": 0.64
+                },
+                {
+                  "word": " it",
+                  "start": 0.64,
+                  "end": 0.82
+                },
+                {
+                  "word": " hard",
+                  "start": 0.82,
+                  "end": 1.0
+                },
+                {
+                  "word": " to",
+                  "start": 1.0,
+                  "end": 1.12
+                },
+                {
+                  "word": " sit",
+                  "start": 1.12,
+                  "end": 1.28
+                },
+                {
+                  "word": " through",
+                  "start": 1.28,
+                  "end": 1.48
+                },
+                {
+                  "word": " long",
+                  "start": 1.48,
+                  "end": 1.7
+                },
+                {
+                  "word": " meetings",
+                  "start": 1.7,
+                  "end": 2.0
+                },
+                {
+                  "word": " at",
+                  "start": 2.0,
+                  "end": 2.24
+                },
+                {
+                  "word": " work.",
+                  "start": 2.24,
+                  "end": 2.44
+                }
+              ],
+              "asr": "It's making it hard to sit through long meetings at work.",
+              "duration": 2.92575,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.38
+                },
+                {
+                  "start": 1.29,
+                  "end": 1.355
+                },
+                {
+                  "start": 2.24,
+                  "end": 2.325
+                },
+                {
+                  "start": 2.58,
+                  "end": 2.925
+                }
+              ],
+              "rmsThreshold": 0.01610066890716553,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.92575,
+              "cuts": [
+                1.005
+              ],
+              "boundaryReview": [
+                {
+                  "after": "It's making it hard",
+                  "precedingWord": {
+                    "word": " hard",
+                    "start": 0.82,
+                    "end": 1.0
+                  },
+                  "nextWord": {
+                    "word": " to",
+                    "start": 1.0,
+                    "end": 1.12
+                  },
+                  "cut": 1.005,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.005,
+                  "expected": "It's making it hard",
+                  "sha256": "e3636d5e2f7f43edc47c2659a02b6e523f276295cf9a13e63ad18db715f324b2"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-2.m4a",
+                  "start": 1.005,
+                  "end": 2.92575,
+                  "expected": "to sit through long meetings at work.",
+                  "sha256": "58e46ad7ea4a96d813c1b5f6fcea8c3aa74ca6c3193d2ddce180460b7730643f"
+                }
+              ],
+              "sourceSha256": "03dd45756aadf19642f62259500b2ceab6fd38bdaf28224b8621cb9138883739"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-14",
+          "line": 14,
+          "text": "Okay, so sitting for long periods makes it worse,",
+          "chunks": [
+            "Okay, so sitting for long periods",
+            "makes it worse,"
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/14.m4a",
+              "words": [
+                {
+                  "word": " Okay,",
+                  "start": 0.0,
+                  "end": 0.52
+                },
+                {
+                  "word": " so",
+                  "start": 0.62,
+                  "end": 0.76
+                },
+                {
+                  "word": " sitting",
+                  "start": 0.76,
+                  "end": 0.96
+                },
+                {
+                  "word": " for",
+                  "start": 0.96,
+                  "end": 1.18
+                },
+                {
+                  "word": " long",
+                  "start": 1.18,
+                  "end": 1.3
+                },
+                {
+                  "word": " periods",
+                  "start": 1.3,
+                  "end": 1.6
+                },
+                {
+                  "word": " makes",
+                  "start": 1.6,
+                  "end": 1.88
+                },
+                {
+                  "word": " it",
+                  "start": 1.88,
+                  "end": 2.06
+                },
+                {
+                  "word": " worse.",
+                  "start": 2.06,
+                  "end": 2.26
+                }
+              ],
+              "asr": "Okay, so sitting for long periods makes it worse.",
+              "duration": 2.531,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.315
+                }
+              ],
+              "rmsThreshold": 0.010078445076942444,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.531,
+              "cuts": [
+                1.745
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Okay, so sitting for long periods",
+                  "precedingWord": {
+                    "word": " periods",
+                    "start": 1.3,
+                    "end": 1.6
+                  },
+                  "nextWord": {
+                    "word": " makes",
+                    "start": 1.6,
+                    "end": 1.88
+                  },
+                  "cut": 1.745,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 1.58,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.745,
+                  "expected": "Okay, so sitting for long periods",
+                  "sha256": "995a14aaf1eac654132e63b9de9b3307b6fc9dc93dbebc0fd40595214db35396"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-2.m4a",
+                  "start": 1.745,
+                  "end": 2.531,
+                  "expected": "makes it worse,",
+                  "sha256": "2a8afcbf75a9bebc7b63f7e1db58fa1212ef8c293eb40b2be6d65ef36750032f"
+                }
+              ],
+              "sourceSha256": "fcc15a359280317450cb9068122b4c73909486f34e18a8c279a97d6acf661532"
+            },
+            "male": {
+              "source": "audio/week-03/2026-11-09-v1/male/14.m4a",
+              "words": [
+                {
+                  "word": " Okay,",
+                  "start": 0.6799999999999997,
+                  "end": 1.12
+                },
+                {
+                  "word": " so",
+                  "start": 1.18,
+                  "end": 1.38
+                },
+                {
+                  "word": " sitting",
+                  "start": 1.38,
+                  "end": 1.6
+                },
+                {
+                  "word": " for",
+                  "start": 1.6,
+                  "end": 1.84
+                },
+                {
+                  "word": " long",
+                  "start": 1.84,
+                  "end": 1.98
+                },
+                {
+                  "word": " periods",
+                  "start": 1.98,
+                  "end": 2.32
+                },
+                {
+                  "word": " makes",
+                  "start": 2.32,
+                  "end": 2.6
+                },
+                {
+                  "word": " it",
+                  "start": 2.6,
+                  "end": 2.82
+                },
+                {
+                  "word": " worse.",
+                  "start": 2.82,
+                  "end": 3.04
+                }
+              ],
+              "asr": "Okay, so sitting for long periods makes it worse.",
+              "duration": 3.483,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.905
+                },
+                {
+                  "start": 1.76,
+                  "end": 1.835
+                },
+                {
+                  "start": 2.13,
+                  "end": 2.2
+                },
+                {
+                  "start": 2.82,
+                  "end": 2.905
+                },
+                {
+                  "start": 3.275,
+                  "end": 3.48
+                }
+              ],
+              "rmsThreshold": 0.011600546538829803,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 3.483,
+              "cuts": [
+                2.4825
+              ],
+              "boundaryReview": [
+                {
+                  "after": "Okay, so sitting for long periods",
+                  "precedingWord": {
+                    "word": " periods",
+                    "start": 1.98,
+                    "end": 2.32
+                  },
+                  "nextWord": {
+                    "word": " makes",
+                    "start": 2.32,
+                    "end": 2.6
+                  },
+                  "cut": 2.4825,
+                  "quietInterval": null,
+                  "reason": "meaning-boundary-without-long-pause",
+                  "tailPadding": 0,
+                  "initialCut": 2.165,
+                  "review": "Initial standalone ASR exposed a preceding word ending in the next clip. Boundary moved to retain the complete word, informed by source word timing; shared cut remains continuous."
+                }
+              ],
+              "tailPadding": [
+                0,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 2.4825,
+                  "expected": "Okay, so sitting for long periods",
+                  "sha256": "e6f55474c2c843437cfa987c460b5d1299fa7dfc24a6f3d6bb85cead2116f640"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-2.m4a",
+                  "start": 2.4825,
+                  "end": 3.483,
+                  "expected": "makes it worse,",
+                  "sha256": "ce629a4fb545d68fc9a51973760943982070629598805361b1c9741b81c493fa"
+                }
+              ],
+              "sourceSha256": "8ee1ded9df5b9f8179989df42e895a5a0153cce039322cf7ee24e1735813006f"
+            }
+          }
+        },
+        {
+          "id": "week-03-line-15",
+          "line": 15,
+          "text": "and getting up for a short walk seems to help.",
+          "chunks": [
+            "and getting up for a short walk",
+            "seems to help."
+          ],
+          "reason": "Meaningful phrase boundary; audio pause inspected before finalizing.",
+          "tracks": {
+            "female": {
+              "source": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/15.m4a",
+              "words": [
+                {
+                  "word": " and",
+                  "start": 0.0,
+                  "end": 0.12
+                },
+                {
+                  "word": " getting",
+                  "start": 0.12,
+                  "end": 0.26
+                },
+                {
+                  "word": " up",
+                  "start": 0.26,
+                  "end": 0.46
+                },
+                {
+                  "word": " for",
+                  "start": 0.46,
+                  "end": 0.64
+                },
+                {
+                  "word": " a",
+                  "start": 0.64,
+                  "end": 0.7
+                },
+                {
+                  "word": " short",
+                  "start": 0.7,
+                  "end": 0.92
+                },
+                {
+                  "word": " walk",
+                  "start": 0.92,
+                  "end": 1.16
+                },
+                {
+                  "word": " seems",
+                  "start": 1.16,
+                  "end": 1.44
+                },
+                {
+                  "word": " to",
+                  "start": 1.44,
+                  "end": 1.64
+                },
+                {
+                  "word": " help.",
+                  "start": 1.64,
+                  "end": 1.82
+                }
+              ],
+              "asr": "and getting up for a short walk seems to help.",
+              "duration": 2.13625,
+              "quietIntervals": [
+                {
+                  "start": 0.535,
+                  "end": 0.615
+                },
+                {
+                  "start": 1.265,
+                  "end": 1.36
+                },
+                {
+                  "start": 1.52,
+                  "end": 1.59
+                },
+                {
+                  "start": 1.91,
+                  "end": 2.135
+                }
+              ],
+              "rmsThreshold": 0.016337044537067413,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.13625,
+              "cuts": [
+                1.3125
+              ],
+              "boundaryReview": [
+                {
+                  "after": "and getting up for a short walk",
+                  "precedingWord": {
+                    "word": " walk",
+                    "start": 0.92,
+                    "end": 1.16
+                  },
+                  "nextWord": {
+                    "word": " seems",
+                    "start": 1.16,
+                    "end": 1.44
+                  },
+                  "cut": 1.3125,
+                  "quietInterval": {
+                    "start": 1.265,
+                    "end": 1.36
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0309
+                }
+              ],
+              "tailPadding": [
+                0.0309,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.3434,
+                  "expected": "and getting up for a short walk",
+                  "sha256": "6790c478612a93dd8a084a5ba76b1fe71d8ac36142e6a3cf4035e14c7b325af0"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-2.m4a",
+                  "start": 1.3125,
+                  "end": 2.13625,
+                  "expected": "seems to help.",
+                  "sha256": "08b02bfccee90d87d6bb019406891e0b2a2f73e17f931aafa5e7bb2481ca7edd"
+                }
+              ],
+              "sourceSha256": "378481ea6bb4dc97947105a6d4895fd264b0883c3823ac1ab08ace4bbaa58b29"
+            },
+            "male": {
+              "source": "audio/week-03/2026-11-09-v1/male/15.m4a",
+              "words": [
+                {
+                  "word": " and",
+                  "start": 0.0,
+                  "end": 0.3
+                },
+                {
+                  "word": " getting",
+                  "start": 0.3,
+                  "end": 0.46
+                },
+                {
+                  "word": " up",
+                  "start": 0.46,
+                  "end": 0.68
+                },
+                {
+                  "word": " for",
+                  "start": 0.68,
+                  "end": 0.88
+                },
+                {
+                  "word": " a",
+                  "start": 0.88,
+                  "end": 0.98
+                },
+                {
+                  "word": " short",
+                  "start": 0.98,
+                  "end": 1.18
+                },
+                {
+                  "word": " walk",
+                  "start": 1.18,
+                  "end": 1.42
+                },
+                {
+                  "word": " seems",
+                  "start": 1.42,
+                  "end": 1.68
+                },
+                {
+                  "word": " to",
+                  "start": 1.68,
+                  "end": 1.88
+                },
+                {
+                  "word": " help.",
+                  "start": 1.88,
+                  "end": 2.06
+                }
+              ],
+              "asr": "and getting up for a short walk seems to help.",
+              "duration": 2.4613125,
+              "quietIntervals": [
+                {
+                  "start": 0.0,
+                  "end": 0.245
+                },
+                {
+                  "start": 0.74,
+                  "end": 0.8
+                },
+                {
+                  "start": 1.47,
+                  "end": 1.53
+                },
+                {
+                  "start": 1.885,
+                  "end": 1.945
+                },
+                {
+                  "start": 2.125,
+                  "end": 2.46
+                }
+              ],
+              "rmsThreshold": 0.009635163098573686,
+              "alignmentRatio": 1.0,
+              "start": 0,
+              "end": 2.4613125,
+              "cuts": [
+                1.5
+              ],
+              "boundaryReview": [
+                {
+                  "after": "and getting up for a short walk",
+                  "precedingWord": {
+                    "word": " walk",
+                    "start": 1.18,
+                    "end": 1.42
+                  },
+                  "nextWord": {
+                    "word": " seems",
+                    "start": 1.42,
+                    "end": 1.68
+                  },
+                  "cut": 1.5,
+                  "quietInterval": {
+                    "start": 1.47,
+                    "end": 1.53
+                  },
+                  "reason": "audible-pause-candidate",
+                  "tailPadding": 0.0195
+                }
+              ],
+              "tailPadding": [
+                0.0195,
+                0
+              ],
+              "outputs": [
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-1.m4a",
+                  "start": 0,
+                  "end": 1.5195,
+                  "expected": "and getting up for a short walk",
+                  "sha256": "dc678be132cc6ea7772d78b214ed84562dfafa8167331d72cd6b4d02c8965533"
+                },
+                {
+                  "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-2.m4a",
+                  "start": 1.5,
+                  "end": 2.4613125,
+                  "expected": "seems to help.",
+                  "sha256": "a98bdbc6bf6788240014742ce819f789fcb1428b664289eb068c6f3d0ecd5101"
+                }
+              ],
+              "sourceSha256": "a59f6c6e8374a36f4419373ee72aa11e8ce2fe1504a3edcd5cf4b7e3ec89e03a"
+            }
+          }
+        }
+      ],
+      "wholeBubbleLines": [
+        {
+          "line": 5,
+          "text": "And when did you first notice it?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 6,
+          "text": "About six weeks ago.",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 7,
+          "text": "Right. What tends to make it worse?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 12,
+          "text": "Are you finding anything particularly difficult?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 16,
+          "text": "It's also affecting how long you can sit at work.",
+          "reason": "Short connected utterance with no reliable internal breath break; trial fragments leaked syllables across the shared boundary. Keep natural whole-bubble playback instead of forcing a split."
+        },
+        {
+          "line": 17,
+          "text": "Are there any other symptoms?",
+          "reason": "Short complete utterance; ordinary bubble playback preserves its natural flow."
+        },
+        {
+          "line": 18,
+          "text": "Not really. It's mainly just the ache in my lower back.",
+          "reason": "Short connected utterance with no reliable internal breath break; trial fragments leaked syllables across the shared boundary. Keep natural whole-bubble playback instead of forcing a split."
+        }
+      ]
+    }
+  ]
+}

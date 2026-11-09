@@ -1,0 +1,935 @@
+{
+  "method": "Every newly extracted chunk and sentence range checked with local faster-whisper base.en. Ambiguous cuts receive separate review. This is not human listening.",
+  "clips": [
+    {
+      "week": "week-01",
+      "unit": "week-01-line-02",
+      "line": 2,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-1.m4a",
+      "expected": "I'm Alex,",
+      "recognized": "I'm Alex.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-02",
+      "line": 2,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/female/chunk-2.m4a",
+      "expected": "I'll be your physiotherapist today.",
+      "recognized": "I'll be your physiotherapist today.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-02",
+      "line": 2,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-1.m4a",
+      "expected": "I'm Alex,",
+      "recognized": "I'm Alex.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-02",
+      "line": 2,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-02/male/chunk-2.m4a",
+      "expected": "I'll be your physiotherapist today.",
+      "recognized": "I'll be your physiotherapist today.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-05",
+      "line": 5,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-1.m4a",
+      "expected": "Is it okay if I call you John,",
+      "recognized": "Is it okay if I call you John?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-05",
+      "line": 5,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/female/chunk-2.m4a",
+      "expected": "or would you prefer Mr Thompson?",
+      "recognized": "or would you prefer Mr Thompson?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-05",
+      "line": 5,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-1.m4a",
+      "expected": "Is it okay if I call you John,",
+      "recognized": "Is it okay if I call you John?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-05",
+      "line": 5,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-05/male/chunk-2.m4a",
+      "expected": "or would you prefer Mr Thompson?",
+      "recognized": "Or would you prefer Mr Thompson?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-1.m4a",
+      "expected": "So today",
+      "recognized": "So today...",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/chunk-2.m4a",
+      "expected": "I'll ask you a few questions about your back,",
+      "recognized": "I'll ask you a few questions about your back",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/female/full.m4a",
+      "expected": "So today I'll ask you a few questions about your back,",
+      "recognized": "So today I'll ask you a few questions about your back.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-1.m4a",
+      "expected": "So today",
+      "recognized": "so today",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/chunk-2.m4a",
+      "expected": "I'll ask you a few questions about your back,",
+      "recognized": "Today I'll ask you a few questions about your back.",
+      "similarity": 0.9333333333333333
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-10",
+      "line": 10,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-10/male/full.m4a",
+      "expected": "So today I'll ask you a few questions about your back,",
+      "recognized": "So today I'll ask you a few questions about your back.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-11",
+      "line": 11,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-11/female/chunk-1.m4a",
+      "expected": "and then see",
+      "recognized": "And then.",
+      "similarity": 0.8235294117647058
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-11",
+      "line": 11,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-11/female/chunk-2.m4a",
+      "expected": "how your back moves.",
+      "recognized": "see how your back moves.",
+      "similarity": 0.9142857142857143
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-11",
+      "line": 11,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-11/male/chunk-1.m4a",
+      "expected": "and then see",
+      "recognized": "And then...",
+      "similarity": 0.8235294117647058
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-11",
+      "line": 11,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-11/male/chunk-2.m4a",
+      "expected": "how your back moves.",
+      "recognized": "See how your back moves.",
+      "similarity": 0.9142857142857143
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-15",
+      "line": 15,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-15/female/chunk-1.m4a",
+      "expected": "is there anything",
+      "recognized": "Is there any?",
+      "similarity": 0.8
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-15",
+      "line": 15,
+      "voice": "female",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-15/female/chunk-2.m4a",
+      "expected": "you'd like to ask me?",
+      "recognized": "anything you'd like to ask me?",
+      "similarity": 0.7894736842105263
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-15",
+      "line": 15,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-15/male/chunk-1.m4a",
+      "expected": "is there anything",
+      "recognized": "Is there any?",
+      "similarity": 0.8
+    },
+    {
+      "week": "week-01",
+      "unit": "week-01-line-15",
+      "line": 15,
+      "voice": "male",
+      "audio": "audio/week-01/practice-breath-2026-11-09-v3/week-01-line-15/male/chunk-2.m4a",
+      "expected": "you'd like to ask me?",
+      "recognized": "anything you'd like to ask me?",
+      "similarity": 0.7894736842105263
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-01",
+      "line": 1,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-1.m4a",
+      "expected": "John,",
+      "recognized": "John.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-01",
+      "line": 1,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/female/chunk-2.m4a",
+      "expected": "what would you most like to get back to doing?",
+      "recognized": "What would you most like to get back to doing?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-01",
+      "line": 1,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-1.m4a",
+      "expected": "John,",
+      "recognized": "John?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-01",
+      "line": 1,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-01/male/chunk-2.m4a",
+      "expected": "what would you most like to get back to doing?",
+      "recognized": "What would you most like to get back to doing?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-02",
+      "line": 2,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-1.m4a",
+      "expected": "I'd like to sit at work",
+      "recognized": "I'd like to sit at work.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-02",
+      "line": 2,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-02/patient/chunk-2.m4a",
+      "expected": "without constantly having to change positions.",
+      "recognized": "without constantly having to change positions.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-03",
+      "line": 3,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-03/female/chunk-1.m4a",
+      "expected": "How long",
+      "recognized": "Hello",
+      "similarity": 0.5
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-03",
+      "line": 3,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-03/female/chunk-2.m4a",
+      "expected": "do you usually need to sit for at work?",
+      "recognized": "How do you usually need to sit for at work?",
+      "similarity": 0.9523809523809523
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-03",
+      "line": 3,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-03/male/chunk-1.m4a",
+      "expected": "How long",
+      "recognized": "How long?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-03",
+      "line": 3,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-03/male/chunk-2.m4a",
+      "expected": "do you usually need to sit for at work?",
+      "recognized": "How long do you usually need to sit for at work?",
+      "similarity": 0.8955223880597015
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-04",
+      "line": 4,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-1.m4a",
+      "expected": "Sometimes I have meetings",
+      "recognized": "Sometimes I have made a",
+      "similarity": 0.7804878048780488
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-04",
+      "line": 4,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-04/patient/chunk-2.m4a",
+      "expected": "that last about half an hour.",
+      "recognized": "meetings that lost about half an hour.",
+      "similarity": 0.8148148148148148
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-05",
+      "line": 5,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-1.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably",
+      "recognized": "So, sitting through a 30-minute meeting, more comfortable.",
+      "similarity": 0.9787234042553191
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-05",
+      "line": 5,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/female/chunk-2.m4a",
+      "expected": "would be useful?",
+      "recognized": "would be useful.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-05",
+      "line": 5,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-1.m4a",
+      "expected": "So sitting through a 30-minute meeting more comfortably",
+      "recognized": "So, sitting through a 30-minute meeting more comfortably,",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-05",
+      "line": 5,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-05/male/chunk-2.m4a",
+      "expected": "would be useful?",
+      "recognized": "would be useful.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-07",
+      "line": 7,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-1.m4a",
+      "expected": "You also mentioned",
+      "recognized": "You also mentioned",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-07",
+      "line": 7,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/female/chunk-2.m4a",
+      "expected": "wanting to get back to running.",
+      "recognized": "wanting to get back to running.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-07",
+      "line": 7,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-1.m4a",
+      "expected": "You also mentioned",
+      "recognized": "You also mentioned",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-07",
+      "line": 7,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-07/male/chunk-2.m4a",
+      "expected": "wanting to get back to running.",
+      "recognized": "wanting to get back to running.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-10",
+      "line": 10,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-1.m4a",
+      "expected": "but sitting at work",
+      "recognized": "but sitting at one.",
+      "similarity": 0.8387096774193549
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-10",
+      "line": 10,
+      "voice": "patient",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-10/patient/chunk-2.m4a",
+      "expected": "is the main problem at the moment.",
+      "recognized": "work is the main problem at the moment.",
+      "similarity": 0.9310344827586207
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-12",
+      "line": 12,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-1.m4a",
+      "expected": "Shall we start with the meeting goal",
+      "recognized": "Shall we start with the meeting goal?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-12",
+      "line": 12,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/female/chunk-2.m4a",
+      "expected": "as a short-term goal",
+      "recognized": "goal as a short-term goal.",
+      "similarity": 0.8888888888888888
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-12",
+      "line": 12,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-1.m4a",
+      "expected": "Shall we start with the meeting goal",
+      "recognized": "Shall we start with the meeting goal?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-12",
+      "line": 12,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-12/male/chunk-2.m4a",
+      "expected": "as a short-term goal",
+      "recognized": "as a short-term goal.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-13",
+      "line": 13,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-1.m4a",
+      "expected": "and work towards",
+      "recognized": "and work to...",
+      "similarity": 0.782608695652174
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-13",
+      "line": 13,
+      "voice": "female",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/female/chunk-2.m4a",
+      "expected": "getting you back to running over time?",
+      "recognized": "getting you back to running over time.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-13",
+      "line": 13,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-1.m4a",
+      "expected": "and work towards",
+      "recognized": "and work.",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "week": "week-02",
+      "unit": "week-02-line-13",
+      "line": 13,
+      "voice": "male",
+      "audio": "audio/week-02/practice-breath-2026-11-09-v3/week-02-line-13/male/chunk-2.m4a",
+      "expected": "getting you back to running over time?",
+      "recognized": "towards getting you back to running over time.",
+      "similarity": 0.8985507246376812
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-02",
+      "line": 2,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-1.m4a",
+      "expected": "My back has been feeling achy",
+      "recognized": "My back has been feeling aching.",
+      "similarity": 0.92
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-02",
+      "line": 2,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-02/patient/chunk-2.m4a",
+      "expected": "for a while now.",
+      "recognized": "Thank you for a while now.",
+      "similarity": 0.75
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-1.m4a",
+      "expected": "Whereabouts in your back",
+      "recognized": "Wear abouts in your back.",
+      "similarity": 0.926829268292683
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/chunk-2.m4a",
+      "expected": "do you feel it?",
+      "recognized": "Do you feel it?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/female/full.m4a",
+      "expected": "Whereabouts in your back do you feel it?",
+      "recognized": "Whereabouts in your back do you feel it?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-1.m4a",
+      "expected": "Whereabouts in your back",
+      "recognized": "We're about to know back",
+      "similarity": 0.75
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/chunk-2.m4a",
+      "expected": "do you feel it?",
+      "recognized": "Do you feel it?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-03",
+      "line": 3,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-03/male/full.m4a",
+      "expected": "Whereabouts in your back do you feel it?",
+      "recognized": "Whereabouts in your back do you feel it?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-04",
+      "line": 4,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-1.m4a",
+      "expected": "Mostly in the middle",
+      "recognized": "Mostly in the middle of the day.",
+      "similarity": 0.8095238095238095
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-04",
+      "line": 4,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-04/patient/chunk-2.m4a",
+      "expected": "of my lower back.",
+      "recognized": "of my lower back.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-08",
+      "line": 8,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-1.m4a",
+      "expected": "Sitting at my desk for too long,",
+      "recognized": "Sitting at my desk for too long.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-08",
+      "line": 8,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-08/patient/chunk-2.m4a",
+      "expected": "especially when I'm working.",
+      "recognized": "especially when I'm working.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-1.m4a",
+      "expected": "Does anything seem",
+      "recognized": "Does anything seem to be...",
+      "similarity": 0.8888888888888888
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/chunk-2.m4a",
+      "expected": "to help it settle?",
+      "recognized": "to help it settle.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/female/full.m4a",
+      "expected": "Does anything seem to help it settle?",
+      "recognized": "Does anything seem to help it settle?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-1.m4a",
+      "expected": "Does anything seem",
+      "recognized": "Does anything...",
+      "similarity": 0.8571428571428571
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/chunk-2.m4a",
+      "expected": "to help it settle?",
+      "recognized": "seem to help its settle.",
+      "similarity": 0.8484848484848485
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-09",
+      "line": 9,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-09/male/full.m4a",
+      "expected": "Does anything seem to help it settle?",
+      "recognized": "Does anything seem to help its settle?",
+      "similarity": 0.9836065573770492
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-10",
+      "line": 10,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-1.m4a",
+      "expected": "Getting up and",
+      "recognized": "Getting up and...",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-10",
+      "line": 10,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-10/patient/chunk-2.m4a",
+      "expected": "having a bit of a walk usually helps.",
+      "recognized": "Having a bit of a walk usually helps.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-11",
+      "line": 11,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-1.m4a",
+      "expected": "And how's it affecting you",
+      "recognized": "and how's it affecting you?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-11",
+      "line": 11,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/female/chunk-2.m4a",
+      "expected": "day to day?",
+      "recognized": "day-to-day.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-11",
+      "line": 11,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-1.m4a",
+      "expected": "And how's it affecting you",
+      "recognized": "And how's it affecting you?",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-11",
+      "line": 11,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-11/male/chunk-2.m4a",
+      "expected": "day to day?",
+      "recognized": "Day Today.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-13",
+      "line": 13,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-1.m4a",
+      "expected": "It's making it hard",
+      "recognized": "It's making it hot",
+      "similarity": 0.8275862068965517
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-13",
+      "line": 13,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-13/patient/chunk-2.m4a",
+      "expected": "to sit through long meetings at work.",
+      "recognized": "to sit through long meetings at work.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-14",
+      "line": 14,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-1.m4a",
+      "expected": "Okay, so sitting for long periods",
+      "recognized": "Okay, so sitting for long period.",
+      "similarity": 0.9811320754716981
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-14",
+      "line": 14,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/female/chunk-2.m4a",
+      "expected": "makes it worse,",
+      "recognized": "makes it worse.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-14",
+      "line": 14,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-1.m4a",
+      "expected": "Okay, so sitting for long periods",
+      "recognized": "Okay, so sitting for long...",
+      "similarity": 0.851063829787234
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-14",
+      "line": 14,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-14/male/chunk-2.m4a",
+      "expected": "makes it worse,",
+      "recognized": "Periods makes it worse.",
+      "similarity": 0.7741935483870968
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-15",
+      "line": 15,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-1.m4a",
+      "expected": "and getting up for a short walk",
+      "recognized": "and getting up for a short walk.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-15",
+      "line": 15,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/female/chunk-2.m4a",
+      "expected": "seems to help.",
+      "recognized": "seems to help.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-15",
+      "line": 15,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-1.m4a",
+      "expected": "and getting up for a short walk",
+      "recognized": "and getting up for a short walk.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-15",
+      "line": 15,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-15/male/chunk-2.m4a",
+      "expected": "seems to help.",
+      "recognized": "seems to help.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-16",
+      "line": 16,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-16/female/chunk-1.m4a",
+      "expected": "It's also affecting",
+      "recognized": "It's also a...",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-16",
+      "line": 16,
+      "voice": "female",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-16/female/chunk-2.m4a",
+      "expected": "how long you can sit at work.",
+      "recognized": "how long you can sit at work.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-16",
+      "line": 16,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-16/male/chunk-1.m4a",
+      "expected": "It's also affecting",
+      "recognized": "It's also a...",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-16",
+      "line": 16,
+      "voice": "male",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-16/male/chunk-2.m4a",
+      "expected": "how long you can sit at work.",
+      "recognized": "how long you can sit at work.",
+      "similarity": 1.0
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-18",
+      "line": 18,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-18/patient/chunk-1.m4a",
+      "expected": "It's mainly just the ache",
+      "recognized": "It's mainly just the eye.",
+      "similarity": 0.8717948717948718
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-18",
+      "line": 18,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-18/patient/chunk-2.m4a",
+      "expected": "in my lower back.",
+      "recognized": "Thank you my lower back.",
+      "similarity": 0.75
+    },
+    {
+      "week": "week-03",
+      "unit": "week-03-line-18",
+      "line": 18,
+      "voice": "patient",
+      "audio": "audio/week-03/practice-breath-2026-11-09-v3/week-03-line-18/patient/full.m4a",
+      "expected": "It's mainly just the ache in my lower back.",
+      "recognized": "It's mainly just the Ike in my lower back.",
+      "similarity": 0.9230769230769231
+    }
+  ]
+}

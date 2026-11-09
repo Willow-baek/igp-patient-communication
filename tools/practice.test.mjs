@@ -6,7 +6,7 @@ import {createLongPress,createMouseClicks} from '../docs/long-press.mjs';
 
 const weeks=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
 test('every published unit covers the unchanged script and has complete voice tracks',()=>{
-  const week=weeks[1];assert(week.practice.units.length>0);
+  for(const week of weeks){assert(week.practice.units.length>0);
   for(const unit of week.practice.units){
     for(const line of unit.lines)assert.equal(practiceForLine(week,line),unit);
     for(const voice of ['female','male']){
@@ -17,7 +17,7 @@ test('every published unit covers the unchanged script and has complete voice tr
       for(const step of steps.filter(s=>s.kind==='build'||s.kind==='full'))assert(unit.text.startsWith(step.text));
     }
     if(unit.speaker==='Patient')assert.deepEqual(practiceSteps(unit,'female'),practiceSteps(unit,'male'));
-  }
+  }}
 });
 test('stale script metadata and unsupported weeks do not open practice',()=>{
   assert.equal(practiceForLine(weeks[0],0),null);
@@ -98,8 +98,7 @@ test('tail extensions preserve original source starts, stay within originals, an
 
 
 test('every practice step highlights exactly its source words in the existing bubbles',()=>{
-  const week=weeks[1];
-  for(const unit of week.practice.units)for(const step of practiceSteps(unit,'female')){
+  for(const week of weeks)for(const unit of week.practice.units)for(const step of practiceSteps(unit,'female')){
     const slices=practiceHighlightSlices(week,unit,step);
     assert.equal(slices.map(p=>p.selected).filter(Boolean).join(' '),step.text);
     for(const part of slices)assert.equal(part.before+part.selected+part.after,week.lines[part.index].en);
@@ -114,47 +113,55 @@ test('repeated phrases are highlighted by source offsets rather than the first t
 });
 
 
-test('long practice units are finer without changing their original script',()=>{
-  const old=JSON.parse(fs.readFileSync(new URL('./week-02-practice-tail-v2.json',import.meta.url)));
-  const fine=JSON.parse(fs.readFileSync(new URL('./week-02-practice-fine-v3.json',import.meta.url)));
-  const week=weeks[1];
-  for(const unit of week.practice.units){
-    const before=old.units.find(u=>u.lines.includes(unit.lines[0]));
-    assert(before.text.includes(unit.text));assert(unit.lines.every(i=>before.lines.includes(i)));
-    assert(unit.chunks.every(text=>text.split(/\s+/).length<=6));
-    if(unit.id==='w2-turn-05')assert(unit.chunks.length>before.chunks.length);
-    else if(JSON.stringify(unit.lines)===JSON.stringify(before.lines))assert.deepEqual(unit.chunks,before.chunks);
-  }
-  const source=JSON.parse(fs.readFileSync(new URL('./week-02-audio-boundaries.json',import.meta.url)));
-  for(const [voice,tracks] of Object.entries(fine.tracks))for(const t of tracks){
-    assert.equal(t.cuts.length+1,fine.units[t.unit].chunks.length);
-    assert.equal(t.tailPadding.length,t.cuts.length+1);
-    const bounds=[t.start,...t.cuts,t.end];
-    assert(bounds.every((v,i)=>!i||v>bounds[i-1]));
-    assert(t.cuts.every((v,i)=>v+t.tailPadding[i]<=source.tracks[voice].duration));
-
+test('reviewed practice favors recorded pauses and meaningful phrases rather than a word cap',()=>{
+  const plan=JSON.parse(fs.readFileSync(new URL('./practice-breath-review-2026-11-09.json',import.meta.url)));
+  assert.equal(plan.weeks.reduce((n,w)=>n+w.units.length+w.wholeBubbleLines.length,0),48);
+  assert.deepEqual(weeks[2].practice.units[0].chunks,["Can you tell me more about","what's been happening","with your back?"]);
+  const meeting=practiceForLine(weeks[1],4);
+  assert.deepEqual(meeting.chunks,['So sitting through a 30-minute meeting more comfortably','would be useful?']);
+  assert(meeting.chunks[0].split(' ').length>6);
+  for(const week of plan.weeks)for(const unit of week.units){
+    if(unit.preservedUnit)continue;
+    for(const track of Object.values(unit.tracks)){
+      const bounds=[track.start,...track.cuts,track.end];
+      assert(bounds.every((v,i)=>!i||v>bounds[i-1]));
+      assert(track.end<=track.duration+.001);
+      for(const review of track.boundaryReview){
+        assert(['audible-pause-candidate','meaning-boundary-without-long-pause'].includes(review.reason));
+        if(review.quietInterval)assert(review.cut>=review.quietInterval.start&&review.cut<=review.quietInterval.end);
+      }
+    }
   }
 });
-
-
-test('completed sentences remain independent even when spoken by the same person',()=>{
+test('completed sentences and short one-breath utterances remain independent',()=>{
   const week=weeks[1];
-  assert.equal(practiceForLine(week,10),null); // That makes sense. has its own normal playback.
-  for(const index of [8,9,11,12]){
+  for(const index of [5,7,8,10,13])assert.equal(practiceForLine(week,index),null);
+  for(const index of [9,11,12]){
     const unit=practiceForLine(week,index);
     assert.deepEqual(unit.lines,[index]);
     assert.equal(unit.text,week.lines[index].en);
   }
-  assert(!practiceForLine(week,11).text.includes('That makes sense'));
-  assert.deepEqual(practiceForLine(week,6).lines,[6]);
-  assert.deepEqual(practiceForLine(week,7).lines,[7]);
-  assert.deepEqual(practiceForLine(week,7).chunks,['Is that another','priority for you?']);
-  assert.notEqual(practiceForLine(week,6),practiceForLine(week,7));
-  for(const unit of week.practice.units){
-    const priorLines=unit.lines.slice(0,-1);
-    assert(priorLines.every(i=>!/[.!?]$/.test(week.lines[i].en.trim())));
+  for(const week of weeks)for(const unit of week.practice.units){
+    assert(unit.lines.slice(0,-1).every(i=>!/[.!?]$/.test(week.lines[i].en.trim())));
     for(const step of practiceSteps(unit,'female'))assert(unit.text.includes(step.text));
   }
+});
+test('a question inside a bubble excludes the preceding acknowledgement from audio and highlighting',()=>{
+  const week=weeks[2],unit=practiceForLine(week,2);
+  assert.equal(unit.text,'Whereabouts in your back do you feel it?');
+  assert.equal(week.lines[2].en.slice(unit.range.start,unit.range.end),unit.text);
+  for(const step of practiceSteps(unit,'female')){
+    const [slice]=practiceHighlightSlices(week,unit,step);
+    assert(slice.before.startsWith('Okay. '));
+    assert.equal(slice.selected,step.text);
+    assert.equal(slice.before+slice.selected+slice.after,week.lines[2].en);
+  }
+  const invalid=structuredClone(week);
+  invalid.practice.units.find(u=>u.id===unit.id).range.start=-1;
+  assert.equal(practiceForLine(invalid,2),null);
+  const middle=structuredClone(week);
+  middle.practice.units.find(u=>u.id===unit.id).range.start+=2;
+  assert.equal(practiceForLine(middle,2),null);
 });
 test('runtime rejects a merged finished sentence even if its text matches the script',()=>{
   const week=structuredClone(weeks[1]);

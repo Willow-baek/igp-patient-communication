@@ -9,7 +9,17 @@ export function practiceForLine(week,index){
   // A speaker turn may contain several sentences; practice cannot cross one.
   if(lines.slice(0,-1).some(l=>/[.!?][\"'”’)\]]*\s*$/.test(l.en)))return null;
   const joined=lines.map(l=>l.en).join(' ');
-  if(joined!==unit.text||unit.chunks.join(' ')!==unit.text)return null;
+  let text=joined;
+  if(unit.range){
+    const {start,end}=unit.range;
+    // A short response can precede the practice sentence in the same bubble.
+    // Keep that response visible, but never include it in cumulative practice.
+    if(lines.length!==1||!Number.isInteger(start)||!Number.isInteger(end)||start<0||end>joined.length||end<=start)return null;
+    if(start>0&&!/[.!?][\"'”’)\]]*$/.test(joined.slice(0,start).trimEnd()))return null;
+    if(end<joined.length&&!/[.!?][\"'”’)\]]*$/.test(joined.slice(start,end)))return null;
+    text=joined.slice(start,end);
+  }
+  if(text!==unit.text||unit.chunks.join(' ')!==unit.text)return null;
   return unit;
 }
 export function practiceSteps(unit,voice){
@@ -31,7 +41,7 @@ export function practiceSteps(unit,voice){
 // Map a learning range to the existing bubbles, including split original turns.
 export function practiceHighlightSlices(week,unit,step){
   if(!step||!Number.isInteger(step.start)||!Number.isInteger(step.end)||step.start<0||step.end>unit.text.length||step.end<=step.start)return [];
-  let offset=0;
+  let offset=-(unit.range?.start||0);
   return unit.lines.map(index=>{
     const text=week.lines[index].en;
     const start=Math.min(text.length,Math.max(0,step.start-offset));
