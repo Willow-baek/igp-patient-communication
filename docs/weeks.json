@@ -980,34 +980,34 @@
             "speaker": "Physio",
             "text": "Can you tell me more about what's been happening with your back?",
             "chunks": [
-              "Can you tell me more",
-              "about what's been happening",
+              "Can you tell me more about",
+              "what's been happening",
               "with your back?"
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-1.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-2.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-3.m4a"
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-1.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/build-2.m4a",
-                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/build-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/full.m4a"
                 ],
-                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+                "full": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-3.m4a"
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-1.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/full.m4a"
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/build-2.m4a",
+                  "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/full.m4a"
+                "full": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/full.m4a"
               }
             }
           },

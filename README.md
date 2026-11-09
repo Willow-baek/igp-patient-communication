@@ -64,6 +64,8 @@ W2/
 
 긴 파일을 직접 참조하는 기존 구조도 `docs/audio-source.mjs`에서 지원한다. 피지오는 `physioAudio.female/male` + 문장별 `segments.female/male.{start,end}`, 환자는 `patientAudio` + 문장별 `start/end`를 쓴다. 문장별 파일이 우선한다. 일반 단일 `audio`만으로 새 피지오 남녀 버전을 연결하지 않는다. 짧은 파일로 분할하면 끝 경계를 더 정확히 관리할 수 있다.
 
+Week 3 첫 문장의 나눠 연습은 사용자 요청에 따라 `Can you tell me more about / what's been happening / with your back?`으로 변경했다. 원문과 전체 듣기는 유지한다. 재생성 순서는 기존 대사·나눠 연습 빌드 → 여성 음량 보정 → `python tools/build-week-03-opening-practice.py`이며, 마지막 단계는 이 한 말풍선만 바꾼다. 경계와 검증은 `tools/week-03-opening-practice-v2.json`에 기록한다.
+
 ## 보이스 음량 맞추기
 
 여성 보이스가 작다는 청취 피드백에 따라 Week 1·2·3의 여성 음량을 각각 +12.96dB, +8.95dB, +11.35dB 올렸다. 각 주차의 현재 남성 대사 음량 중앙값을 기준으로 잡고, 여성 일반 재생·나눠 연습·전체 원본 참조에 주차별 동일 게인을 적용했다. 원본과 이전 컷은 그대로 보존한다. 현재 여성 파일은 각 주차의 `volume-balanced-2026-11-09/` 아래에 있으며 `docs/weeks.json`이 연결 기준이다.

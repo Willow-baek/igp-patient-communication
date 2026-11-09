@@ -1,0 +1,228 @@
+{
+  "week": "week-03",
+  "scriptRevision": "2026-11-09-user-week-03",
+  "unitId": "w3-line-01",
+  "chunks": [
+    "Can you tell me more about",
+    "what's been happening",
+    "with your back?"
+  ],
+  "method": "User-requested phrase boundaries. Continuous cuts from preserved ElevenLabs source. Female gain +11.35dB retained. No silence, fades or concatenation.",
+  "tracks": {
+    "female": {
+      "source": "audio/week-03/original/W3_PT_female.mp3",
+      "gainDb": 11.35,
+      "boundaries": [
+        0,
+        1.02,
+        1.78,
+        2.515
+      ],
+      "clips": [
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-1.m4a",
+          "start": 0,
+          "end": 1.02,
+          "text": "Can you tell me more about",
+          "asr": "Can you tell me more about",
+          "loudness": {
+            "input_i": "-17.52",
+            "input_tp": "-7.13",
+            "input_lra": "0.00",
+            "input_thresh": "-27.52",
+            "output_i": "-22.99",
+            "output_tp": "-12.62",
+            "output_lra": "0.00",
+            "output_thresh": "-32.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-2.m4a",
+          "start": 1.02,
+          "end": 1.78,
+          "text": "what's been happening",
+          "asr": "what's been happening.",
+          "loudness": {
+            "input_i": "-23.98",
+            "input_tp": "-10.29",
+            "input_lra": "0.00",
+            "input_thresh": "-33.98",
+            "output_i": "-22.98",
+            "output_tp": "-9.31",
+            "output_lra": "0.00",
+            "output_thresh": "-32.98",
+            "normalization_type": "linear",
+            "target_offset": "-0.02"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/chunk-3.m4a",
+          "start": 1.78,
+          "end": 2.515,
+          "text": "with your back?",
+          "asr": "with your back.",
+          "loudness": {
+            "input_i": "-25.23",
+            "input_tp": "-13.39",
+            "input_lra": "0.00",
+            "input_thresh": "-35.23",
+            "output_i": "-23.00",
+            "output_tp": "-11.16",
+            "output_lra": "0.00",
+            "output_thresh": "-33.00",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/build-2.m4a",
+          "start": 0,
+          "end": 1.78,
+          "text": "Can you tell me more about what's been happening",
+          "asr": "Can you tell me more about what's been happening?",
+          "loudness": {
+            "input_i": "-18.88",
+            "input_tp": "-7.13",
+            "input_lra": "0.00",
+            "input_thresh": "-28.88",
+            "output_i": "-22.98",
+            "output_tp": "-11.26",
+            "output_lra": "0.00",
+            "output_thresh": "-32.98",
+            "normalization_type": "linear",
+            "target_offset": "-0.02"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/female/full.m4a",
+          "start": 0,
+          "end": 2.515,
+          "text": "Can you tell me more about what's been happening with your back?",
+          "asr": "Can you tell me more about what's been happening with your back?",
+          "loudness": {
+            "input_i": "-20.23",
+            "input_tp": "-7.13",
+            "input_lra": "0.00",
+            "input_thresh": "-30.23",
+            "output_i": "-22.99",
+            "output_tp": "-9.91",
+            "output_lra": "0.00",
+            "output_thresh": "-32.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          }
+        }
+      ],
+      "review": "The shared happening/with boundary was set to 1.78s after base.en and small.en both recognized the standalone ending exactly. No duplicated overlap or synthetic tail."
+    },
+    "male": {
+      "source": "audio/week-03/original/W3_PT_male.mp3",
+      "gainDb": 0,
+      "boundaries": [
+        0,
+        1.08,
+        1.84,
+        2.8525
+      ],
+      "clips": [
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-1.m4a",
+          "start": 0,
+          "end": 1.08,
+          "text": "Can you tell me more about",
+          "asr": "Can you tell me more about-",
+          "loudness": {
+            "input_i": "-16.87",
+            "input_tp": "-2.43",
+            "input_lra": "0.00",
+            "input_thresh": "-26.87",
+            "output_i": "-22.99",
+            "output_tp": "-8.56",
+            "output_lra": "0.00",
+            "output_thresh": "-32.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-2.m4a",
+          "start": 1.08,
+          "end": 1.84,
+          "text": "what's been happening",
+          "asr": "what's been happening.",
+          "loudness": {
+            "input_i": "-22.12",
+            "input_tp": "-1.24",
+            "input_lra": "0.00",
+            "input_thresh": "-32.12",
+            "output_i": "-22.99",
+            "output_tp": "-2.12",
+            "output_lra": "0.00",
+            "output_thresh": "-32.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/chunk-3.m4a",
+          "start": 1.84,
+          "end": 2.8525,
+          "text": "with your back?",
+          "asr": "with your back.",
+          "loudness": {
+            "input_i": "-24.35",
+            "input_tp": "-6.87",
+            "input_lra": "0.00",
+            "input_thresh": "-35.01",
+            "output_i": "-23.00",
+            "output_tp": "-5.52",
+            "output_lra": "0.00",
+            "output_thresh": "-33.66",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/build-2.m4a",
+          "start": 0,
+          "end": 1.84,
+          "text": "Can you tell me more about what's been happening",
+          "asr": "Can you tell me more about what's been happening?",
+          "loudness": {
+            "input_i": "-17.64",
+            "input_tp": "-1.38",
+            "input_lra": "0.00",
+            "input_thresh": "-27.64",
+            "output_i": "-23.01",
+            "output_tp": "-6.74",
+            "output_lra": "0.00",
+            "output_thresh": "-33.01",
+            "normalization_type": "linear",
+            "target_offset": "0.01"
+          }
+        },
+        {
+          "audio": "audio/week-03/practice-opening-2026-11-09-v2/w3-line-01/male/full.m4a",
+          "start": 0,
+          "end": 2.8525,
+          "text": "Can you tell me more about what's been happening with your back?",
+          "asr": "Can you tell me more about what's been happening with your back?",
+          "loudness": {
+            "input_i": "-18.91",
+            "input_tp": "-1.38",
+            "input_lra": "0.00",
+            "input_thresh": "-29.08",
+            "output_i": "-23.01",
+            "output_tp": "-5.47",
+            "output_lra": "0.00",
+            "output_thresh": "-33.18",
+            "normalization_type": "linear",
+            "target_offset": "0.01"
+          }
+        }
+      ]
+    }
+  }
+}
