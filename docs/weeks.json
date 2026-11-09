@@ -20,7 +20,7 @@
           "ko": "안녕하세요, John Thompson 씨 맞으신가요?",
           "turn": 1,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/01.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/01.m4a",
             "male": "audio/week-01/natural-tail/male/01.m4a"
           }
         },
@@ -30,7 +30,7 @@
           "ko": "저는 Alex이고, 오늘 담당 물리치료사입니다.",
           "turn": 1,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/02.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/02.m4a",
             "male": "audio/week-01/natural-tail/male/02.m4a"
           },
           "segments": {
@@ -58,7 +58,7 @@
           "ko": "만나서 반갑습니다, John.",
           "turn": 2,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/04.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/04.m4a",
             "male": "audio/week-01/natural-tail/male/04.m4a"
           },
           "segments": {
@@ -78,7 +78,7 @@
           "ko": "John이라고 불러도 괜찮을까요, 아니면 Thompson 씨라고 불러드릴까요?",
           "turn": 2,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/05.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/05.m4a",
             "male": "audio/week-01/natural-tail/male/05.m4a"
           },
           "segments": {
@@ -106,7 +106,7 @@
           "ko": "좋아요, 감사합니다, John.",
           "turn": 3,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/07.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/07.m4a",
             "male": "audio/week-01/natural-tail/male/07.m4a"
           },
           "segments": {
@@ -126,7 +126,7 @@
           "ko": "오늘 여기까지 오시는 길은 어떠셨어요?",
           "turn": 3,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/08.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/08.m4a",
             "male": "audio/week-01/natural-tail/male/08.m4a"
           }
         },
@@ -144,7 +144,7 @@
           "ko": "다행이네요. 오늘은 허리에 대해 몇 가지 질문을 드리고,",
           "turn": 4,
           "audioVoices": {
-            "female": "audio/week-01/end-fix/female/10.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/end-fix/female/10.m4a",
             "male": "audio/week-01/end-fix/male/10.m4a"
           },
           "segments": {
@@ -164,7 +164,7 @@
           "ko": "그다음 허리가 어떻게 움직이는지 살펴볼 거예요.",
           "turn": 4,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/11.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/11.m4a",
             "male": "audio/week-01/natural-tail/male/11.m4a"
           }
         },
@@ -174,7 +174,7 @@
           "ko": "괜찮으실까요?",
           "turn": 4,
           "audioVoices": {
-            "female": "audio/week-01/natural-tail/female/12.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/natural-tail/female/12.m4a",
             "male": "audio/week-01/natural-tail/male/12.m4a"
           },
           "segments": {
@@ -202,7 +202,7 @@
           "ko": "좋습니다. 시작하기 전에,",
           "turn": 5,
           "audioVoices": {
-            "female": "audio/week-01/end-fix/female/14.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/end-fix/female/14.m4a",
             "male": "audio/week-01/end-fix/male/14.m4a"
           },
           "segments": {
@@ -222,7 +222,7 @@
           "ko": "저에게 물어보고 싶은 게 있으세요?",
           "turn": 5,
           "audioVoices": {
-            "female": "audio/week-01/end-fix/female/15.m4a",
+            "female": "audio/week-01/volume-balanced-2026-11-09/end-fix/female/15.m4a",
             "male": "audio/week-01/natural-tail/male/15.m4a"
           },
           "segments": {
@@ -250,7 +250,7 @@
         "name": "John Thompson"
       },
       "physioAudio": {
-        "female": "audio/week-01/W1_PT_female.mp3",
+        "female": "audio/week-01/volume-balanced-2026-11-09/W1_PT_female.m4a",
         "male": "audio/week-01/W1_PT_male.mp3"
       },
       "patientAudio": "audio/week-01/W1_pt.mp3",
@@ -276,7 +276,7 @@
           "ko": "John, 어떤 활동을 가장 다시 하고 싶으세요?",
           "turn": 1,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/01.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/01.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/01.m4a"
           }
         },
@@ -293,7 +293,7 @@
           "ko": "직장에서는 보통 얼마나 오래 앉아 계셔야 하나요?",
           "turn": 3,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/03.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/03.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/03.m4a"
           }
         },
@@ -310,7 +310,7 @@
           "ko": "그러면 30분 회의 동안 좀 더 편하게 앉아 있을 수 있으면 도움이 되겠네요?",
           "turn": 5,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/05.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/05.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/05.m4a"
           }
         },
@@ -327,7 +327,7 @@
           "ko": "달리기도 다시 하고 싶다고 하셨죠.",
           "turn": 7,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/07.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/07.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/07.m4a"
           }
         },
@@ -337,7 +337,7 @@
           "ko": "그것도 중요하게 생각하시는 목표인가요?",
           "turn": 7,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/08.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/08.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/08.m4a"
           }
         },
@@ -361,7 +361,7 @@
           "ko": "그렇군요.",
           "turn": 9,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/11.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/11.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/11.m4a"
           }
         },
@@ -371,7 +371,7 @@
           "ko": "회의 때 편하게 앉아 있는 것을 단기 목표로 먼저 삼고,",
           "turn": 9,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/12.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/12.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/12.m4a"
           }
         },
@@ -381,7 +381,7 @@
           "ko": "시간을 두고 다시 달릴 수 있도록 함께해 볼까요?",
           "turn": 9,
           "audioVoices": {
-            "female": "audio/week-02/2026-10-31-v1/female/13.m4a",
+            "female": "audio/week-02/volume-balanced-2026-11-09/2026-10-31-v1/female/13.m4a",
             "male": "audio/week-02/2026-10-31-v1/male/13.m4a"
           }
         },
@@ -399,7 +399,7 @@
       },
       "scriptRevision": "2026-10-31-user-day-2-split-3",
       "physioAudio": {
-        "female": "audio/week-02/original/W2_PT_female.mp3",
+        "female": "audio/week-02/volume-balanced-2026-11-09/original/W2_PT_female.m4a",
         "male": "audio/week-02/original/W2_PT_male.mp3"
       },
       "patientAudio": "audio/week-02/original/W2_pt.mp3",
@@ -420,13 +420,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-01/female/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-01/female/chunk-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-01/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-01/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -478,13 +478,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-03/female/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-03/female/chunk-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-03/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-03/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -537,15 +537,15 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v3/w2-turn-05/female/chunk-1.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/female/chunk-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/female/chunk-3.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v3/w2-turn-05/female/build-2.m4a",
-                  "audio/week-02/practice-v3/w2-turn-05/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/build-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v3/w2-turn-05/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v3/w2-turn-05/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -575,13 +575,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-1.m4a",
-                  "audio/week-02/practice-v2/w2-turn-07/female/chunk-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/build-2.m4a"
                 ],
-                "full": "audio/week-02/practice-v2/w2-turn-07/female/build-2.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v2/w2-turn-07/female/build-2.m4a"
               },
               "male": {
                 "chunks": [
@@ -609,13 +609,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-priority-question/female/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-priority-question/female/chunk-2.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-priority-question/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-priority-question/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-priority-question/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -695,15 +695,15 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/chunk-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/chunk-3.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/build-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/build-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-1/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -734,15 +734,15 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/chunk-1.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/chunk-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/chunk-3.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-1.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/build-2.m4a",
-                  "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/build-2.m4a",
+                  "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
                 ],
-                "full": "audio/week-02/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
+                "full": "audio/week-02/volume-balanced-2026-11-09/practice-v5/w2-turn-09-bubble-2/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -810,7 +810,7 @@
           "en": "Can you tell me more about what's been happening with your back?",
           "ko": "허리에 어떤 일이 있었는지 좀 더 말씀해 주시겠어요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/01.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/01.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/01.m4a"
           }
         },
@@ -827,7 +827,7 @@
           "en": "Okay. Whereabouts in your back do you feel it?",
           "ko": "그렇군요. 허리 어느 부위가 아프세요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/03.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/03.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/03.m4a"
           }
         },
@@ -844,7 +844,7 @@
           "en": "And when did you first notice it?",
           "ko": "처음 통증을 느끼신 건 언제인가요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/05.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/05.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/05.m4a"
           }
         },
@@ -861,7 +861,7 @@
           "en": "Right. What tends to make it worse?",
           "ko": "그렇군요. 주로 어떤 때 더 아프세요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/07.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/07.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/07.m4a"
           }
         },
@@ -878,7 +878,7 @@
           "en": "I see. Does anything seem to help it settle?",
           "ko": "그렇군요. 통증을 가라앉히는 데 도움이 되는 게 있나요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/09.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/09.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/09.m4a"
           }
         },
@@ -895,7 +895,7 @@
           "en": "And how's it affecting you day to day?",
           "ko": "일상생활에는 어떤 영향을 주고 있나요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/11.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/11.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/11.m4a"
           }
         },
@@ -905,7 +905,7 @@
           "en": "Are you finding anything particularly difficult?",
           "ko": "특히 하기 힘든 일이 있으세요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/12.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/12.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/12.m4a"
           }
         },
@@ -922,7 +922,7 @@
           "en": "Okay, so sitting for long periods makes it worse,",
           "ko": "정리하면, 오래 앉아 있으면 더 아프고,",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/14.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/14.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/14.m4a"
           }
         },
@@ -932,7 +932,7 @@
           "en": "and getting up for a short walk seems to help.",
           "ko": "일어나서 잠깐 걸으면 좀 나아지는군요.",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/15.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/15.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/15.m4a"
           }
         },
@@ -942,7 +942,7 @@
           "en": "It's also affecting how long you can sit at work.",
           "ko": "직장에서 오래 앉아 있는 데도 영향을 주고 있고요.",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/16.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/16.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/16.m4a"
           }
         },
@@ -952,7 +952,7 @@
           "en": "Are there any other symptoms?",
           "ko": "그 밖에 다른 증상도 있나요?",
           "audioVoices": {
-            "female": "audio/week-03/2026-11-09-v1/female/17.m4a",
+            "female": "audio/week-03/volume-balanced-2026-11-09/2026-11-09-v1/female/17.m4a",
             "male": "audio/week-03/2026-11-09-v1/male/17.m4a"
           }
         },
@@ -965,7 +965,7 @@
         }
       ],
       "physioAudio": {
-        "female": "audio/week-03/original/W3_PT_female.mp3",
+        "female": "audio/week-03/volume-balanced-2026-11-09/original/W3_PT_female.m4a",
         "male": "audio/week-03/original/W3_PT_male.mp3"
       },
       "patientAudio": "audio/week-03/original/W3_pt.mp3",
@@ -987,15 +987,15 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-3.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-2.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/build-2.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -1049,13 +1049,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-2.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -1110,13 +1110,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-2.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -1171,13 +1171,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-2.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -1206,15 +1206,15 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-3.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-2.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/build-2.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/build-2.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
               },
               "male": {
                 "chunks": [
@@ -1244,13 +1244,13 @@
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-1.m4a",
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-2.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/chunk-1.m4a",
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/chunk-2.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
+                  "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
                 ],
-                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
+                "full": "audio/week-03/volume-balanced-2026-11-09/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
               },
               "male": {
                 "chunks": [
