@@ -784,6 +784,488 @@
           }
         ]
       }
+    },
+    {
+      "id": "week-03",
+      "label": "Week 3",
+      "title": "Exploring back pain",
+      "shortTitle": "허리 통증에 대해 질문하기",
+      "description": "대화문을 읽을 때는 단어 하나하나를 외우기보다는 전체적인 대화의 흐름과 질문하는 방식에 집중해 주세요.",
+      "scenario": "John은 약 6주 전부터 허리 통증을 경험하고 있습니다. 오랫동안 앉아 있으면 통증이 심해지고, 일어나서 잠깐 걸으면 조금 나아지는 상황입니다.",
+      "scriptRevision": "2026-11-09-user-week-03",
+      "patient": {
+        "id": "john-thompson",
+        "name": "John"
+      },
+      "expressions": [
+        "Can you tell me more about what's been happening with your back?",
+        "What tends to make it worse?",
+        "Does anything seem to help it settle?",
+        "And how's it affecting you day to day?"
+      ],
+      "lines": [
+        {
+          "speaker": "Physio",
+          "turn": 1,
+          "en": "Can you tell me more about what's been happening with your back?",
+          "ko": "허리에 어떤 일이 있었는지 좀 더 말씀해 주시겠어요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/01.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/01.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 2,
+          "en": "My back has been feeling achy for a while now.",
+          "ko": "허리가 뻐근하게 아픈 지 좀 됐어요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/02.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 3,
+          "en": "Okay. Whereabouts in your back do you feel it?",
+          "ko": "그렇군요. 허리 어느 부위가 아프세요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/03.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/03.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 4,
+          "en": "Mostly in the middle of my lower back.",
+          "ko": "주로 허리 아래쪽 한가운데요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/04.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 5,
+          "en": "And when did you first notice it?",
+          "ko": "처음 통증을 느끼신 건 언제인가요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/05.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/05.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 6,
+          "en": "About six weeks ago.",
+          "ko": "6주 정도 전이요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/06.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 7,
+          "en": "Right. What tends to make it worse?",
+          "ko": "그렇군요. 주로 어떤 때 더 아프세요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/07.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/07.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 8,
+          "en": "Sitting at my desk for too long, especially when I'm working.",
+          "ko": "책상에 너무 오래 앉아 있으면요. 특히 일할 때요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/08.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 9,
+          "en": "I see. Does anything seem to help it settle?",
+          "ko": "그렇군요. 통증을 가라앉히는 데 도움이 되는 게 있나요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/09.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/09.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 10,
+          "en": "Getting up and having a bit of a walk usually helps.",
+          "ko": "일어나서 잠깐 걸으면 보통 좀 나아져요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/10.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 11,
+          "en": "And how's it affecting you day to day?",
+          "ko": "일상생활에는 어떤 영향을 주고 있나요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/11.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/11.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 11,
+          "en": "Are you finding anything particularly difficult?",
+          "ko": "특히 하기 힘든 일이 있으세요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/12.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/12.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 12,
+          "en": "It's making it hard to sit through long meetings at work.",
+          "ko": "직장에서 긴 회의가 끝날 때까지 앉아 있기가 힘들어요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/13.m4a"
+        },
+        {
+          "speaker": "Physio",
+          "turn": 13,
+          "en": "Okay, so sitting for long periods makes it worse,",
+          "ko": "정리하면, 오래 앉아 있으면 더 아프고,",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/14.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/14.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 13,
+          "en": "and getting up for a short walk seems to help.",
+          "ko": "일어나서 잠깐 걸으면 좀 나아지는군요.",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/15.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/15.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 13,
+          "en": "It's also affecting how long you can sit at work.",
+          "ko": "직장에서 오래 앉아 있는 데도 영향을 주고 있고요.",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/16.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/16.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 13,
+          "en": "Are there any other symptoms?",
+          "ko": "그 밖에 다른 증상도 있나요?",
+          "audioVoices": {
+            "female": "audio/week-03/2026-11-09-v1/female/17.m4a",
+            "male": "audio/week-03/2026-11-09-v1/male/17.m4a"
+          }
+        },
+        {
+          "speaker": "Patient",
+          "turn": 14,
+          "en": "Not really. It's mainly just the ache in my lower back.",
+          "ko": "딱히 없어요. 주로 허리 아래쪽이 뻐근하게 아픈 정도예요.",
+          "audio": "audio/week-03/2026-11-09-v1/patient/18.m4a"
+        }
+      ],
+      "physioAudio": {
+        "female": "audio/week-03/original/W3_PT_female.mp3",
+        "male": "audio/week-03/original/W3_PT_male.mp3"
+      },
+      "patientAudio": "audio/week-03/original/W3_pt.mp3",
+      "practice": {
+        "scriptRevision": "2026-11-09-user-week-03",
+        "units": [
+          {
+            "id": "w3-line-01",
+            "lines": [
+              0
+            ],
+            "speaker": "Physio",
+            "text": "Can you tell me more about what's been happening with your back?",
+            "chunks": [
+              "Can you tell me more",
+              "about what's been happening",
+              "with your back?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-04",
+            "lines": [
+              3
+            ],
+            "speaker": "Patient",
+            "text": "Mostly in the middle of my lower back.",
+            "chunks": [
+              "Mostly in the middle",
+              "of my lower back."
+            ],
+            "audio": {
+              "patient": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-05",
+            "lines": [
+              4
+            ],
+            "speaker": "Physio",
+            "text": "And when did you first notice it?",
+            "chunks": [
+              "And when did you",
+              "first notice it?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-08",
+            "lines": [
+              7
+            ],
+            "speaker": "Patient",
+            "text": "Sitting at my desk for too long, especially when I'm working.",
+            "chunks": [
+              "Sitting at my desk",
+              "for too long,",
+              "especially when I'm working."
+            ],
+            "audio": {
+              "patient": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-11",
+            "lines": [
+              10
+            ],
+            "speaker": "Physio",
+            "text": "And how's it affecting you day to day?",
+            "chunks": [
+              "And how's it affecting you",
+              "day to day?"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-13",
+            "lines": [
+              12
+            ],
+            "speaker": "Patient",
+            "text": "It's making it hard to sit through long meetings at work.",
+            "chunks": [
+              "It's making it hard",
+              "to sit through long meetings",
+              "at work."
+            ],
+            "audio": {
+              "patient": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-14",
+            "lines": [
+              13
+            ],
+            "speaker": "Physio",
+            "text": "Okay, so sitting for long periods makes it worse,",
+            "chunks": [
+              "Okay, so sitting for long periods",
+              "makes it worse,"
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-15",
+            "lines": [
+              14
+            ],
+            "speaker": "Physio",
+            "text": "and getting up for a short walk seems to help.",
+            "chunks": [
+              "and getting up",
+              "for a short walk",
+              "seems to help."
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-3.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/build-2.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/full.m4a"
+              }
+            }
+          },
+          {
+            "id": "w3-line-16",
+            "lines": [
+              15
+            ],
+            "speaker": "Physio",
+            "text": "It's also affecting how long you can sit at work.",
+            "chunks": [
+              "It's also affecting how long",
+              "you can sit at work."
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-1.m4a",
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-2.m4a"
+                ],
+                "buildUp": [
+                  "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/full.m4a"
+                ],
+                "full": "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/full.m4a"
+              }
+            }
+          }
+        ]
+      }
     }
   ]
 }

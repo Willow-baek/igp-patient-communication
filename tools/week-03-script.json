@@ -1,0 +1,31 @@
+{
+  "id": "week-03",
+  "label": "Week 3",
+  "title": "Exploring back pain",
+  "shortTitle": "허리 통증에 대해 질문하기",
+  "description": "대화문을 읽을 때는 단어 하나하나를 외우기보다는 전체적인 대화의 흐름과 질문하는 방식에 집중해 주세요.",
+  "scenario": "John은 약 6주 전부터 허리 통증을 경험하고 있습니다. 오랫동안 앉아 있으면 통증이 심해지고, 일어나서 잠깐 걸으면 조금 나아지는 상황입니다.",
+  "scriptRevision": "2026-11-09-user-week-03",
+  "patient": {"id": "john-thompson", "name": "John"},
+  "expressions": ["Can you tell me more about what's been happening with your back?", "What tends to make it worse?", "Does anything seem to help it settle?", "And how's it affecting you day to day?"],
+  "lines": [
+    {"speaker":"Physio","turn":1,"en":"Can you tell me more about what's been happening with your back?","ko":"허리에 어떤 일이 있었는지 좀 더 말씀해 주시겠어요?"},
+    {"speaker":"Patient","turn":2,"en":"My back has been feeling achy for a while now.","ko":"허리가 뻐근하게 아픈 지 좀 됐어요."},
+    {"speaker":"Physio","turn":3,"en":"Okay. Whereabouts in your back do you feel it?","ko":"그렇군요. 허리 어느 부위가 아프세요?"},
+    {"speaker":"Patient","turn":4,"en":"Mostly in the middle of my lower back.","ko":"주로 허리 아래쪽 한가운데요."},
+    {"speaker":"Physio","turn":5,"en":"And when did you first notice it?","ko":"처음 통증을 느끼신 건 언제인가요?"},
+    {"speaker":"Patient","turn":6,"en":"About six weeks ago.","ko":"6주 정도 전이요."},
+    {"speaker":"Physio","turn":7,"en":"Right. What tends to make it worse?","ko":"그렇군요. 주로 어떤 때 더 아프세요?"},
+    {"speaker":"Patient","turn":8,"en":"Sitting at my desk for too long, especially when I'm working.","ko":"책상에 너무 오래 앉아 있으면요. 특히 일할 때요."},
+    {"speaker":"Physio","turn":9,"en":"I see. Does anything seem to help it settle?","ko":"그렇군요. 통증을 가라앉히는 데 도움이 되는 게 있나요?"},
+    {"speaker":"Patient","turn":10,"en":"Getting up and having a bit of a walk usually helps.","ko":"일어나서 잠깐 걸으면 보통 좀 나아져요."},
+    {"speaker":"Physio","turn":11,"en":"And how's it affecting you day to day?","ko":"일상생활에는 어떤 영향을 주고 있나요?"},
+    {"speaker":"Physio","turn":11,"en":"Are you finding anything particularly difficult?","ko":"특히 하기 힘든 일이 있으세요?"},
+    {"speaker":"Patient","turn":12,"en":"It's making it hard to sit through long meetings at work.","ko":"직장에서 긴 회의가 끝날 때까지 앉아 있기가 힘들어요."},
+    {"speaker":"Physio","turn":13,"en":"Okay, so sitting for long periods makes it worse,","ko":"정리하면, 오래 앉아 있으면 더 아프고,"},
+    {"speaker":"Physio","turn":13,"en":"and getting up for a short walk seems to help.","ko":"일어나서 잠깐 걸으면 좀 나아지는군요."},
+    {"speaker":"Physio","turn":13,"en":"It's also affecting how long you can sit at work.","ko":"직장에서 오래 앉아 있는 데도 영향을 주고 있고요."},
+    {"speaker":"Physio","turn":13,"en":"Are there any other symptoms?","ko":"그 밖에 다른 증상도 있나요?"},
+    {"speaker":"Patient","turn":14,"en":"Not really. It's mainly just the ache in my lower back.","ko":"딱히 없어요. 주로 허리 아래쪽이 뻐근하게 아픈 정도예요."}
+  ]
+}

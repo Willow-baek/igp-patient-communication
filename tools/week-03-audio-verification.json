@@ -1,0 +1,216 @@
+{
+  "method": "faster-whisper base.en on every final standalone clip. ASR only; no direct human listening review.",
+  "tracks": {
+    "female": [
+      {
+        "line": 1,
+        "expected": "Can you tell me more about what's been happening with your back?",
+        "recognized": "Can you tell me more about what's been happening with your back?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/01.m4a"
+      },
+      {
+        "line": 3,
+        "expected": "Okay. Whereabouts in your back do you feel it?",
+        "recognized": "Okay, where abouts in your back? Do you feel it?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/03.m4a"
+      },
+      {
+        "line": 5,
+        "expected": "And when did you first notice it?",
+        "recognized": "And when did you first notice it?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/05.m4a"
+      },
+      {
+        "line": 7,
+        "expected": "Right. What tends to make it worse?",
+        "recognized": "Right, what tends to make it worse?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/07.m4a"
+      },
+      {
+        "line": 9,
+        "expected": "I see. Does anything seem to help it settle?",
+        "recognized": "I see. Does anything seem to help it settle?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/09.m4a"
+      },
+      {
+        "line": 11,
+        "expected": "And how's it affecting you day to day?",
+        "recognized": "And how's it affecting you day to day?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/11.m4a"
+      },
+      {
+        "line": 12,
+        "expected": "Are you finding anything particularly difficult?",
+        "recognized": "Are you finding anything particularly difficult?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/12.m4a"
+      },
+      {
+        "line": 14,
+        "expected": "Okay, so sitting for long periods makes it worse,",
+        "recognized": "Okay, so sitting for long periods makes it worse.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/14.m4a"
+      },
+      {
+        "line": 15,
+        "expected": "and getting up for a short walk seems to help.",
+        "recognized": "and getting up for a short walk seems to help.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/15.m4a"
+      },
+      {
+        "line": 16,
+        "expected": "It's also affecting how long you can sit at work.",
+        "recognized": "It's also affecting how long you can sit at work.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/16.m4a"
+      },
+      {
+        "line": 17,
+        "expected": "Are there any other symptoms?",
+        "recognized": "Are there any other symptoms?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/female/17.m4a"
+      }
+    ],
+    "male": [
+      {
+        "line": 1,
+        "expected": "Can you tell me more about what's been happening with your back?",
+        "recognized": "Can you tell me more about what's been happening with your back?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/01.m4a"
+      },
+      {
+        "line": 3,
+        "expected": "Okay. Whereabouts in your back do you feel it?",
+        "recognized": "Okay. Whereabouts in your back do you feel it?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/03.m4a"
+      },
+      {
+        "line": 5,
+        "expected": "And when did you first notice it?",
+        "recognized": "And when did you first notice it?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/05.m4a"
+      },
+      {
+        "line": 7,
+        "expected": "Right. What tends to make it worse?",
+        "recognized": "Right, what tends to make it worse?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/07.m4a"
+      },
+      {
+        "line": 9,
+        "expected": "I see. Does anything seem to help it settle?",
+        "recognized": "I see. Does anything seem to help its settle?",
+        "normalizedSimilarity": 0.9855072463768116,
+        "audio": "audio/week-03/2026-11-09-v1/male/09.m4a",
+        "smallModelReview": "I see. Does anything seem to help it settle?"
+      },
+      {
+        "line": 11,
+        "expected": "And how's it affecting you day to day?",
+        "recognized": "And how's it affecting you day to day?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/11.m4a"
+      },
+      {
+        "line": 12,
+        "expected": "Are you finding anything particularly difficult?",
+        "recognized": "Are you finding anything particularly difficult?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/12.m4a"
+      },
+      {
+        "line": 14,
+        "expected": "Okay, so sitting for long periods makes it worse,",
+        "recognized": "Okay, so sitting for long periods makes it worse.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/14.m4a"
+      },
+      {
+        "line": 15,
+        "expected": "and getting up for a short walk seems to help.",
+        "recognized": "and getting up for a short walk seems to help.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/15.m4a"
+      },
+      {
+        "line": 16,
+        "expected": "It's also affecting how long you can sit at work.",
+        "recognized": "It's also affecting how long you can sit at work.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/16.m4a"
+      },
+      {
+        "line": 17,
+        "expected": "Are there any other symptoms?",
+        "recognized": "Are there any other symptoms?",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/male/17.m4a"
+      }
+    ],
+    "patient": [
+      {
+        "line": 2,
+        "expected": "My back has been feeling achy for a while now.",
+        "recognized": "My back has been feeling achy for a while now.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/02.m4a"
+      },
+      {
+        "line": 4,
+        "expected": "Mostly in the middle of my lower back.",
+        "recognized": "Mostly in the middle of my lower back.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/04.m4a"
+      },
+      {
+        "line": 6,
+        "expected": "About six weeks ago.",
+        "recognized": "About six weeks ago",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/06.m4a"
+      },
+      {
+        "line": 8,
+        "expected": "Sitting at my desk for too long, especially when I'm working.",
+        "recognized": "Sitting at my desk for too long, especially when I'm working.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/08.m4a"
+      },
+      {
+        "line": 10,
+        "expected": "Getting up and having a bit of a walk usually helps.",
+        "recognized": "Getting up and having a bit of a walk usually helps.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/10.m4a"
+      },
+      {
+        "line": 13,
+        "expected": "It's making it hard to sit through long meetings at work.",
+        "recognized": "It's making it hard to sit through long meetings at work.",
+        "normalizedSimilarity": 1.0,
+        "audio": "audio/week-03/2026-11-09-v1/patient/13.m4a"
+      },
+      {
+        "line": 18,
+        "expected": "Not really. It's mainly just the ache in my lower back.",
+        "recognized": "Not really. It's mainly just the Ike in my lower back.",
+        "normalizedSimilarity": 0.9397590361445783,
+        "audio": "audio/week-03/2026-11-09-v1/patient/18.m4a",
+        "smallModelReview": "Not really, it's mainly just the ache in my lower back."
+      }
+    ]
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "method": "Local faster-whisper base.en ASR on every practice chunk and continuous prefix/full asset. No direct listening review.",
+  "clips": [
+    {
+      "unit": "w3-line-01",
+      "voice": "female",
+      "expected": "Can you tell me more",
+      "recognized": "Can you tell me more?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "female",
+      "expected": "about what's been happening",
+      "recognized": "about what's been happening.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "female",
+      "expected": "with your back?",
+      "recognized": "with your back.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/chunk-3.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "female",
+      "expected": "Can you tell me more about what's been happening",
+      "recognized": "Can you tell me more about what's been happening?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "female",
+      "expected": "Can you tell me more about what's been happening with your back?",
+      "recognized": "Can you tell me more about what's been happening with your back?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "male",
+      "expected": "Can you tell me more",
+      "recognized": "Can you tell me more?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "male",
+      "expected": "about what's been happening",
+      "recognized": "about what's been happening.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "male",
+      "expected": "with your back?",
+      "recognized": "with your back.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/chunk-3.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "male",
+      "expected": "Can you tell me more about what's been happening",
+      "recognized": "Can you tell me more about what's been happening?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-01",
+      "voice": "male",
+      "expected": "Can you tell me more about what's been happening with your back?",
+      "recognized": "Can you tell me more about what's been happening with your back?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-01/male/full.m4a"
+    },
+    {
+      "unit": "w3-line-04",
+      "voice": "patient",
+      "expected": "Mostly in the middle",
+      "recognized": "Mostly in the middle of the day.",
+      "normalizedSimilarity": 0.8095238095238095,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-1.m4a",
+      "smallModelReview": "mostly in the middle"
+    },
+    {
+      "unit": "w3-line-04",
+      "voice": "patient",
+      "expected": "of my lower back.",
+      "recognized": "of my lower back.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-04",
+      "voice": "patient",
+      "expected": "Mostly in the middle of my lower back.",
+      "recognized": "Mostly in the middle of my lower back.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-04/patient/full.m4a"
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "female",
+      "expected": "And when did you",
+      "recognized": "And when did you?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "female",
+      "expected": "first notice it?",
+      "recognized": "you first notice it.",
+      "normalizedSimilarity": 0.896551724137931,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/chunk-2.m4a",
+      "smallModelReview": "first notice it."
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "female",
+      "expected": "And when did you first notice it?",
+      "recognized": "And when did you first notice it?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "male",
+      "expected": "And when did you",
+      "recognized": "And when did you...",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "male",
+      "expected": "first notice it?",
+      "recognized": "First, notice it.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-05",
+      "voice": "male",
+      "expected": "And when did you first notice it?",
+      "recognized": "And when did you first notice it?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-05/male/full.m4a"
+    },
+    {
+      "unit": "w3-line-08",
+      "voice": "patient",
+      "expected": "Sitting at my desk",
+      "recognized": "Sitting at my desk.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-08",
+      "voice": "patient",
+      "expected": "for too long,",
+      "recognized": "for too long.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-08",
+      "voice": "patient",
+      "expected": "especially when I'm working.",
+      "recognized": "especially when I'm working.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/chunk-3.m4a"
+    },
+    {
+      "unit": "w3-line-08",
+      "voice": "patient",
+      "expected": "Sitting at my desk for too long,",
+      "recognized": "Sitting at my desk for too long.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-08",
+      "voice": "patient",
+      "expected": "Sitting at my desk for too long, especially when I'm working.",
+      "recognized": "Sitting at my desk for too long, especially when I'm working.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-08/patient/full.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "female",
+      "expected": "And how's it affecting you",
+      "recognized": "and how's it affecting you?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "female",
+      "expected": "day to day?",
+      "recognized": "day-to-day.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "female",
+      "expected": "And how's it affecting you day to day?",
+      "recognized": "And how's it affecting you day to day?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "male",
+      "expected": "And how's it affecting you",
+      "recognized": "And how's it affecting you?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "male",
+      "expected": "day to day?",
+      "recognized": "day today.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-11",
+      "voice": "male",
+      "expected": "And how's it affecting you day to day?",
+      "recognized": "And how's it affecting you day to day?",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-11/male/full.m4a"
+    },
+    {
+      "unit": "w3-line-13",
+      "voice": "patient",
+      "expected": "It's making it hard",
+      "recognized": "It's making it hot.",
+      "normalizedSimilarity": 0.8275862068965517,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-1.m4a",
+      "smallModelReview": "It's making it hard."
+    },
+    {
+      "unit": "w3-line-13",
+      "voice": "patient",
+      "expected": "to sit through long meetings",
+      "recognized": "to sit through long meeting.",
+      "normalizedSimilarity": 0.9787234042553191,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-13",
+      "voice": "patient",
+      "expected": "at work.",
+      "recognized": "meetings at work. //",
+      "normalizedSimilarity": 0.6,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/chunk-3.m4a",
+      "smallModelReview": "at work."
+    },
+    {
+      "unit": "w3-line-13",
+      "voice": "patient",
+      "expected": "It's making it hard to sit through long meetings",
+      "recognized": "It's making it hard to sit through long meat.",
+      "normalizedSimilarity": 0.918918918918919,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-13",
+      "voice": "patient",
+      "expected": "It's making it hard to sit through long meetings at work.",
+      "recognized": "It's making it hard to sit through long meetings at work.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-13/patient/full.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "female",
+      "expected": "Okay, so sitting for long periods",
+      "recognized": "Okay, so sitting for long periods.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "female",
+      "expected": "makes it worse,",
+      "recognized": "makes it worse.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "female",
+      "expected": "Okay, so sitting for long periods makes it worse,",
+      "recognized": "Okay, so sitting for long periods makes it worse.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "male",
+      "expected": "Okay, so sitting for long periods",
+      "recognized": "Okay, so sitting for long periods.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "male",
+      "expected": "makes it worse,",
+      "recognized": "makes it worse.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-14",
+      "voice": "male",
+      "expected": "Okay, so sitting for long periods makes it worse,",
+      "recognized": "Okay, so sitting for long periods makes it worse.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-14/male/full.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "female",
+      "expected": "and getting up",
+      "recognized": "and getting up.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "female",
+      "expected": "for a short walk",
+      "recognized": "for a short walk.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "female",
+      "expected": "seems to help.",
+      "recognized": "seems to help.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/chunk-3.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "female",
+      "expected": "and getting up for a short walk",
+      "recognized": "and getting up for a short walk.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "female",
+      "expected": "and getting up for a short walk seems to help.",
+      "recognized": "and getting up for a short walk seems to help.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "male",
+      "expected": "and getting up",
+      "recognized": "and getting up.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "male",
+      "expected": "for a short walk",
+      "recognized": "for a short walk.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "male",
+      "expected": "seems to help.",
+      "recognized": "seems to help.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/chunk-3.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "male",
+      "expected": "and getting up for a short walk",
+      "recognized": "and getting up for a short walk.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/build-2.m4a"
+    },
+    {
+      "unit": "w3-line-15",
+      "voice": "male",
+      "expected": "and getting up for a short walk seems to help.",
+      "recognized": "and getting up for a short walk seems to help.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-15/male/full.m4a"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "female",
+      "expected": "It's also affecting how long",
+      "recognized": "It's also affecting how long-",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-1.m4a"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "female",
+      "expected": "you can sit at work.",
+      "recognized": "you can sit at work.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "female",
+      "expected": "It's also affecting how long you can sit at work.",
+      "recognized": "It's also affecting how long you can sit at work.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/female/full.m4a"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "male",
+      "expected": "It's also affecting how long",
+      "recognized": "It's also affecting how long it's been.",
+      "normalizedSimilarity": 0.8679245283018868,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-1.m4a",
+      "smallModelReview": "It's also affecting how long"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "male",
+      "expected": "you can sit at work.",
+      "recognized": "you can sit at work.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/chunk-2.m4a"
+    },
+    {
+      "unit": "w3-line-16",
+      "voice": "male",
+      "expected": "It's also affecting how long you can sit at work.",
+      "recognized": "It's also affecting how long you can sit at work.",
+      "normalizedSimilarity": 1.0,
+      "audio": "audio/week-03/practice-2026-11-09-v1/w3-line-16/male/full.m4a"
+    }
+  ],
+  "review": "Every currently connected practice asset checked with base.en. Five short-clip base.en ambiguities were checked with small.en; small.en recognized their expected words. Two unreliable units were excluded; line 15 was regrouped to avoid cutting after an unstressed article. Not direct listening."
+}

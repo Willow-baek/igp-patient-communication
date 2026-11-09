@@ -1,0 +1,2015 @@
+{
+  "method": "Local faster-whisper small.en (patient base.en) word timestamps, exact normalized script alignment and 5ms RMS silence inspection. Source tails only; no synthetic silence or fades. ASR is not a manual listening review.",
+  "scriptRevision": "2026-11-09-user-week-03",
+  "tracks": {
+    "female": {
+      "source": "audio/week-03/original/W3_PT_female.mp3",
+      "sha256": "31bf9c8724de33365e7f61b09e905fd9250f889c0fc08ba2da0fc1ee11a66fdc",
+      "duration": 25.573875,
+      "recognizedText": "Can you tell me more about what's been happening with your back? Okay. Whereabouts in your back do you feel it? And when did you first notice it? Right. What tends to make it worse? I see. Does anything seem to help it settle? And how's it affecting you day to day? Are you finding anything particularly difficult? Okay, so sitting for long periods makes it worse and getting up for a short walk seems to help. It's also affecting how long you can sit at work. Are there any other symptoms?",
+      "alignmentRatio": 1.0,
+      "boundaryInspections": [
+        {
+          "afterLine": 1,
+          "window": [
+            2.28,
+            2.68
+          ],
+          "quietInterval": [
+            2.385,
+            2.645
+          ],
+          "cut": 2.515
+        },
+        {
+          "afterLine": 3,
+          "window": [
+            5.28,
+            5.92
+          ],
+          "quietInterval": [
+            5.28,
+            5.92
+          ],
+          "cut": 5.6
+        },
+        {
+          "afterLine": 5,
+          "window": [
+            7.22,
+            7.66
+          ],
+          "quietInterval": [
+            7.22,
+            7.61
+          ],
+          "cut": 7.415
+        },
+        {
+          "afterLine": 7,
+          "window": [
+            9.38,
+            9.78
+          ],
+          "quietInterval": [
+            9.63,
+            9.725
+          ],
+          "cut": 9.6775
+        },
+        {
+          "afterLine": 9,
+          "window": [
+            12.58,
+            13.2
+          ],
+          "quietInterval": [
+            12.77,
+            13.2
+          ],
+          "cut": 12.985
+        },
+        {
+          "afterLine": 11,
+          "window": [
+            14.680000000000001,
+            14.92
+          ],
+          "quietInterval": [
+            14.88,
+            14.92
+          ],
+          "cut": 14.9
+        },
+        {
+          "afterLine": 12,
+          "window": [
+            16.78,
+            17.62
+          ],
+          "quietInterval": [
+            16.96,
+            17.59
+          ],
+          "cut": 17.275
+        },
+        {
+          "afterLine": 14,
+          "window": [
+            19.560000000000002,
+            19.6
+          ],
+          "quietInterval": null,
+          "cut": 19.79,
+          "review": "ASR assigned the whole weak final /s/ of worse to its last word; inspected 5ms RMS through 19.82s and retained the tail to 19.79s, before and onset."
+        },
+        {
+          "afterLine": 15,
+          "window": [
+            21.7,
+            22.1
+          ],
+          "quietInterval": [
+            21.74,
+            22.1
+          ],
+          "cut": 21.92
+        },
+        {
+          "afterLine": 16,
+          "window": [
+            23.96,
+            24.1
+          ],
+          "quietInterval": null,
+          "cut": 24.085
+        }
+      ],
+      "clips": [
+        {
+          "line": 1,
+          "text": "Can you tell me more about what's been happening with your back?",
+          "speechStart": 0.0,
+          "speechEnd": 2.32,
+          "words": [
+            {
+              "word": " Can",
+              "start": 0.0,
+              "end": 0.22
+            },
+            {
+              "word": " you",
+              "start": 0.22,
+              "end": 0.34
+            },
+            {
+              "word": " tell",
+              "start": 0.34,
+              "end": 0.5
+            },
+            {
+              "word": " me",
+              "start": 0.5,
+              "end": 0.62
+            },
+            {
+              "word": " more",
+              "start": 0.62,
+              "end": 0.8
+            },
+            {
+              "word": " about",
+              "start": 0.8,
+              "end": 1.02
+            },
+            {
+              "word": " what's",
+              "start": 1.02,
+              "end": 1.26
+            },
+            {
+              "word": " been",
+              "start": 1.26,
+              "end": 1.38
+            },
+            {
+              "word": " happening",
+              "start": 1.38,
+              "end": 1.7
+            },
+            {
+              "word": " with",
+              "start": 1.7,
+              "end": 1.9
+            },
+            {
+              "word": " your",
+              "start": 1.9,
+              "end": 2.06
+            },
+            {
+              "word": " back?",
+              "start": 2.06,
+              "end": 2.32
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/01.m4a",
+          "start": 0.0,
+          "end": 2.515
+        },
+        {
+          "line": 3,
+          "text": "Okay. Whereabouts in your back do you feel it?",
+          "speechStart": 2.68,
+          "speechEnd": 5.32,
+          "words": [
+            {
+              "word": " Okay.",
+              "start": 2.68,
+              "end": 3.0
+            },
+            {
+              "word": " Whereabouts",
+              "start": 3.8,
+              "end": 4.08
+            },
+            {
+              "word": " in",
+              "start": 4.08,
+              "end": 4.3
+            },
+            {
+              "word": " your",
+              "start": 4.3,
+              "end": 4.42
+            },
+            {
+              "word": " back",
+              "start": 4.42,
+              "end": 4.6
+            },
+            {
+              "word": " do",
+              "start": 4.6,
+              "end": 4.74
+            },
+            {
+              "word": " you",
+              "start": 4.74,
+              "end": 4.84
+            },
+            {
+              "word": " feel",
+              "start": 4.84,
+              "end": 5.04
+            },
+            {
+              "word": " it?",
+              "start": 5.04,
+              "end": 5.32
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/03.m4a",
+          "start": 2.515,
+          "end": 5.6
+        },
+        {
+          "line": 5,
+          "text": "And when did you first notice it?",
+          "speechStart": 5.92,
+          "speechEnd": 7.26,
+          "words": [
+            {
+              "word": " And",
+              "start": 5.92,
+              "end": 6.12
+            },
+            {
+              "word": " when",
+              "start": 6.12,
+              "end": 6.22
+            },
+            {
+              "word": " did",
+              "start": 6.22,
+              "end": 6.34
+            },
+            {
+              "word": " you",
+              "start": 6.34,
+              "end": 6.5
+            },
+            {
+              "word": " first",
+              "start": 6.5,
+              "end": 6.68
+            },
+            {
+              "word": " notice",
+              "start": 6.68,
+              "end": 6.94
+            },
+            {
+              "word": " it?",
+              "start": 6.94,
+              "end": 7.26
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/05.m4a",
+          "start": 5.6,
+          "end": 7.415
+        },
+        {
+          "line": 7,
+          "text": "Right. What tends to make it worse?",
+          "speechStart": 7.66,
+          "speechEnd": 9.42,
+          "words": [
+            {
+              "word": " Right.",
+              "start": 7.66,
+              "end": 7.78
+            },
+            {
+              "word": " What",
+              "start": 8.42,
+              "end": 8.54
+            },
+            {
+              "word": " tends",
+              "start": 8.54,
+              "end": 8.76
+            },
+            {
+              "word": " to",
+              "start": 8.76,
+              "end": 8.94
+            },
+            {
+              "word": " make",
+              "start": 8.94,
+              "end": 9.08
+            },
+            {
+              "word": " it",
+              "start": 9.08,
+              "end": 9.24
+            },
+            {
+              "word": " worse?",
+              "start": 9.24,
+              "end": 9.42
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/07.m4a",
+          "start": 7.415,
+          "end": 9.6775
+        },
+        {
+          "line": 9,
+          "text": "I see. Does anything seem to help it settle?",
+          "speechStart": 9.78,
+          "speechEnd": 12.62,
+          "words": [
+            {
+              "word": " I",
+              "start": 9.78,
+              "end": 9.82
+            },
+            {
+              "word": " see.",
+              "start": 9.82,
+              "end": 10.1
+            },
+            {
+              "word": " Does",
+              "start": 11.12,
+              "end": 11.26
+            },
+            {
+              "word": " anything",
+              "start": 11.26,
+              "end": 11.52
+            },
+            {
+              "word": " seem",
+              "start": 11.52,
+              "end": 11.84
+            },
+            {
+              "word": " to",
+              "start": 11.84,
+              "end": 12.0
+            },
+            {
+              "word": " help",
+              "start": 12.0,
+              "end": 12.16
+            },
+            {
+              "word": " it",
+              "start": 12.16,
+              "end": 12.34
+            },
+            {
+              "word": " settle?",
+              "start": 12.34,
+              "end": 12.62
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/09.m4a",
+          "start": 9.6775,
+          "end": 12.985
+        },
+        {
+          "line": 11,
+          "text": "And how's it affecting you day to day?",
+          "speechStart": 13.2,
+          "speechEnd": 14.72,
+          "words": [
+            {
+              "word": " And",
+              "start": 13.2,
+              "end": 13.34
+            },
+            {
+              "word": " how's",
+              "start": 13.34,
+              "end": 13.56
+            },
+            {
+              "word": " it",
+              "start": 13.56,
+              "end": 13.64
+            },
+            {
+              "word": " affecting",
+              "start": 13.64,
+              "end": 13.92
+            },
+            {
+              "word": " you",
+              "start": 13.92,
+              "end": 14.2
+            },
+            {
+              "word": " day",
+              "start": 14.2,
+              "end": 14.34
+            },
+            {
+              "word": " to",
+              "start": 14.34,
+              "end": 14.48
+            },
+            {
+              "word": " day?",
+              "start": 14.48,
+              "end": 14.72
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/11.m4a",
+          "start": 12.985,
+          "end": 14.9
+        },
+        {
+          "line": 12,
+          "text": "Are you finding anything particularly difficult?",
+          "speechStart": 14.92,
+          "speechEnd": 16.82,
+          "words": [
+            {
+              "word": " Are",
+              "start": 14.92,
+              "end": 15.0
+            },
+            {
+              "word": " you",
+              "start": 15.0,
+              "end": 15.14
+            },
+            {
+              "word": " finding",
+              "start": 15.14,
+              "end": 15.32
+            },
+            {
+              "word": " anything",
+              "start": 15.32,
+              "end": 15.74
+            },
+            {
+              "word": " particularly",
+              "start": 15.74,
+              "end": 16.3
+            },
+            {
+              "word": " difficult?",
+              "start": 16.3,
+              "end": 16.82
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/12.m4a",
+          "start": 14.9,
+          "end": 17.275
+        },
+        {
+          "line": 14,
+          "text": "Okay, so sitting for long periods makes it worse,",
+          "speechStart": 17.62,
+          "speechEnd": 19.6,
+          "words": [
+            {
+              "word": " Okay,",
+              "start": 17.62,
+              "end": 17.84
+            },
+            {
+              "word": " so",
+              "start": 17.98,
+              "end": 18.08
+            },
+            {
+              "word": " sitting",
+              "start": 18.08,
+              "end": 18.28
+            },
+            {
+              "word": " for",
+              "start": 18.28,
+              "end": 18.5
+            },
+            {
+              "word": " long",
+              "start": 18.5,
+              "end": 18.66
+            },
+            {
+              "word": " periods",
+              "start": 18.66,
+              "end": 19.0
+            },
+            {
+              "word": " makes",
+              "start": 19.0,
+              "end": 19.2
+            },
+            {
+              "word": " it",
+              "start": 19.2,
+              "end": 19.38
+            },
+            {
+              "word": " worse",
+              "start": 19.38,
+              "end": 19.6
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/14.m4a",
+          "start": 17.275,
+          "end": 19.79
+        },
+        {
+          "line": 15,
+          "text": "and getting up for a short walk seems to help.",
+          "speechStart": 19.6,
+          "speechEnd": 21.74,
+          "words": [
+            {
+              "word": " and",
+              "start": 19.6,
+              "end": 19.94
+            },
+            {
+              "word": " getting",
+              "start": 19.94,
+              "end": 20.12
+            },
+            {
+              "word": " up",
+              "start": 20.12,
+              "end": 20.3
+            },
+            {
+              "word": " for",
+              "start": 20.3,
+              "end": 20.46
+            },
+            {
+              "word": " a",
+              "start": 20.46,
+              "end": 20.58
+            },
+            {
+              "word": " short",
+              "start": 20.58,
+              "end": 20.76
+            },
+            {
+              "word": " walk",
+              "start": 20.76,
+              "end": 21.06
+            },
+            {
+              "word": " seems",
+              "start": 21.06,
+              "end": 21.24
+            },
+            {
+              "word": " to",
+              "start": 21.24,
+              "end": 21.46
+            },
+            {
+              "word": " help.",
+              "start": 21.46,
+              "end": 21.74
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/15.m4a",
+          "start": 19.79,
+          "end": 21.92
+        },
+        {
+          "line": 16,
+          "text": "It's also affecting how long you can sit at work.",
+          "speechStart": 22.1,
+          "speechEnd": 24.0,
+          "words": [
+            {
+              "word": " It's",
+              "start": 22.1,
+              "end": 22.3
+            },
+            {
+              "word": " also",
+              "start": 22.3,
+              "end": 22.52
+            },
+            {
+              "word": " affecting",
+              "start": 22.52,
+              "end": 22.84
+            },
+            {
+              "word": " how",
+              "start": 22.84,
+              "end": 23.12
+            },
+            {
+              "word": " long",
+              "start": 23.12,
+              "end": 23.26
+            },
+            {
+              "word": " you",
+              "start": 23.26,
+              "end": 23.42
+            },
+            {
+              "word": " can",
+              "start": 23.42,
+              "end": 23.54
+            },
+            {
+              "word": " sit",
+              "start": 23.54,
+              "end": 23.7
+            },
+            {
+              "word": " at",
+              "start": 23.7,
+              "end": 23.82
+            },
+            {
+              "word": " work.",
+              "start": 23.82,
+              "end": 24.0
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/16.m4a",
+          "start": 21.92,
+          "end": 24.085
+        },
+        {
+          "line": 17,
+          "text": "Are there any other symptoms?",
+          "speechStart": 24.1,
+          "speechEnd": 24.88,
+          "words": [
+            {
+              "word": " Are",
+              "start": 24.1,
+              "end": 24.18
+            },
+            {
+              "word": " there",
+              "start": 24.18,
+              "end": 24.28
+            },
+            {
+              "word": " any",
+              "start": 24.28,
+              "end": 24.42
+            },
+            {
+              "word": " other",
+              "start": 24.42,
+              "end": 24.6
+            },
+            {
+              "word": " symptoms?",
+              "start": 24.6,
+              "end": 24.88
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/female/17.m4a",
+          "start": 24.085,
+          "end": 25.573875
+        }
+      ]
+    },
+    "male": {
+      "source": "audio/week-03/original/W3_PT_male.mp3",
+      "sha256": "acb77fd399200cc228adde45a5037ce02e9d7f113fed34f9c77fede00bf7ed3e",
+      "duration": 32.418,
+      "recognizedText": "Can you tell me more about what's been happening with your back? Okay. Whereabouts in your back do you feel it? And when did you first notice it? Right. What tends to make it worse? I see. Does anything seem to help it settle? And how's it affecting you day to day? Are you finding anything particularly difficult? Okay, so sitting for long periods makes it worse, and getting up for a short walk seems to help. It's also affecting how long you consider work. Are there any other symptoms?",
+      "alignmentRatio": 0.9895287958115183,
+      "boundaryInspections": [
+        {
+          "afterLine": 1,
+          "window": [
+            2.48,
+            3.42
+          ],
+          "quietInterval": [
+            2.555,
+            3.15
+          ],
+          "cut": 2.8525
+        },
+        {
+          "afterLine": 3,
+          "window": [
+            6.16,
+            6.7
+          ],
+          "quietInterval": [
+            6.16,
+            6.7
+          ],
+          "cut": 6.43
+        },
+        {
+          "afterLine": 5,
+          "window": [
+            8.16,
+            8.86
+          ],
+          "quietInterval": [
+            8.475,
+            8.855
+          ],
+          "cut": 8.665
+        },
+        {
+          "afterLine": 7,
+          "window": [
+            11.38,
+            12.76
+          ],
+          "quietInterval": [
+            12.025,
+            12.76
+          ],
+          "cut": 12.3925
+        },
+        {
+          "afterLine": 9,
+          "window": [
+            16.34,
+            17.06
+          ],
+          "quietInterval": [
+            16.495,
+            16.895
+          ],
+          "cut": 16.695
+        },
+        {
+          "afterLine": 11,
+          "window": [
+            18.92,
+            19.68
+          ],
+          "quietInterval": [
+            19.065,
+            19.635
+          ],
+          "cut": 19.35
+        },
+        {
+          "afterLine": 12,
+          "window": [
+            21.740000000000002,
+            22.9
+          ],
+          "quietInterval": [
+            21.9,
+            22.255
+          ],
+          "cut": 22.0775
+        },
+        {
+          "afterLine": 14,
+          "window": [
+            25.16,
+            25.72
+          ],
+          "quietInterval": [
+            25.38,
+            25.72
+          ],
+          "cut": 25.55
+        },
+        {
+          "afterLine": 15,
+          "window": [
+            27.64,
+            28.27
+          ],
+          "quietInterval": [
+            27.74,
+            28.27
+          ],
+          "cut": 28.005
+        },
+        {
+          "afterLine": 16,
+          "window": [
+            30.44,
+            31.02
+          ],
+          "quietInterval": [
+            30.58,
+            30.94
+          ],
+          "cut": 30.76
+        }
+      ],
+      "clips": [
+        {
+          "line": 1,
+          "text": "Can you tell me more about what's been happening with your back?",
+          "speechStart": 0.0,
+          "speechEnd": 2.52,
+          "words": [
+            {
+              "word": " Can",
+              "start": 0.0,
+              "end": 0.22
+            },
+            {
+              "word": " you",
+              "start": 0.22,
+              "end": 0.34
+            },
+            {
+              "word": " tell",
+              "start": 0.34,
+              "end": 0.5
+            },
+            {
+              "word": " me",
+              "start": 0.5,
+              "end": 0.66
+            },
+            {
+              "word": " more",
+              "start": 0.66,
+              "end": 0.84
+            },
+            {
+              "word": " about",
+              "start": 0.84,
+              "end": 1.08
+            },
+            {
+              "word": " what's",
+              "start": 1.08,
+              "end": 1.32
+            },
+            {
+              "word": " been",
+              "start": 1.32,
+              "end": 1.48
+            },
+            {
+              "word": " happening",
+              "start": 1.48,
+              "end": 1.84
+            },
+            {
+              "word": " with",
+              "start": 1.84,
+              "end": 2.06
+            },
+            {
+              "word": " your",
+              "start": 2.06,
+              "end": 2.24
+            },
+            {
+              "word": " back?",
+              "start": 2.24,
+              "end": 2.52
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/01.m4a",
+          "start": 0.0,
+          "end": 2.8525
+        },
+        {
+          "line": 3,
+          "text": "Okay. Whereabouts in your back do you feel it?",
+          "speechStart": 3.42,
+          "speechEnd": 6.2,
+          "words": [
+            {
+              "word": " Okay.",
+              "start": 3.42,
+              "end": 3.68
+            },
+            {
+              "word": " Whereabouts",
+              "start": 4.72,
+              "end": 4.98
+            },
+            {
+              "word": " in",
+              "start": 4.98,
+              "end": 5.2
+            },
+            {
+              "word": " your",
+              "start": 5.2,
+              "end": 5.34
+            },
+            {
+              "word": " back",
+              "start": 5.34,
+              "end": 5.52
+            },
+            {
+              "word": " do",
+              "start": 5.52,
+              "end": 5.66
+            },
+            {
+              "word": " you",
+              "start": 5.66,
+              "end": 5.78
+            },
+            {
+              "word": " feel",
+              "start": 5.78,
+              "end": 6.0
+            },
+            {
+              "word": " it?",
+              "start": 6.0,
+              "end": 6.2
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/03.m4a",
+          "start": 2.8525,
+          "end": 6.43
+        },
+        {
+          "line": 5,
+          "text": "And when did you first notice it?",
+          "speechStart": 6.7,
+          "speechEnd": 8.2,
+          "words": [
+            {
+              "word": " And",
+              "start": 6.7,
+              "end": 6.84
+            },
+            {
+              "word": " when",
+              "start": 6.84,
+              "end": 7.02
+            },
+            {
+              "word": " did",
+              "start": 7.02,
+              "end": 7.18
+            },
+            {
+              "word": " you",
+              "start": 7.18,
+              "end": 7.34
+            },
+            {
+              "word": " first",
+              "start": 7.34,
+              "end": 7.56
+            },
+            {
+              "word": " notice",
+              "start": 7.56,
+              "end": 7.84
+            },
+            {
+              "word": " it?",
+              "start": 7.84,
+              "end": 8.2
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/05.m4a",
+          "start": 6.43,
+          "end": 8.665
+        },
+        {
+          "line": 7,
+          "text": "Right. What tends to make it worse?",
+          "speechStart": 8.86,
+          "speechEnd": 11.42,
+          "words": [
+            {
+              "word": " Right.",
+              "start": 8.86,
+              "end": 9.16
+            },
+            {
+              "word": " What",
+              "start": 10.24,
+              "end": 10.28
+            },
+            {
+              "word": " tends",
+              "start": 10.28,
+              "end": 10.56
+            },
+            {
+              "word": " to",
+              "start": 10.56,
+              "end": 10.82
+            },
+            {
+              "word": " make",
+              "start": 10.82,
+              "end": 11.0
+            },
+            {
+              "word": " it",
+              "start": 11.0,
+              "end": 11.16
+            },
+            {
+              "word": " worse?",
+              "start": 11.16,
+              "end": 11.42
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/07.m4a",
+          "start": 8.665,
+          "end": 12.3925
+        },
+        {
+          "line": 9,
+          "text": "I see. Does anything seem to help it settle?",
+          "speechStart": 12.76,
+          "speechEnd": 16.38,
+          "words": [
+            {
+              "word": " I",
+              "start": 12.76,
+              "end": 12.94
+            },
+            {
+              "word": " see.",
+              "start": 12.94,
+              "end": 13.22
+            },
+            {
+              "word": " Does",
+              "start": 14.38,
+              "end": 14.54
+            },
+            {
+              "word": " anything",
+              "start": 14.54,
+              "end": 14.94
+            },
+            {
+              "word": " seem",
+              "start": 14.94,
+              "end": 15.4
+            },
+            {
+              "word": " to",
+              "start": 15.4,
+              "end": 15.62
+            },
+            {
+              "word": " help",
+              "start": 15.62,
+              "end": 15.86
+            },
+            {
+              "word": " it",
+              "start": 15.86,
+              "end": 16.04
+            },
+            {
+              "word": " settle?",
+              "start": 16.04,
+              "end": 16.38
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/09.m4a",
+          "start": 12.3925,
+          "end": 16.695
+        },
+        {
+          "line": 11,
+          "text": "And how's it affecting you day to day?",
+          "speechStart": 17.06,
+          "speechEnd": 18.96,
+          "words": [
+            {
+              "word": " And",
+              "start": 17.06,
+              "end": 17.32
+            },
+            {
+              "word": " how's",
+              "start": 17.32,
+              "end": 17.62
+            },
+            {
+              "word": " it",
+              "start": 17.62,
+              "end": 17.7
+            },
+            {
+              "word": " affecting",
+              "start": 17.7,
+              "end": 18.04
+            },
+            {
+              "word": " you",
+              "start": 18.04,
+              "end": 18.34
+            },
+            {
+              "word": " day",
+              "start": 18.34,
+              "end": 18.54
+            },
+            {
+              "word": " to",
+              "start": 18.54,
+              "end": 18.72
+            },
+            {
+              "word": " day?",
+              "start": 18.72,
+              "end": 18.96
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/11.m4a",
+          "start": 16.695,
+          "end": 19.35
+        },
+        {
+          "line": 12,
+          "text": "Are you finding anything particularly difficult?",
+          "speechStart": 19.68,
+          "speechEnd": 21.78,
+          "words": [
+            {
+              "word": " Are",
+              "start": 19.68,
+              "end": 19.96
+            },
+            {
+              "word": " you",
+              "start": 19.96,
+              "end": 20.08
+            },
+            {
+              "word": " finding",
+              "start": 20.08,
+              "end": 20.32
+            },
+            {
+              "word": " anything",
+              "start": 20.32,
+              "end": 20.78
+            },
+            {
+              "word": " particularly",
+              "start": 20.78,
+              "end": 21.28
+            },
+            {
+              "word": " difficult?",
+              "start": 21.28,
+              "end": 21.78
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/12.m4a",
+          "start": 19.35,
+          "end": 22.0775
+        },
+        {
+          "line": 14,
+          "text": "Okay, so sitting for long periods makes it worse,",
+          "speechStart": 22.9,
+          "speechEnd": 25.2,
+          "words": [
+            {
+              "word": " Okay,",
+              "start": 22.9,
+              "end": 23.26
+            },
+            {
+              "word": " so",
+              "start": 23.38,
+              "end": 23.52
+            },
+            {
+              "word": " sitting",
+              "start": 23.52,
+              "end": 23.72
+            },
+            {
+              "word": " for",
+              "start": 23.72,
+              "end": 23.98
+            },
+            {
+              "word": " long",
+              "start": 23.98,
+              "end": 24.16
+            },
+            {
+              "word": " periods",
+              "start": 24.16,
+              "end": 24.54
+            },
+            {
+              "word": " makes",
+              "start": 24.54,
+              "end": 24.74
+            },
+            {
+              "word": " it",
+              "start": 24.74,
+              "end": 24.96
+            },
+            {
+              "word": " worse,",
+              "start": 24.96,
+              "end": 25.2
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/14.m4a",
+          "start": 22.0775,
+          "end": 25.55
+        },
+        {
+          "line": 15,
+          "text": "and getting up for a short walk seems to help.",
+          "speechStart": 25.72,
+          "speechEnd": 27.68,
+          "words": [
+            {
+              "word": " and",
+              "start": 25.72,
+              "end": 25.9
+            },
+            {
+              "word": " getting",
+              "start": 25.9,
+              "end": 26.1
+            },
+            {
+              "word": " up",
+              "start": 26.1,
+              "end": 26.3
+            },
+            {
+              "word": " for",
+              "start": 26.3,
+              "end": 26.48
+            },
+            {
+              "word": " a",
+              "start": 26.48,
+              "end": 26.62
+            },
+            {
+              "word": " short",
+              "start": 26.62,
+              "end": 26.8
+            },
+            {
+              "word": " walk",
+              "start": 26.8,
+              "end": 27.04
+            },
+            {
+              "word": " seems",
+              "start": 27.04,
+              "end": 27.26
+            },
+            {
+              "word": " to",
+              "start": 27.26,
+              "end": 27.48
+            },
+            {
+              "word": " help.",
+              "start": 27.48,
+              "end": 27.68
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/15.m4a",
+          "start": 25.55,
+          "end": 28.005
+        },
+        {
+          "line": 16,
+          "text": "It's also affecting how long you can sit at work.",
+          "speechStart": 0,
+          "speechEnd": 2.2,
+          "words": [
+            {
+              "word": " It's",
+              "start": 0.0,
+              "end": 0.24
+            },
+            {
+              "word": " also",
+              "start": 0.24,
+              "end": 0.52
+            },
+            {
+              "word": " affecting",
+              "start": 0.52,
+              "end": 0.86
+            },
+            {
+              "word": " how",
+              "start": 0.86,
+              "end": 1.16
+            },
+            {
+              "word": " long",
+              "start": 1.16,
+              "end": 1.32
+            },
+            {
+              "word": " you",
+              "start": 1.32,
+              "end": 1.5
+            },
+            {
+              "word": " can",
+              "start": 1.5,
+              "end": 1.62
+            },
+            {
+              "word": " sit",
+              "start": 1.62,
+              "end": 1.84
+            },
+            {
+              "word": " at",
+              "start": 1.84,
+              "end": 1.96
+            },
+            {
+              "word": " work.",
+              "start": 1.96,
+              "end": 2.2
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/16.m4a",
+          "start": 0,
+          "end": 2.586125,
+          "source": "audio/week-03/original/revised/W3_PT_male_line16.mp3",
+          "revisionReason": "Full-track can sit at was recognized as consider by base.en and small.en. Regenerated exact sentence, then small.en recognized the exact script.",
+          "sourceSha256": "da15954250093acf4e93baddae3579dda3378ad4058890ee2e38110133a6d037"
+        },
+        {
+          "line": 17,
+          "text": "Are there any other symptoms?",
+          "speechStart": 31.02,
+          "speechEnd": 31.82,
+          "words": [
+            {
+              "word": " Are",
+              "start": 31.02,
+              "end": 31.02
+            },
+            {
+              "word": " there",
+              "start": 31.02,
+              "end": 31.14
+            },
+            {
+              "word": " any",
+              "start": 31.14,
+              "end": 31.3
+            },
+            {
+              "word": " other",
+              "start": 31.3,
+              "end": 31.5
+            },
+            {
+              "word": " symptoms?",
+              "start": 31.5,
+              "end": 31.82
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/male/17.m4a",
+          "start": 30.76,
+          "end": 32.418
+        }
+      ]
+    },
+    "patient": {
+      "source": "audio/week-03/original/W3_pt.mp3",
+      "sha256": "81286c989d9cfec8125c9ff5dd59ca6f67c85c53738a3ebc7fd6e80acfe8b30d",
+      "duration": 18.3901875,
+      "recognizedText": "My back has been feeling achy for a while now, mostly in the middle of my lower back, about six weeks ago, sitting at my desk for too long, especially when I'm working. Getting up and having a bit of a walk usually helps. It's making it hard to sit through long meetings at work. Not really. It's mainly just the ache in my lower back.",
+      "alignmentRatio": 1.0,
+      "boundaryInspections": [
+        {
+          "afterLine": 2,
+          "window": [
+            1.66,
+            2.52
+          ],
+          "quietInterval": [
+            1.845,
+            2.31
+          ],
+          "cut": 2.0775
+        },
+        {
+          "afterLine": 4,
+          "window": [
+            3.54,
+            4.24
+          ],
+          "quietInterval": [
+            3.775,
+            4.24
+          ],
+          "cut": 4.0075
+        },
+        {
+          "afterLine": 6,
+          "window": [
+            5.06,
+            5.78
+          ],
+          "quietInterval": [
+            5.26,
+            5.78
+          ],
+          "cut": 5.52
+        },
+        {
+          "afterLine": 8,
+          "window": [
+            8.14,
+            9.06
+          ],
+          "quietInterval": [
+            8.31,
+            9.06
+          ],
+          "cut": 8.685
+        },
+        {
+          "afterLine": 10,
+          "window": [
+            11.540000000000001,
+            12.24
+          ],
+          "quietInterval": [
+            11.845,
+            12.24
+          ],
+          "cut": 12.0425
+        },
+        {
+          "afterLine": 13,
+          "window": [
+            14.440000000000001,
+            15.28
+          ],
+          "quietInterval": [
+            14.655,
+            15.28
+          ],
+          "cut": 14.9675
+        }
+      ],
+      "clips": [
+        {
+          "line": 2,
+          "text": "My back has been feeling achy for a while now.",
+          "speechStart": 0.0,
+          "speechEnd": 1.7,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.14,
+              "word": " My",
+              "probability": 0.9836992025375366
+            },
+            {
+              "start": 0.14,
+              "end": 0.3,
+              "word": " back",
+              "probability": 0.9899241328239441
+            },
+            {
+              "start": 0.3,
+              "end": 0.44,
+              "word": " has",
+              "probability": 0.9924302697181702
+            },
+            {
+              "start": 0.44,
+              "end": 0.58,
+              "word": " been",
+              "probability": 0.998569130897522
+            },
+            {
+              "start": 0.58,
+              "end": 0.84,
+              "word": " feeling",
+              "probability": 0.9954482913017273
+            },
+            {
+              "start": 0.84,
+              "end": 1.12,
+              "word": " achy",
+              "probability": 0.729882150888443
+            },
+            {
+              "start": 1.12,
+              "end": 1.28,
+              "word": " for",
+              "probability": 0.9979109168052673
+            },
+            {
+              "start": 1.28,
+              "end": 1.34,
+              "word": " a",
+              "probability": 0.9698580503463745
+            },
+            {
+              "start": 1.34,
+              "end": 1.5,
+              "word": " while",
+              "probability": 0.9992421865463257
+            },
+            {
+              "start": 1.5,
+              "end": 1.7,
+              "word": " now,",
+              "probability": 0.9923620223999023
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/02.m4a",
+          "start": 0.0,
+          "end": 2.0775
+        },
+        {
+          "line": 4,
+          "text": "Mostly in the middle of my lower back.",
+          "speechStart": 2.52,
+          "speechEnd": 3.58,
+          "words": [
+            {
+              "start": 2.52,
+              "end": 2.52,
+              "word": " mostly",
+              "probability": 0.994320273399353
+            },
+            {
+              "start": 2.52,
+              "end": 2.7,
+              "word": " in",
+              "probability": 0.9960669875144958
+            },
+            {
+              "start": 2.7,
+              "end": 2.76,
+              "word": " the",
+              "probability": 0.9970670342445374
+            },
+            {
+              "start": 2.76,
+              "end": 2.96,
+              "word": " middle",
+              "probability": 0.9995403289794922
+            },
+            {
+              "start": 2.96,
+              "end": 3.04,
+              "word": " of",
+              "probability": 0.9989162683486938
+            },
+            {
+              "start": 3.04,
+              "end": 3.16,
+              "word": " my",
+              "probability": 0.996625542640686
+            },
+            {
+              "start": 3.16,
+              "end": 3.34,
+              "word": " lower",
+              "probability": 0.9983201622962952
+            },
+            {
+              "start": 3.34,
+              "end": 3.58,
+              "word": " back,",
+              "probability": 0.9972047209739685
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/04.m4a",
+          "start": 2.0775,
+          "end": 4.0075
+        },
+        {
+          "line": 6,
+          "text": "About six weeks ago.",
+          "speechStart": 4.24,
+          "speechEnd": 5.1,
+          "words": [
+            {
+              "start": 4.24,
+              "end": 4.42,
+              "word": " about",
+              "probability": 0.9886438846588135
+            },
+            {
+              "start": 4.42,
+              "end": 4.62,
+              "word": " six",
+              "probability": 0.7844036817550659
+            },
+            {
+              "start": 4.62,
+              "end": 4.82,
+              "word": " weeks",
+              "probability": 0.9988179802894592
+            },
+            {
+              "start": 4.82,
+              "end": 5.1,
+              "word": " ago,",
+              "probability": 0.9981353282928467
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/06.m4a",
+          "start": 4.0075,
+          "end": 5.52
+        },
+        {
+          "line": 8,
+          "text": "Sitting at my desk for too long, especially when I'm working.",
+          "speechStart": 5.78,
+          "speechEnd": 8.18,
+          "words": [
+            {
+              "start": 5.78,
+              "end": 6.12,
+              "word": " sitting",
+              "probability": 0.9881069660186768
+            },
+            {
+              "start": 6.12,
+              "end": 6.3,
+              "word": " at",
+              "probability": 0.9964821338653564
+            },
+            {
+              "start": 6.3,
+              "end": 6.38,
+              "word": " my",
+              "probability": 0.998715877532959
+            },
+            {
+              "start": 6.38,
+              "end": 6.56,
+              "word": " desk",
+              "probability": 0.9994866847991943
+            },
+            {
+              "start": 6.56,
+              "end": 6.8,
+              "word": " for",
+              "probability": 0.9987019300460815
+            },
+            {
+              "start": 6.8,
+              "end": 6.92,
+              "word": " too",
+              "probability": 0.9895781874656677
+            },
+            {
+              "start": 6.92,
+              "end": 7.18,
+              "word": " long,",
+              "probability": 0.9997383952140808
+            },
+            {
+              "start": 7.42,
+              "end": 7.54,
+              "word": " especially",
+              "probability": 0.997523844242096
+            },
+            {
+              "start": 7.54,
+              "end": 7.8,
+              "word": " when",
+              "probability": 0.9946590065956116
+            },
+            {
+              "start": 7.8,
+              "end": 7.9,
+              "word": " I'm",
+              "probability": 0.9892723560333252
+            },
+            {
+              "start": 7.9,
+              "end": 8.18,
+              "word": " working.",
+              "probability": 0.9994500279426575
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/08.m4a",
+          "start": 5.52,
+          "end": 8.685
+        },
+        {
+          "line": 10,
+          "text": "Getting up and having a bit of a walk usually helps.",
+          "speechStart": 9.06,
+          "speechEnd": 11.58,
+          "words": [
+            {
+              "start": 9.06,
+              "end": 9.46,
+              "word": " Getting",
+              "probability": 0.9941653609275818
+            },
+            {
+              "start": 9.46,
+              "end": 9.7,
+              "word": " up",
+              "probability": 0.9996156692504883
+            },
+            {
+              "start": 9.7,
+              "end": 9.9,
+              "word": " and",
+              "probability": 0.9890530705451965
+            },
+            {
+              "start": 9.9,
+              "end": 10.4,
+              "word": " having",
+              "probability": 0.9846241474151611
+            },
+            {
+              "start": 10.4,
+              "end": 10.56,
+              "word": " a",
+              "probability": 0.9983575940132141
+            },
+            {
+              "start": 10.56,
+              "end": 10.64,
+              "word": " bit",
+              "probability": 0.9949479103088379
+            },
+            {
+              "start": 10.64,
+              "end": 10.74,
+              "word": " of",
+              "probability": 0.9988154172897339
+            },
+            {
+              "start": 10.74,
+              "end": 10.8,
+              "word": " a",
+              "probability": 0.9950742125511169
+            },
+            {
+              "start": 10.8,
+              "end": 11.02,
+              "word": " walk",
+              "probability": 0.997130811214447
+            },
+            {
+              "start": 11.02,
+              "end": 11.3,
+              "word": " usually",
+              "probability": 0.9827262163162231
+            },
+            {
+              "start": 11.3,
+              "end": 11.58,
+              "word": " helps.",
+              "probability": 0.9981288313865662
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/10.m4a",
+          "start": 8.685,
+          "end": 12.0425
+        },
+        {
+          "line": 13,
+          "text": "It's making it hard to sit through long meetings at work.",
+          "speechStart": 12.24,
+          "speechEnd": 14.48,
+          "words": [
+            {
+              "start": 12.24,
+              "end": 12.48,
+              "word": " It's",
+              "probability": 0.9961701929569244
+            },
+            {
+              "start": 12.48,
+              "end": 12.66,
+              "word": " making",
+              "probability": 0.999079704284668
+            },
+            {
+              "start": 12.66,
+              "end": 12.86,
+              "word": " it",
+              "probability": 0.9992986917495728
+            },
+            {
+              "start": 12.86,
+              "end": 13.04,
+              "word": " hard",
+              "probability": 0.9964936375617981
+            },
+            {
+              "start": 13.04,
+              "end": 13.18,
+              "word": " to",
+              "probability": 0.9991351962089539
+            },
+            {
+              "start": 13.18,
+              "end": 13.32,
+              "word": " sit",
+              "probability": 0.9972214698791504
+            },
+            {
+              "start": 13.32,
+              "end": 13.5,
+              "word": " through",
+              "probability": 0.9958016276359558
+            },
+            {
+              "start": 13.5,
+              "end": 13.72,
+              "word": " long",
+              "probability": 0.9962815642356873
+            },
+            {
+              "start": 13.72,
+              "end": 14.06,
+              "word": " meetings",
+              "probability": 0.9972230195999146
+            },
+            {
+              "start": 14.06,
+              "end": 14.28,
+              "word": " at",
+              "probability": 0.9966896772384644
+            },
+            {
+              "start": 14.28,
+              "end": 14.48,
+              "word": " work.",
+              "probability": 0.9998766183853149
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/13.m4a",
+          "start": 12.0425,
+          "end": 14.9675
+        },
+        {
+          "line": 18,
+          "text": "Not really. It's mainly just the ache in my lower back.",
+          "speechStart": 15.28,
+          "speechEnd": 17.82,
+          "words": [
+            {
+              "start": 15.28,
+              "end": 15.68,
+              "word": " Not",
+              "probability": 0.9674978852272034
+            },
+            {
+              "start": 15.68,
+              "end": 15.84,
+              "word": " really.",
+              "probability": 0.9974561333656311
+            },
+            {
+              "start": 16.46,
+              "end": 16.5,
+              "word": " It's",
+              "probability": 0.9977648258209229
+            },
+            {
+              "start": 16.5,
+              "end": 16.66,
+              "word": " mainly",
+              "probability": 0.998365581035614
+            },
+            {
+              "start": 16.66,
+              "end": 16.94,
+              "word": " just",
+              "probability": 0.9971460700035095
+            },
+            {
+              "start": 16.94,
+              "end": 17.06,
+              "word": " the",
+              "probability": 0.9970415234565735
+            },
+            {
+              "start": 17.06,
+              "end": 17.3,
+              "word": " ache",
+              "probability": 0.8484093248844147
+            },
+            {
+              "start": 17.3,
+              "end": 17.3,
+              "word": " in",
+              "probability": 0.9804083108901978
+            },
+            {
+              "start": 17.3,
+              "end": 17.42,
+              "word": " my",
+              "probability": 0.9986799359321594
+            },
+            {
+              "start": 17.42,
+              "end": 17.58,
+              "word": " lower",
+              "probability": 0.9994015693664551
+            },
+            {
+              "start": 17.58,
+              "end": 17.82,
+              "word": " back.",
+              "probability": 0.9987741112709045
+            }
+          ],
+          "output": "audio/week-03/2026-11-09-v1/patient/18.m4a",
+          "start": 14.9675,
+          "end": 18.3901875
+        }
+      ]
+    }
+  },
+  "generation": {
+    "service": "ElevenLabs Chrome Text to Speech",
+    "model": "Eleven Multilingual v2",
+    "date": "2026-11-09",
+    "voices": {
+      "female": "Rachel - Fun, Casual, Australian Woman, English speaker",
+      "male": "Australian Neutral - Calm / Professional",
+      "patient": "John C"
+    },
+    "settingsRestoredFromHistory": {
+      "female": {
+        "speed": 0.93,
+        "stability": 0.59,
+        "similarity": 0.56,
+        "style": 0
+      },
+      "male": {
+        "speed": 1.04,
+        "stability": 0.77,
+        "similarity": 0.89,
+        "style": 0.53
+      },
+      "patient": {
+        "speed": 1,
+        "stability": 0.5,
+        "similarity": 0.75,
+        "style": 0
+      }
+    },
+    "note": "Values observed after Restore all in the UI; downloaded filenames all contain s50_m2. No independent API settings metadata was obtained. Generation 1 was downloaded for each role."
+  }
+}

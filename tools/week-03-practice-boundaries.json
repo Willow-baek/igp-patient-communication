@@ -1,0 +1,345 @@
+{
+  "week": "week-03",
+  "scriptRevision": "2026-11-09-user-week-03",
+  "assetVersion": "practice-2026-11-09-v1",
+  "method": "Each unit stays inside one bubble and one sentence. Word-aligned continuous source ranges; source-only tails capped before the next word, no synthetic silence or concatenation. ASR is not direct listening.",
+  "units": [
+    {
+      "id": "w3-line-01",
+      "lines": [
+        0
+      ],
+      "speaker": "Physio",
+      "text": "Can you tell me more about what's been happening with your back?",
+      "chunks": [
+        "Can you tell me more",
+        "about what's been happening",
+        "with your back?"
+      ]
+    },
+    {
+      "id": "w3-line-04",
+      "lines": [
+        3
+      ],
+      "speaker": "Patient",
+      "text": "Mostly in the middle of my lower back.",
+      "chunks": [
+        "Mostly in the middle",
+        "of my lower back."
+      ]
+    },
+    {
+      "id": "w3-line-05",
+      "lines": [
+        4
+      ],
+      "speaker": "Physio",
+      "text": "And when did you first notice it?",
+      "chunks": [
+        "And when did you",
+        "first notice it?"
+      ]
+    },
+    {
+      "id": "w3-line-08",
+      "lines": [
+        7
+      ],
+      "speaker": "Patient",
+      "text": "Sitting at my desk for too long, especially when I'm working.",
+      "chunks": [
+        "Sitting at my desk",
+        "for too long,",
+        "especially when I'm working."
+      ]
+    },
+    {
+      "id": "w3-line-11",
+      "lines": [
+        10
+      ],
+      "speaker": "Physio",
+      "text": "And how's it affecting you day to day?",
+      "chunks": [
+        "And how's it affecting you",
+        "day to day?"
+      ]
+    },
+    {
+      "id": "w3-line-13",
+      "lines": [
+        12
+      ],
+      "speaker": "Patient",
+      "text": "It's making it hard to sit through long meetings at work.",
+      "chunks": [
+        "It's making it hard",
+        "to sit through long meetings",
+        "at work."
+      ]
+    },
+    {
+      "id": "w3-line-14",
+      "lines": [
+        13
+      ],
+      "speaker": "Physio",
+      "text": "Okay, so sitting for long periods makes it worse,",
+      "chunks": [
+        "Okay, so sitting for long periods",
+        "makes it worse,"
+      ]
+    },
+    {
+      "id": "w3-line-15",
+      "lines": [
+        14
+      ],
+      "speaker": "Physio",
+      "text": "and getting up for a short walk seems to help.",
+      "chunks": [
+        "and getting up",
+        "for a short walk",
+        "seems to help."
+      ]
+    },
+    {
+      "id": "w3-line-16",
+      "lines": [
+        15
+      ],
+      "speaker": "Physio",
+      "text": "It's also affecting how long you can sit at work.",
+      "chunks": [
+        "It's also affecting how long",
+        "you can sit at work."
+      ]
+    }
+  ],
+  "tracks": {
+    "female": [
+      {
+        "unit": 0,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 0.0,
+        "end": 2.515,
+        "cuts": [
+          0.8,
+          1.7
+        ],
+        "tailPadding": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 5.6,
+        "end": 7.415,
+        "cuts": [
+          6.5
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 12.985,
+        "end": 14.9,
+        "cuts": [
+          14.2
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 6,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 17.275,
+        "end": 19.79,
+        "cuts": [
+          19.0
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 19.79,
+        "end": 21.92,
+        "cuts": [
+          20.3,
+          21.06
+        ],
+        "tailPadding": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-03/original/W3_PT_female.mp3",
+        "start": 21.92,
+        "end": 24.085,
+        "cuts": [
+          23.26
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      }
+    ],
+    "male": [
+      {
+        "unit": 0,
+        "source": "audio/week-03/original/W3_PT_male.mp3",
+        "start": 0.0,
+        "end": 2.8525,
+        "cuts": [
+          0.84,
+          1.84
+        ],
+        "tailPadding": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-03/original/W3_PT_male.mp3",
+        "start": 6.43,
+        "end": 8.665,
+        "cuts": [
+          7.34
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-03/original/W3_PT_male.mp3",
+        "start": 16.695,
+        "end": 19.35,
+        "cuts": [
+          18.34
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 6,
+        "source": "audio/week-03/original/W3_PT_male.mp3",
+        "start": 22.0775,
+        "end": 25.55,
+        "cuts": [
+          24.54
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-03/original/W3_PT_male.mp3",
+        "start": 25.55,
+        "end": 28.005,
+        "cuts": [
+          26.3,
+          27.04
+        ],
+        "tailPadding": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-03/original/revised/W3_PT_male_line16.mp3",
+        "start": 0,
+        "end": 2.586125,
+        "cuts": [
+          1.32
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      }
+    ],
+    "patient": [
+      {
+        "unit": 1,
+        "source": "audio/week-03/original/W3_pt.mp3",
+        "start": 2.0775,
+        "end": 4.0075,
+        "cuts": [
+          2.96
+        ],
+        "tailPadding": [
+          0,
+          0
+        ]
+      },
+      {
+        "unit": 3,
+        "source": "audio/week-03/original/W3_pt.mp3",
+        "start": 5.52,
+        "end": 8.685,
+        "cuts": [
+          6.56,
+          7.3
+        ],
+        "tailPadding": [
+          0,
+          0.1,
+          0
+        ]
+      },
+      {
+        "unit": 5,
+        "source": "audio/week-03/original/W3_pt.mp3",
+        "start": 12.0425,
+        "end": 14.9675,
+        "cuts": [
+          13.04,
+          14.06
+        ],
+        "tailPadding": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "excludedUnits": [
+    {
+      "id": "w3-line-02",
+      "reason": "Kept as whole-bubble playback: linked speech did not yield reliable standalone practice cuts in both ASR passes."
+    },
+    {
+      "id": "w3-line-10",
+      "reason": "Kept as whole-bubble playback: linked speech did not yield reliable standalone practice cuts in both ASR passes."
+    }
+  ]
+}
