@@ -20,7 +20,7 @@ week=next(w for w in json.loads((root/'docs/weeks.json').read_text())['weeks'] i
 retry='--retry' in sys.argv
 changed='--changed' in sys.argv
 missing='--missing' in sys.argv
-model_name='small.en' if retry or changed or missing else 'base.en'
+model_name='base.en' if '--base' in sys.argv else ('small.en' if retry or changed or missing else 'base.en')
 cache=os.environ.get('IGP_WHISPER_MODEL_DIR','/Users/hansol/Documents/Codex/2026-10-27/new-chat/work/audio-alignment/models')
 model=WhisperModel(model_name,device='cpu',compute_type='int8',download_root=cache,cpu_threads=4)
 report_path=root/'tools/week-04-audio-verification.json'
@@ -36,13 +36,16 @@ for u in week.get('practice',{}).get('units',[]):
             for url,text in zip(track['chunks'],group['chunks']):targets[url]={'kind':'practice','unit':u['id'],'expected':text}
             for n,url in enumerate(track['buildUp'],2):targets[url]={'kind':'practice','unit':u['id'],'expected':' '.join(group['chunks'][:n])}
             targets[track['full']]={'kind':'practice','unit':u['id'],'expected':group['text']}
+retired=[a for a in report['assets'] if a['url'] not in targets]
+if retired:report.setdefault('previousAssets',[]).extend(retired)
+report['assets']=[a for a in report['assets'] if a['url'] in targets]
 previous={a['url']:a for a in report['assets']}
 for url,meta in targets.items():
     prior=previous.get(url)
     if retry and prior and prior['exact']:continue
     path=root/'docs'/url
     digest=hashlib.sha256(path.read_bytes()).hexdigest()
-    if (changed or missing) and prior and prior['sha256']==digest:continue
+    if (changed or missing) and prior and prior['sha256']==digest and prior['expected']==meta['expected']:continue
     raw=subprocess.check_output([imageio_ffmpeg.get_ffmpeg_exe(),'-v','error','-i',str(path),'-f','f32le','-ac','1','-ar','16000','-'])
     x=np.frombuffer(raw,dtype=np.float32)
     segments,_=model.transcribe(x,language='en',beam_size=5,vad_filter=False,condition_on_previous_text=False)
@@ -51,8 +54,8 @@ for url,meta in targets.items():
     observation={'model':model_name,'recognized':recognized,'exact':exact,'ratio':difflib.SequenceMatcher(None,norm(meta['expected']),norm(recognized)).ratio()}
     if (changed or missing) and prior:
         item=previous[url]
-        item.setdefault('previousVersions',[]).append({'sha256':item['sha256'],'recognitions':item['recognitions']})
-        item.update(sha256=digest,duration=len(x)/16000,recognitions=[observation],exact=exact)
+        item.setdefault('previousVersions',[]).append({'sha256':item['sha256'],'expected':item['expected'],'recognitions':item['recognitions']})
+        item.update(**meta,sha256=digest,duration=len(x)/16000,recognitions=[observation],exact=exact)
     elif retry and prior:
         item=previous[url];item['recognitions'].append(observation);item['exact']=exact
     else:

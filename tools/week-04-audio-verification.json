@@ -642,6 +642,1547 @@
       ]
     },
     {
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries,",
+      "sha256": "4fc082673a4df5aec1303fc7f741b47cd8eb938480fd0445c6e8d25b04ad5474",
+      "duration": 2.1625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+      "asrSourceSha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
+    },
+    {
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "hospitalisations or surgeries?",
+      "sha256": "4b4cf84e5d14e6d33758156453f57b43ea26469d46c71063ca42bd0a4abc8002",
+      "duration": 1.8925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "hospitalizations or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+      "asrSourceSha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
+    },
+    {
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "527d39087f6f42a8c102f4e23d14bb974ecaeee823d0e8aa0ee654085fca0d94",
+      "duration": 4.04,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
+      "asrSourceSha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries,",
+      "sha256": "f8f5a7b001c8ae21ba0350d9ee9249b82ca9f2cf3b70b2e4940f51b6e5fdd052",
+      "duration": 2.24,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "hospitalisations or surgeries?",
+      "sha256": "939b6dc8c7ab77e8c7ad85d63bffdefca8452f75bdedec6e49edb4de718ff67f",
+      "duration": 1.97,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "hospitalizations or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/full.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "06b1b6c6d3e3c9de8ec3a1f8c66fd04f1134df45e9aef7052de0f8b479933fd5",
+      "duration": 4.06,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "It developed gradually.",
+      "sha256": "bc16cde2ec713120400ffe9b3db7137f16d778f6357e8bb7aa9bfeb6064bb7e0",
+      "duration": 1.9125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It developed gradually.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "Not really.",
+      "sha256": "9690ae4bea1c79c7a9e3eb7c27becdd747f3e07bfd25d1a5b10fac58e35e3a85",
+      "duration": 1.2775,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Not really.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "No previous major injuries or surgeries.",
+      "sha256": "16fe61dbf68288872fce240b688640fcffd4158f3059906bb2d00382240c13aa",
+      "duration": 2.595,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "No previous major injuries or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago",
+      "sha256": "0ecad3fd324074b6949ca762bead44065ef89770c7c72191379c107667161b10",
+      "duration": 1.437,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "during a particularly busy period at work.",
+      "sha256": "699a82cd44251f35bd1b4b10db9aac35e81aa5198e57553d03c21e378a9e4fab",
+      "duration": 2.2125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago during a particularly busy period at work.",
+      "sha256": "9a4291e0779878f3ccf5b6c6eaa1b836798a19a7967aae474947936c3b2beabf",
+      "duration": 3.6475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago, during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk",
+      "sha256": "e6880bbe4cb6d49c72ef803441058bf9fb849831e026d71df8d57b96f50c6393",
+      "duration": 1.5525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "d1f94d319560f63c528585dda24efa2a51f84d72787cf5347b97f2b4b14330ad",
+          "expected": "I was sitting at my desk",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "for long hours,",
+      "sha256": "108a33e247dcc8028e655d5d3cc59c5ade745b439dedd123eeaf07aebc9e294f",
+      "duration": 1.07,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "but there wasn't",
+      "sha256": "646cfdbfa2df3173b6f16c39598205f821e61f214a14e6b987432fa6b8b90b46",
+      "duration": 0.6725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "But there wasn't.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "21ae4e9b492af8625d09c8e95fbbb354b54dc8c5bc3616ee0f2bb473fa077e2b",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any specific injury-",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "930b664ef5dac65fc8887437969df00e48c9325beaf01d0dc187773b368ad686",
+          "expected": "but there wasn't any specific injury",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any specific injury",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "aeac7f8c4d08f773e44de415728ba0dab2a4ac5180eeb79bd1d294aaa89c5111",
+          "expected": "but there wasn't",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any",
+              "exact": false,
+              "ratio": 0.8571428571428571
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "any specific injury or incident",
+      "sha256": "8cad2de71f79e57212eb494e3e88cd2ebfd014e80e3caa79d4a7de4d2f9dc730",
+      "duration": 1.47,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "6df760d0ed1eae45610ac7fa0d427c0f80d93cc1a4b16b9024fabd0205ac4e77",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "injury or incident that triggered it.",
+              "exact": false,
+              "ratio": 0.9090909090909091
+            }
+          ]
+        },
+        {
+          "sha256": "1bd7bfebaa9eaead2741d51058132fba0db1b070bf299f4d77662ccc465d9823",
+          "expected": "or incident that triggered it.",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "your incident that triggered it.",
+              "exact": false,
+              "ratio": 0.8
+            }
+          ]
+        },
+        {
+          "sha256": "79426808fa660db2fe032963cc38084a768bdfe24d67f1e2ce1955103716c126",
+          "expected": "any specific injury or incident",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "any specific injury or incident.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours,",
+      "sha256": "55a48f317567bec8171b093f0d8f102f7e458066ce4fba2bdfea4728cc3e6075",
+      "duration": 2.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't",
+      "sha256": "edbf619689d3a15456a3791c8d16778e0ca720ed98c95c0c9e08ab21af4e6d61",
+      "duration": 3.1525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "82913727fc47fbfa3fbc361eb8b81e54dd157f51e6b79505301d44495a0eee00",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "296f8c4d3ddde9e7380f93b9bc61a95587616a5281b6c6957502b53c0973e7b4",
+          "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "04d2328999808bf006651cb1a30c1ce6d57f3c3129ac697317c2886796991596",
+          "expected": "I was sitting at my desk for long hours, but there wasn't",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any",
+              "exact": false,
+              "ratio": 0.96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sha256": "5aa7f7569085fe5ff91e49c5ca80f40773c275ea941de211860ea79021173d79",
+      "duration": 5.4625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first,",
+      "sha256": "969942bd03a026615b060a3a098448ffd966754ab02063f3c526c5d3a82173a4",
+      "duration": 1.3225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "At first...",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "it was just a mild discomfort,",
+      "sha256": "64de66648df14da895096e12910d635ca1e8438085e36bd52aadac4751cf826f",
+      "duration": 1.625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It was just a mild discomfort.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "but I started noticing it",
+      "sha256": "626b6732d945f91ab19630cc8df8207f8a8d511b961ce76e1152818114a67ca0",
+      "duration": 1.4545,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "but I started noticing it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "more frequently over time.",
+      "sha256": "5f3b11cca483fa15bfddfd9410a472c393fd769a8f0d4c8fb5423966e01039dc",
+      "duration": 1.375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "more frequently over time.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first, it was just a mild discomfort,",
+      "sha256": "7422373bc19ff188feb259c86efde41e0c09c6fb9245e21da28d507038a90491",
+      "duration": 2.8475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "At first, it was just a mild discomfort.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first, it was just a mild discomfort, but I started noticing it",
+      "sha256": "d87e44bdb650063fcab96f6dd491d2ef2d5fee4c801b1ac767d4bf4cd6dc163f",
+      "duration": 4.1595,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "At first, it was just a mild discomfort, but I started noticing it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "sha256": "e7275651e84b19c6563adc6b3363a6d60d3dce631861919e9ca47ade005b0e42",
+      "duration": 5.5325,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "It's become more noticeable",
+      "sha256": "e29246557f349fb2cdb674a7d73812aab08c273c760d8e773548da3c01c11680",
+      "duration": 1.437,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "it's become more noticeable.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "over the last few weeks.",
+      "sha256": "4f1b392b119294e8458d3dacfd907276a59d0dfffef44b89820778f71274acf7",
+      "duration": 1.4575,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "over the last few weeks.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "It's become more noticeable over the last few weeks.",
+      "sha256": "d42b18f16437ecda1c0bc85ac28ee282a4176ba9bd78f26beca6ffe04de2f15d",
+      "duration": 2.86,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It's become more noticeable over the last few weeks.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "Initially, I only felt it occasionally,",
+      "sha256": "c5796dee325d55195786558719eba34ebfb96d82456f596f0468847403501595",
+      "duration": 2.44,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Initially, I only felt it occasionally.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "but now I experience it",
+      "sha256": "d04449ac7848aa55536dc167e4e88e60d3f88266b4da70545088bbcdd5388388",
+      "duration": 1.115,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "But now I experience it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "almost every day.",
+      "sha256": "6f289e005e44a8d69e5296eb5a4e4ca63f34771e850de5338718f61e1404ac85",
+      "duration": 1.0875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "almost every day.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "Initially, I only felt it occasionally, but now I experience it",
+      "sha256": "79def627f889370c9aa77cf3ba397f481f1b71b13442f23d2e7f75c0f63d79a3",
+      "duration": 3.405,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Initially, I only felt it occasionally, but now I experience it",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "sha256": "ae2c0ea8a2a8d1f5e319ddaa62db555db226426aecb3bae314bfc5a69560dc35",
+      "duration": 4.4925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness",
+      "sha256": "b64675b6d20da6652bf267b1f64ebc18caae42c36a0c01ef9cb760d392ff64b3",
+      "duration": 1.725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've had occasional back stiffness.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "6f5db26f11bb0be98112fa2f21a1e4ab8e15b86dc2396e461f2982d15fa122ae",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I've had occasional backstiff.",
+              "exact": false,
+              "ratio": 0.6666666666666666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "after sitting for long periods,",
+      "sha256": "bc74b74b90071742108725e9aa9af07f280f2ec6ea3116a60adaeef26cd3358f",
+      "duration": 1.795,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "after sitting for long periods.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "81be2c3f61580bac21ab8a6d64343cad16ab2d5564d061d6f686ab8209b09585",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "after sitting for long periods.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "but I've never experienced",
+      "sha256": "8617977538f3dd4ac0563168568e24573f0e2091b9a238eef93f3389d6cca508",
+      "duration": 2.152,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "but I've never experienced",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "this kind of persistent pain before.",
+      "sha256": "d1fca02ba12f7cc7a4f47567092648c85cc6e2974a0e837e492630ff8d4d2c20",
+      "duration": 1.9375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "this kind of persistent pain before.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness after sitting for long periods,",
+      "sha256": "e98a5da4bc38dfc0ca9540e50d8467f1c1c6b8687c12fe0059b36af6d721f4de",
+      "duration": 3.52,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've had occasional back stiffness after sitting for long periods.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness after sitting for long periods, but I've never experienced",
+      "sha256": "4bc6e17bc03e61cec4b322f4126d740e16e8756292f789148cdbc68dd6cb0856",
+      "duration": 5.522,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've had occasional back stiffness after sitting for long periods, but I've never experienced",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "sha256": "f5c55c3eb1c7612618bc8a49db9e89ad6f5b30ea03b20be3c8ed8661c5ef41ce",
+      "duration": 7.44,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've had occasional back stiffness after sitting for long periods. But I've never experienced this kind of persistent pain before.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "Yes, I saw my GP",
+      "sha256": "6c6795730480848638c74deac7c006f993d2e546db37174c86c4b4eaeba0d5af",
+      "duration": 2.175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Yes, I saw my GP.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "19595878236a35a53124df27bd6566f2b9017ecc2ac6bc7d048d2ddbbedcc3ec",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "Yes, I saw my GP abou-",
+              "exact": false,
+              "ratio": 0.9090909090909091
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "about two weeks ago",
+      "sha256": "1c5bc2607a2b2b0eeea5eabdbb24d3095a8cc02e3f7aa5ac84cfe008b431ec12",
+      "duration": 1.2925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "about two weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "544779be0b41664774a2f7f5a04c003dfce1c97a831b0df3263b941b1316527b",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "about two weeks ago.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "because the pain wasn't improving.",
+      "sha256": "bd9c39fb474cc03843f37232bec2f62947428c9f4f3fe6f4cf349b80a3825888",
+      "duration": 1.82,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "because the pain wasn't improving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "Yes, I saw my GP about two weeks ago",
+      "sha256": "5a31117119c7e2f8d5abb016d0dfbde8f8f167f4c3a542377f9c645b4e9555ae",
+      "duration": 3.4675,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Yes, I saw my GP about two weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "sha256": "fcfe3637d9b06e422db3abd79138d02008fa9c0c6c3f4584200685f8cea094e2",
+      "duration": 5.1375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Yes, I saw my GP about two weeks ago, because the pain wasn't improving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "They prescribed ibuprofen",
+      "sha256": "67ebf101ba84d35dafd4b72866739b70aee61e3f3d34696224225736995bd83e",
+      "duration": 1.6095,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "They prescribed ibuprofen.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "and advised me to keep moving",
+      "sha256": "2a2e000d64cb9ba814ad1500f661cba04b5f711d5590e695f56b7737be95392c",
+      "duration": 1.5595,
+      "exact": false,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "and advise me to keep moving.",
+          "exact": false,
+          "ratio": 0.8333333333333334
+        },
+        {
+          "model": "base.en",
+          "recognized": "and advise me to keep moving.",
+          "exact": false,
+          "ratio": 0.8333333333333334
+        }
+      ],
+      "reviewStatus": "source-context-validated-isolated-ASR-ambiguous",
+      "reviewNote": "Both isolated models transcribe advise, while both full-source ASR transcriptions retain advised. The word is inside the clip, not at a cut: base word span 39.64–39.78s, independent small.en span 39.66–39.96s; clip is 39.3125–40.8175s. Preserve the original recording and intended phrase; ASR is not direct listening."
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "and avoid prolonged bed rest.",
+      "sha256": "4b8f20a71a71e846e4c024f38b28bf1baa0d2fcde8d6d77ff3d25a850049e2b7",
+      "duration": 1.6175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "and avoid prolonged bed rest.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "They prescribed ibuprofen and advised me to keep moving",
+      "sha256": "b47648ca0216d211b539fb428a94803dd8eee734fd8ba22d0176c66321f4554c",
+      "duration": 3.1095,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "They prescribed ibuprofen and advised me to keep moving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+      "sha256": "b8c0bfce452cb8841da1031112db609f1dfbe1a29e8a64a380543075c72e811d",
+      "duration": 4.6725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "I haven't had any scans",
+      "sha256": "57bb4cc8e23861df86ab22918a68c85332128d94d4581421c3b0aeb235f01234",
+      "duration": 1.285,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I haven't had any scans",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "or other investigations.",
+      "sha256": "ee70479b9ee290952ef14b5553850c51492e72ce7c338ec2dee863cd99c4c861",
+      "duration": 1.07,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "or other investigations.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "I haven't had any scans or other investigations.",
+      "sha256": "78aa75256fed632c8d58f43fe078cd8f61483f40993aa0caeb2f80229a8e8e7c",
+      "duration": 2.355,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I haven't had any scans or other investigations.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "Just ibuprofen",
+      "sha256": "7aa8251a6ba1efe97d26782265ed7b130bedee61594b99d00a60e7dbc901058b",
+      "duration": 1.2425,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Just ibuprofen.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "7a74132bfb034f87bc5781d2508d076f980a368183c37cfe2661a6041052397c",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "Just ibuprof-",
+              "exact": false,
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "sha256": "a3ddbedb2bca88ccfb47e9f4e7a33aa052fa6934bf22b80fd8f2d491704dea36",
+          "expected": "Just ibuprofen",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "Just ibuprofen with",
+              "exact": false,
+              "ratio": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "when the pain gets worse.",
+      "sha256": "41ac216e8eb9b0093fbc8826f45b52b0423998fc17283881f02d847aabf726c3",
+      "duration": 1.2175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "when the pain gets worse.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "7a3bc049982bda7b8c01f3899f4e647bfe5ae0b4447f99dd1aa4545650c8a8c5",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "when the pain gets worse.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "a5c6e9c2aaa0ad05844b0684970878405c1cc103ad3d6aaa4796c44c2a953a29",
+          "expected": "when the pain gets worse.",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "the pain gets worse.",
+              "exact": false,
+              "ratio": 0.8888888888888888
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "Just ibuprofen when the pain gets worse.",
+      "sha256": "bbb46f9d3c72e9942fa5519a19245bf53f65439e79dff9f88d1c866ce2675bb5",
+      "duration": 2.46,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Just ibuprofen when the pain gets worse.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "I'm not taking",
+      "sha256": "549575a2a97afa4d62ae2c0ac79669e747290ad98e7342f837bb1ce0b41a4a6f",
+      "duration": 0.7275,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I'm not taking it.",
+          "exact": false,
+          "ratio": 0.8571428571428571
+        },
+        {
+          "model": "base.en",
+          "recognized": "I'm not taking...",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "any other regular medication.",
+      "sha256": "ff2fdb2892fa651a7bf7e60ee45aa6c574f6b8a86b9a664766fdedcb25dc5cfd",
+      "duration": 1.690125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "any other regular medication.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "I'm not taking any other regular medication.",
+      "sha256": "1616ae1230d6ddfdbe92be8d0f3aaffdfd186ae15c387cdd39a1cb325c900e2d",
+      "duration": 2.417625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I'm not taking any other regular medication.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding",
+      "sha256": "bc51d6e4fada9f5a12d862d24179f3a45eb3a986bc3f3361d9de8162dbceac17",
+      "duration": 1.4025,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "of your medical history",
+      "sha256": "8b23fccbf883a688cacaec9171810fcee3ad3fad996b451b79272dd337390e26",
+      "duration": 0.995,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "and how your symptoms have developed.",
+      "sha256": "c567928553caf0f4d63ad088f8b2f418680cdd9ec7166dd466f75954ecb86c62",
+      "duration": 2.0071875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history",
+      "sha256": "25e72e49c5954ff36a6755881507fc825988c5ed5151c4d2c8b33905d5421cb1",
+      "duration": 2.3975,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/full.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "1f5dc1dfc0bc0178dba54f1e23b22dea7c143cfe2b4341da5619254e0b4de839",
+      "duration": 4.4021875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding",
+      "sha256": "e7e8fc96a63d407f9af4f29e7914a778f4fa4422a19251492640e675dcea9dce",
+      "duration": 1.495,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "of your medical history",
+      "sha256": "964208cfd7dfde42877582a1333f9c281fa0ff061f46784240c9f67935ee3cdd",
+      "duration": 0.935,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "and how your symptoms have developed.",
+      "sha256": "814198667c59affc119b84346ea60d5c819244d43f19b9ca6d59800b8f093e39",
+      "duration": 2.2364375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history",
+      "sha256": "e8239adf841b989c5a2a3d03fe8dd424c309ed395eed8c42abf0ce69e665a23c",
+      "duration": 2.43,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/full.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "0c18cf3da1c6ea95e9825208c49e5468c7749925a28d5aa989c3d4d0e738149a",
+      "duration": 4.6664375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-5.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "that triggered it.",
+      "sha256": "bbb6def65270e4b003b785b501185b879d2c794832f57c2719bb6c786ac281ff",
+      "duration": 0.8475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+      "sha256": "c88f4ceb6f657f1e66745cc0686fa0eedd893e10fcc7a22758d2eb00d308fea8",
+      "duration": 4.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness,",
+      "sha256": "190b84268a7aece9896b20fccfcc33b1153e96b5ec86b64c09e7960173c0ce45",
+      "duration": 2.235,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "but nothing that required medical treatment.",
+      "sha256": "f55c3556288f246d8190d9cd6a9a92411226377801779cdb396be952fe650a06",
+      "duration": 2.1875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "sha256": "e2304ea14507596bd62f6958c48848f4873e6469f1f41029eab2a892672dd9c4",
+      "duration": 4.3225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 106,
+    "exact": 105,
+    "review": 1
+  },
+  "previousAssets": [
+    {
       "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-02",
@@ -931,126 +2472,6 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "Have you had any previous injuries,",
-      "sha256": "4fc082673a4df5aec1303fc7f741b47cd8eb938480fd0445c6e8d25b04ad5474",
-      "duration": 2.1625,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "Have you had any previous injuries?",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
-      "asrSourceSha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
-      "postAsrProcessing": {
-        "constantGainDb": 2,
-        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
-      }
-    },
-    {
-      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "hospitalisations or surgeries?",
-      "sha256": "4b4cf84e5d14e6d33758156453f57b43ea26469d46c71063ca42bd0a4abc8002",
-      "duration": 1.8925,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "hospitalizations or surgeries.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
-      "asrSourceSha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
-      "postAsrProcessing": {
-        "constantGainDb": 2,
-        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
-      }
-    },
-    {
-      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
-      "sha256": "527d39087f6f42a8c102f4e23d14bb974ecaeee823d0e8aa0ee654085fca0d94",
-      "duration": 4.04,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
-      "asrSourceSha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
-      "postAsrProcessing": {
-        "constantGainDb": 2,
-        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
-      }
-    },
-    {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-1.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "Have you had any previous injuries,",
-      "sha256": "f8f5a7b001c8ae21ba0350d9ee9249b82ca9f2cf3b70b2e4940f51b6e5fdd052",
-      "duration": 2.24,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "Have you had any previous injuries?",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-2.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "hospitalisations or surgeries?",
-      "sha256": "939b6dc8c7ab77e8c7ad85d63bffdefca8452f75bdedec6e49edb4de718ff67f",
-      "duration": 1.97,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "hospitalizations or surgeries.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/full.m4a",
-      "kind": "practice",
-      "unit": "line-15",
-      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
-      "sha256": "06b1b6c6d3e3c9de8ec3a1f8c66fd04f1134df45e9aef7052de0f8b479933fd5",
-      "duration": 4.06,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "base.en",
-          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-16",
@@ -1251,23 +2672,6 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a",
-      "kind": "practice",
-      "unit": "line-04",
-      "expected": "It developed gradually.",
-      "sha256": "bc16cde2ec713120400ffe9b3db7137f16d778f6357e8bb7aa9bfeb6064bb7e0",
-      "duration": 1.9125,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "It developed gradually.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a",
       "kind": "practice",
       "unit": "line-06",
@@ -1279,23 +2683,6 @@
         {
           "model": "small.en",
           "recognized": "It's become more noticeable over the last few weeks.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a",
-      "kind": "practice",
-      "unit": "line-08",
-      "expected": "Not really.",
-      "sha256": "9690ae4bea1c79c7a9e3eb7c27becdd747f3e07bfd25d1a5b10fac58e35e3a85",
-      "duration": 1.2775,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "Not really.",
           "exact": true,
           "ratio": 1.0
         }
@@ -1336,23 +2723,6 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a",
-      "kind": "practice",
-      "unit": "line-16",
-      "expected": "No previous major injuries or surgeries.",
-      "sha256": "16fe61dbf68288872fce240b688640fcffd4158f3059906bb2d00382240c13aa",
-      "duration": 2.595,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "No previous major injuries or surgeries.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a",
       "kind": "practice",
       "unit": "line-18",
@@ -1385,11 +2755,117 @@
           "ratio": 1.0
         }
       ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-16/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced",
+      "sha256": "d9e694c15f113d0ce92da85d2159b53f709064242ebc9389af6fef3137343244",
+      "duration": 1.385,
+      "exact": false,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some",
+          "exact": false,
+          "ratio": 0.8571428571428571
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "aedcff82dfc0f69671f9f6ef78118933f134c626c3e2cb9fa1689a7b6351133c",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I've occasionally experienced",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-16/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "some neck stiffness,",
+      "sha256": "c1924dc2239831087ea056712a83c9a91cc320ca834d6cf3891359ff37b28861",
+      "duration": 0.85,
+      "exact": false,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "the next stiffness.",
+          "exact": false,
+          "ratio": 0.3333333333333333
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "ab7e82258951fea2df04cb7a319301ee61866530cfaa2c10c2bbd65feb82480b",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "for some next stiffness.",
+              "exact": false,
+              "ratio": 0.5714285714285714
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-16/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "but nothing that required medical treatment.",
+      "sha256": "f55c3556288f246d8190d9cd6a9a92411226377801779cdb396be952fe650a06",
+      "duration": 2.1875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-16/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness,",
+      "sha256": "190b84268a7aece9896b20fccfcc33b1153e96b5ec86b64c09e7960173c0ce45",
+      "duration": 2.235,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-16/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "sha256": "e2304ea14507596bd62f6958c48848f4873e6469f1f41029eab2a892672dd9c4",
+      "duration": 4.3225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
     }
-  ],
-  "summary": {
-    "total": 72,
-    "exact": 72,
-    "review": 0
-  }
+  ]
 }

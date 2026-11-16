@@ -1513,37 +1513,47 @@
                   "end": 73
                 },
                 "chunks": [
-                  "It started about six weeks ago during a particularly busy period at work."
+                  "It started about six weeks ago",
+                  "during a particularly busy period at work."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-2.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a"
                   }
                 }
               },
               {
                 "text": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
                 "chunks": [
-                  "I was sitting at my desk for long hours,",
-                  "but there wasn't any specific injury or incident",
+                  "I was sitting at my desk",
+                  "for long hours,",
+                  "but there wasn't",
+                  "any specific injury or incident",
                   "that triggered it."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-1.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-2.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-3.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-4.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-5.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-2026-11-16-v1/line-02/patient/build-2.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-02/patient/full.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-4.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-2026-11-16-v1/line-02/patient/full.m4a"
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a"
                   }
                 },
                 "range": {
@@ -1583,19 +1593,25 @@
               {
                 "text": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
                 "chunks": [
-                  "At first, it was just a mild discomfort,",
-                  "but I started noticing it more frequently over time."
+                  "At first,",
+                  "it was just a mild discomfort,",
+                  "but I started noticing it",
+                  "more frequently over time."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-1.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-2.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-4.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-2026-11-16-v1/line-04/patient/full.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/build-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/build-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-2026-11-16-v1/line-04/patient/full.m4a"
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/full.m4a"
                   }
                 },
                 "range": {
@@ -1620,15 +1636,19 @@
                   "end": 52
                 },
                 "chunks": [
-                  "It's become more noticeable over the last few weeks."
+                  "It's become more noticeable",
+                  "over the last few weeks."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/chunk-2.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-1/patient/full.m4a"
                   }
                 }
               },
@@ -1636,18 +1656,21 @@
                 "text": "Initially, I only felt it occasionally, but now I experience it almost every day.",
                 "chunks": [
                   "Initially, I only felt it occasionally,",
-                  "but now I experience it almost every day."
+                  "but now I experience it",
+                  "almost every day."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-1.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-2.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/chunk-3.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-2026-11-16-v1/line-06/patient/full.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/build-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-2026-11-16-v1/line-06/patient/full.m4a"
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-06/sentence-2/patient/full.m4a"
                   }
                 },
                 "range": {
@@ -1687,19 +1710,25 @@
               {
                 "text": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
                 "chunks": [
-                  "I've had occasional back stiffness after sitting for long periods,",
-                  "but I've never experienced this kind of persistent pain before."
+                  "I've had occasional back stiffness",
+                  "after sitting for long periods,",
+                  "but I've never experienced",
+                  "this kind of persistent pain before."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-1.m4a",
-                      "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-2.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/chunk-4.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-2026-11-16-v1/line-08/patient/full.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/build-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/build-3.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-2026-11-16-v1/line-08/patient/full.m4a"
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-08/sentence-2/patient/full.m4a"
                   }
                 },
                 "range": {
@@ -1717,19 +1746,22 @@
             ],
             "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
             "chunks": [
-              "Yes, I saw my GP about two weeks ago",
+              "Yes, I saw my GP",
+              "about two weeks ago",
               "because the pain wasn't improving."
             ],
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-1.m4a",
-                  "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-2.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-1.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-04/practice-2026-11-16-v1/line-10/patient/full.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/build-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/full.m4a"
                 ],
-                "full": "audio/week-04/practice-2026-11-16-v1/line-10/patient/full.m4a"
+                "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-10/single/patient/full.m4a"
               }
             }
           },
@@ -1748,15 +1780,22 @@
                   "end": 85
                 },
                 "chunks": [
-                  "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest."
+                  "They prescribed ibuprofen",
+                  "and advised me to keep moving",
+                  "and avoid prolonged bed rest."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/chunk-3.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/build-2.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-1/patient/full.m4a"
                   }
                 }
               },
@@ -1767,15 +1806,19 @@
                   "end": 134
                 },
                 "chunks": [
-                  "I haven't had any scans or other investigations."
+                  "I haven't had any scans",
+                  "or other investigations."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/chunk-2.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-12/sentence-2/patient/full.m4a"
                   }
                 }
               }
@@ -1882,15 +1925,19 @@
                   "end": 40
                 },
                 "chunks": [
-                  "Just ibuprofen when the pain gets worse."
+                  "Just ibuprofen",
+                  "when the pain gets worse."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/chunk-2.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-1/patient/full.m4a"
                   }
                 }
               },
@@ -1901,15 +1948,19 @@
                   "end": 85
                 },
                 "chunks": [
-                  "I'm not taking any other regular medication."
+                  "I'm not taking",
+                  "any other regular medication."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a"
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/chunk-2.m4a"
                     ],
-                    "buildUp": [],
-                    "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a"
+                    "buildUp": [
+                      "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/full.m4a"
+                    ],
+                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-18/sentence-2/patient/full.m4a"
                   }
                 }
               }
@@ -1923,29 +1974,34 @@
             ],
             "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
             "chunks": [
-              "It gives me a better understanding of your medical history",
+              "It gives me a better understanding",
+              "of your medical history",
               "and how your symptoms have developed."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
-                  "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-2.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-1.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/build-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/full.m4a"
                 ],
-                "full": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a"
+                "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-1.m4a",
-                  "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-2.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-1.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-04/practice-2026-11-16-v1/line-20/male/full.m4a"
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/build-2.m4a",
+                  "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/full.m4a"
                 ],
-                "full": "audio/week-04/practice-2026-11-16-v1/line-20/male/full.m4a"
+                "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-20/single/male/full.m4a"
               }
             }
           }
