@@ -5,11 +5,11 @@
   "method": "Independent ASR on current dialogue and practice files; US/UK hospitalization spelling normalized.",
   "assets": [
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
       "kind": "dialogue",
       "line": 1,
       "expected": "Can you tell me how your back pain first started?",
-      "sha256": "eff09d4631bc5b53c4972230a76fa4b383e4e9884e20ba2214535da4ae08c7a7",
+      "sha256": "55bb385edfecc8db4bad169834d531dc340cb511df09ee6a1acfa0ac7113f3f3",
       "duration": 2.5975,
       "exact": true,
       "recognitions": [
@@ -19,7 +19,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+      "asrSourceSha256": "eff09d4631bc5b53c4972230a76fa4b383e4e9884e20ba2214535da4ae08c7a7",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/01.m4a",
@@ -56,11 +62,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
       "kind": "dialogue",
       "line": 3,
       "expected": "Did the pain come on suddenly, or did it develop gradually?",
-      "sha256": "30da607dbbaa47ca0b82f22411088c7605c4bc8641d38c704f78a2be828d3180",
+      "sha256": "fb08f0246553d136f1025392843c60259ef6b0edacc6803546ad643e90ed1ffc",
       "duration": 3.33,
       "exact": true,
       "recognitions": [
@@ -70,7 +76,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+      "asrSourceSha256": "30da607dbbaa47ca0b82f22411088c7605c4bc8641d38c704f78a2be828d3180",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/03.m4a",
@@ -107,11 +119,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
       "kind": "dialogue",
       "line": 5,
       "expected": "How has the pain changed over the last six weeks?",
-      "sha256": "3acd94911c1527526b150e27af95313df28145283520022558dfce9ff97ba10c",
+      "sha256": "229abc694fb29499bab88001f40c08fba310cf5463e40121f6a14d0768e25277",
       "duration": 2.7275,
       "exact": true,
       "recognitions": [
@@ -121,7 +133,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+      "asrSourceSha256": "3acd94911c1527526b150e27af95313df28145283520022558dfce9ff97ba10c",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/05.m4a",
@@ -158,11 +176,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
       "kind": "dialogue",
       "line": 7,
       "expected": "Have you experienced anything similar in the past?",
-      "sha256": "8666b4b91cadc29826111dc628da14df0bb591f9b4cb39512f576ad7ee35d697",
+      "sha256": "c1f75eaa0a6466c406cb177e486fa94f17fc714b7439c82a468433deb2cfdab9",
       "duration": 2.8625,
       "exact": true,
       "recognitions": [
@@ -172,7 +190,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+      "asrSourceSha256": "8666b4b91cadc29826111dc628da14df0bb591f9b4cb39512f576ad7ee35d697",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/07.m4a",
@@ -209,11 +233,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
       "kind": "dialogue",
       "line": 9,
       "expected": "Have you seen a doctor or another healthcare professional about this problem?",
-      "sha256": "e41bf7d6f489d14008b3841451292c265e794578b2ba5c6425d410a88549c13f",
+      "sha256": "77c254e3673c6a2e3f1e667c791b11501def9c5c0bffe07be1819e69332d58d4",
       "duration": 4.0625,
       "exact": true,
       "recognitions": [
@@ -223,7 +247,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+      "asrSourceSha256": "e41bf7d6f489d14008b3841451292c265e794578b2ba5c6425d410a88549c13f",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/09.m4a",
@@ -266,11 +296,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
       "kind": "dialogue",
       "line": 11,
       "expected": "Did your GP recommend any treatment or further investigations?",
-      "sha256": "60d5a7d5c405dddfff2afe63bb0f761bf7c23df47e49bf629502800f4723aba2",
+      "sha256": "b55e5481405a853930166f1c4579a0d88b8e9ecb4ac172b80f3b6b18a46aa2ac",
       "duration": 4.3175,
       "exact": true,
       "recognitions": [
@@ -280,7 +310,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+      "asrSourceSha256": "60d5a7d5c405dddfff2afe63bb0f761bf7c23df47e49bf629502800f4723aba2",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/11.m4a",
@@ -336,11 +372,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
       "kind": "dialogue",
       "line": 13,
       "expected": "Do you have any other medical conditions that we should be aware of?",
-      "sha256": "01ebc77cedab45012908cf50ca85143ad0625f849c531d04133aba67584399e7",
+      "sha256": "7bc8298fb5b5c028de7451715b313b982ee9c6d96f67184f5895947f40ee696b",
       "duration": 3.46,
       "exact": true,
       "recognitions": [
@@ -350,7 +386,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+      "asrSourceSha256": "01ebc77cedab45012908cf50ca85143ad0625f849c531d04133aba67584399e7",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/13.m4a",
@@ -400,11 +442,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
       "kind": "dialogue",
       "line": 15,
       "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
-      "sha256": "6f30ec501751214811cec37fbb535b2ce20c3d7929d1520b5490f79f6c8baaee",
+      "sha256": "58d9fe9d331e8855e8fbf1800d26bbf5d3866e30fdb2c1005cecfee22a486e21",
       "duration": 4.04,
       "exact": true,
       "recognitions": [
@@ -414,7 +456,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+      "asrSourceSha256": "6f30ec501751214811cec37fbb535b2ce20c3d7929d1520b5490f79f6c8baaee",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/15.m4a",
@@ -457,11 +505,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
       "kind": "dialogue",
       "line": 17,
       "expected": "Are you currently taking any medications or supplements?",
-      "sha256": "12b28762ca47574d9a2919ecf5927ec584a89738745b1b9ff6e1b572b80f77ff",
+      "sha256": "3a4144034494bf375f002574f185adb9643b1e166d16f47b330685d4faf07e08",
       "duration": 3.3825,
       "exact": true,
       "recognitions": [
@@ -471,7 +519,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+      "asrSourceSha256": "12b28762ca47574d9a2919ecf5927ec584a89738745b1b9ff6e1b572b80f77ff",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/17.m4a",
@@ -508,11 +562,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
       "kind": "dialogue",
       "line": 19,
       "expected": "Okay, thank you. That's really helpful.",
-      "sha256": "e561c761f1bd7696243e1e208e9abfd7fcb28c7b1c8704385a04b11ce316da37",
+      "sha256": "cfe24dddb896cca1ec54520a3b5bc6503f5088a07cffde43e138cb3950aeb3bc",
       "duration": 2.5125,
       "exact": true,
       "recognitions": [
@@ -522,7 +576,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+      "asrSourceSha256": "e561c761f1bd7696243e1e208e9abfd7fcb28c7b1c8704385a04b11ce316da37",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/19.m4a",
@@ -542,11 +602,11 @@
       ]
     },
     {
-      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
       "kind": "dialogue",
       "line": 20,
       "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
-      "sha256": "b86598d42e7a912d9082a7d7dc97af43807066570a5d9c7775ac4e3dde0e1fce",
+      "sha256": "f3b56bf5455518dcb861dd693729c4fe121799f3b83a9778f2f479c4b5c15523",
       "duration": 4.4021875,
       "exact": true,
       "recognitions": [
@@ -556,7 +616,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+      "asrSourceSha256": "b86598d42e7a912d9082a7d7dc97af43807066570a5d9c7775ac4e3dde0e1fce",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/2026-11-16-v1/male/20.m4a",
@@ -865,11 +931,11 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-15",
       "expected": "Have you had any previous injuries,",
-      "sha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
+      "sha256": "4fc082673a4df5aec1303fc7f741b47cd8eb938480fd0445c6e8d25b04ad5474",
       "duration": 2.1625,
       "exact": true,
       "recognitions": [
@@ -879,14 +945,20 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+      "asrSourceSha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
       "kind": "practice",
       "unit": "line-15",
       "expected": "hospitalisations or surgeries?",
-      "sha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
+      "sha256": "4b4cf84e5d14e6d33758156453f57b43ea26469d46c71063ca42bd0a4abc8002",
       "duration": 1.8925,
       "exact": true,
       "recognitions": [
@@ -896,14 +968,20 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+      "asrSourceSha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a",
       "kind": "practice",
       "unit": "line-15",
       "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
-      "sha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
+      "sha256": "527d39087f6f42a8c102f4e23d14bb974ecaeee823d0e8aa0ee654085fca0d94",
       "duration": 4.04,
       "exact": true,
       "recognitions": [
@@ -913,7 +991,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
+      "asrSourceSha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-1.m4a",
@@ -1030,11 +1114,11 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-20",
       "expected": "It gives me a better understanding of your medical history",
-      "sha256": "7a80015ae0184fc3d5a083c8feded7293d12db23081c34a88fc9d9fbb2112374",
+      "sha256": "a9cf453375db7c0812e13450d83e9d31613190e38f33cd1eed47fd44d6bbc2e3",
       "duration": 2.3975,
       "exact": true,
       "recognitions": [
@@ -1044,14 +1128,20 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+      "asrSourceSha256": "7a80015ae0184fc3d5a083c8feded7293d12db23081c34a88fc9d9fbb2112374",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
       "kind": "practice",
       "unit": "line-20",
       "expected": "and how your symptoms have developed.",
-      "sha256": "2fbbdaab3332161bed16bb9a07cecb87131a0304bd813850cfdbdf500c416a20",
+      "sha256": "5ad717e7926e0ce3f00ed65fc1a29df50c3b5141c899e48c293680e96f4df4c6",
       "duration": 2.0071875,
       "exact": true,
       "recognitions": [
@@ -1061,14 +1151,20 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
+      "asrSourceSha256": "2fbbdaab3332161bed16bb9a07cecb87131a0304bd813850cfdbdf500c416a20",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
-      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/full.m4a",
+      "url": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a",
       "kind": "practice",
       "unit": "line-20",
       "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
-      "sha256": "5cca2fe9d2615a594d989aad3bede83282cbeec62c402158334300f89bfa2f63",
+      "sha256": "7752774b28fa6f65926676c205a33d6cdf9bb9040572032c3fce835441e255be",
       "duration": 4.4021875,
       "exact": true,
       "recognitions": [
@@ -1078,7 +1174,13 @@
           "exact": true,
           "ratio": 1.0
         }
-      ]
+      ],
+      "asrSourceUrl": "audio/week-04/practice-2026-11-16-v1/line-20/female/full.m4a",
+      "asrSourceSha256": "5cca2fe9d2615a594d989aad3bede83282cbeec62c402158334300f89bfa2f63",
+      "postAsrProcessing": {
+        "constantGainDb": 2,
+        "note": "Recognition results inherited from verified source; no ASR rerun for a gain-only change."
+      }
     },
     {
       "url": "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-1.m4a",

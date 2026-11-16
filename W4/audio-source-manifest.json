@@ -59,8 +59,16 @@
     }
   },
   "femaleVolume": {
-    "gainDb": 8.43,
-    "manifest": "tools/female-volume-balance-2026-11-16-week-04.json",
-    "balancedFullRecording": "docs/audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a"
-  }
+    "gainDb": 10.43,
+    "additionalGainDb": 2,
+    "manifest": "tools/female-volume-week-04-2026-11-16-v2.json",
+    "balancedFullRecording": "docs/audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a"
+  },
+  "femaleVolumeHistory": [
+    {
+      "gainDb": 8.43,
+      "manifest": "tools/female-volume-balance-2026-11-16-week-04.json",
+      "balancedFullRecording": "docs/audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a"
+    }
+  ]
 }

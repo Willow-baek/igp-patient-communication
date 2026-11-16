@@ -1,0 +1,355 @@
+{
+  "method": "User requested +2 dB over existing verified female audio; constant gain only, timing and sources preserved.",
+  "weeks": [
+    {
+      "id": "week-04",
+      "gainDb": 2,
+      "previousGainFromOriginalDb": 8.43,
+      "totalGainFromOriginalDb": 10.43,
+      "assets": [
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+          "sourceSha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
+          "after": {
+            "input_i": "-19.97",
+            "input_tp": "-5.43",
+            "input_lra": "0.00",
+            "input_thresh": "-30.22",
+            "output_i": "-22.99",
+            "output_tp": "-8.46",
+            "output_lra": "0.00",
+            "output_thresh": "-33.24",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          },
+          "beforeDuration": 2.1625,
+          "afterDuration": 2.1625
+        },
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+          "sourceSha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
+          "after": {
+            "input_i": "-23.98",
+            "input_tp": "-9.72",
+            "input_lra": "0.00",
+            "input_thresh": "-33.98",
+            "output_i": "-22.98",
+            "output_tp": "-8.74",
+            "output_lra": "0.00",
+            "output_thresh": "-32.98",
+            "normalization_type": "linear",
+            "target_offset": "-0.02"
+          },
+          "beforeDuration": 1.8925,
+          "afterDuration": 1.8925
+        },
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a",
+          "sourceSha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
+          "after": {
+            "input_i": "-22.39",
+            "input_tp": "-5.43",
+            "input_lra": "1.90",
+            "input_thresh": "-32.45",
+            "output_i": "-23.32",
+            "output_tp": "-6.96",
+            "output_lra": "1.80",
+            "output_thresh": "-33.43",
+            "normalization_type": "dynamic",
+            "target_offset": "0.32"
+          },
+          "beforeDuration": 4.04,
+          "afterDuration": 4.04
+        },
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+          "sourceSha256": "7a80015ae0184fc3d5a083c8feded7293d12db23081c34a88fc9d9fbb2112374",
+          "after": {
+            "input_i": "-23.56",
+            "input_tp": "-8.75",
+            "input_lra": "0.00",
+            "input_thresh": "-33.56",
+            "output_i": "-23.00",
+            "output_tp": "-8.19",
+            "output_lra": "0.00",
+            "output_thresh": "-33.00",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          },
+          "beforeDuration": 2.3975,
+          "afterDuration": 2.3975
+        },
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
+          "sourceSha256": "2fbbdaab3332161bed16bb9a07cecb87131a0304bd813850cfdbdf500c416a20",
+          "after": {
+            "input_i": "-25.90",
+            "input_tp": "-10.46",
+            "input_lra": "0.00",
+            "input_thresh": "-36.16",
+            "output_i": "-23.00",
+            "output_tp": "-7.55",
+            "output_lra": "0.00",
+            "output_thresh": "-33.26",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          },
+          "beforeDuration": 2.0071875,
+          "afterDuration": 2.0071875
+        },
+        {
+          "source": "audio/week-04/practice-2026-11-16-v1/line-20/female/full.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a",
+          "sourceSha256": "5cca2fe9d2615a594d989aad3bede83282cbeec62c402158334300f89bfa2f63",
+          "after": {
+            "input_i": "-24.83",
+            "input_tp": "-8.75",
+            "input_lra": "2.30",
+            "input_thresh": "-34.95",
+            "output_i": "-23.68",
+            "output_tp": "-8.07",
+            "output_lra": "1.40",
+            "output_thresh": "-33.79",
+            "normalization_type": "dynamic",
+            "target_offset": "0.68"
+          },
+          "beforeDuration": 4.4021875,
+          "afterDuration": 4.4021875
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+          "sourceSha256": "eff09d4631bc5b53c4972230a76fa4b383e4e9884e20ba2214535da4ae08c7a7",
+          "after": {
+            "input_i": "-22.20",
+            "input_tp": "-6.18",
+            "input_lra": "0.00",
+            "input_thresh": "-32.20",
+            "output_i": "-23.00",
+            "output_tp": "-6.98",
+            "output_lra": "0.00",
+            "output_thresh": "-33.00",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          },
+          "beforeDuration": 2.5975,
+          "afterDuration": 2.5975
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+          "sourceSha256": "30da607dbbaa47ca0b82f22411088c7605c4bc8641d38c704f78a2be828d3180",
+          "after": {
+            "input_i": "-22.90",
+            "input_tp": "-6.96",
+            "input_lra": "0.60",
+            "input_thresh": "-32.97",
+            "output_i": "-23.03",
+            "output_tp": "-7.22",
+            "output_lra": "0.00",
+            "output_thresh": "-33.03",
+            "normalization_type": "dynamic",
+            "target_offset": "0.03"
+          },
+          "beforeDuration": 3.33,
+          "afterDuration": 3.33
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+          "sourceSha256": "3acd94911c1527526b150e27af95313df28145283520022558dfce9ff97ba10c",
+          "after": {
+            "input_i": "-23.17",
+            "input_tp": "-6.17",
+            "input_lra": "0.00",
+            "input_thresh": "-33.53",
+            "output_i": "-23.01",
+            "output_tp": "-6.00",
+            "output_lra": "0.00",
+            "output_thresh": "-33.37",
+            "normalization_type": "linear",
+            "target_offset": "0.01"
+          },
+          "beforeDuration": 2.7275,
+          "afterDuration": 2.7275
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+          "sourceSha256": "8666b4b91cadc29826111dc628da14df0bb591f9b4cb39512f576ad7ee35d697",
+          "after": {
+            "input_i": "-22.90",
+            "input_tp": "-6.87",
+            "input_lra": "0.00",
+            "input_thresh": "-33.25",
+            "output_i": "-23.00",
+            "output_tp": "-6.97",
+            "output_lra": "0.00",
+            "output_thresh": "-33.35",
+            "normalization_type": "linear",
+            "target_offset": "0.00"
+          },
+          "beforeDuration": 2.8625,
+          "afterDuration": 2.8625
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+          "sourceSha256": "e41bf7d6f489d14008b3841451292c265e794578b2ba5c6425d410a88549c13f",
+          "after": {
+            "input_i": "-24.50",
+            "input_tp": "-7.84",
+            "input_lra": "1.70",
+            "input_thresh": "-34.50",
+            "output_i": "-23.37",
+            "output_tp": "-7.24",
+            "output_lra": "1.60",
+            "output_thresh": "-33.37",
+            "normalization_type": "dynamic",
+            "target_offset": "0.37"
+          },
+          "beforeDuration": 4.0625,
+          "afterDuration": 4.0625
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+          "sourceSha256": "60d5a7d5c405dddfff2afe63bb0f761bf7c23df47e49bf629502800f4723aba2",
+          "after": {
+            "input_i": "-22.53",
+            "input_tp": "-4.63",
+            "input_lra": "2.60",
+            "input_thresh": "-32.71",
+            "output_i": "-23.36",
+            "output_tp": "-6.19",
+            "output_lra": "1.50",
+            "output_thresh": "-33.57",
+            "normalization_type": "dynamic",
+            "target_offset": "0.36"
+          },
+          "beforeDuration": 4.3175,
+          "afterDuration": 4.3175
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+          "sourceSha256": "01ebc77cedab45012908cf50ca85143ad0625f849c531d04133aba67584399e7",
+          "after": {
+            "input_i": "-22.98",
+            "input_tp": "-8.78",
+            "input_lra": "0.60",
+            "input_thresh": "-32.98",
+            "output_i": "-22.97",
+            "output_tp": "-9.03",
+            "output_lra": "0.00",
+            "output_thresh": "-32.97",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.03"
+          },
+          "beforeDuration": 3.46,
+          "afterDuration": 3.46
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+          "sourceSha256": "6f30ec501751214811cec37fbb535b2ce20c3d7929d1520b5490f79f6c8baaee",
+          "after": {
+            "input_i": "-22.39",
+            "input_tp": "-5.33",
+            "input_lra": "1.90",
+            "input_thresh": "-32.45",
+            "output_i": "-23.31",
+            "output_tp": "-6.87",
+            "output_lra": "1.80",
+            "output_thresh": "-33.43",
+            "normalization_type": "dynamic",
+            "target_offset": "0.31"
+          },
+          "beforeDuration": 4.04,
+          "afterDuration": 4.04
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+          "sourceSha256": "12b28762ca47574d9a2919ecf5927ec584a89738745b1b9ff6e1b572b80f77ff",
+          "after": {
+            "input_i": "-24.65",
+            "input_tp": "-10.08",
+            "input_lra": "0.30",
+            "input_thresh": "-35.02",
+            "output_i": "-22.56",
+            "output_tp": "-8.12",
+            "output_lra": "0.00",
+            "output_thresh": "-33.00",
+            "normalization_type": "dynamic",
+            "target_offset": "-0.44"
+          },
+          "beforeDuration": 3.3825,
+          "afterDuration": 3.3825
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+          "sourceSha256": "e561c761f1bd7696243e1e208e9abfd7fcb28c7b1c8704385a04b11ce316da37",
+          "after": {
+            "input_i": "-26.28",
+            "input_tp": "-10.16",
+            "input_lra": "0.00",
+            "input_thresh": "-36.28",
+            "output_i": "-22.99",
+            "output_tp": "-6.88",
+            "output_lra": "0.00",
+            "output_thresh": "-32.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          },
+          "beforeDuration": 2.5125,
+          "afterDuration": 2.5125
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+          "sourceSha256": "b86598d42e7a912d9082a7d7dc97af43807066570a5d9c7775ac4e3dde0e1fce",
+          "after": {
+            "input_i": "-24.83",
+            "input_tp": "-8.78",
+            "input_lra": "2.30",
+            "input_thresh": "-34.96",
+            "output_i": "-23.68",
+            "output_tp": "-8.10",
+            "output_lra": "1.40",
+            "output_thresh": "-33.79",
+            "normalization_type": "dynamic",
+            "target_offset": "0.68"
+          },
+          "beforeDuration": 4.4021875,
+          "afterDuration": 4.4021875
+        },
+        {
+          "source": "audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+          "output": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+          "sourceSha256": "b8b6fae674ad1382347b900506e4661faef2356c0e0f5bd2d4721ed77c853ccf",
+          "after": {
+            "input_i": "-23.28",
+            "input_tp": "-4.59",
+            "input_lra": "3.90",
+            "input_thresh": "-33.72",
+            "output_i": "-23.42",
+            "output_tp": "-4.87",
+            "output_lra": "4.30",
+            "output_thresh": "-33.89",
+            "normalization_type": "dynamic",
+            "target_offset": "0.42"
+          },
+          "beforeDuration": 37.6946875,
+          "afterDuration": 37.6946875
+        }
+      ]
+    }
+  ]
+}
