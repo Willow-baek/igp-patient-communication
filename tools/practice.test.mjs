@@ -12,10 +12,11 @@ test('every published unit covers the unchanged script and has complete voice tr
     for(const line of unit.lines)assert.equal(practiceForLine(week,line),unit);
     for(const voice of ['female','male']){
       const steps=practiceSteps(unit,voice);
-      assert.equal(steps.length,unit.chunks.length*2-1);
-      assert.equal(steps.at(-1).text,unit.text);
+      const groups=unit.sentences||[unit];
+      assert.equal(steps.length,groups.reduce((n,g)=>n+g.chunks.length*2-1,0));
+      assert.equal(steps.at(-1).text,groups.at(-1).text);
       for(const step of steps)assert(fs.statSync(new URL('../docs/'+step.url,import.meta.url)).size>0);
-      for(const step of steps.filter(s=>s.kind==='build'||s.kind==='full'))assert(unit.text.startsWith(step.text));
+      for(const step of steps.filter(s=>s.kind==='build'||s.kind==='full'))assert(groups[step.sentenceIndex??0].text.startsWith(step.text));
     }
     if(unit.speaker==='Patient')assert.deepEqual(practiceSteps(unit,'female'),practiceSteps(unit,'male'));
   }}
@@ -182,4 +183,41 @@ test('independent question audio starts after the preceding sentence has finishe
     const mentioned=original.tracks[voice].clips.find(c=>c.line===7);
     assert(priority.start>=mentioned.speechEnd);
   }
+});
+
+test('Week 4 patient practice begins with the first displayed sentence, including Not really',()=>{
+  const week=weeks.find(w=>w.id==='week-04');
+  for(const index of [1,3,5,7,9,11,15,17]){
+    const unit=practiceForLine(week,index);assert(unit,`line ${index+1} has practice`);
+    for(const voice of ['female','male']){
+      const steps=practiceSteps(unit,voice);
+      assert.equal(steps[0].start,0);
+      assert(week.lines[index].en.startsWith(steps[0].text));
+      const selected=steps.map(s=>week.lines[index].en.slice(s.start,s.end));
+      assert.deepEqual(selected,steps.map(s=>s.text));
+      for(const sentence of unit.sentences||[unit]){
+        const range=sentence.range||{start:0,end:unit.text.length};
+        assert(steps.some(s=>s.start===range.start&&s.end===range.end&&s.text===sentence.text));
+      }
+    }
+  }
+  assert.equal(practiceSteps(practiceForLine(week,7),'female')[0].text,'Not really.');
+});
+
+test('multi-sentence practice resets prefixes at each sentence and rejects skipped or incomplete groups',()=>{
+  const week=weeks.find(w=>w.id==='week-04');
+  for(const unit of week.practice.units.filter(u=>u.sentences)){
+    const steps=practiceSteps(unit,'female');
+    for(const [index,sentence] of unit.sentences.entries()){
+      const group=steps.filter(s=>s.sentenceIndex===index);
+      assert(group.length>0);assert.equal(group[0].start,sentence.range.start);
+      assert.equal(group.at(-1).end,sentence.range.end);
+      for(const step of group){assert(step.start>=sentence.range.start&&step.end<=sentence.range.end);}
+    }
+  }
+  const skipped=structuredClone(week),unit=skipped.practice.units.find(u=>u.sentences);
+  unit.sentences.shift();assert.equal(practiceForLine(skipped,unit.lines[0]),null);
+  const missing=structuredClone(week.practice.units.find(u=>u.sentences));
+  delete missing.sentences[1].audio.patient;
+  assert.deepEqual(practiceSteps(missing,'female'),[]);
 });

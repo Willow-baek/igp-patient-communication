@@ -29,9 +29,9 @@ Week 3에는 허리 통증 문진 대본을 추가했다. 제공된 영어 원�
 
 Week 4에는 기존 Google Docs 원본 [IGP Patient Communication_v1](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit)의 Day 2 Patient History Dialogue를 등록했다. 영어 원문과 출처는 `W4/W4_script.md`에 보존하며, 2026-11-16 리더 수정본의 19개 발화를 유지한다. 마지막 치료사 발화만 녹음의 문장 사이 쉼에 맞춰 둘로 나눠 20개 말풍선으로 표시한다. 치료사·환자별 생성용 원문은 `W4/W4_physio_script.txt`, `W4/W4_patient_script.txt`, 초기 대본은 `W4/history/2026-11-16-initial/`에 있다.
 
-피지오 여성 Rachel·남성 Australian Neutral, 환자 John C를 기존 보이스·설정 및 Eleven Multilingual v2로 생성했다. 다운로드 원본은 `W4/W4_PT_female.mp3`, `W4/W4_PT_male.mp3`, `W4/W4_pt.mp3`와 `docs/audio/week-04/original/`에 해시를 대조해 보존한다. 일반 재생은 `2026-11-16-v1/`, 여성 보정본은 `volume-balanced-2026-11-16/`, 8개 말풍선의 나눠 연습은 `practice-2026-11-16-v1/`에 있다. 여성은 처음 남성 대사 LUFS 중앙값에 맞춰 +8.43dB 보정했고, 사용자 청취 피드백으로 2dB 더 높였다(원본 대비 총 +10.43dB). 현재 파일은 `volume-up-2026-11-16-v2/` 아래에 있으며 일반·전체 원본 참조·나눠 연습에 동일하게 적용했다. 나눠 연습은 원본의 의미 단위 중 실제 파형에서 안정적인 쉼이 확인된 구간만 제공한다. 합성 무음·페이드·조각 이어 붙이기는 하지 않는다.
+피지오 여성 Rachel·남성 Australian Neutral, 환자 John C를 기존 보이스·설정 및 Eleven Multilingual v2로 생성했다. 다운로드 원본은 `W4/W4_PT_female.mp3`, `W4/W4_PT_male.mp3`, `W4/W4_pt.mp3`와 `docs/audio/week-04/original/`에 해시를 대조해 보존한다. 일반 재생은 `2026-11-16-v1/`, 여성 보정본은 `volume-balanced-2026-11-16/`, 나눠 연습은 현재 10개 말풍선에 제공한다. 기존 구간은 `practice-2026-11-16-v1/`, 누락된 환자 문장은 `practice-patient-first-2026-11-16-v3/`에 있다. 여성은 처음 남성 대사 LUFS 중앙값에 맞춰 +8.43dB 보정했고, 사용자 청취 피드백으로 2dB 더 높였다(원본 대비 총 +10.43dB). 현재 파일은 `volume-up-2026-11-16-v2/` 아래에 있으며 일반·전체 원본 참조·나눠 연습에 동일하게 적용했다. 나눠 연습은 원본의 의미 단위 중 실제 파형에서 안정적인 쉼이 확인된 구간만 제공한다. 합성 무음·페이드·조각 이어 붙이기는 하지 않는다.
 
-재현 순서: `python tools/build-week-04-audio.py` → `python tools/balance-female-audio.py tools/female-volume-balance-2026-11-16-week-04.json` → `python tools/build-practice-audio.py tools/week-04-practice-boundaries.json` → `python tools/balance-female-audio.py tools/female-volume-week-04-2026-11-16-v2.json`. `imageio-ffmpeg`가 필요하다. 원본·단어 시간 정보·파형 경계는 `tools/week-04-audio-boundaries.json`, 나눠 연습 계획은 `tools/week-04-practice-boundaries.json`, ASR 대조는 `tools/week-04-audio-verification.json`에 기록한다. 현재 연결 기준은 `docs/weeks.json`이며 ASR 검증은 사람의 직접 청취 검수와 구분한다.
+재현 순서: `python tools/build-week-04-audio.py` → `python tools/balance-female-audio.py tools/female-volume-balance-2026-11-16-week-04.json` → `python tools/build-practice-audio.py tools/week-04-practice-boundaries.json` → `python tools/balance-female-audio.py tools/female-volume-week-04-2026-11-16-v2.json` → `python tools/build-week-04-first-sentence-practice.py`. `imageio-ffmpeg`가 필요하다. 원본·단어 시간 정보·파형 경계는 `tools/week-04-audio-boundaries.json`, 나눠 연습 계획은 `tools/week-04-practice-boundaries.json`, ASR 대조는 `tools/week-04-audio-verification.json`에 기록한다. 현재 연결 기준은 `docs/weeks.json`이며 ASR 검증은 사람의 직접 청취 검수와 구분한다.
 
 ## 매주 자료 추가
 
@@ -110,9 +110,9 @@ python3 -m http.server 8080 --directory docs
 
 ## 나눠 연습 자료 추가
 
-현재 나눠 연습 범위는 Week 1의 3개, Week 2의 8개, Week 3의 11개, Week 4의 8개 말풍선이다. Week 1~3의 48개 대사 검토에서는 26개를 일반 재생으로 유지했다. Week 4에서도 안정적인 내부 쉼이 없거나 짧은 완성 문장은 일반 재생으로 연습한다. 더블클릭한 말풍선 안에서만 짧은 구간부터 전체 말풍선까지 이어 연습한다. 같은 화자의 차례여도 마침표·물음표·느낌표로 끝난 문장은 다음 문장과 묶지 않는다. 짧은 “That makes sense.”는 기존 단독 재생을 사용한다.
+현재 나눠 연습 범위는 Week 1의 3개, Week 2의 8개, Week 3의 11개, Week 4의 10개 말풍선이다. Week 1~3의 48개 대사 검토에서는 26개를 일반 재생으로 유지했다. Week 4에서도 안정적인 내부 쉼이 없거나 짧은 완성 문장은 일반 재생으로 연습한다. 더블클릭한 말풍선 안에서만 짧은 구간부터 전체 말풍선까지 이어 연습한다. 같은 화자의 차례여도 마침표·물음표·느낌표로 끝난 문장은 다음 문장과 묶지 않는다. 짧은 “That makes sense.”는 기존 단독 재생을 사용한다.
 
-`weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`, 원문과 정확히 일치하는 `text`·`chunks`, `audio`를 가진다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
+`weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`와 원문과 정확히 일치하는 `text`를 가진다. 한 문장 연습은 `chunks`·`audio`, 여러 문장을 순서대로 연습하는 자료는 `sentences` 배열에 문장별 `text`, 문자 `range`, `chunks`, `audio`를 둔다. `sentences`는 첫 문장에서 시작해 말풍선 전체를 빠짐없이 덮어야 한다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
 
 `tools/week-02-practice-boundaries.json`은 최초 경계 이력이고 `tools/week-02-practice-tail-v2.json`은 끝 여유 조정 기록이다. `tools/week-02-practice-fine-v3.json`은 긴 구간을 세분화한 기록이며, `tools/week-02-practice-sentences-v4.json`은 문장별 분리 이력이다. 최신 `tools/week-02-practice-bubbles-v5.json`에 말풍선별 독립 범위와 원본 경계를 기록하고 `tools/build-practice-audio.py`로 각 구간과 누적 구간을 원본에서 직접 추출한다. 연결 연습과 전체 발화도 원본의 연속 구간이며 조각을 합치지 않는다. 일반 HTML 오디오 재생을 공유하므로 속도와 음높이 보정 동작을 유지하고, 구간 끝은 파일 종료로 처리한다. 모든 단어 조합을 만들지 않고 검수한 추천 구간과 누적 구간만 생성한다.
 
@@ -122,4 +122,7 @@ python3 -m http.server 8080 --directory docs
 
 최신 전체 검토 기록은 `tools/practice-breath-review-2026-11-09.json`, ASR 검증은 `tools/practice-breath-verification-2026-11-09.json`이다. 소스는 음량이 보정된 현재 말풍선 파일이며 추가 게인을 적용하지 않는다. 새 연습 파일은 각 주차의 `practice-breath-2026-11-09-v3/`에 있다. Week 3 첫 문장은 요청한 구분과 검증한 `practice-opening-2026-11-09-v2/`를 유지한다. 기존 빌드·음량 보정·첫 문장 빌드를 마친 뒤 **마지막으로** `python tools/build-breath-practice.py`를 실행해야 현재 연결을 재현한다. 이전 경계 파일은 이력으로 보존한다.
 
-한 말풍선에 “Okay.”, “I see.”, “Not really.”처럼 짧은 응답과 질문·설명이 함께 있으면, `unit.range`에 해당 문장의 0부터 시작하는 문자 범위를 저장해 질문·설명만 연습한다. 화면의 원문 전체는 유지하고 선택한 문장 안에서만 강조·누적 연결한다. 다른 완성 문장을 함께 누적하지 않는다.
+기존 1~3주차에서 한 말풍선에 “Okay.”, “I see.”처럼 짧은 응답과 질문·설명이 함께 있으면, `unit.range`에 해당 문장의 0부터 시작하는 문자 범위를 저장해 질문·설명만 연습한다. 화면의 원문 전체는 유지하고 선택한 문장 안에서만 강조·누적 연결한다. 다른 완성 문장을 함께 누적하지 않는다.
+
+
+Week 4 환자의 여러 문장이 있는 말풍선은 첫 문장부터 순서대로 연습한다. “Not really.” 같은 짧은 첫 문장도 통째로 첫 단계에 포함한다. 다음 문장으로 넘어가면 그 문장 안에서만 추천 구간·누적 연결·문장 전체를 연습하며, 앞 문장을 함께 누적하지 않는다. 짧은 한 문장뿐인 14번 환자 대사는 일반 재생을 사용한다. 기존 볼륨·전체 듣기·말풍선 원문·기존 구간 경계는 유지한다. 순서 복원 자료와 새로 필요한 문장 파일의 경계는 `tools/week-04-practice-first-sentence-v3.json`에 보존한다.

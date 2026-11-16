@@ -1232,11 +1232,164 @@
           "ratio": 1.0
         }
       ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago during a particularly busy period at work.",
+      "sha256": "9a4291e0779878f3ccf5b6c6eaa1b836798a19a7967aae474947936c3b2beabf",
+      "duration": 3.6475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago, during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "It developed gradually.",
+      "sha256": "bc16cde2ec713120400ffe9b3db7137f16d778f6357e8bb7aa9bfeb6064bb7e0",
+      "duration": 1.9125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It developed gradually.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "It's become more noticeable over the last few weeks.",
+      "sha256": "d42b18f16437ecda1c0bc85ac28ee282a4176ba9bd78f26beca6ffe04de2f15d",
+      "duration": 2.86,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It's become more noticeable over the last few weeks.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "Not really.",
+      "sha256": "9690ae4bea1c79c7a9e3eb7c27becdd747f3e07bfd25d1a5b10fac58e35e3a85",
+      "duration": 1.2775,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Not really.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+      "sha256": "b8c0bfce452cb8841da1031112db609f1dfbe1a29e8a64a380543075c72e811d",
+      "duration": 4.6725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a",
+      "kind": "practice",
+      "unit": "line-12",
+      "expected": "I haven't had any scans or other investigations.",
+      "sha256": "e6d9d323d7571faa529ebc97830781304c8f117e9dae7da0d4c45521c4a30d2a",
+      "duration": 2.355,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I haven't had any scans or other investigations.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "No previous major injuries or surgeries.",
+      "sha256": "16fe61dbf68288872fce240b688640fcffd4158f3059906bb2d00382240c13aa",
+      "duration": 2.595,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "No previous major injuries or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "Just ibuprofen when the pain gets worse.",
+      "sha256": "bbb46f9d3c72e9942fa5519a19245bf53f65439e79dff9f88d1c866ce2675bb5",
+      "duration": 2.46,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "Just ibuprofen when the pain gets worse.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a",
+      "kind": "practice",
+      "unit": "line-18",
+      "expected": "I'm not taking any other regular medication.",
+      "sha256": "1616ae1230d6ddfdbe92be8d0f3aaffdfd186ae15c387cdd39a1cb325c900e2d",
+      "duration": 2.417625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I'm not taking any other regular medication.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
     }
   ],
   "summary": {
-    "total": 63,
-    "exact": 63,
+    "total": 72,
+    "exact": 72,
     "review": 0
   }
 }

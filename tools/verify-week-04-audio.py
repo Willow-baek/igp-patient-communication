@@ -19,38 +19,41 @@ root=Path(__file__).resolve().parents[1]
 week=next(w for w in json.loads((root/'docs/weeks.json').read_text())['weeks'] if w['id']=='week-04')
 retry='--retry' in sys.argv
 changed='--changed' in sys.argv
-model_name='small.en' if retry or changed else 'base.en'
+missing='--missing' in sys.argv
+model_name='small.en' if retry or changed or missing else 'base.en'
 cache=os.environ.get('IGP_WHISPER_MODEL_DIR','/Users/hansol/Documents/Codex/2026-10-27/new-chat/work/audio-alignment/models')
 model=WhisperModel(model_name,device='cpu',compute_type='int8',download_root=cache,cpu_threads=4)
 report_path=root/'tools/week-04-audio-verification.json'
-report=json.loads(report_path.read_text()) if retry or changed else {'week':'week-04','scriptRevision':week['scriptRevision'],'humanListening':False,'method':'Independent ASR on current dialogue and practice files; US/UK hospitalization spelling normalized.','assets':[]}
+report=json.loads(report_path.read_text()) if retry or changed or missing else {'week':'week-04','scriptRevision':week['scriptRevision'],'humanListening':False,'method':'Independent ASR on current dialogue and practice files; US/UK hospitalization spelling normalized.','assets':[]}
 norm=lambda s:re.findall(r"[a-z0-9']+",s.lower().replace('hospitalisations','hospitalizations'))
 targets={}
 for i,l in enumerate(week['lines']):
     tracks=l['audioVoices'].values() if l['speaker']=='Physio' else [l['audio']]
     for url in tracks:targets[url]={'kind':'dialogue','line':i+1,'expected':l['en']}
 for u in week.get('practice',{}).get('units',[]):
-    for v,track in u['audio'].items():
-        for url,text in zip(track['chunks'],u['chunks']):targets[url]={'kind':'practice','unit':u['id'],'expected':text}
-        for n,url in enumerate(track['buildUp'],2):targets[url]={'kind':'practice','unit':u['id'],'expected':' '.join(u['chunks'][:n])}
-        targets[track['full']]={'kind':'practice','unit':u['id'],'expected':u['text']}
+    for group in u.get('sentences',[u]):
+        for v,track in group['audio'].items():
+            for url,text in zip(track['chunks'],group['chunks']):targets[url]={'kind':'practice','unit':u['id'],'expected':text}
+            for n,url in enumerate(track['buildUp'],2):targets[url]={'kind':'practice','unit':u['id'],'expected':' '.join(group['chunks'][:n])}
+            targets[track['full']]={'kind':'practice','unit':u['id'],'expected':group['text']}
 previous={a['url']:a for a in report['assets']}
 for url,meta in targets.items():
-    if retry and previous[url]['exact']:continue
+    prior=previous.get(url)
+    if retry and prior and prior['exact']:continue
     path=root/'docs'/url
     digest=hashlib.sha256(path.read_bytes()).hexdigest()
-    if changed and previous[url]['sha256']==digest:continue
+    if (changed or missing) and prior and prior['sha256']==digest:continue
     raw=subprocess.check_output([imageio_ffmpeg.get_ffmpeg_exe(),'-v','error','-i',str(path),'-f','f32le','-ac','1','-ar','16000','-'])
     x=np.frombuffer(raw,dtype=np.float32)
     segments,_=model.transcribe(x,language='en',beam_size=5,vad_filter=False,condition_on_previous_text=False)
     recognized=''.join(s.text for s in segments).strip()
     exact=norm(meta['expected'])==norm(recognized)
     observation={'model':model_name,'recognized':recognized,'exact':exact,'ratio':difflib.SequenceMatcher(None,norm(meta['expected']),norm(recognized)).ratio()}
-    if changed:
+    if (changed or missing) and prior:
         item=previous[url]
         item.setdefault('previousVersions',[]).append({'sha256':item['sha256'],'recognitions':item['recognitions']})
         item.update(sha256=digest,duration=len(x)/16000,recognitions=[observation],exact=exact)
-    elif retry:
+    elif retry and prior:
         item=previous[url];item['recognitions'].append(observation);item['exact']=exact
     else:
         item={'url':url,**meta,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'duration':len(x)/16000,'exact':exact,'recognitions':[observation]};report['assets'].append(item)

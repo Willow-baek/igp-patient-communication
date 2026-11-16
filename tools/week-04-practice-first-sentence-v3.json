@@ -1,0 +1,561 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "purpose": "Restore first-sentence steps without changing existing chunk boundaries or approved volume. Add sentence-only practice to missing multi-sentence patient bubbles.",
+  "source": "audio/week-04/original/W4_pt.mp3",
+  "sourceSha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+  "newAssets": [
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a",
+      "line": 2,
+      "sentence": 1,
+      "text": "It started about six weeks ago during a particularly busy period at work.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 0,
+      "end": 3.6475
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a",
+      "line": 4,
+      "sentence": 1,
+      "text": "It developed gradually.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 9.11,
+      "end": 11.0225
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a",
+      "line": 6,
+      "sentence": 1,
+      "text": "It's become more noticeable over the last few weeks.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 16.555,
+      "end": 19.415
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a",
+      "line": 8,
+      "sentence": 1,
+      "text": "Not really.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 23.9075,
+      "end": 25.185
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a",
+      "line": 16,
+      "sentence": 1,
+      "text": "No previous major injuries or surgeries.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 47.32,
+      "end": 49.915
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a",
+      "line": 12,
+      "sentence": 1,
+      "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 37.7625,
+      "end": 42.435
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a",
+      "line": 12,
+      "sentence": 2,
+      "text": "I haven't had any scans or other investigations.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 42.435,
+      "end": 44.79
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a",
+      "line": 18,
+      "sentence": 1,
+      "text": "Just ibuprofen when the pain gets worse.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 54.2375,
+      "end": 56.6975
+    },
+    {
+      "url": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a",
+      "line": 18,
+      "sentence": 2,
+      "text": "I'm not taking any other regular medication.",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 56.6975,
+      "end": 59.115125
+    }
+  ],
+  "sentenceBoundaries": [
+    {
+      "line": 12,
+      "quietInterval": [
+        42.1500000000001,
+        42.72
+      ],
+      "cut": 42.435
+    },
+    {
+      "line": 18,
+      "quietInterval": [
+        56.47500000000012,
+        56.92
+      ],
+      "cut": 56.6975
+    }
+  ],
+  "units": [
+    {
+      "id": "line-02",
+      "speaker": "Patient",
+      "lines": [
+        1
+      ],
+      "text": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sentences": [
+        {
+          "text": "It started about six weeks ago during a particularly busy period at work.",
+          "range": {
+            "start": 0,
+            "end": 73
+          },
+          "chunks": [
+            "It started about six weeks ago during a particularly busy period at work."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-02/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "chunks": [
+            "I was sitting at my desk for long hours,",
+            "but there wasn't any specific injury or incident",
+            "that triggered it."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-1.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-2.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-3.m4a"
+              ],
+              "buildUp": [
+                "audio/week-04/practice-2026-11-16-v1/line-02/patient/build-2.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-02/patient/full.m4a"
+              ],
+              "full": "audio/week-04/practice-2026-11-16-v1/line-02/patient/full.m4a"
+            }
+          },
+          "range": {
+            "start": 74,
+            "end": 182
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-04",
+      "speaker": "Patient",
+      "lines": [
+        3
+      ],
+      "text": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "sentences": [
+        {
+          "text": "It developed gradually.",
+          "range": {
+            "start": 0,
+            "end": 23
+          },
+          "chunks": [
+            "It developed gradually."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-04/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "chunks": [
+            "At first, it was just a mild discomfort,",
+            "but I started noticing it more frequently over time."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-1.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-2.m4a"
+              ],
+              "buildUp": [
+                "audio/week-04/practice-2026-11-16-v1/line-04/patient/full.m4a"
+              ],
+              "full": "audio/week-04/practice-2026-11-16-v1/line-04/patient/full.m4a"
+            }
+          },
+          "range": {
+            "start": 24,
+            "end": 117
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-06",
+      "speaker": "Patient",
+      "lines": [
+        5
+      ],
+      "text": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "sentences": [
+        {
+          "text": "It's become more noticeable over the last few weeks.",
+          "range": {
+            "start": 0,
+            "end": 52
+          },
+          "chunks": [
+            "It's become more noticeable over the last few weeks."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-06/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "chunks": [
+            "Initially, I only felt it occasionally,",
+            "but now I experience it almost every day."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-1.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-2.m4a"
+              ],
+              "buildUp": [
+                "audio/week-04/practice-2026-11-16-v1/line-06/patient/full.m4a"
+              ],
+              "full": "audio/week-04/practice-2026-11-16-v1/line-06/patient/full.m4a"
+            }
+          },
+          "range": {
+            "start": 53,
+            "end": 134
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-08",
+      "speaker": "Patient",
+      "lines": [
+        7
+      ],
+      "text": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "sentences": [
+        {
+          "text": "Not really.",
+          "range": {
+            "start": 0,
+            "end": 11
+          },
+          "chunks": [
+            "Not really."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-08/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+          "chunks": [
+            "I've had occasional back stiffness after sitting for long periods,",
+            "but I've never experienced this kind of persistent pain before."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-1.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-2.m4a"
+              ],
+              "buildUp": [
+                "audio/week-04/practice-2026-11-16-v1/line-08/patient/full.m4a"
+              ],
+              "full": "audio/week-04/practice-2026-11-16-v1/line-08/patient/full.m4a"
+            }
+          },
+          "range": {
+            "start": 12,
+            "end": 142
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-10",
+      "speaker": "Patient",
+      "lines": [
+        9
+      ],
+      "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "chunks": [
+        "Yes, I saw my GP about two weeks ago",
+        "because the pain wasn't improving."
+      ],
+      "audio": {
+        "patient": {
+          "chunks": [
+            "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-1.m4a",
+            "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-04/practice-2026-11-16-v1/line-10/patient/full.m4a"
+          ],
+          "full": "audio/week-04/practice-2026-11-16-v1/line-10/patient/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "line-12",
+      "speaker": "Patient",
+      "lines": [
+        11
+      ],
+      "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "sentences": [
+        {
+          "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+          "range": {
+            "start": 0,
+            "end": 85
+          },
+          "chunks": [
+            "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "I haven't had any scans or other investigations.",
+          "range": {
+            "start": 86,
+            "end": 134
+          },
+          "chunks": [
+            "I haven't had any scans or other investigations."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-12/sentence-2.m4a"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-15",
+      "speaker": "Physio",
+      "lines": [
+        14
+      ],
+      "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "chunks": [
+        "Have you had any previous injuries,",
+        "hospitalisations or surgeries?"
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a"
+          ],
+          "full": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-15/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-1.m4a",
+            "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-04/practice-2026-11-16-v1/line-15/male/full.m4a"
+          ],
+          "full": "audio/week-04/practice-2026-11-16-v1/line-15/male/full.m4a"
+        }
+      }
+    },
+    {
+      "id": "line-16",
+      "speaker": "Patient",
+      "lines": [
+        15
+      ],
+      "text": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "sentences": [
+        {
+          "text": "No previous major injuries or surgeries.",
+          "range": {
+            "start": 0,
+            "end": 40
+          },
+          "chunks": [
+            "No previous major injuries or surgeries."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-16/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "chunks": [
+            "I've occasionally experienced some neck stiffness,",
+            "but nothing that required medical treatment."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-1.m4a",
+                "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-2.m4a"
+              ],
+              "buildUp": [
+                "audio/week-04/practice-2026-11-16-v1/line-16/patient/full.m4a"
+              ],
+              "full": "audio/week-04/practice-2026-11-16-v1/line-16/patient/full.m4a"
+            }
+          },
+          "range": {
+            "start": 41,
+            "end": 136
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-18",
+      "speaker": "Patient",
+      "lines": [
+        17
+      ],
+      "text": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "sentences": [
+        {
+          "text": "Just ibuprofen when the pain gets worse.",
+          "range": {
+            "start": 0,
+            "end": 40
+          },
+          "chunks": [
+            "Just ibuprofen when the pain gets worse."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-1.m4a"
+            }
+          }
+        },
+        {
+          "text": "I'm not taking any other regular medication.",
+          "range": {
+            "start": 41,
+            "end": 85
+          },
+          "chunks": [
+            "I'm not taking any other regular medication."
+          ],
+          "audio": {
+            "patient": {
+              "chunks": [
+                "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a"
+              ],
+              "buildUp": [],
+              "full": "audio/week-04/practice-patient-first-2026-11-16-v3/line-18/sentence-2.m4a"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "line-20",
+      "speaker": "Physio",
+      "lines": [
+        19
+      ],
+      "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "chunks": [
+        "It gives me a better understanding of your medical history",
+        "and how your symptoms have developed."
+      ],
+      "audio": {
+        "female": {
+          "chunks": [
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a"
+          ],
+          "full": "audio/week-04/volume-up-2026-11-16-v2/practice-2026-11-16-v1/line-20/female/full.m4a"
+        },
+        "male": {
+          "chunks": [
+            "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-1.m4a",
+            "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-2.m4a"
+          ],
+          "buildUp": [
+            "audio/week-04/practice-2026-11-16-v1/line-20/male/full.m4a"
+          ],
+          "full": "audio/week-04/practice-2026-11-16-v1/line-20/male/full.m4a"
+        }
+      }
+    }
+  ]
+}

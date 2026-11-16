@@ -3,7 +3,7 @@ export function practiceForLine(week,index){
   const data=week?.practice;
   if(!data||data.scriptRevision!==week.scriptRevision)return null;
   const unit=Array.isArray(data.units)?data.units.find(u=>Array.isArray(u.lines)&&u.lines.includes(index)):null;
-  if(!unit||!Array.isArray(unit.chunks)||unit.chunks.length<2)return null;
+  if(!unit)return null;
   const lines=unit.lines.map(i=>week.lines[i]);
   if(lines.some(l=>!l)||new Set(lines.map(l=>l.speaker)).size!==1)return null;
   // A speaker turn may contain several sentences; practice cannot cross one.
@@ -19,16 +19,45 @@ export function practiceForLine(week,index){
     if(end<joined.length&&!/[.!?][\"'”’)\]]*$/.test(joined.slice(start,end)))return null;
     text=joined.slice(start,end);
   }
-  if(text!==unit.text||unit.chunks.join(' ')!==unit.text)return null;
+  if(text!==unit.text)return null;
+  if(unit.sentences){
+    // A multi-sentence bubble starts at its first sentence. Prefix practice
+    // restarts at each sentence boundary instead of merging finished sentences.
+    if(lines.length!==1||unit.range||!Array.isArray(unit.sentences)||unit.sentences.length<2)return null;
+    let cursor=0;
+    for(const sentence of unit.sentences){
+      const range=sentence.range;
+      if(!range||range.start!==cursor||!Number.isInteger(range.end)||range.end<=cursor||range.end>text.length)return null;
+      if(text.slice(cursor,range.end)!==sentence.text||!/[.!?]["'”’)\]]*$/.test(sentence.text))return null;
+      if(/[.!?]["'”’)\]]*\s+\S/.test(sentence.text))return null;
+      if(!Array.isArray(sentence.chunks)||!sentence.chunks.length||sentence.chunks.join(' ')!==sentence.text)return null;
+      cursor=range.end;
+      if(cursor<text.length){if(text[cursor]!==' ')return null;cursor++;}
+    }
+    if(unit.sentences.at(-1).range.end!==text.length)return null;
+  }else if(!Array.isArray(unit.chunks)||unit.chunks.length<2||unit.chunks.join(' ')!==unit.text)return null;
   return unit;
 }
 export function practiceSteps(unit,voice){
+  if(unit?.sentences){
+    if(!Array.isArray(unit.sentences)||!unit.sentences.length)return [];
+    const steps=[];
+    for(const [sentenceIndex,sentence] of unit.sentences.entries()){
+      const group=sentenceSteps({...sentence,speaker:unit.speaker},voice);
+      if(!group.length||!Number.isInteger(sentence.range?.start))return [];
+      steps.push(...group.map(step=>({...step,start:step.start+sentence.range.start,end:step.end+sentence.range.start,sentenceIndex})));
+    }
+    return steps;
+  }
+  return sentenceSteps(unit,voice);
+}
+function sentenceSteps(unit,voice){
   const track=unit?.audio?.[unit.speaker==='Patient'?'patient':voice];
-  if(!track||track.chunks?.length!==unit.chunks.length||track.buildUp?.length!==unit.chunks.length-1||!track.full)return [];
+  if(!track||!Array.isArray(unit.chunks)||!unit.chunks.length||track.chunks?.length!==unit.chunks.length||track.buildUp?.length!==unit.chunks.length-1||!track.full)return [];
   let offset=0;
   const steps=unit.chunks.map((text,i)=>{
     const start=offset,end=start+text.length;offset=end+1;
-    return {text,url:track.chunks[i],kind:'chunk',label:'짧게 연습',start,end};
+    return {text,url:unit.chunks.length===1?track.full:track.chunks[i],kind:unit.chunks.length===1?'full':'chunk',label:unit.chunks.length===1?'전체 말하기':'짧게 연습',start,end};
   });
   for(let count=2;count<=unit.chunks.length;count++)steps.push({
     text:unit.chunks.slice(0,count).join(' '),url:count===unit.chunks.length?track.full:track.buildUp[count-2],
