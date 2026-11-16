@@ -5,8 +5,9 @@ import {practiceForLine,practiceSteps,practiceHighlightSlices} from '../docs/pra
 import {createLongPress,createMouseClicks} from '../docs/long-press.mjs';
 
 const weeks=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
+const practiceWeeks=weeks.filter(week=>week.practice);
 test('every published unit covers the unchanged script and has complete voice tracks',()=>{
-  for(const week of weeks){assert(week.practice.units.length>0);
+  for(const week of practiceWeeks){assert(week.practice.units.length>0);
   for(const unit of week.practice.units){
     for(const line of unit.lines)assert.equal(practiceForLine(week,line),unit);
     for(const voice of ['female','male']){
@@ -98,7 +99,7 @@ test('tail extensions preserve original source starts, stay within originals, an
 
 
 test('every practice step highlights exactly its source words in the existing bubbles',()=>{
-  for(const week of weeks)for(const unit of week.practice.units)for(const step of practiceSteps(unit,'female')){
+  for(const week of practiceWeeks)for(const unit of week.practice.units)for(const step of practiceSteps(unit,'female')){
     const slices=practiceHighlightSlices(week,unit,step);
     assert.equal(slices.map(p=>p.selected).filter(Boolean).join(' '),step.text);
     for(const part of slices)assert.equal(part.before+part.selected+part.after,week.lines[part.index].en);
@@ -141,7 +142,7 @@ test('completed sentences and short one-breath utterances remain independent',()
     assert.deepEqual(unit.lines,[index]);
     assert.equal(unit.text,week.lines[index].en);
   }
-  for(const week of weeks)for(const unit of week.practice.units){
+  for(const week of practiceWeeks)for(const unit of week.practice.units){
     assert(unit.lines.slice(0,-1).every(i=>!/[.!?]$/.test(week.lines[i].en.trim())));
     for(const step of practiceSteps(unit,'female'))assert(unit.text.includes(step.text));
   }
