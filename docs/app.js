@@ -1,5 +1,6 @@
 import {resolveAudio} from './audio-source.mjs';
 import {createPractice} from './practice-ui.mjs?v=8';
+import {selectPublishedWeeks} from './week-catalog.mjs?v=1';
 'use strict';
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const playIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>';
@@ -45,4 +46,18 @@ function toggleBubble(button){const i=Number(button.dataset.bubble);bubbleLangua
 function captureBubble(button){const i=Number(button.dataset.bubble),had=bubbleLanguages.has(i),saved=bubbleLanguages.get(i);return()=>{if(had)bubbleLanguages.set(i,saved);else bubbleLanguages.delete(i);refreshBubble(button,i);};}
 const practice=createPractice({getWeek:()=>week,getVoice:()=>physioVoice,stop,play,toggleBubble,captureBubble});
 window.addEventListener('pagehide',()=>{practice.close();stop();});
-fetch('weeks.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{weeks=data.weeks;if(!weeks.length){$('#content').innerHTML='<div class="empty"><h1>첫 대화를 준비하고 있어요</h1><p>새 주제가 등록되면 이곳에 표시됩니다.</p></div>';return}let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{}week=weeks.find(w=>w.id===id)||weeks[0];render()}).catch(()=>{$('#content').innerHTML='<p class="error">학습 자료를 불러오지 못했어요. 네트워크를 확인한 뒤 새로고침해 주세요.</p>'});
+fetch('weeks.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(async data=>{
+  const releaseFile=document.documentElement.dataset.releaseConfig;
+  if(releaseFile){
+    const response=await fetch(releaseFile,{cache:'no-cache'});
+    if(!response.ok)throw Error();
+    const release=await response.json();
+    weeks=selectPublishedWeeks(data.weeks,release.publishedWeekIds);
+  }else weeks=data.weeks;
+  if(!weeks.length){$('#content').innerHTML='<div class="empty"><h1>첫 대화를 준비하고 있어요</h1><p>새 주제가 등록되면 이곳에 표시됩니다.</p></div>';return;}
+  let id;try{id=decodeURIComponent(location.hash.slice(1))}catch{}
+  const requested=weeks.find(w=>w.id===id);
+  week=requested||weeks[0];
+  if(id&&!requested)history.replaceState(null,'','#'+encodeURIComponent(week.id));
+  render();
+}).catch(()=>{$('#content').innerHTML='<p class="error">학습 자료를 불러오지 못했어요. 네트워크를 확인한 뒤 새로고침해 주세요.</p>'});

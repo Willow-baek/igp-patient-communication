@@ -2,11 +2,19 @@
 
 매주 한 주제씩 임상 영어 대화를 익히는 반응형 스터디 사이트.
 
-- [공개 사이트](https://willow-baek.github.io/igp-patient-communication/)
+- [기존 전체 학습 사이트](https://willow-baek.github.io/igp-patient-communication/)
 - [최신 대화문 기준 원본 — Google Docs](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit): 주차 추가·수정과 음성 생성용 대본 작성 전에 해당 주차 Day 2의 최신 내용을 직접 확인한다.
 - [학습·운영 원칙 및 주차 추가 절차](STUDY_PRINCIPLES.md)
 - [이후 작업자를 위한 지침](AGENTS.md)
 - 학습 방향: `PRODUCT.md` / 화면 기준: `DESIGN.md`
+
+## 무료 공개 페이지
+
+[무료 공개 링크](https://willow-baek.github.io/igp-patient-communication/free.html)는 현재 Week 1만 표시한다. 기존 전체 학습 페이지는 모든 주차를 유지한다. 두 페이지는 `docs/weeks.json`의 대본·오디오와 같은 화면·재생·나눠 연습 기능을 사용하며, 자료를 복사하지 않는다. 같은 브라우저의 설정·복습 기록과 운영자 집계 제외 설정도 공유한다.
+
+무료 공개 주차는 `docs/free-weeks.json`의 `publishedWeekIds`에서 관리한다. 다음 주차를 열 때 `week-02`, 이후 `week-03`을 순서대로 추가해 배포한다. 새 자료를 원본에 추가하는 것만으로 무료 페이지에 자동 공개되지는 않는다. 공개하지 않은 주차의 해시로 접속해도 첫 공개 주차로 이동한다. 이 설정은 공개 사이트의 표시 범위를 정하며 별도 로그인 기능은 없다.
+
+`docs/free.html`은 `docs/index.html`에서 생성한다. 화면을 수정한 뒤 로컬 미리보기 전 `node tools/build-free-page.mjs`를 실행한다. 배포 워크플로도 같은 명령으로 무료 페이지를 갱신하므로 두 화면을 따로 편집하지 않는다.
 
 ## 현재 동작
 
