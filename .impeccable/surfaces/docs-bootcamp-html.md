@@ -7,26 +7,27 @@ related_targets: ["docs/bootcamp.css","docs/bootcamp.js","docs/bootcamp-session.
 
 # Bootcamp landing
 
-Persuade surface at docs/bootcamp.html. User supplied all event copy. Both Instagram application guidance and free practice are equally important. Zoom session link must be easy to update when provided; do not invent a meeting URL. Existing GitHub Pages deployment and study pages stay in place. Phone readers follow shared announcement links.
+Persuade surface at docs/bootcamp.html. User supplied event copy. Application is the sole hero action, followed immediately by session access and a matching practice row. Existing GitHub Pages deployment, study content and audio remain in place.
 
 ## Direction contract
-THESIS: An invitation to speak with another person, with readable event details and two equally visible actions.
-OWN-WORLD: Inherit IGP's green, white, pale green, system Korean sans, flat surfaces and fine rules. A large green invitation field expands the existing identity for a public announcement.
-STORY: Understand who this is for, when it happens and active participation requirements; choose application or free practice; find the session join link.
-FIRST VIEWPORT: IGP wordmark, clear bootcamp title on green at left, schedule at right, equal-height application and practice links immediately under the introduction.
-FORM: Precisely supplied announcement, composed as invitation, schedule, practice topics, role-play, requirements and application. Code-led extension of existing identity; no seed required for this bounded brief.
-FINISH: Finish review disposition is ship. Documentation merges this route into the existing product and design guidance; no visual identity replacement or design sidecar migration. No raster assets ship on this route.
+THESIS: An invitation to speak with another person, followed by a clear path to the live session and this week's dialogue.
+OWN-WORLD: Inherit IGP's green, white, pale green, system Korean sans, flat surfaces and fine rules. A large green invitation field extends the existing identity.
+STORY: Understand audience, schedule and active participation; apply, find session access and practise the latest public dialogue.
+FIRST VIEWPORT: IGP wordmark, bootcamp title and confirmed schedule, one application action in the hero. Immediately below: 온라인 스피킹 세션 then matching 이번 주 대화문 연습하기 row with 지금 바로 연습하기 action.
+FORM: Preserve supplied announcement, practice topics, paired role-play, requirements and application copy.
+FINISH: Delta finish review disposition is ship. Existing identity and sidecar remain unchanged. No raster assets ship on this route.
 
 ## Final behavior
 
 - Public route: https://willow-baek.github.io/igp-patient-communication/bootcamp.html
-- Hero application guidance links to `#apply`; the adjacent equal-height free practice action links to `free.html`. Application instructions lead to the official `@igpkorea` Instagram recruitment post and its required participation mission.
-- Confirmed copy: November 18, Wednesday start; every Wednesday at 8pm. No timezone was supplied. Paired role-play alternates patient/customer and professional roles. Camera, microphone, role-play and advance mission participation are required.
-- `docs/bootcamp-session.json` owns session updates. `zoomUrl` is currently blank; optional `sessionLabel` adds session-specific guidance. Until supplied, the page shows a pending state and hides the join action. The organizer supplies each link; replace it with all passcode/query parameters intact, deploy and verify the public join link each time. Do not invent a meeting URL or register an automated schedule.
-- Existing study routes, dialogue source and audio remain unchanged. Free practice continues to use the existing shared learning implementation and published-week list.
+- Hero application guidance links to `#apply`; application instructions lead to official `@igpkorea` recruitment guidance and its required participation mission. All study links resolve to the last published id in `docs/free-weeks.json` through `free.html#week-id`. Use 지금 바로 연습하기 for the practice CTA.
+- Confirmed start: Wednesday November 18, 2026; weekly Wednesday 20:00 Korea time (`Asia/Seoul`). Paired role-play alternates patient/customer and professional roles. Camera, microphone, role-play and advance mission participation are required.
+- `docs/bootcamp-session.json` owns session updates. `zoomUrl` is currently blank; `sessionLabel` is optional. Without a link, show days/hours/minutes/seconds until the weekly Korea-time target using browser current instant and timezone-independent `docs/bootcamp-time.mjs` math. An open page retains zero after its target is reached while waiting for the link. Fresh visits after the start target the next Wednesday.
+- Poll configuration every 30 seconds and when a hidden tab becomes visible. A supplied valid URL switches to the join action without refresh. Clearing `zoomUrl` deactivates joining and restores countdown. The organizer supplies each link; preserve all passcode/query parameters, deploy and verify the public join link each time. Do not invent links or register external automated schedules.
+- Existing study routes, dialogue source, audio and announcement content remain unchanged.
 
 ## Finish review evidence
 
-Disposition: **ship** (finish review handoff, 2026-11-16). Required announcement content and valid desktop/mobile presentation were confirmed in `output/bootcamp-desktop.jpg`, `output/bootcamp-preview.jpg` and `output/bootcamp-mobile-top.jpg` (390×844). Browser checks found no horizontal overflow at 320px/390px; the application CTA reached `#apply`, and the free CTA opened `free.html` with Week 1 only. Node VM checks passed pending, valid Zoom with query parameters preserved, and invalid host/protocol cases; HTML links and IDs were verified. Documentation inspection confirms blank session configuration, responsive rules, visible focus styles and reduced-motion support. This record is a readiness review; deployment success is verified separately before reporting publication.
+Disposition: **ship** (delta finish review handoff, 2026-11-16). `output/bootcamp-countdown-desktop.jpg` confirms full-page desktop presentation; `output/bootcamp-countdown-mobile.jpg` confirms 390×650 presentation. Browser checks found no horizontal overflow at 320px/390px, observed countdown ticks 39 → 29 → 21, and confirmed the practice CTA opens the latest public week (currently Week 1). All 42 tests passed, including six new tests. This current behavior and review replace the earlier equal hero actions, unspecified timezone and pending-label contract. Deployment success is verified separately before reporting publication.
 
 Root `DESIGN.md` records only the route-specific extension. Existing design tokens and pre-existing `.impeccable/design.json` metadata are preserved.
