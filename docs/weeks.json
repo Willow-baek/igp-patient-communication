@@ -1294,21 +1294,21 @@
       "label": "Week 4",
       "title": "Understanding the Patient's Story",
       "shortTitle": "환자의 병력 듣기",
-      "description": "증상의 시작과 변화, 이전 진료 경험, 과거 병력과 복용 약물을 확인하는 대화를 연습해요.",
-      "scenario": "약 6주 전부터 허리 통증이 있는 John Thompson과의 첫 상담입니다. 바쁜 업무 중 시작된 통증이 어떻게 변했는지 듣고, GP 진료와 건강 상태, 복용 약물을 확인합니다.",
+      "description": "증상이 시작된 방식과 변화, 과거 유사 증상, 이전 진료와 치료, 병력 및 복용 약물·보충제를 확인하는 대화를 연습해요.",
+      "scenario": "약 6주 전부터 허리 통증이 있는 John Thompson과의 첫 상담입니다. 증상이 서서히 시작되어 거의 매일 느껴지게 된 과정을 듣고, GP의 치료 권고와 검사 여부, 과거 병력 및 복용 약물·보충제를 확인합니다.",
       "audio": null,
       "expressions": [
-        "Can you tell me how your back pain started?",
-        "Has it changed since then?",
-        "Have you seen a doctor or received any treatment?",
-        "Do you have any other medical conditions, previous injuries or surgeries?",
-        "Are you taking any medication at the moment?"
+        "Can you tell me how your back pain first started?",
+        "Did the pain come on suddenly, or did it develop gradually?",
+        "How has the pain changed over the last six weeks?",
+        "Have you experienced anything similar in the past?",
+        "Are you currently taking any medications or supplements?"
       ],
       "lines": [
         {
           "speaker": "Physio",
-          "en": "Can you tell me how your back pain started?",
-          "ko": "허리 통증이 어떻게 시작됐는지 말씀해 주시겠어요?",
+          "en": "Can you tell me how your back pain first started?",
+          "ko": "허리 통증이 처음 어떻게 시작됐는지 말씀해 주시겠어요?",
           "turn": 1,
           "audioVoices": {
             "female": null,
@@ -1317,15 +1317,15 @@
         },
         {
           "speaker": "Patient",
-          "en": "It started about six weeks ago during a busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury.",
-          "ko": "약 6주 전, 일이 바빴던 시기에 시작됐어요. 책상에 오래 앉아 있었는데, 특별히 다친 적은 없어요.",
+          "en": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "ko": "약 6주 전, 일이 유난히 바빴던 시기에 시작됐어요. 책상에 오랜 시간 앉아 있었는데, 통증을 유발한 특별한 부상이나 사건은 없었어요.",
           "turn": 2,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "Has it changed since then?",
-          "ko": "그때 이후로 달라진 점이 있나요?",
+          "en": "Did the pain come on suddenly, or did it develop gradually?",
+          "ko": "통증이 갑자기 시작됐나요, 아니면 서서히 생겼나요?",
           "turn": 3,
           "audioVoices": {
             "female": null,
@@ -1334,15 +1334,15 @@
         },
         {
           "speaker": "Patient",
-          "en": "Yes, it's become more noticeable over the last few weeks.",
-          "ko": "네, 지난 몇 주 동안 통증이 더 뚜렷하게 느껴지게 됐어요.",
+          "en": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "ko": "서서히 생겼어요. 처음에는 가벼운 불편감 정도였는데, 시간이 지나면서 더 자주 느껴지기 시작했어요.",
           "turn": 4,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "What makes it worse or better?",
-          "ko": "어떤 때 더 심해지거나 나아지나요?",
+          "en": "How has the pain changed over the last six weeks?",
+          "ko": "지난 6주 동안 통증이 어떻게 달라졌나요?",
           "turn": 5,
           "audioVoices": {
             "female": null,
@@ -1351,15 +1351,15 @@
         },
         {
           "speaker": "Patient",
-          "en": "Sitting for too long makes it worse, but getting up and walking around helps a little.",
-          "ko": "너무 오래 앉아 있으면 더 심해지는데, 일어나서 걸어 다니면 조금 도움이 돼요.",
+          "en": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "ko": "지난 몇 주 동안 통증이 더 뚜렷하게 느껴져요. 처음에는 가끔만 느꼈는데, 이제는 거의 매일 아파요.",
           "turn": 6,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "Have you seen a doctor or received any treatment?",
-          "ko": "의사에게 진료를 받거나 치료를 받은 적이 있나요?",
+          "en": "Have you experienced anything similar in the past?",
+          "ko": "과거에도 비슷한 증상을 겪은 적이 있나요?",
           "turn": 7,
           "audioVoices": {
             "female": null,
@@ -1368,15 +1368,15 @@
         },
         {
           "speaker": "Patient",
-          "en": "I saw my GP two weeks ago. They prescribed ibuprofen and advised me to keep moving. I haven't had any scans.",
-          "ko": "2주 전에 GP에게 진료를 받았어요. 이부프로펜을 처방해 주셨고, 계속 움직이라고 하셨어요. 영상 검사는 받지 않았어요.",
+          "en": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+          "ko": "딱히 없어요. 오래 앉아 있으면 가끔 허리가 뻣뻣했던 적은 있지만, 이렇게 통증이 지속된 적은 없어요.",
           "turn": 8,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "Do you have any other medical conditions, previous injuries or surgeries?",
-          "ko": "다른 질환이나 이전에 다친 곳, 수술받은 적이 있나요?",
+          "en": "Have you seen a doctor or another healthcare professional about this problem?",
+          "ko": "이 문제로 의사나 다른 의료 전문가에게 진료를 받은 적이 있나요?",
           "turn": 9,
           "audioVoices": {
             "female": null,
@@ -1385,15 +1385,15 @@
         },
         {
           "speaker": "Patient",
-          "en": "No major medical conditions or surgeries. I've occasionally had some neck stiffness.",
-          "ko": "큰 질환이나 수술 경험은 없어요. 가끔 목이 뻣뻣했던 적은 있어요.",
+          "en": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+          "ko": "네, 통증이 나아지지 않아서 약 2주 전에 GP에게 진료를 받았어요.",
           "turn": 10,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "Are you taking any medication at the moment?",
-          "ko": "현재 복용 중인 약이 있나요?",
+          "en": "Did your GP recommend any treatment or further investigations?",
+          "ko": "GP가 치료나 추가 검사를 권했나요?",
           "turn": 11,
           "audioVoices": {
             "female": null,
@@ -1402,16 +1402,67 @@
         },
         {
           "speaker": "Patient",
-          "en": "Just ibuprofen when the pain gets worse.",
-          "ko": "통증이 심해질 때 이부프로펜만 먹어요.",
+          "en": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+          "ko": "이부프로펜을 처방해 주셨고, 계속 움직이되 오랫동안 침대에 누워 쉬는 것은 피하라고 하셨어요. 영상 검사나 다른 검사는 받지 않았어요.",
           "turn": 12,
           "audio": null
         },
         {
           "speaker": "Physio",
-          "en": "Okay, thank you. That's helpful.",
-          "ko": "네, 감사합니다. 도움이 되는 정보예요.",
+          "en": "Do you have any other medical conditions that we should be aware of?",
+          "ko": "저희가 알아두어야 할 다른 질환이 있나요?",
           "turn": 13,
+          "audioVoices": {
+            "female": null,
+            "male": null
+          }
+        },
+        {
+          "speaker": "Patient",
+          "en": "No, I don't have any major medical conditions.",
+          "ko": "아니요, 큰 질환은 없어요.",
+          "turn": 14,
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Have you had any previous injuries, hospitalisations or surgeries?",
+          "ko": "과거에 다치거나 입원하거나 수술받은 적이 있나요?",
+          "turn": 15,
+          "audioVoices": {
+            "female": null,
+            "male": null
+          }
+        },
+        {
+          "speaker": "Patient",
+          "en": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "ko": "이전에 크게 다치거나 수술받은 적은 없어요. 가끔 목이 뻣뻣했던 적은 있지만, 치료가 필요할 정도는 아니었어요.",
+          "turn": 16,
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Are you currently taking any medications or supplements?",
+          "ko": "현재 복용 중인 약이나 보충제가 있나요?",
+          "turn": 17,
+          "audioVoices": {
+            "female": null,
+            "male": null
+          }
+        },
+        {
+          "speaker": "Patient",
+          "en": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+          "ko": "통증이 심해질 때 이부프로펜만 먹어요. 그 외에 정기적으로 복용하는 약은 없어요.",
+          "turn": 18,
+          "audio": null
+        },
+        {
+          "speaker": "Physio",
+          "en": "Okay, thank you. That's really helpful. It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "ko": "네, 감사합니다. 정말 도움이 되는 정보예요. 병력과 증상이 어떻게 진행됐는지 더 잘 이해할 수 있겠어요.",
+          "turn": 19,
           "audioVoices": {
             "female": null,
             "male": null
@@ -1427,11 +1478,12 @@
         "male": null
       },
       "patientAudio": null,
-      "scriptRevision": "2026-11-16-google-docs-week-04-day-02",
+      "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2",
       "source": {
         "url": "https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit",
         "section": "WEEK 4 / DAY 2 — READING / Patient History Dialogue",
-        "checkedAt": "2026-11-16"
+        "checkedAt": "2026-11-16",
+        "documentRevisionId": "AHj4eMRIpJ81raXcGuMWZThOeGc2EX2xtwYrjZiHY1eyKb5EPai8pvVDYY3zAVTpHGvIlOYWD3e8k_n63lPk0HCCDgS9x9cpvGOmcKGqgUag"
       }
     }
   ]

@@ -2,6 +2,7 @@
 
 이 저장소에서 작업하기 전에 `STUDY_PRINCIPLES.md`와 `README.md`를 읽는다. 화면 변경에는 `DESIGN.md`, 학습 방향에는 `PRODUCT.md`도 참고한다. 이 문서들은 2026-10-27 사용자와 정한 최종 원칙이며, 사용자의 최신 지시가 우선한다.
 
+- 대화문 확인의 기준 원본은 [Google Docs — IGP Patient Communication_v1](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit)이다. 주차 추가·수정·오디오 생성용 대본 작성 전 이 링크의 최신 해당 주차 Day 2 대화를 직접 읽는다. Notion이나 로컬 사본을 최신 원본으로 대신하지 않는다. (2026-11-16 사용자 지정)
 - 매주 새 주제를 기존 자료에 추가한다. 제공된 최신 대본을 임의로 바꾸지 않는다.
 - 피지오 여성/남성, 환자 인물별 고정 보이스를 유지한다.
 - 긴 대사는 의미·호흡 단위로 나누고 실제 음성과 일치시킨다. 끝소리를 살리되 다음 대사가 섞이지 않게 한다. 여백은 원본에서 가져오며 합성 무음은 추가하지 않는다.

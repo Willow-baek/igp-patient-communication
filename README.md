@@ -3,6 +3,7 @@
 매주 한 주제씩 임상 영어 대화를 익히는 반응형 스터디 사이트.
 
 - [공개 사이트](https://willow-baek.github.io/igp-patient-communication/)
+- [최신 대화문 기준 원본 — Google Docs](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit): 주차 추가·수정과 음성 생성용 대본 작성 전에 해당 주차 Day 2의 최신 내용을 직접 확인한다.
 - [학습·운영 원칙 및 주차 추가 절차](STUDY_PRINCIPLES.md)
 - [이후 작업자를 위한 지침](AGENTS.md)
 - 학습 방향: `PRODUCT.md` / 화면 기준: `DESIGN.md`
@@ -26,7 +27,7 @@ Week 2에는 목표 정하기 대본을 등록했다. 원문은 `W2/W2_script.md
 
 Week 3에는 허리 통증 문진 대본을 추가했다. 제공된 영어 원문은 `W3/W3_script.md`에 보존하고, 18개 말풍선에 피지오 여성 Rachel·남성 Australian Neutral과 환자 John C 음성을 연결했다. 11개 말풍선에는 나눠 연습을 제공한다. 원본과 남성 한 문장의 재생성 파일은 `docs/audio/week-03/original/`, 일반 재생은 `2026-11-09-v1/`, 나눠 연습은 `practice-2026-11-09-v1/`에 있다. 경계·음성 인식 대조는 `tools/week-03-*.json`에 기록한다. ASR 검증은 직접 청취 검수와 구분한다.
 
-Week 4에는 기존 Google Docs 원본 [IGP Patient Communication_v1](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit)의 Day 2 Patient History Dialogue를 등록했다. 영어 원문과 출처는 `W4/W4_script.md`에 보존하며, 13개 발화에 한국어 해석을 맞췄다. Eng/Kor/Blind로 읽기와 회상 연습을 할 수 있다. 오디오는 사용자 제공 후 연결하며, 현재 개별 재생과 전체 듣기는 비활성화되어 있다. 환자는 기존 John Thompson과 같은 인물이다. 녹음 후 실제 호흡을 확인해 필요한 말풍선 분할과 나눠 연습을 추가한다.
+Week 4에는 기존 Google Docs 원본 [IGP Patient Communication_v1](https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit)의 Day 2 Patient History Dialogue를 등록했다. 영어 원문과 출처는 `W4/W4_script.md`에 보존하며, 2026-11-16 리더 수정본의 19개 발화에 한국어 해석을 맞췄다. 치료사·환자별 오디오 생성용 최신 원문은 각각 `W4/W4_physio_script.txt`, `W4/W4_patient_script.txt`에 있으며, 초기 대본은 `W4/history/2026-11-16-initial/`에 보존했다. Eng/Kor/Blind로 읽기와 회상 연습을 할 수 있다. 오디오는 사용자 제공 후 연결하며, 현재 개별 재생과 전체 듣기는 비활성화되어 있다. 환자는 기존 John Thompson과 같은 인물이다. 녹음 후 실제 호흡을 확인해 필요한 말풍선 분할과 나눠 연습을 추가한다.
 
 ## 매주 자료 추가
 
