@@ -1,0 +1,552 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "assetVersion": "practice-2026-11-16-v1",
+  "units": [
+    {
+      "id": "line-02",
+      "speaker": "Patient",
+      "lines": [
+        1
+      ],
+      "text": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "chunks": [
+        "I was sitting at my desk for long hours,",
+        "but there wasn't any specific injury or incident",
+        "that triggered it."
+      ],
+      "range": {
+        "start": 74,
+        "end": 182
+      }
+    },
+    {
+      "id": "line-04",
+      "speaker": "Patient",
+      "lines": [
+        3
+      ],
+      "text": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "chunks": [
+        "At first, it was just a mild discomfort,",
+        "but I started noticing it more frequently over time."
+      ],
+      "range": {
+        "start": 24,
+        "end": 117
+      }
+    },
+    {
+      "id": "line-06",
+      "speaker": "Patient",
+      "lines": [
+        5
+      ],
+      "text": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "chunks": [
+        "Initially, I only felt it occasionally,",
+        "but now I experience it almost every day."
+      ],
+      "range": {
+        "start": 53,
+        "end": 134
+      }
+    },
+    {
+      "id": "line-08",
+      "speaker": "Patient",
+      "lines": [
+        7
+      ],
+      "text": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "chunks": [
+        "I've had occasional back stiffness after sitting for long periods,",
+        "but I've never experienced this kind of persistent pain before."
+      ],
+      "range": {
+        "start": 12,
+        "end": 142
+      }
+    },
+    {
+      "id": "line-10",
+      "speaker": "Patient",
+      "lines": [
+        9
+      ],
+      "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "chunks": [
+        "Yes, I saw my GP about two weeks ago",
+        "because the pain wasn't improving."
+      ]
+    },
+    {
+      "id": "line-15",
+      "speaker": "Physio",
+      "lines": [
+        14
+      ],
+      "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "chunks": [
+        "Have you had any previous injuries,",
+        "hospitalisations or surgeries?"
+      ]
+    },
+    {
+      "id": "line-16",
+      "speaker": "Patient",
+      "lines": [
+        15
+      ],
+      "text": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "chunks": [
+        "I've occasionally experienced some neck stiffness,",
+        "but nothing that required medical treatment."
+      ],
+      "range": {
+        "start": 41,
+        "end": 136
+      }
+    },
+    {
+      "id": "line-20",
+      "speaker": "Physio",
+      "lines": [
+        19
+      ],
+      "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "chunks": [
+        "It gives me a better understanding of your medical history",
+        "and how your symptoms have developed."
+      ]
+    }
+  ],
+  "tracks": {
+    "female": [
+      {
+        "unit": 5,
+        "source": "audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+        "start": 23.3575,
+        "end": 27.3975,
+        "cuts": [
+          25.505
+        ],
+        "tailPadding": [
+          0.015,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 25.505,
+            "quietInterval": [
+              25.474999999999937,
+              25.534999999999926
+            ],
+            "window": [
+              25.155,
+              25.544999999999998
+            ],
+            "tailPadding": 0.015,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+        "start": 33.2925,
+        "end": 37.6946875,
+        "cuts": [
+          35.6875
+        ],
+        "tailPadding": [
+          0.0025,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 35.6875,
+            "quietInterval": [
+              35.67000000000001,
+              35.705
+            ],
+            "window": [
+              35.655,
+              35.705
+            ],
+            "tailPadding": 0.0025,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      }
+    ],
+    "male": [
+      {
+        "unit": 5,
+        "source": "audio/week-04/original/W4_PT_male.mp3",
+        "start": 24.78,
+        "end": 28.84,
+        "cuts": [
+          26.87
+        ],
+        "tailPadding": [
+          0.15,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 26.87,
+            "quietInterval": [
+              26.67499999999994,
+              27.064999999999998
+            ],
+            "window": [
+              26.375,
+              27.064999999999998
+            ],
+            "tailPadding": 0.15,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-04/original/W4_PT_male.mp3",
+        "start": 34.465,
+        "end": 39.1314375,
+        "cuts": [
+          36.895
+        ],
+        "tailPadding": [
+          0.0,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 36.895,
+            "quietInterval": [
+              36.88,
+              36.91000000000002
+            ],
+            "window": [
+              36.875,
+              36.925
+            ],
+            "tailPadding": 0.0,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      }
+    ],
+    "patient": [
+      {
+        "unit": 0,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 3.6475,
+        "end": 9.11,
+        "cuts": [
+          6.1275,
+          8.2625
+        ],
+        "tailPadding": [
+          0.1425,
+          0.0075,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 6.1275,
+            "quietInterval": [
+              5.969999999999994,
+              6.285
+            ],
+            "window": [
+              5.734999999999999,
+              6.285
+            ],
+            "tailPadding": 0.1425,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          },
+          {
+            "cut": 8.2625,
+            "quietInterval": [
+              8.24,
+              8.285
+            ],
+            "window": [
+              8.235,
+              8.285
+            ],
+            "tailPadding": 0.0075,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 1,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 11.0225,
+        "end": 16.555,
+        "cuts": [
+          13.7275
+        ],
+        "tailPadding": [
+          0.1425,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 13.7275,
+            "quietInterval": [
+              13.570000000000046,
+              13.885
+            ],
+            "window": [
+              13.275,
+              13.885
+            ],
+            "tailPadding": 0.1425,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 19.415,
+        "end": 23.9075,
+        "cuts": [
+          21.705
+        ],
+        "tailPadding": [
+          0.15,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 21.705,
+            "quietInterval": [
+              21.48499999999993,
+              21.924999999999997
+            ],
+            "window": [
+              21.115000000000002,
+              21.924999999999997
+            ],
+            "tailPadding": 0.15,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 25.185,
+        "end": 32.625,
+        "cuts": [
+          28.555
+        ],
+        "tailPadding": [
+          0.15,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 28.555,
+            "quietInterval": [
+              28.184999999999945,
+              28.925
+            ],
+            "window": [
+              27.895000000000003,
+              28.925
+            ],
+            "tailPadding": 0.15,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 32.625,
+        "end": 37.7625,
+        "cuts": [
+          35.9425
+        ],
+        "tailPadding": [
+          0.15,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 35.9425,
+            "quietInterval": [
+              35.720000000000056,
+              36.165
+            ],
+            "window": [
+              35.615,
+              36.165
+            ],
+            "tailPadding": 0.15,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      },
+      {
+        "unit": 6,
+        "source": "audio/week-04/original/W4_pt.mp3",
+        "start": 49.915,
+        "end": 54.2375,
+        "cuts": [
+          52.05
+        ],
+        "tailPadding": [
+          0.1,
+          0
+        ],
+        "boundaryReview": [
+          {
+            "cut": 52.05,
+            "quietInterval": [
+              51.935000000000166,
+              52.165
+            ],
+            "window": [
+              51.615,
+              52.165
+            ],
+            "tailPadding": 0.1,
+            "reason": "recorded-quiet-interval-at-meaning-boundary"
+          }
+        ]
+      }
+    ]
+  },
+  "review": [
+    {
+      "line": 1,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 2,
+      "decision": "split-practice",
+      "chunks": [
+        "I was sitting at my desk for long hours,",
+        "but there wasn't any specific injury or incident",
+        "that triggered it."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 3,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 4,
+      "decision": "split-practice",
+      "chunks": [
+        "At first, it was just a mild discomfort,",
+        "but I started noticing it more frequently over time."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 5,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 6,
+      "decision": "split-practice",
+      "chunks": [
+        "Initially, I only felt it occasionally,",
+        "but now I experience it almost every day."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 7,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 8,
+      "decision": "split-practice",
+      "chunks": [
+        "I've had occasional back stiffness after sitting for long periods,",
+        "but I've never experienced this kind of persistent pain before."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 9,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 10,
+      "decision": "split-practice",
+      "chunks": [
+        "Yes, I saw my GP about two weeks ago",
+        "because the pain wasn't improving."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 11,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 12,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 13,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 15,
+      "decision": "split-practice",
+      "chunks": [
+        "Have you had any previous injuries,",
+        "hospitalisations or surgeries?"
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 16,
+      "decision": "split-practice",
+      "chunks": [
+        "I've occasionally experienced some neck stiffness,",
+        "but nothing that required medical treatment."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    },
+    {
+      "line": 17,
+      "decision": "whole-sentence-playback",
+      "reason": "No stable internal quiet boundary shared by selected voices."
+    },
+    {
+      "line": 18,
+      "decision": "whole-sentence-playback",
+      "reason": "Short complete sentence; no additional split."
+    },
+    {
+      "line": 20,
+      "decision": "split-practice",
+      "chunks": [
+        "It gives me a better understanding of your medical history",
+        "and how your symptoms have developed."
+      ],
+      "reason": "Meaningful phrases retained only where waveform has stable quiet boundaries."
+    }
+  ]
+}

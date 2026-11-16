@@ -1,0 +1,3170 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "method": "ASR word times + 5ms RMS quiet boundaries; no synthetic silence, fades or concatenation",
+  "humanListening": false,
+  "tracks": {
+    "female": {
+      "source": "audio/week-04/original/W4_PT_female.mp3",
+      "sha256": "d06f380ed3c0ebb4ea9d246929f43312fbe1d4357f96fe62dea28cca9b7816de",
+      "duration": 37.6946875,
+      "alignmentRatio": 1,
+      "asrText": " Can you tell me how your back pain first started? Did the pain come on suddenly or did it develop gradually? How has the pain changed over the last six weeks? Have you experienced anything similar in the past? Have you seen a doctor or another healthcare professional about this problem? Did your GP recommend any treatment or further investigations? Do you have any other medical conditions that we should be aware of? Have you had any previous injuries, hospitalizations or surgeries? Are you currently taking any medications or supplements? Okay, thank you. That's really helpful. It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "clips": [
+        {
+          "line": 1,
+          "text": "Can you tell me how your back pain first started?",
+          "speechStart": 0.0,
+          "speechEnd": 2.16,
+          "words": [
+            {
+              "word": " Can",
+              "start": 0.0,
+              "end": 0.2,
+              "probability": 0.8443218469619751
+            },
+            {
+              "word": " you",
+              "start": 0.2,
+              "end": 0.32,
+              "probability": 0.9978450536727905
+            },
+            {
+              "word": " tell",
+              "start": 0.32,
+              "end": 0.5,
+              "probability": 0.9967266321182251
+            },
+            {
+              "word": " me",
+              "start": 0.5,
+              "end": 0.62,
+              "probability": 0.996841311454773
+            },
+            {
+              "word": " how",
+              "start": 0.62,
+              "end": 0.8,
+              "probability": 0.9957291483879089
+            },
+            {
+              "word": " your",
+              "start": 0.8,
+              "end": 0.94,
+              "probability": 0.9595167636871338
+            },
+            {
+              "word": " back",
+              "start": 0.94,
+              "end": 1.12,
+              "probability": 0.9963072538375854
+            },
+            {
+              "word": " pain",
+              "start": 1.12,
+              "end": 1.4,
+              "probability": 0.9968628883361816
+            },
+            {
+              "word": " first",
+              "start": 1.4,
+              "end": 1.66,
+              "probability": 0.9896764159202576
+            },
+            {
+              "word": " started?",
+              "start": 1.66,
+              "end": 2.16,
+              "probability": 0.9984594583511353
+            }
+          ],
+          "start": 0,
+          "end": 2.5975,
+          "output": "audio/week-04/2026-11-16-v1/female/01.m4a"
+        },
+        {
+          "line": 3,
+          "text": "Did the pain come on suddenly, or did it develop gradually?",
+          "speechStart": 2.88,
+          "speechEnd": 5.22,
+          "words": [
+            {
+              "word": " Did",
+              "start": 2.88,
+              "end": 2.88,
+              "probability": 0.9636990427970886
+            },
+            {
+              "word": " the",
+              "start": 2.88,
+              "end": 3.0,
+              "probability": 0.9861956834793091
+            },
+            {
+              "word": " pain",
+              "start": 3.0,
+              "end": 3.2,
+              "probability": 0.9995455145835876
+            },
+            {
+              "word": " come",
+              "start": 3.2,
+              "end": 3.44,
+              "probability": 0.9959360361099243
+            },
+            {
+              "word": " on",
+              "start": 3.44,
+              "end": 3.56,
+              "probability": 0.9937361478805542
+            },
+            {
+              "word": " suddenly",
+              "start": 3.56,
+              "end": 3.86,
+              "probability": 0.9887591600418091
+            },
+            {
+              "word": " or",
+              "start": 3.86,
+              "end": 4.34,
+              "probability": 0.4060494601726532
+            },
+            {
+              "word": " did",
+              "start": 4.34,
+              "end": 4.52,
+              "probability": 0.9881013631820679
+            },
+            {
+              "word": " it",
+              "start": 4.52,
+              "end": 4.62,
+              "probability": 0.9982878565788269
+            },
+            {
+              "word": " develop",
+              "start": 4.62,
+              "end": 4.82,
+              "probability": 0.990694522857666
+            },
+            {
+              "word": " gradually?",
+              "start": 4.82,
+              "end": 5.22,
+              "probability": 0.9976551532745361
+            }
+          ],
+          "start": 2.5975,
+          "end": 5.9275,
+          "output": "audio/week-04/2026-11-16-v1/female/03.m4a"
+        },
+        {
+          "line": 5,
+          "text": "How has the pain changed over the last six weeks?",
+          "speechStart": 6.2,
+          "speechEnd": 8.16,
+          "words": [
+            {
+              "word": " How",
+              "start": 6.2,
+              "end": 6.26,
+              "probability": 0.748803973197937
+            },
+            {
+              "word": " has",
+              "start": 6.26,
+              "end": 6.42,
+              "probability": 0.9917854070663452
+            },
+            {
+              "word": " the",
+              "start": 6.42,
+              "end": 6.52,
+              "probability": 0.9965502023696899
+            },
+            {
+              "word": " pain",
+              "start": 6.52,
+              "end": 6.74,
+              "probability": 0.9997573494911194
+            },
+            {
+              "word": " changed",
+              "start": 6.74,
+              "end": 6.94,
+              "probability": 0.9943998456001282
+            },
+            {
+              "word": " over",
+              "start": 6.94,
+              "end": 7.3,
+              "probability": 0.9970090985298157
+            },
+            {
+              "word": " the",
+              "start": 7.3,
+              "end": 7.44,
+              "probability": 0.999336302280426
+            },
+            {
+              "word": " last",
+              "start": 7.44,
+              "end": 7.62,
+              "probability": 0.9989246726036072
+            },
+            {
+              "word": " six",
+              "start": 7.62,
+              "end": 7.88,
+              "probability": 0.8782341480255127
+            },
+            {
+              "word": " weeks?",
+              "start": 7.88,
+              "end": 8.16,
+              "probability": 0.9993916749954224
+            }
+          ],
+          "start": 5.9275,
+          "end": 8.655,
+          "output": "audio/week-04/2026-11-16-v1/female/05.m4a"
+        },
+        {
+          "line": 7,
+          "text": "Have you experienced anything similar in the past?",
+          "speechStart": 8.88,
+          "speechEnd": 11.04,
+          "words": [
+            {
+              "word": " Have",
+              "start": 8.88,
+              "end": 9.12,
+              "probability": 0.9910792708396912
+            },
+            {
+              "word": " you",
+              "start": 9.12,
+              "end": 9.24,
+              "probability": 0.9993389248847961
+            },
+            {
+              "word": " experienced",
+              "start": 9.24,
+              "end": 9.68,
+              "probability": 0.9966588020324707
+            },
+            {
+              "word": " anything",
+              "start": 9.68,
+              "end": 9.92,
+              "probability": 0.9958999752998352
+            },
+            {
+              "word": " similar",
+              "start": 9.92,
+              "end": 10.48,
+              "probability": 0.9992082715034485
+            },
+            {
+              "word": " in",
+              "start": 10.48,
+              "end": 10.68,
+              "probability": 0.9990691542625427
+            },
+            {
+              "word": " the",
+              "start": 10.68,
+              "end": 10.78,
+              "probability": 0.999680757522583
+            },
+            {
+              "word": " past?",
+              "start": 10.78,
+              "end": 11.04,
+              "probability": 0.9999363422393799
+            }
+          ],
+          "start": 8.655,
+          "end": 11.5175,
+          "output": "audio/week-04/2026-11-16-v1/female/07.m4a"
+        },
+        {
+          "line": 9,
+          "text": "Have you seen a doctor or another healthcare professional about this problem?",
+          "speechStart": 11.68,
+          "speechEnd": 15.08,
+          "words": [
+            {
+              "word": " Have",
+              "start": 11.68,
+              "end": 11.86,
+              "probability": 0.9949070811271667
+            },
+            {
+              "word": " you",
+              "start": 11.86,
+              "end": 11.98,
+              "probability": 0.999182403087616
+            },
+            {
+              "word": " seen",
+              "start": 11.98,
+              "end": 12.16,
+              "probability": 0.9984242916107178
+            },
+            {
+              "word": " a",
+              "start": 12.16,
+              "end": 12.28,
+              "probability": 0.9970633387565613
+            },
+            {
+              "word": " doctor",
+              "start": 12.28,
+              "end": 12.52,
+              "probability": 0.9946607947349548
+            },
+            {
+              "word": " or",
+              "start": 12.52,
+              "end": 12.84,
+              "probability": 0.9872748851776123
+            },
+            {
+              "word": " another",
+              "start": 12.84,
+              "end": 13.12,
+              "probability": 0.987583577632904
+            },
+            {
+              "word": " healthcare",
+              "start": 13.12,
+              "end": 13.42,
+              "probability": 0.7122437953948975
+            },
+            {
+              "word": " professional",
+              "start": 13.42,
+              "end": 14.08,
+              "probability": 0.9984644651412964
+            },
+            {
+              "word": " about",
+              "start": 14.08,
+              "end": 14.46,
+              "probability": 0.9973766803741455
+            },
+            {
+              "word": " this",
+              "start": 14.46,
+              "end": 14.7,
+              "probability": 0.9990792274475098
+            },
+            {
+              "word": " problem?",
+              "start": 14.7,
+              "end": 15.08,
+              "probability": 0.9992285966873169
+            }
+          ],
+          "start": 11.5175,
+          "end": 15.58,
+          "output": "audio/week-04/2026-11-16-v1/female/09.m4a"
+        },
+        {
+          "line": 11,
+          "text": "Did your GP recommend any treatment or further investigations?",
+          "speechStart": 15.78,
+          "speechEnd": 19.06,
+          "words": [
+            {
+              "word": " Did",
+              "start": 15.78,
+              "end": 16.02,
+              "probability": 0.9539371132850647
+            },
+            {
+              "word": " your",
+              "start": 16.02,
+              "end": 16.2,
+              "probability": 0.9948923587799072
+            },
+            {
+              "word": " GP",
+              "start": 16.2,
+              "end": 16.44,
+              "probability": 0.9836681485176086
+            },
+            {
+              "word": " recommend",
+              "start": 16.44,
+              "end": 16.98,
+              "probability": 0.9917340278625488
+            },
+            {
+              "word": " any",
+              "start": 16.98,
+              "end": 17.36,
+              "probability": 0.9987887740135193
+            },
+            {
+              "word": " treatment",
+              "start": 17.36,
+              "end": 17.8,
+              "probability": 0.9990447163581848
+            },
+            {
+              "word": " or",
+              "start": 17.8,
+              "end": 18.18,
+              "probability": 0.9750542044639587
+            },
+            {
+              "word": " further",
+              "start": 18.18,
+              "end": 18.42,
+              "probability": 0.9969751834869385
+            },
+            {
+              "word": " investigations?",
+              "start": 18.42,
+              "end": 19.06,
+              "probability": 0.9971309900283813
+            }
+          ],
+          "start": 15.58,
+          "end": 19.8975,
+          "output": "audio/week-04/2026-11-16-v1/female/11.m4a"
+        },
+        {
+          "line": 13,
+          "text": "Do you have any other medical conditions that we should be aware of?",
+          "speechStart": 20.12,
+          "speechEnd": 23.2,
+          "words": [
+            {
+              "word": " Do",
+              "start": 20.12,
+              "end": 20.18,
+              "probability": 0.991452693939209
+            },
+            {
+              "word": " you",
+              "start": 20.18,
+              "end": 20.28,
+              "probability": 0.9988741278648376
+            },
+            {
+              "word": " have",
+              "start": 20.28,
+              "end": 20.44,
+              "probability": 0.9995591044425964
+            },
+            {
+              "word": " any",
+              "start": 20.44,
+              "end": 20.66,
+              "probability": 0.9979581832885742
+            },
+            {
+              "word": " other",
+              "start": 20.66,
+              "end": 20.96,
+              "probability": 0.9946351647377014
+            },
+            {
+              "word": " medical",
+              "start": 20.96,
+              "end": 21.18,
+              "probability": 0.9997506737709045
+            },
+            {
+              "word": " conditions",
+              "start": 21.18,
+              "end": 21.68,
+              "probability": 0.998705267906189
+            },
+            {
+              "word": " that",
+              "start": 21.68,
+              "end": 22.08,
+              "probability": 0.9913873076438904
+            },
+            {
+              "word": " we",
+              "start": 22.08,
+              "end": 22.22,
+              "probability": 0.9990781545639038
+            },
+            {
+              "word": " should",
+              "start": 22.22,
+              "end": 22.36,
+              "probability": 0.9995738863945007
+            },
+            {
+              "word": " be",
+              "start": 22.36,
+              "end": 22.5,
+              "probability": 0.9991738200187683
+            },
+            {
+              "word": " aware",
+              "start": 22.5,
+              "end": 22.74,
+              "probability": 0.9997990727424622
+            },
+            {
+              "word": " of?",
+              "start": 22.74,
+              "end": 23.2,
+              "probability": 0.9990412592887878
+            }
+          ],
+          "start": 19.8975,
+          "end": 23.3575,
+          "output": "audio/week-04/2026-11-16-v1/female/13.m4a"
+        },
+        {
+          "line": 15,
+          "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+          "speechStart": 23.5,
+          "speechEnd": 26.88,
+          "words": [
+            {
+              "word": " Have",
+              "start": 23.5,
+              "end": 23.84,
+              "probability": 0.9967899918556213
+            },
+            {
+              "word": " you",
+              "start": 23.84,
+              "end": 23.96,
+              "probability": 0.9996167421340942
+            },
+            {
+              "word": " had",
+              "start": 23.96,
+              "end": 24.14,
+              "probability": 0.9990679621696472
+            },
+            {
+              "word": " any",
+              "start": 24.14,
+              "end": 24.28,
+              "probability": 0.9991911053657532
+            },
+            {
+              "word": " previous",
+              "start": 24.28,
+              "end": 24.64,
+              "probability": 0.9979329109191895
+            },
+            {
+              "word": " injuries,",
+              "start": 24.64,
+              "end": 25.18,
+              "probability": 0.9973917007446289
+            },
+            {
+              "word": " hospitalizations",
+              "start": 25.52,
+              "end": 26.08,
+              "probability": 0.9500725269317627
+            },
+            {
+              "word": " or",
+              "start": 26.08,
+              "end": 26.54,
+              "probability": 0.7864170074462891
+            },
+            {
+              "word": " surgeries?",
+              "start": 26.54,
+              "end": 26.88,
+              "probability": 0.9985600113868713
+            }
+          ],
+          "start": 23.3575,
+          "end": 27.3975,
+          "output": "audio/week-04/2026-11-16-v1/female/15.m4a"
+        },
+        {
+          "line": 17,
+          "text": "Are you currently taking any medications or supplements?",
+          "speechStart": 27.38,
+          "speechEnd": 30.0,
+          "words": [
+            {
+              "word": " Are",
+              "start": 27.38,
+              "end": 27.86,
+              "probability": 0.26478809118270874
+            },
+            {
+              "word": " you",
+              "start": 27.86,
+              "end": 27.98,
+              "probability": 0.9958046078681946
+            },
+            {
+              "word": " currently",
+              "start": 27.98,
+              "end": 28.2,
+              "probability": 0.9935457110404968
+            },
+            {
+              "word": " taking",
+              "start": 28.2,
+              "end": 28.66,
+              "probability": 0.997258186340332
+            },
+            {
+              "word": " any",
+              "start": 28.66,
+              "end": 28.88,
+              "probability": 0.9741264581680298
+            },
+            {
+              "word": " medications",
+              "start": 28.88,
+              "end": 29.4,
+              "probability": 0.9739198088645935
+            },
+            {
+              "word": " or",
+              "start": 29.4,
+              "end": 29.72,
+              "probability": 0.9904334545135498
+            },
+            {
+              "word": " supplements?",
+              "start": 29.72,
+              "end": 30.0,
+              "probability": 0.9982574582099915
+            }
+          ],
+          "start": 27.3975,
+          "end": 30.78,
+          "output": "audio/week-04/2026-11-16-v1/female/17.m4a"
+        },
+        {
+          "line": 19,
+          "text": "Okay, thank you. That's really helpful.",
+          "speechStart": 31.06,
+          "speechEnd": 32.7,
+          "words": [
+            {
+              "word": " Okay,",
+              "start": 31.06,
+              "end": 31.3,
+              "probability": 0.620018720626831
+            },
+            {
+              "word": " thank",
+              "start": 31.32,
+              "end": 31.54,
+              "probability": 0.976163923740387
+            },
+            {
+              "word": " you.",
+              "start": 31.54,
+              "end": 31.78,
+              "probability": 0.9993823766708374
+            },
+            {
+              "word": " That's",
+              "start": 32.08,
+              "end": 32.28,
+              "probability": 0.9843606054782867
+            },
+            {
+              "word": " really",
+              "start": 32.28,
+              "end": 32.42,
+              "probability": 0.9978445768356323
+            },
+            {
+              "word": " helpful.",
+              "start": 32.42,
+              "end": 32.7,
+              "probability": 0.9991545677185059
+            }
+          ],
+          "start": 30.78,
+          "end": 33.2925,
+          "output": "audio/week-04/2026-11-16-v1/female/19.m4a"
+        },
+        {
+          "line": 20,
+          "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "speechStart": 33.4,
+          "speechEnd": 37.18,
+          "words": [
+            {
+              "word": " It",
+              "start": 33.4,
+              "end": 33.52,
+              "probability": 0.9900160431861877
+            },
+            {
+              "word": " gives",
+              "start": 33.52,
+              "end": 33.66,
+              "probability": 0.9971907734870911
+            },
+            {
+              "word": " me",
+              "start": 33.66,
+              "end": 33.86,
+              "probability": 0.994400680065155
+            },
+            {
+              "word": " a",
+              "start": 33.86,
+              "end": 33.94,
+              "probability": 0.9966374635696411
+            },
+            {
+              "word": " better",
+              "start": 33.94,
+              "end": 34.12,
+              "probability": 0.9995146989822388
+            },
+            {
+              "word": " understanding",
+              "start": 34.12,
+              "end": 34.68,
+              "probability": 0.9994913339614868
+            },
+            {
+              "word": " of",
+              "start": 34.68,
+              "end": 34.9,
+              "probability": 0.998285710811615
+            },
+            {
+              "word": " your",
+              "start": 34.9,
+              "end": 35.0,
+              "probability": 0.9938263297080994
+            },
+            {
+              "word": " medical",
+              "start": 35.0,
+              "end": 35.24,
+              "probability": 0.9978538155555725
+            },
+            {
+              "word": " history",
+              "start": 35.24,
+              "end": 35.68,
+              "probability": 0.9994550347328186
+            },
+            {
+              "word": " and",
+              "start": 35.68,
+              "end": 35.98,
+              "probability": 0.9562094807624817
+            },
+            {
+              "word": " how",
+              "start": 35.98,
+              "end": 36.14,
+              "probability": 0.9974072575569153
+            },
+            {
+              "word": " your",
+              "start": 36.14,
+              "end": 36.28,
+              "probability": 0.9921597838401794
+            },
+            {
+              "word": " symptoms",
+              "start": 36.28,
+              "end": 36.58,
+              "probability": 0.9986764788627625
+            },
+            {
+              "word": " have",
+              "start": 36.58,
+              "end": 36.84,
+              "probability": 0.9924378991127014
+            },
+            {
+              "word": " developed.",
+              "start": 36.84,
+              "end": 37.18,
+              "probability": 0.9985764026641846
+            }
+          ],
+          "start": 33.2925,
+          "end": 37.6946875,
+          "output": "audio/week-04/2026-11-16-v1/female/20.m4a"
+        }
+      ],
+      "boundaryInspections": [
+        {
+          "window": [
+            2.1100000000000003,
+            2.9299999999999997
+          ],
+          "quietInterval": [
+            2.364999999999995,
+            2.829999999999985
+          ],
+          "cut": 2.5975,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 1
+        },
+        {
+          "window": [
+            5.17,
+            6.25
+          ],
+          "quietInterval": [
+            5.684999999999989,
+            6.169999999999979
+          ],
+          "cut": 5.9275,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 3
+        },
+        {
+          "window": [
+            8.11,
+            8.930000000000001
+          ],
+          "quietInterval": [
+            8.380000000000042,
+            8.930000000000001
+          ],
+          "cut": 8.655,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 5
+        },
+        {
+          "window": [
+            10.989999999999998,
+            11.73
+          ],
+          "quietInterval": [
+            11.305000000000048,
+            11.73
+          ],
+          "cut": 11.5175,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 7
+        },
+        {
+          "window": [
+            15.03,
+            15.83
+          ],
+          "quietInterval": [
+            15.330000000000046,
+            15.83
+          ],
+          "cut": 15.58,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 9
+        },
+        {
+          "window": [
+            19.009999999999998,
+            20.17
+          ],
+          "quietInterval": [
+            19.64499999999987,
+            20.14999999999977
+          ],
+          "cut": 19.8975,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 11
+        },
+        {
+          "window": [
+            23.15,
+            23.55
+          ],
+          "quietInterval": [
+            23.164999999999996,
+            23.55
+          ],
+          "cut": 23.3575,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 13
+        },
+        {
+          "window": [
+            26.83,
+            27.43
+          ],
+          "quietInterval": [
+            27.364999999999892,
+            27.43
+          ],
+          "cut": 27.3975,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 15
+        },
+        {
+          "window": [
+            29.95,
+            31.11
+          ],
+          "quietInterval": [
+            30.4499999999999,
+            31.11
+          ],
+          "cut": 30.78,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 17
+        },
+        {
+          "window": [
+            32.650000000000006,
+            33.449999999999996
+          ],
+          "quietInterval": [
+            33.135000000000254,
+            33.449999999999996
+          ],
+          "cut": 33.2925,
+          "threshold": 0.0026648030430078506,
+          "afterLine": 19
+        }
+      ]
+    },
+    "male": {
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "sha256": "2b00dc415619c161932f3f764b7348bed90e87d3a820799e01faec19c81d0cf0",
+      "duration": 39.1314375,
+      "alignmentRatio": 1,
+      "asrText": " Can you tell me how your back pain first started? Did the pain come on suddenly or did it develop gradually? How has the pain changed over the last six weeks? Have you experienced anything similar in the past? Have you seen a doctor or another healthcare professional about this problem? Did your GP recommend any treatment or further investigations? Do you have any other medical conditions that we should be aware of? Have you had any previous injuries, hospitalizations or surgeries? Are you currently taking any medications or supplements? Okay, thank you. That's really helpful. It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "clips": [
+        {
+          "line": 1,
+          "text": "Can you tell me how your back pain first started?",
+          "speechStart": 0.0,
+          "speechEnd": 2.04,
+          "words": [
+            {
+              "word": " Can",
+              "start": 0.0,
+              "end": 0.18,
+              "probability": 0.8584467768669128
+            },
+            {
+              "word": " you",
+              "start": 0.18,
+              "end": 0.28,
+              "probability": 0.9981808662414551
+            },
+            {
+              "word": " tell",
+              "start": 0.28,
+              "end": 0.46,
+              "probability": 0.997877836227417
+            },
+            {
+              "word": " me",
+              "start": 0.46,
+              "end": 0.6,
+              "probability": 0.9977214932441711
+            },
+            {
+              "word": " how",
+              "start": 0.6,
+              "end": 0.74,
+              "probability": 0.9972555041313171
+            },
+            {
+              "word": " your",
+              "start": 0.74,
+              "end": 0.88,
+              "probability": 0.9698010087013245
+            },
+            {
+              "word": " back",
+              "start": 0.88,
+              "end": 1.08,
+              "probability": 0.9925722479820251
+            },
+            {
+              "word": " pain",
+              "start": 1.08,
+              "end": 1.32,
+              "probability": 0.9963827133178711
+            },
+            {
+              "word": " first",
+              "start": 1.32,
+              "end": 1.6,
+              "probability": 0.99642413854599
+            },
+            {
+              "word": " started?",
+              "start": 1.6,
+              "end": 2.04,
+              "probability": 0.9980489015579224
+            }
+          ],
+          "start": 0,
+          "end": 2.4125,
+          "output": "audio/week-04/2026-11-16-v1/male/01.m4a"
+        },
+        {
+          "line": 3,
+          "text": "Did the pain come on suddenly, or did it develop gradually?",
+          "speechStart": 2.72,
+          "speechEnd": 5.68,
+          "words": [
+            {
+              "word": " Did",
+              "start": 2.72,
+              "end": 2.8,
+              "probability": 0.953305721282959
+            },
+            {
+              "word": " the",
+              "start": 2.8,
+              "end": 2.92,
+              "probability": 0.9856297373771667
+            },
+            {
+              "word": " pain",
+              "start": 2.92,
+              "end": 3.12,
+              "probability": 0.9992826581001282
+            },
+            {
+              "word": " come",
+              "start": 3.12,
+              "end": 3.38,
+              "probability": 0.9974023699760437
+            },
+            {
+              "word": " on",
+              "start": 3.38,
+              "end": 3.52,
+              "probability": 0.9955114126205444
+            },
+            {
+              "word": " suddenly",
+              "start": 3.52,
+              "end": 3.82,
+              "probability": 0.9937614798545837
+            },
+            {
+              "word": " or",
+              "start": 3.82,
+              "end": 4.7,
+              "probability": 0.36562758684158325
+            },
+            {
+              "word": " did",
+              "start": 4.7,
+              "end": 4.9,
+              "probability": 0.9886653423309326
+            },
+            {
+              "word": " it",
+              "start": 4.9,
+              "end": 5.02,
+              "probability": 0.997377872467041
+            },
+            {
+              "word": " develop",
+              "start": 5.02,
+              "end": 5.24,
+              "probability": 0.9916267395019531
+            },
+            {
+              "word": " gradually?",
+              "start": 5.24,
+              "end": 5.68,
+              "probability": 0.9984697699546814
+            }
+          ],
+          "start": 2.4125,
+          "end": 6.4675,
+          "output": "audio/week-04/2026-11-16-v1/male/03.m4a"
+        },
+        {
+          "line": 5,
+          "text": "How has the pain changed over the last six weeks?",
+          "speechStart": 6.92,
+          "speechEnd": 9.04,
+          "words": [
+            {
+              "word": " How",
+              "start": 6.92,
+              "end": 7.1,
+              "probability": 0.6235443949699402
+            },
+            {
+              "word": " has",
+              "start": 7.1,
+              "end": 7.26,
+              "probability": 0.9965254664421082
+            },
+            {
+              "word": " the",
+              "start": 7.26,
+              "end": 7.36,
+              "probability": 0.9969573020935059
+            },
+            {
+              "word": " pain",
+              "start": 7.36,
+              "end": 7.56,
+              "probability": 0.9994900226593018
+            },
+            {
+              "word": " changed",
+              "start": 7.56,
+              "end": 7.82,
+              "probability": 0.9968221187591553
+            },
+            {
+              "word": " over",
+              "start": 7.82,
+              "end": 8.24,
+              "probability": 0.9970250725746155
+            },
+            {
+              "word": " the",
+              "start": 8.24,
+              "end": 8.38,
+              "probability": 0.9994750618934631
+            },
+            {
+              "word": " last",
+              "start": 8.38,
+              "end": 8.54,
+              "probability": 0.998372495174408
+            },
+            {
+              "word": " six",
+              "start": 8.54,
+              "end": 8.78,
+              "probability": 0.8984913229942322
+            },
+            {
+              "word": " weeks?",
+              "start": 8.78,
+              "end": 9.04,
+              "probability": 0.9995160102844238
+            }
+          ],
+          "start": 6.4675,
+          "end": 9.535,
+          "output": "audio/week-04/2026-11-16-v1/male/05.m4a"
+        },
+        {
+          "line": 7,
+          "text": "Have you experienced anything similar in the past?",
+          "speechStart": 9.78,
+          "speechEnd": 12.04,
+          "words": [
+            {
+              "word": " Have",
+              "start": 9.78,
+              "end": 10.04,
+              "probability": 0.9943339824676514
+            },
+            {
+              "word": " you",
+              "start": 10.04,
+              "end": 10.14,
+              "probability": 0.9995306730270386
+            },
+            {
+              "word": " experienced",
+              "start": 10.14,
+              "end": 10.62,
+              "probability": 0.9972303509712219
+            },
+            {
+              "word": " anything",
+              "start": 10.62,
+              "end": 10.88,
+              "probability": 0.9975683093070984
+            },
+            {
+              "word": " similar",
+              "start": 10.88,
+              "end": 11.48,
+              "probability": 0.9993865489959717
+            },
+            {
+              "word": " in",
+              "start": 11.48,
+              "end": 11.7,
+              "probability": 0.9991462230682373
+            },
+            {
+              "word": " the",
+              "start": 11.7,
+              "end": 11.8,
+              "probability": 0.9996852874755859
+            },
+            {
+              "word": " past?",
+              "start": 11.8,
+              "end": 12.04,
+              "probability": 0.9999241828918457
+            }
+          ],
+          "start": 9.535,
+          "end": 12.5575,
+          "output": "audio/week-04/2026-11-16-v1/male/07.m4a"
+        },
+        {
+          "line": 9,
+          "text": "Have you seen a doctor or another healthcare professional about this problem?",
+          "speechStart": 12.76,
+          "speechEnd": 16.76,
+          "words": [
+            {
+              "word": " Have",
+              "start": 12.76,
+              "end": 13.0,
+              "probability": 0.9958096742630005
+            },
+            {
+              "word": " you",
+              "start": 13.0,
+              "end": 13.12,
+              "probability": 0.9990826845169067
+            },
+            {
+              "word": " seen",
+              "start": 13.12,
+              "end": 13.32,
+              "probability": 0.998895525932312
+            },
+            {
+              "word": " a",
+              "start": 13.32,
+              "end": 13.44,
+              "probability": 0.998276948928833
+            },
+            {
+              "word": " doctor",
+              "start": 13.44,
+              "end": 13.74,
+              "probability": 0.9952758550643921
+            },
+            {
+              "word": " or",
+              "start": 13.74,
+              "end": 14.18,
+              "probability": 0.9823786616325378
+            },
+            {
+              "word": " another",
+              "start": 14.18,
+              "end": 14.4,
+              "probability": 0.9914665222167969
+            },
+            {
+              "word": " healthcare",
+              "start": 14.4,
+              "end": 14.68,
+              "probability": 0.5280988812446594
+            },
+            {
+              "word": " professional",
+              "start": 14.68,
+              "end": 15.44,
+              "probability": 0.9988873600959778
+            },
+            {
+              "word": " about",
+              "start": 15.44,
+              "end": 16.14,
+              "probability": 0.9822040796279907
+            },
+            {
+              "word": " this",
+              "start": 16.14,
+              "end": 16.44,
+              "probability": 0.9992901086807251
+            },
+            {
+              "word": " problem?",
+              "start": 16.44,
+              "end": 16.76,
+              "probability": 0.9995637536048889
+            }
+          ],
+          "start": 12.5575,
+          "end": 17.2675,
+          "output": "audio/week-04/2026-11-16-v1/male/09.m4a"
+        },
+        {
+          "line": 11,
+          "text": "Did your GP recommend any treatment or further investigations?",
+          "speechStart": 17.56,
+          "speechEnd": 20.9,
+          "words": [
+            {
+              "word": " Did",
+              "start": 17.56,
+              "end": 17.68,
+              "probability": 0.9491327404975891
+            },
+            {
+              "word": " your",
+              "start": 17.68,
+              "end": 17.84,
+              "probability": 0.995097815990448
+            },
+            {
+              "word": " GP",
+              "start": 17.84,
+              "end": 18.06,
+              "probability": 0.9823832511901855
+            },
+            {
+              "word": " recommend",
+              "start": 18.06,
+              "end": 18.56,
+              "probability": 0.9934710264205933
+            },
+            {
+              "word": " any",
+              "start": 18.56,
+              "end": 19.0,
+              "probability": 0.9983400106430054
+            },
+            {
+              "word": " treatment",
+              "start": 19.0,
+              "end": 19.32,
+              "probability": 0.9994576573371887
+            },
+            {
+              "word": " or",
+              "start": 19.32,
+              "end": 20.04,
+              "probability": 0.9502108693122864
+            },
+            {
+              "word": " further",
+              "start": 20.04,
+              "end": 20.24,
+              "probability": 0.9987887740135193
+            },
+            {
+              "word": " investigations?",
+              "start": 20.24,
+              "end": 20.9,
+              "probability": 0.9978734254837036
+            }
+          ],
+          "start": 17.2675,
+          "end": 21.6525,
+          "output": "audio/week-04/2026-11-16-v1/male/11.m4a"
+        },
+        {
+          "line": 13,
+          "text": "Do you have any other medical conditions that we should be aware of?",
+          "speechStart": 21.92,
+          "speechEnd": 24.6,
+          "words": [
+            {
+              "word": " Do",
+              "start": 21.92,
+              "end": 22.02,
+              "probability": 0.9953600764274597
+            },
+            {
+              "word": " you",
+              "start": 22.02,
+              "end": 22.1,
+              "probability": 0.9980395436286926
+            },
+            {
+              "word": " have",
+              "start": 22.1,
+              "end": 22.26,
+              "probability": 0.9995808005332947
+            },
+            {
+              "word": " any",
+              "start": 22.26,
+              "end": 22.4,
+              "probability": 0.9962807297706604
+            },
+            {
+              "word": " other",
+              "start": 22.4,
+              "end": 22.58,
+              "probability": 0.9948732256889343
+            },
+            {
+              "word": " medical",
+              "start": 22.58,
+              "end": 22.82,
+              "probability": 0.999729573726654
+            },
+            {
+              "word": " conditions",
+              "start": 22.82,
+              "end": 23.34,
+              "probability": 0.9991315007209778
+            },
+            {
+              "word": " that",
+              "start": 23.34,
+              "end": 23.62,
+              "probability": 0.9973962306976318
+            },
+            {
+              "word": " we",
+              "start": 23.62,
+              "end": 23.74,
+              "probability": 0.9992595314979553
+            },
+            {
+              "word": " should",
+              "start": 23.74,
+              "end": 23.88,
+              "probability": 0.999586284160614
+            },
+            {
+              "word": " be",
+              "start": 23.88,
+              "end": 24.04,
+              "probability": 0.9996920824050903
+            },
+            {
+              "word": " aware",
+              "start": 24.04,
+              "end": 24.26,
+              "probability": 0.9997958540916443
+            },
+            {
+              "word": " of?",
+              "start": 24.26,
+              "end": 24.6,
+              "probability": 0.998914361000061
+            }
+          ],
+          "start": 21.6525,
+          "end": 24.78,
+          "output": "audio/week-04/2026-11-16-v1/male/13.m4a"
+        },
+        {
+          "line": 15,
+          "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+          "speechStart": 24.96,
+          "speechEnd": 28.38,
+          "words": [
+            {
+              "word": " Have",
+              "start": 24.96,
+              "end": 25.22,
+              "probability": 0.9971141815185547
+            },
+            {
+              "word": " you",
+              "start": 25.22,
+              "end": 25.32,
+              "probability": 0.9995848536491394
+            },
+            {
+              "word": " had",
+              "start": 25.32,
+              "end": 25.48,
+              "probability": 0.9992672801017761
+            },
+            {
+              "word": " any",
+              "start": 25.48,
+              "end": 25.6,
+              "probability": 0.9989559650421143
+            },
+            {
+              "word": " previous",
+              "start": 25.6,
+              "end": 25.94,
+              "probability": 0.9987934827804565
+            },
+            {
+              "word": " injuries,",
+              "start": 25.94,
+              "end": 26.4,
+              "probability": 0.9987063407897949
+            },
+            {
+              "word": " hospitalizations",
+              "start": 27.04,
+              "end": 27.62,
+              "probability": 0.9531328678131104
+            },
+            {
+              "word": " or",
+              "start": 27.62,
+              "end": 28.04,
+              "probability": 0.7554853558540344
+            },
+            {
+              "word": " surgeries?",
+              "start": 28.04,
+              "end": 28.38,
+              "probability": 0.9982787370681763
+            }
+          ],
+          "start": 24.78,
+          "end": 28.84,
+          "output": "audio/week-04/2026-11-16-v1/male/15.m4a"
+        },
+        {
+          "line": 17,
+          "text": "Are you currently taking any medications or supplements?",
+          "speechStart": 28.939999999999998,
+          "speechEnd": 31.26,
+          "words": [
+            {
+              "word": " Are",
+              "start": 28.939999999999998,
+              "end": 29.26,
+              "probability": 0.1997576802968979
+            },
+            {
+              "word": " you",
+              "start": 29.26,
+              "end": 29.36,
+              "probability": 0.9958325028419495
+            },
+            {
+              "word": " currently",
+              "start": 29.36,
+              "end": 29.54,
+              "probability": 0.9950231313705444
+            },
+            {
+              "word": " taking",
+              "start": 29.54,
+              "end": 29.98,
+              "probability": 0.9975185394287109
+            },
+            {
+              "word": " any",
+              "start": 29.98,
+              "end": 30.18,
+              "probability": 0.9763653874397278
+            },
+            {
+              "word": " medications",
+              "start": 30.18,
+              "end": 30.66,
+              "probability": 0.9744516611099243
+            },
+            {
+              "word": " or",
+              "start": 30.66,
+              "end": 30.96,
+              "probability": 0.9927496910095215
+            },
+            {
+              "word": " supplements?",
+              "start": 30.96,
+              "end": 31.26,
+              "probability": 0.9980448484420776
+            }
+          ],
+          "start": 28.84,
+          "end": 31.8775,
+          "output": "audio/week-04/2026-11-16-v1/male/17.m4a"
+        },
+        {
+          "line": 19,
+          "text": "Okay, thank you. That's really helpful.",
+          "speechStart": 32.12,
+          "speechEnd": 33.94,
+          "words": [
+            {
+              "word": " Okay,",
+              "start": 32.12,
+              "end": 32.34,
+              "probability": 0.6152390241622925
+            },
+            {
+              "word": " thank",
+              "start": 32.34,
+              "end": 32.56,
+              "probability": 0.9788307547569275
+            },
+            {
+              "word": " you.",
+              "start": 32.56,
+              "end": 32.76,
+              "probability": 0.9992176294326782
+            },
+            {
+              "word": " That's",
+              "start": 33.26,
+              "end": 33.56,
+              "probability": 0.9877221286296844
+            },
+            {
+              "word": " really",
+              "start": 33.56,
+              "end": 33.68,
+              "probability": 0.9981004595756531
+            },
+            {
+              "word": " helpful.",
+              "start": 33.68,
+              "end": 33.94,
+              "probability": 0.9991307854652405
+            }
+          ],
+          "start": 31.8775,
+          "end": 34.465,
+          "output": "audio/week-04/2026-11-16-v1/male/19.m4a"
+        },
+        {
+          "line": 20,
+          "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "speechStart": 34.72,
+          "speechEnd": 38.6,
+          "words": [
+            {
+              "word": " It",
+              "start": 34.72,
+              "end": 34.86,
+              "probability": 0.9930247068405151
+            },
+            {
+              "word": " gives",
+              "start": 34.86,
+              "end": 35.0,
+              "probability": 0.9975777268409729
+            },
+            {
+              "word": " me",
+              "start": 35.0,
+              "end": 35.18,
+              "probability": 0.9951903820037842
+            },
+            {
+              "word": " a",
+              "start": 35.18,
+              "end": 35.26,
+              "probability": 0.9970893263816833
+            },
+            {
+              "word": " better",
+              "start": 35.26,
+              "end": 35.44,
+              "probability": 0.9994139671325684
+            },
+            {
+              "word": " understanding",
+              "start": 35.44,
+              "end": 35.94,
+              "probability": 0.9991798996925354
+            },
+            {
+              "word": " of",
+              "start": 35.94,
+              "end": 36.16,
+              "probability": 0.9984725117683411
+            },
+            {
+              "word": " your",
+              "start": 36.16,
+              "end": 36.26,
+              "probability": 0.9956100583076477
+            },
+            {
+              "word": " medical",
+              "start": 36.26,
+              "end": 36.48,
+              "probability": 0.9982596039772034
+            },
+            {
+              "word": " history",
+              "start": 36.48,
+              "end": 36.9,
+              "probability": 0.9989660978317261
+            },
+            {
+              "word": " and",
+              "start": 36.9,
+              "end": 37.4,
+              "probability": 0.9270073175430298
+            },
+            {
+              "word": " how",
+              "start": 37.4,
+              "end": 37.56,
+              "probability": 0.9964877367019653
+            },
+            {
+              "word": " your",
+              "start": 37.56,
+              "end": 37.7,
+              "probability": 0.9934387803077698
+            },
+            {
+              "word": " symptoms",
+              "start": 37.7,
+              "end": 38.04,
+              "probability": 0.9981226325035095
+            },
+            {
+              "word": " have",
+              "start": 38.04,
+              "end": 38.3,
+              "probability": 0.9916133880615234
+            },
+            {
+              "word": " developed.",
+              "start": 38.3,
+              "end": 38.6,
+              "probability": 0.9987439513206482
+            }
+          ],
+          "start": 34.465,
+          "end": 39.1314375,
+          "output": "audio/week-04/2026-11-16-v1/male/20.m4a"
+        }
+      ],
+      "boundaryInspections": [
+        {
+          "window": [
+            1.99,
+            2.77
+          ],
+          "quietInterval": [
+            2.0649999999999986,
+            2.759999999999984
+          ],
+          "cut": 2.4125,
+          "threshold": 0.010698823034763336,
+          "afterLine": 1
+        },
+        {
+          "window": [
+            5.63,
+            6.97
+          ],
+          "quietInterval": [
+            5.964999999999993,
+            6.97
+          ],
+          "cut": 6.4675,
+          "threshold": 0.010698823034763336,
+          "afterLine": 3
+        },
+        {
+          "window": [
+            8.989999999999998,
+            9.83
+          ],
+          "quietInterval": [
+            9.240000000000038,
+            9.83
+          ],
+          "cut": 9.535,
+          "threshold": 0.010698823034763336,
+          "afterLine": 5
+        },
+        {
+          "window": [
+            11.989999999999998,
+            12.81
+          ],
+          "quietInterval": [
+            12.305000000000048,
+            12.81
+          ],
+          "cut": 12.5575,
+          "threshold": 0.010698823034763336,
+          "afterLine": 7
+        },
+        {
+          "window": [
+            16.71,
+            17.61
+          ],
+          "quietInterval": [
+            16.924999999999958,
+            17.61
+          ],
+          "cut": 17.2675,
+          "threshold": 0.010698823034763336,
+          "afterLine": 9
+        },
+        {
+          "window": [
+            20.849999999999998,
+            21.970000000000002
+          ],
+          "quietInterval": [
+            21.3349999999999,
+            21.970000000000002
+          ],
+          "cut": 21.6525,
+          "threshold": 0.010698823034763336,
+          "afterLine": 11
+        },
+        {
+          "window": [
+            24.55,
+            25.01
+          ],
+          "quietInterval": [
+            24.55,
+            25.01
+          ],
+          "cut": 24.78,
+          "threshold": 0.010698823034763336,
+          "afterLine": 13
+        },
+        {
+          "window": [
+            28.33,
+            28.99
+          ],
+          "quietInterval": [
+            28.689999999999927,
+            28.99
+          ],
+          "cut": 28.84,
+          "threshold": 0.010698823034763336,
+          "afterLine": 15
+        },
+        {
+          "window": [
+            31.21,
+            32.169999999999995
+          ],
+          "quietInterval": [
+            31.584999999999926,
+            32.169999999999995
+          ],
+          "cut": 31.8775,
+          "threshold": 0.010698823034763336,
+          "afterLine": 17
+        },
+        {
+          "window": [
+            33.89,
+            34.769999999999996
+          ],
+          "quietInterval": [
+            34.16000000000014,
+            34.769999999999996
+          ],
+          "cut": 34.465,
+          "threshold": 0.010698823034763336,
+          "afterLine": 19
+        }
+      ]
+    },
+    "patient": {
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "sha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+      "duration": 59.115125,
+      "alignmentRatio": 1,
+      "asrText": " It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it. It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time. It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day. Not really. I've had occasional back stiffness after sitting for long periods. But I've never experienced this kind of persistent pain before. Yes, I saw my GP about two weeks ago, because the pain wasn't improving. They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations. No. I don't have any major medical conditions. No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment. Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "clips": [
+        {
+          "line": 2,
+          "text": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "speechStart": 0.0,
+          "speechEnd": 8.9,
+          "words": [
+            {
+              "word": " It",
+              "start": 0.0,
+              "end": 0.14,
+              "probability": 0.846988320350647
+            },
+            {
+              "word": " started",
+              "start": 0.14,
+              "end": 0.34,
+              "probability": 0.9923760294914246
+            },
+            {
+              "word": " about",
+              "start": 0.34,
+              "end": 0.58,
+              "probability": 0.9881536364555359
+            },
+            {
+              "word": " six",
+              "start": 0.58,
+              "end": 0.8,
+              "probability": 0.7724761962890625
+            },
+            {
+              "word": " weeks",
+              "start": 0.8,
+              "end": 1.02,
+              "probability": 0.9976456761360168
+            },
+            {
+              "word": " ago",
+              "start": 1.02,
+              "end": 1.28,
+              "probability": 0.9962334036827087
+            },
+            {
+              "word": " during",
+              "start": 1.28,
+              "end": 1.58,
+              "probability": 0.8644239902496338
+            },
+            {
+              "word": " a",
+              "start": 1.58,
+              "end": 1.68,
+              "probability": 0.9975025057792664
+            },
+            {
+              "word": " particularly",
+              "start": 1.68,
+              "end": 1.9,
+              "probability": 0.9888219833374023
+            },
+            {
+              "word": " busy",
+              "start": 1.9,
+              "end": 2.24,
+              "probability": 0.9987336993217468
+            },
+            {
+              "word": " period",
+              "start": 2.24,
+              "end": 2.68,
+              "probability": 0.9984934329986572
+            },
+            {
+              "word": " at",
+              "start": 2.68,
+              "end": 2.78,
+              "probability": 0.955915629863739
+            },
+            {
+              "word": " work.",
+              "start": 2.78,
+              "end": 2.96,
+              "probability": 0.9995088577270508
+            },
+            {
+              "word": " I",
+              "start": 4.16,
+              "end": 4.32,
+              "probability": 0.9830471873283386
+            },
+            {
+              "word": " was",
+              "start": 4.32,
+              "end": 4.4,
+              "probability": 0.9920353293418884
+            },
+            {
+              "word": " sitting",
+              "start": 4.4,
+              "end": 4.58,
+              "probability": 0.9966991543769836
+            },
+            {
+              "word": " at",
+              "start": 4.58,
+              "end": 4.74,
+              "probability": 0.9965708255767822
+            },
+            {
+              "word": " my",
+              "start": 4.74,
+              "end": 4.82,
+              "probability": 0.9976679682731628
+            },
+            {
+              "word": " desk",
+              "start": 4.82,
+              "end": 5.02,
+              "probability": 0.9992179870605469
+            },
+            {
+              "word": " for",
+              "start": 5.02,
+              "end": 5.26,
+              "probability": 0.9977204203605652
+            },
+            {
+              "word": " long",
+              "start": 5.26,
+              "end": 5.38,
+              "probability": 0.9929677248001099
+            },
+            {
+              "word": " hours,",
+              "start": 5.38,
+              "end": 5.76,
+              "probability": 0.999052107334137
+            },
+            {
+              "word": " but",
+              "start": 6.26,
+              "end": 6.4,
+              "probability": 0.9964756369590759
+            },
+            {
+              "word": " there",
+              "start": 6.4,
+              "end": 6.52,
+              "probability": 0.9988347887992859
+            },
+            {
+              "word": " wasn't",
+              "start": 6.52,
+              "end": 6.8,
+              "probability": 0.9967550933361053
+            },
+            {
+              "word": " any",
+              "start": 6.8,
+              "end": 6.98,
+              "probability": 0.9977205395698547
+            },
+            {
+              "word": " specific",
+              "start": 6.98,
+              "end": 7.3,
+              "probability": 0.997338593006134
+            },
+            {
+              "word": " injury",
+              "start": 7.3,
+              "end": 7.7,
+              "probability": 0.997511625289917
+            },
+            {
+              "word": " or",
+              "start": 7.7,
+              "end": 7.98,
+              "probability": 0.9974874258041382
+            },
+            {
+              "word": " incident",
+              "start": 7.98,
+              "end": 8.26,
+              "probability": 0.9967191815376282
+            },
+            {
+              "word": " that",
+              "start": 8.26,
+              "end": 8.48,
+              "probability": 0.9993960857391357
+            },
+            {
+              "word": " triggered",
+              "start": 8.48,
+              "end": 8.7,
+              "probability": 0.9991323351860046
+            },
+            {
+              "word": " it.",
+              "start": 8.7,
+              "end": 8.9,
+              "probability": 0.9847106337547302
+            }
+          ],
+          "start": 0,
+          "end": 9.11,
+          "output": "audio/week-04/2026-11-16-v1/patient/02.m4a"
+        },
+        {
+          "line": 4,
+          "text": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "speechStart": 9.24,
+          "speechEnd": 16.14,
+          "words": [
+            {
+              "word": " It",
+              "start": 9.24,
+              "end": 9.68,
+              "probability": 0.9918529391288757
+            },
+            {
+              "word": " developed",
+              "start": 9.68,
+              "end": 9.9,
+              "probability": 0.9978801012039185
+            },
+            {
+              "word": " gradually.",
+              "start": 9.9,
+              "end": 10.26,
+              "probability": 0.9983108043670654
+            },
+            {
+              "word": " At",
+              "start": 11.5,
+              "end": 11.66,
+              "probability": 0.9725086688995361
+            },
+            {
+              "word": " first,",
+              "start": 11.66,
+              "end": 11.86,
+              "probability": 0.9988806843757629
+            },
+            {
+              "word": " it",
+              "start": 12.38,
+              "end": 12.48,
+              "probability": 0.9977974891662598
+            },
+            {
+              "word": " was",
+              "start": 12.48,
+              "end": 12.54,
+              "probability": 0.999509334564209
+            },
+            {
+              "word": " just",
+              "start": 12.54,
+              "end": 12.72,
+              "probability": 0.9969567060470581
+            },
+            {
+              "word": " a",
+              "start": 12.72,
+              "end": 12.82,
+              "probability": 0.9953759908676147
+            },
+            {
+              "word": " mild",
+              "start": 12.82,
+              "end": 13.0,
+              "probability": 0.9987288117408752
+            },
+            {
+              "word": " discomfort,",
+              "start": 13.0,
+              "end": 13.3,
+              "probability": 0.9858827590942383
+            },
+            {
+              "word": " but",
+              "start": 13.86,
+              "end": 14.26,
+              "probability": 0.99849534034729
+            },
+            {
+              "word": " I",
+              "start": 14.26,
+              "end": 14.34,
+              "probability": 0.9984866380691528
+            },
+            {
+              "word": " started",
+              "start": 14.34,
+              "end": 14.6,
+              "probability": 0.9989153146743774
+            },
+            {
+              "word": " noticing",
+              "start": 14.6,
+              "end": 14.9,
+              "probability": 0.998757004737854
+            },
+            {
+              "word": " it",
+              "start": 14.9,
+              "end": 15.16,
+              "probability": 0.9983170032501221
+            },
+            {
+              "word": " more",
+              "start": 15.16,
+              "end": 15.28,
+              "probability": 0.9994506239891052
+            },
+            {
+              "word": " frequently",
+              "start": 15.28,
+              "end": 15.52,
+              "probability": 0.9995912909507751
+            },
+            {
+              "word": " over",
+              "start": 15.52,
+              "end": 15.86,
+              "probability": 0.9931684732437134
+            },
+            {
+              "word": " time.",
+              "start": 15.86,
+              "end": 16.14,
+              "probability": 0.9997469782829285
+            }
+          ],
+          "start": 9.11,
+          "end": 16.555,
+          "output": "audio/week-04/2026-11-16-v1/patient/04.m4a"
+        },
+        {
+          "line": 6,
+          "text": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "speechStart": 16.84,
+          "speechEnd": 23.46,
+          "words": [
+            {
+              "word": " It's",
+              "start": 16.84,
+              "end": 16.94,
+              "probability": 0.9889808595180511
+            },
+            {
+              "word": " become",
+              "start": 16.94,
+              "end": 17.1,
+              "probability": 0.9971797466278076
+            },
+            {
+              "word": " more",
+              "start": 17.1,
+              "end": 17.38,
+              "probability": 0.9990869760513306
+            },
+            {
+              "word": " noticeable",
+              "start": 17.38,
+              "end": 17.68,
+              "probability": 0.995745837688446
+            },
+            {
+              "word": " over",
+              "start": 17.68,
+              "end": 18.18,
+              "probability": 0.9893786311149597
+            },
+            {
+              "word": " the",
+              "start": 18.18,
+              "end": 18.32,
+              "probability": 0.9994997978210449
+            },
+            {
+              "word": " last",
+              "start": 18.32,
+              "end": 18.46,
+              "probability": 0.997853696346283
+            },
+            {
+              "word": " few",
+              "start": 18.46,
+              "end": 18.64,
+              "probability": 0.9982002973556519
+            },
+            {
+              "word": " weeks.",
+              "start": 18.64,
+              "end": 18.86,
+              "probability": 0.9996857643127441
+            },
+            {
+              "word": " Initially,",
+              "start": 19.76,
+              "end": 20.2,
+              "probability": 0.9825289249420166
+            },
+            {
+              "word": " I",
+              "start": 20.34,
+              "end": 20.5,
+              "probability": 0.9994539618492126
+            },
+            {
+              "word": " only",
+              "start": 20.5,
+              "end": 20.64,
+              "probability": 0.998365581035614
+            },
+            {
+              "word": " felt",
+              "start": 20.64,
+              "end": 20.8,
+              "probability": 0.9838634729385376
+            },
+            {
+              "word": " it",
+              "start": 20.8,
+              "end": 20.96,
+              "probability": 0.999245285987854
+            },
+            {
+              "word": " occasionally,",
+              "start": 20.96,
+              "end": 21.14,
+              "probability": 0.9952000379562378
+            },
+            {
+              "word": " but",
+              "start": 21.9,
+              "end": 22.06,
+              "probability": 0.9992783665657043
+            },
+            {
+              "word": " now",
+              "start": 22.06,
+              "end": 22.22,
+              "probability": 0.9947534799575806
+            },
+            {
+              "word": " I",
+              "start": 22.22,
+              "end": 22.36,
+              "probability": 0.9869239926338196
+            },
+            {
+              "word": " experience",
+              "start": 22.36,
+              "end": 22.6,
+              "probability": 0.9890418648719788
+            },
+            {
+              "word": " it",
+              "start": 22.6,
+              "end": 22.82,
+              "probability": 0.9977433681488037
+            },
+            {
+              "word": " almost",
+              "start": 22.82,
+              "end": 22.96,
+              "probability": 0.9985986351966858
+            },
+            {
+              "word": " every",
+              "start": 22.96,
+              "end": 23.18,
+              "probability": 0.9757711291313171
+            },
+            {
+              "word": " day.",
+              "start": 23.18,
+              "end": 23.46,
+              "probability": 0.9995598196983337
+            }
+          ],
+          "start": 16.555,
+          "end": 23.9075,
+          "output": "audio/week-04/2026-11-16-v1/patient/06.m4a"
+        },
+        {
+          "line": 8,
+          "text": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+          "speechStart": 24.22,
+          "speechEnd": 31.98,
+          "words": [
+            {
+              "word": " Not",
+              "start": 24.22,
+              "end": 24.62,
+              "probability": 0.9872844219207764
+            },
+            {
+              "word": " really.",
+              "start": 24.62,
+              "end": 24.8,
+              "probability": 0.9986363053321838
+            },
+            {
+              "word": " I've",
+              "start": 25.38,
+              "end": 25.7,
+              "probability": 0.992471843957901
+            },
+            {
+              "word": " had",
+              "start": 25.7,
+              "end": 25.76,
+              "probability": 0.9985131621360779
+            },
+            {
+              "word": " occasional",
+              "start": 25.76,
+              "end": 26.04,
+              "probability": 0.993312418460846
+            },
+            {
+              "word": " back",
+              "start": 26.04,
+              "end": 26.36,
+              "probability": 0.9835109710693359
+            },
+            {
+              "word": " stiffness",
+              "start": 26.36,
+              "end": 26.62,
+              "probability": 0.842828094959259
+            },
+            {
+              "word": " after",
+              "start": 26.62,
+              "end": 27.0,
+              "probability": 0.9955936074256897
+            },
+            {
+              "word": " sitting",
+              "start": 27.0,
+              "end": 27.24,
+              "probability": 0.9973170161247253
+            },
+            {
+              "word": " for",
+              "start": 27.24,
+              "end": 27.46,
+              "probability": 0.9985774755477905
+            },
+            {
+              "word": " long",
+              "start": 27.46,
+              "end": 27.58,
+              "probability": 0.9991580247879028
+            },
+            {
+              "word": " periods.",
+              "start": 27.58,
+              "end": 27.92,
+              "probability": 0.9995481371879578
+            },
+            {
+              "word": " But",
+              "start": 28.900000000000002,
+              "end": 29.42,
+              "probability": 0.09667402505874634
+            },
+            {
+              "word": " I've",
+              "start": 29.42,
+              "end": 29.94,
+              "probability": 0.8185451626777649
+            },
+            {
+              "word": " never",
+              "start": 29.94,
+              "end": 30.08,
+              "probability": 0.9974568486213684
+            },
+            {
+              "word": " experienced",
+              "start": 30.08,
+              "end": 30.56,
+              "probability": 0.9972063899040222
+            },
+            {
+              "word": " this",
+              "start": 30.56,
+              "end": 30.78,
+              "probability": 0.9864509105682373
+            },
+            {
+              "word": " kind",
+              "start": 30.78,
+              "end": 30.98,
+              "probability": 0.988393247127533
+            },
+            {
+              "word": " of",
+              "start": 30.98,
+              "end": 31.08,
+              "probability": 0.9988659620285034
+            },
+            {
+              "word": " persistent",
+              "start": 31.08,
+              "end": 31.34,
+              "probability": 0.99064701795578
+            },
+            {
+              "word": " pain",
+              "start": 31.34,
+              "end": 31.68,
+              "probability": 0.9997099041938782
+            },
+            {
+              "word": " before.",
+              "start": 31.68,
+              "end": 31.98,
+              "probability": 0.9978420734405518
+            }
+          ],
+          "start": 23.9075,
+          "end": 32.625,
+          "output": "audio/week-04/2026-11-16-v1/patient/08.m4a"
+        },
+        {
+          "line": 10,
+          "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+          "speechStart": 33.1,
+          "speechEnd": 37.2,
+          "words": [
+            {
+              "word": " Yes,",
+              "start": 33.1,
+              "end": 33.42,
+              "probability": 0.8574390411376953
+            },
+            {
+              "word": " I",
+              "start": 33.72,
+              "end": 34.04,
+              "probability": 0.9983774423599243
+            },
+            {
+              "word": " saw",
+              "start": 34.04,
+              "end": 34.22,
+              "probability": 0.9976078271865845
+            },
+            {
+              "word": " my",
+              "start": 34.22,
+              "end": 34.34,
+              "probability": 0.9977079629898071
+            },
+            {
+              "word": " GP",
+              "start": 34.34,
+              "end": 34.56,
+              "probability": 0.9879702925682068
+            },
+            {
+              "word": " about",
+              "start": 34.56,
+              "end": 35.0,
+              "probability": 0.9914020895957947
+            },
+            {
+              "word": " two",
+              "start": 35.0,
+              "end": 35.22,
+              "probability": 0.8286455273628235
+            },
+            {
+              "word": " weeks",
+              "start": 35.22,
+              "end": 35.36,
+              "probability": 0.9992850422859192
+            },
+            {
+              "word": " ago,",
+              "start": 35.36,
+              "end": 35.64,
+              "probability": 0.9976857900619507
+            },
+            {
+              "word": " because",
+              "start": 36.14,
+              "end": 36.34,
+              "probability": 0.9979588985443115
+            },
+            {
+              "word": " the",
+              "start": 36.34,
+              "end": 36.46,
+              "probability": 0.9946159720420837
+            },
+            {
+              "word": " pain",
+              "start": 36.46,
+              "end": 36.68,
+              "probability": 0.9988993406295776
+            },
+            {
+              "word": " wasn't",
+              "start": 36.68,
+              "end": 36.94,
+              "probability": 0.9952346384525299
+            },
+            {
+              "word": " improving.",
+              "start": 36.94,
+              "end": 37.2,
+              "probability": 0.999626636505127
+            }
+          ],
+          "start": 32.625,
+          "end": 37.7625,
+          "output": "audio/week-04/2026-11-16-v1/patient/10.m4a"
+        },
+        {
+          "line": 12,
+          "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+          "speechStart": 38.04,
+          "speechEnd": 44.52,
+          "words": [
+            {
+              "word": " They",
+              "start": 38.04,
+              "end": 38.18,
+              "probability": 0.9914966821670532
+            },
+            {
+              "word": " prescribed",
+              "start": 38.18,
+              "end": 38.44,
+              "probability": 0.9755398035049438
+            },
+            {
+              "word": " ibuprofen",
+              "start": 38.44,
+              "end": 39.14,
+              "probability": 0.9343041926622391
+            },
+            {
+              "word": " and",
+              "start": 39.14,
+              "end": 39.64,
+              "probability": 0.7260953187942505
+            },
+            {
+              "word": " advised",
+              "start": 39.64,
+              "end": 39.78,
+              "probability": 0.9920819997787476
+            },
+            {
+              "word": " me",
+              "start": 39.78,
+              "end": 40.1,
+              "probability": 0.9971411228179932
+            },
+            {
+              "word": " to",
+              "start": 40.1,
+              "end": 40.18,
+              "probability": 0.9971020817756653
+            },
+            {
+              "word": " keep",
+              "start": 40.18,
+              "end": 40.3,
+              "probability": 0.9986825585365295
+            },
+            {
+              "word": " moving",
+              "start": 40.3,
+              "end": 40.64,
+              "probability": 0.9990335702896118
+            },
+            {
+              "word": " and",
+              "start": 40.64,
+              "end": 40.94,
+              "probability": 0.9174597859382629
+            },
+            {
+              "word": " avoid",
+              "start": 40.94,
+              "end": 41.2,
+              "probability": 0.9939563870429993
+            },
+            {
+              "word": " prolonged",
+              "start": 41.2,
+              "end": 41.46,
+              "probability": 0.986079752445221
+            },
+            {
+              "word": " bed",
+              "start": 41.46,
+              "end": 41.78,
+              "probability": 0.9912187457084656
+            },
+            {
+              "word": " rest.",
+              "start": 41.78,
+              "end": 41.96,
+              "probability": 0.7469590902328491
+            },
+            {
+              "word": " I",
+              "start": 42.72,
+              "end": 42.8,
+              "probability": 0.9913343787193298
+            },
+            {
+              "word": " haven't",
+              "start": 42.8,
+              "end": 43.0,
+              "probability": 0.997364342212677
+            },
+            {
+              "word": " had",
+              "start": 43.0,
+              "end": 43.1,
+              "probability": 0.9982399940490723
+            },
+            {
+              "word": " any",
+              "start": 43.1,
+              "end": 43.24,
+              "probability": 0.9965195655822754
+            },
+            {
+              "word": " scans",
+              "start": 43.24,
+              "end": 43.5,
+              "probability": 0.9853528141975403
+            },
+            {
+              "word": " or",
+              "start": 43.5,
+              "end": 43.8,
+              "probability": 0.9925474524497986
+            },
+            {
+              "word": " other",
+              "start": 43.8,
+              "end": 43.92,
+              "probability": 0.9980283379554749
+            },
+            {
+              "word": " investigations.",
+              "start": 43.92,
+              "end": 44.52,
+              "probability": 0.9963285326957703
+            }
+          ],
+          "start": 37.7625,
+          "end": 44.79,
+          "output": "audio/week-04/2026-11-16-v1/patient/12.m4a"
+        },
+        {
+          "line": 14,
+          "text": "No, I don't have any major medical conditions.",
+          "speechStart": 44.8,
+          "speechEnd": 46.72,
+          "words": [
+            {
+              "word": " No.",
+              "start": 44.8,
+              "end": 44.9,
+              "probability": 0.9784521460533142
+            },
+            {
+              "word": " I",
+              "start": 45.48,
+              "end": 45.52,
+              "probability": 0.9936885237693787
+            },
+            {
+              "word": " don't",
+              "start": 45.52,
+              "end": 45.64,
+              "probability": 0.9981092810630798
+            },
+            {
+              "word": " have",
+              "start": 45.64,
+              "end": 45.78,
+              "probability": 0.9990987777709961
+            },
+            {
+              "word": " any",
+              "start": 45.78,
+              "end": 45.86,
+              "probability": 0.9799598455429077
+            },
+            {
+              "word": " major",
+              "start": 45.86,
+              "end": 46.1,
+              "probability": 0.9967064261436462
+            },
+            {
+              "word": " medical",
+              "start": 46.1,
+              "end": 46.42,
+              "probability": 0.9982825517654419
+            },
+            {
+              "word": " conditions.",
+              "start": 46.42,
+              "end": 46.72,
+              "probability": 0.9992249011993408
+            }
+          ],
+          "start": 44.79,
+          "end": 47.32,
+          "output": "audio/week-04/2026-11-16-v1/patient/14.m4a"
+        },
+        {
+          "line": 16,
+          "text": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "speechStart": 47.62,
+          "speechEnd": 53.76,
+          "words": [
+            {
+              "word": " No",
+              "start": 47.62,
+              "end": 47.66,
+              "probability": 0.9903951287269592
+            },
+            {
+              "word": " previous",
+              "start": 47.66,
+              "end": 47.92,
+              "probability": 0.9664150476455688
+            },
+            {
+              "word": " major",
+              "start": 47.92,
+              "end": 48.26,
+              "probability": 0.9746333956718445
+            },
+            {
+              "word": " injuries",
+              "start": 48.26,
+              "end": 48.54,
+              "probability": 0.9981967806816101
+            },
+            {
+              "word": " or",
+              "start": 48.54,
+              "end": 48.84,
+              "probability": 0.9732351899147034
+            },
+            {
+              "word": " surgeries.",
+              "start": 48.84,
+              "end": 49.12,
+              "probability": 0.9967427849769592
+            },
+            {
+              "word": " I've",
+              "start": 50.14,
+              "end": 50.18,
+              "probability": 0.9886603355407715
+            },
+            {
+              "word": " occasionally",
+              "start": 50.18,
+              "end": 50.56,
+              "probability": 0.9925866723060608
+            },
+            {
+              "word": " experienced",
+              "start": 50.56,
+              "end": 51.02,
+              "probability": 0.99118971824646
+            },
+            {
+              "word": " some",
+              "start": 51.02,
+              "end": 51.24,
+              "probability": 0.9991563558578491
+            },
+            {
+              "word": " neck",
+              "start": 51.24,
+              "end": 51.36,
+              "probability": 0.4624997079372406
+            },
+            {
+              "word": " stiffness,",
+              "start": 51.36,
+              "end": 51.64,
+              "probability": 0.9938166737556458
+            },
+            {
+              "word": " but",
+              "start": 52.14,
+              "end": 52.34,
+              "probability": 0.9953951239585876
+            },
+            {
+              "word": " nothing",
+              "start": 52.34,
+              "end": 52.62,
+              "probability": 0.9984679818153381
+            },
+            {
+              "word": " that",
+              "start": 52.62,
+              "end": 52.82,
+              "probability": 0.9981328845024109
+            },
+            {
+              "word": " required",
+              "start": 52.82,
+              "end": 53.08,
+              "probability": 0.9926010966300964
+            },
+            {
+              "word": " medical",
+              "start": 53.08,
+              "end": 53.4,
+              "probability": 0.9988798499107361
+            },
+            {
+              "word": " treatment.",
+              "start": 53.4,
+              "end": 53.76,
+              "probability": 0.9984758496284485
+            }
+          ],
+          "start": 47.32,
+          "end": 54.2375,
+          "output": "audio/week-04/2026-11-16-v1/patient/16.m4a"
+        },
+        {
+          "line": 18,
+          "text": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+          "speechStart": 54.52,
+          "speechEnd": 58.46,
+          "words": [
+            {
+              "word": " Just",
+              "start": 54.52,
+              "end": 54.78,
+              "probability": 0.9842624664306641
+            },
+            {
+              "word": " ibuprofen",
+              "start": 54.78,
+              "end": 55.44,
+              "probability": 0.9929963201284409
+            },
+            {
+              "word": " when",
+              "start": 55.44,
+              "end": 55.56,
+              "probability": 0.877520740032196
+            },
+            {
+              "word": " the",
+              "start": 55.56,
+              "end": 55.64,
+              "probability": 0.989031970500946
+            },
+            {
+              "word": " pain",
+              "start": 55.64,
+              "end": 55.82,
+              "probability": 0.9993839263916016
+            },
+            {
+              "word": " gets",
+              "start": 55.82,
+              "end": 56.02,
+              "probability": 0.9978408813476562
+            },
+            {
+              "word": " worse.",
+              "start": 56.02,
+              "end": 56.24,
+              "probability": 0.9989915490150452
+            },
+            {
+              "word": " I'm",
+              "start": 56.24,
+              "end": 57.04,
+              "probability": 0.8245837092399597
+            },
+            {
+              "word": " not",
+              "start": 57.04,
+              "end": 57.16,
+              "probability": 0.9989905953407288
+            },
+            {
+              "word": " taking",
+              "start": 57.16,
+              "end": 57.42,
+              "probability": 0.9966412782669067
+            },
+            {
+              "word": " any",
+              "start": 57.42,
+              "end": 57.6,
+              "probability": 0.9946897029876709
+            },
+            {
+              "word": " other",
+              "start": 57.6,
+              "end": 57.8,
+              "probability": 0.990698516368866
+            },
+            {
+              "word": " regular",
+              "start": 57.8,
+              "end": 57.98,
+              "probability": 0.9969174861907959
+            },
+            {
+              "word": " medication.",
+              "start": 57.98,
+              "end": 58.46,
+              "probability": 0.9935775995254517
+            }
+          ],
+          "start": 54.2375,
+          "end": 59.115125,
+          "output": "audio/week-04/2026-11-16-v1/patient/18.m4a"
+        }
+      ],
+      "boundaryInspections": [
+        {
+          "window": [
+            8.85,
+            9.290000000000001
+          ],
+          "quietInterval": [
+            8.930000000000012,
+            9.290000000000001
+          ],
+          "cut": 9.11,
+          "threshold": 0.013633602261543273,
+          "afterLine": 2
+        },
+        {
+          "window": [
+            16.09,
+            16.89
+          ],
+          "quietInterval": [
+            16.219999999999974,
+            16.89
+          ],
+          "cut": 16.555,
+          "threshold": 0.013633602261543273,
+          "afterLine": 4
+        },
+        {
+          "window": [
+            23.41,
+            24.27
+          ],
+          "quietInterval": [
+            23.544999999999973,
+            24.27
+          ],
+          "cut": 23.9075,
+          "threshold": 0.013633602261543273,
+          "afterLine": 6
+        },
+        {
+          "window": [
+            31.93,
+            33.15
+          ],
+          "quietInterval": [
+            32.099999999999966,
+            33.15
+          ],
+          "cut": 32.625,
+          "threshold": 0.013633602261543273,
+          "afterLine": 8
+        },
+        {
+          "window": [
+            37.150000000000006,
+            38.089999999999996
+          ],
+          "quietInterval": [
+            37.43500000000015,
+            38.089999999999996
+          ],
+          "cut": 37.7625,
+          "threshold": 0.013633602261543273,
+          "afterLine": 10
+        },
+        {
+          "window": [
+            44.470000000000006,
+            44.849999999999994
+          ],
+          "quietInterval": [
+            44.775,
+            44.8
+          ],
+          "cut": 44.79,
+          "threshold": 0.013633602261543273,
+          "afterLine": 12,
+          "previousCut": 44.6825,
+          "reason": "Trailing /s/ follows first low-energy interval. Preserve through 44.79s, before next No onset; small.en recognizes investigations plural."
+        },
+        {
+          "window": [
+            46.67,
+            47.669999999999995
+          ],
+          "quietInterval": [
+            47.07500000000021,
+            47.56500000000046
+          ],
+          "cut": 47.32,
+          "threshold": 0.013633602261543273,
+          "afterLine": 14
+        },
+        {
+          "window": [
+            53.71,
+            54.57
+          ],
+          "quietInterval": [
+            53.9050000000001,
+            54.57
+          ],
+          "cut": 54.2375,
+          "threshold": 0.013633602261543273,
+          "afterLine": 16
+        }
+      ]
+    }
+  },
+  "generation": {
+    "service": "ElevenLabs Chrome Text to Speech",
+    "model": "Eleven Multilingual v2",
+    "date": "2026-11-16",
+    "generation": 1,
+    "voices": {
+      "female": "Rachel - Fun, Casual, Australian Woman, English speaker",
+      "male": "Australian Neutral - Calm / Professional",
+      "patient": "John C"
+    },
+    "settings": {
+      "female": {
+        "speed": 0.93,
+        "stability": 0.59,
+        "similarity": 0.56,
+        "style": 0,
+        "speakerBoost": true
+      },
+      "male": {
+        "speed": 1.04,
+        "stability": 0.77,
+        "similarity": 0.89,
+        "style": 0.53,
+        "speakerBoost": true
+      },
+      "patient": {
+        "speed": 1,
+        "stability": 0.5,
+        "similarity": 0.75,
+        "style": 0,
+        "speakerBoost": true
+      }
+    }
+  }
+}

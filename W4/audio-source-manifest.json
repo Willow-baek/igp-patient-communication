@@ -1,0 +1,66 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "generation": {
+    "service": "ElevenLabs Chrome Text to Speech",
+    "model": "Eleven Multilingual v2",
+    "date": "2026-11-16",
+    "generation": 1,
+    "voices": {
+      "female": "Rachel - Fun, Casual, Australian Woman, English speaker",
+      "male": "Australian Neutral - Calm / Professional",
+      "patient": "John C"
+    },
+    "settings": {
+      "female": {
+        "speed": 0.93,
+        "stability": 0.59,
+        "similarity": 0.56,
+        "style": 0,
+        "speakerBoost": true
+      },
+      "male": {
+        "speed": 1.04,
+        "stability": 0.77,
+        "similarity": 0.89,
+        "style": 0.53,
+        "speakerBoost": true
+      },
+      "patient": {
+        "speed": 1,
+        "stability": 0.5,
+        "similarity": 0.75,
+        "style": 0,
+        "speakerBoost": true
+      }
+    }
+  },
+  "sources": {
+    "female": {
+      "downloadFilename": "ElevenLabs_2026-11-16T06_02_45_Rachel - Fun, Casual, Australian Woman, English speaker_pvc_s50_m2.mp3",
+      "inputPath": "W4/W4_PT_female.mp3",
+      "preservedPublicPath": "docs/audio/week-04/original/W4_PT_female.mp3",
+      "sha256": "d06f380ed3c0ebb4ea9d246929f43312fbe1d4357f96fe62dea28cca9b7816de",
+      "durationSeconds": 37.6946875
+    },
+    "male": {
+      "downloadFilename": "ElevenLabs_2026-11-16T06_00_43_Australian Neutral - Calm _ Professional_pvc_s50_m2.mp3",
+      "inputPath": "W4/W4_PT_male.mp3",
+      "preservedPublicPath": "docs/audio/week-04/original/W4_PT_male.mp3",
+      "sha256": "2b00dc415619c161932f3f764b7348bed90e87d3a820799e01faec19c81d0cf0",
+      "durationSeconds": 39.1314375
+    },
+    "patient": {
+      "downloadFilename": "ElevenLabs_2026-11-16T06_04_00_John C_pvc_s50_m2.mp3",
+      "inputPath": "W4/W4_pt.mp3",
+      "preservedPublicPath": "docs/audio/week-04/original/W4_pt.mp3",
+      "sha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+      "durationSeconds": 59.115125
+    }
+  },
+  "femaleVolume": {
+    "gainDb": 8.43,
+    "manifest": "tools/female-volume-balance-2026-11-16-week-04.json",
+    "balancedFullRecording": "docs/audio/week-04/volume-balanced-2026-11-16/original/W4_PT_female.m4a"
+  }
+}

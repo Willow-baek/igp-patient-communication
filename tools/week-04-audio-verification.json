@@ -1,0 +1,1140 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "humanListening": false,
+  "method": "Independent ASR on current dialogue and practice files; US/UK hospitalization spelling normalized.",
+  "assets": [
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+      "kind": "dialogue",
+      "line": 1,
+      "expected": "Can you tell me how your back pain first started?",
+      "sha256": "eff09d4631bc5b53c4972230a76fa4b383e4e9884e20ba2214535da4ae08c7a7",
+      "duration": 2.5975,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Can you tell me how your back pain first started?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/01.m4a",
+      "kind": "dialogue",
+      "line": 1,
+      "expected": "Can you tell me how your back pain first started?",
+      "sha256": "50e6f61035f9963525e59c80e80a7726b968e14323427a8f8c54114fdf6560a6",
+      "duration": 2.4125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Can you tell me how your back pain first started?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/02.m4a",
+      "kind": "dialogue",
+      "line": 2,
+      "expected": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sha256": "87918428c0b9920e1c47d18e165b1ef9ba905817f9969f667ead214ffd52d066",
+      "duration": 9.11,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+      "kind": "dialogue",
+      "line": 3,
+      "expected": "Did the pain come on suddenly, or did it develop gradually?",
+      "sha256": "30da607dbbaa47ca0b82f22411088c7605c4bc8641d38c704f78a2be828d3180",
+      "duration": 3.33,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Did the pain come on suddenly or did it develop gradually?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/03.m4a",
+      "kind": "dialogue",
+      "line": 3,
+      "expected": "Did the pain come on suddenly, or did it develop gradually?",
+      "sha256": "f23a2169bcf9644504ba5904671fdda5226b7783f6ccb4c07e98d849e0fd8b1a",
+      "duration": 4.055,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Did the pain come on suddenly, or did it develop gradually?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/04.m4a",
+      "kind": "dialogue",
+      "line": 4,
+      "expected": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "sha256": "7325a9838ba2e231fa60a9f4b008d4bab65bc7cee9865b9e7b222616c62acce3",
+      "duration": 7.445,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+      "kind": "dialogue",
+      "line": 5,
+      "expected": "How has the pain changed over the last six weeks?",
+      "sha256": "3acd94911c1527526b150e27af95313df28145283520022558dfce9ff97ba10c",
+      "duration": 2.7275,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "How has the pain changed over the last six weeks?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/05.m4a",
+      "kind": "dialogue",
+      "line": 5,
+      "expected": "How has the pain changed over the last six weeks?",
+      "sha256": "42c5eb8b897c543324ecb8455b31c692689d3c57b789908c5419472b92763d30",
+      "duration": 3.0675,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "How has the pain changed over the last six weeks?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/06.m4a",
+      "kind": "dialogue",
+      "line": 6,
+      "expected": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "sha256": "1813f6bd8132cebb73b5f41bc9e6d18677087a58c5d5b60e7106cfbfdd070b06",
+      "duration": 7.3525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+      "kind": "dialogue",
+      "line": 7,
+      "expected": "Have you experienced anything similar in the past?",
+      "sha256": "8666b4b91cadc29826111dc628da14df0bb591f9b4cb39512f576ad7ee35d697",
+      "duration": 2.8625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you experienced anything similar in the past?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/07.m4a",
+      "kind": "dialogue",
+      "line": 7,
+      "expected": "Have you experienced anything similar in the past?",
+      "sha256": "2091f9c20eb27b1e42732d635bead28beb98e51bde31451cf877a89ecf0f5780",
+      "duration": 3.0225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you experienced anything similar in the past?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/08.m4a",
+      "kind": "dialogue",
+      "line": 8,
+      "expected": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "sha256": "13bef8164d68976d56f3056ace7a21f41bf8ae7f59633abd72e67faa38e86472",
+      "duration": 8.7175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+      "kind": "dialogue",
+      "line": 9,
+      "expected": "Have you seen a doctor or another healthcare professional about this problem?",
+      "sha256": "e41bf7d6f489d14008b3841451292c265e794578b2ba5c6425d410a88549c13f",
+      "duration": 4.0625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you seen a doctor or another healthcare professional about this problem?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/09.m4a",
+      "kind": "dialogue",
+      "line": 9,
+      "expected": "Have you seen a doctor or another healthcare professional about this problem?",
+      "sha256": "f87ed52bd211fbe78243bc61cba95ff6f8d44418e086ae4e07c4a4fe4c2728ff",
+      "duration": 4.71,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you seen a doctor or another health care professional about this problem?",
+          "exact": false,
+          "ratio": 0.88
+        },
+        {
+          "model": "small.en",
+          "recognized": "Have you seen a doctor or another healthcare professional about this problem?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/10.m4a",
+      "kind": "dialogue",
+      "line": 10,
+      "expected": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "sha256": "fcfe3637d9b06e422db3abd79138d02008fa9c0c6c3f4584200685f8cea094e2",
+      "duration": 5.1375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Yes, I saw my GP about two weeks ago, because the pain wasn't improving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+      "kind": "dialogue",
+      "line": 11,
+      "expected": "Did your GP recommend any treatment or further investigations?",
+      "sha256": "60d5a7d5c405dddfff2afe63bb0f761bf7c23df47e49bf629502800f4723aba2",
+      "duration": 4.3175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Did your GP recommend any treatment or further investigations?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/11.m4a",
+      "kind": "dialogue",
+      "line": 11,
+      "expected": "Did your GP recommend any treatment or further investigations?",
+      "sha256": "c309a90900d306d56aa7448d13cf2daa0b011452a5e7a8414ab1a963d4359f26",
+      "duration": 4.385,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Did your GP recommend any treatment or further investigations?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/12.m4a",
+      "kind": "dialogue",
+      "line": 12,
+      "expected": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "sha256": "a93af1169fd3bc28c69b4e827d9a6c0e86d74275cf4ba39a982874a5809e7815",
+      "duration": 7.0275,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "ba43889539c37b50149a1229a492ce62d220bdd7a136025bd4168acfd3e72443",
+          "recognitions": [
+            {
+              "model": "base.en",
+              "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigation.",
+              "exact": false,
+              "ratio": 0.9545454545454546
+            },
+            {
+              "model": "small.en",
+              "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigation.",
+              "exact": false,
+              "ratio": 0.9545454545454546
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+      "kind": "dialogue",
+      "line": 13,
+      "expected": "Do you have any other medical conditions that we should be aware of?",
+      "sha256": "01ebc77cedab45012908cf50ca85143ad0625f849c531d04133aba67584399e7",
+      "duration": 3.46,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Do you have any other medical conditions that we should be aware of?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/13.m4a",
+      "kind": "dialogue",
+      "line": 13,
+      "expected": "Do you have any other medical conditions that we should be aware of?",
+      "sha256": "1026d01e779fbc3f17a91c5f9a1e651226a006bfc836ed0157fe6017f5efa150",
+      "duration": 3.1275,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Do you have any other medical conditions that we should be aware of?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/14.m4a",
+      "kind": "dialogue",
+      "line": 14,
+      "expected": "No, I don't have any major medical conditions.",
+      "sha256": "639cdb737c015371f6c919991125a4b0ba2e41a270b871840d6eb9c0e61cd229",
+      "duration": 2.53,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "No, I don't have any major medical conditions.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "b7018ff512bf5051209f9c6ce86adb4f0badd12836857fa2d16d77015266a58e",
+          "recognitions": [
+            {
+              "model": "base.en",
+              "recognized": "No, I don't have any major medical conditions.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+      "kind": "dialogue",
+      "line": 15,
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "6f30ec501751214811cec37fbb535b2ce20c3d7929d1520b5490f79f6c8baaee",
+      "duration": 4.04,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/15.m4a",
+      "kind": "dialogue",
+      "line": 15,
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "06b1b6c6d3e3c9de8ec3a1f8c66fd04f1134df45e9aef7052de0f8b479933fd5",
+      "duration": 4.06,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/16.m4a",
+      "kind": "dialogue",
+      "line": 16,
+      "expected": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "sha256": "4b52d563569ec223e4b594900daa6fd069ec888a9edc28f021c8fa302f630ea7",
+      "duration": 6.9175,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "No previous major injuries or surgeries. I've occasionally experienced some next stiffness, but nothing that required medical treatment.",
+          "exact": false,
+          "ratio": 0.9444444444444444
+        },
+        {
+          "model": "small.en",
+          "recognized": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+      "kind": "dialogue",
+      "line": 17,
+      "expected": "Are you currently taking any medications or supplements?",
+      "sha256": "12b28762ca47574d9a2919ecf5927ec584a89738745b1b9ff6e1b572b80f77ff",
+      "duration": 3.3825,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Are you currently taking any medications or supplements?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/17.m4a",
+      "kind": "dialogue",
+      "line": 17,
+      "expected": "Are you currently taking any medications or supplements?",
+      "sha256": "e1e28df4c78e4dfd556b91eba72c4eec9a176bb9a3f43d7655241ed121a1329b",
+      "duration": 3.0375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Are you currently taking any medications or supplements?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/patient/18.m4a",
+      "kind": "dialogue",
+      "line": 18,
+      "expected": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "sha256": "c1805caa7c5c42d82f6e0de9b58ba345064b879df5bb5a210d8e8a73baefb206",
+      "duration": 4.877625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "just ibuprofen when the pain gets worse. I'm not taking any other regular medication. //",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+      "kind": "dialogue",
+      "line": 19,
+      "expected": "Okay, thank you. That's really helpful.",
+      "sha256": "e561c761f1bd7696243e1e208e9abfd7fcb28c7b1c8704385a04b11ce316da37",
+      "duration": 2.5125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Okay, thank you. That's really helpful.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/19.m4a",
+      "kind": "dialogue",
+      "line": 19,
+      "expected": "Okay, thank you. That's really helpful.",
+      "sha256": "684ba4692ab4c00c897108ad504cc29dd2b0cf755c949d049e9c77950a6fe265",
+      "duration": 2.5875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Okay, thank you. That's really helpful",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+      "kind": "dialogue",
+      "line": 20,
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "b86598d42e7a912d9082a7d7dc97af43807066570a5d9c7775ac4e3dde0e1fce",
+      "duration": 4.4021875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/2026-11-16-v1/male/20.m4a",
+      "kind": "dialogue",
+      "line": 20,
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "0c18cf3da1c6ea95e9825208c49e5468c7749925a28d5aa989c3d4d0e738149a",
+      "duration": 4.6664375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours,",
+      "sha256": "55a48f317567bec8171b093f0d8f102f7e458066ce4fba2bdfea4728cc3e6075",
+      "duration": 2.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I was sitting at my desk for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "but there wasn't any specific injury or incident",
+      "sha256": "b03b25d2b7148d2339f0ff4b6c164ea1d072e0e0332236c3751fed1ae11b6628",
+      "duration": 2.1425,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "But there wasn't any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "that triggered it.",
+      "sha256": "bbb6def65270e4b003b785b501185b879d2c794832f57c2719bb6c786ac281ff",
+      "duration": 0.8475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+      "sha256": "c88f4ceb6f657f1e66745cc0686fa0eedd893e10fcc7a22758d2eb00d308fea8",
+      "duration": 4.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-02/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sha256": "5aa7f7569085fe5ff91e49c5ca80f40773c275ea941de211860ea79021173d79",
+      "duration": 5.4625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first, it was just a mild discomfort,",
+      "sha256": "7422373bc19ff188feb259c86efde41e0c09c6fb9245e21da28d507038a90491",
+      "duration": 2.8475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "At first, it was just a mild discomfort.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-04/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "but I started noticing it more frequently over time.",
+      "sha256": "01748a00fd57c36a20a8cfb922c0063a426c483d21d749c91ce5d770679f8d63",
+      "duration": 2.8275,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "But I started noticing it more frequently over time.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-04/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-04",
+      "expected": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "sha256": "e7275651e84b19c6563adc6b3363a6d60d3dce631861919e9ca47ade005b0e42",
+      "duration": 5.5325,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "Initially, I only felt it occasionally,",
+      "sha256": "c5796dee325d55195786558719eba34ebfb96d82456f596f0468847403501595",
+      "duration": 2.44,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Initially, I only felt it occasionally.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-06/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "but now I experience it almost every day.",
+      "sha256": "b6f420315f3de6c28d28c7339ab1951d0dfa9aeedef27e60469eb3e270e7a510",
+      "duration": 2.2025,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "But now I experience it almost every day.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-06/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-06",
+      "expected": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "sha256": "ae2c0ea8a2a8d1f5e319ddaa62db555db226426aecb3bae314bfc5a69560dc35",
+      "duration": 4.4925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness after sitting for long periods,",
+      "sha256": "e98a5da4bc38dfc0ca9540e50d8467f1c1c6b8687c12fe0059b36af6d721f4de",
+      "duration": 3.52,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I've had occasional back stiffness after sitting for long periods.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-08/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "but I've never experienced this kind of persistent pain before.",
+      "sha256": "cd2bd85ab8e9a4c16115fe743505c8b1fd41080dc60c574e8e1ad882042f8e6c",
+      "duration": 4.07,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "But I've never experienced this kind of persistent pain before.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-08/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-08",
+      "expected": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "sha256": "f5c55c3eb1c7612618bc8a49db9e89ad6f5b30ea03b20be3c8ed8661c5ef41ce",
+      "duration": 7.44,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I've had occasional back stiffness after sitting for long periods. But I've never experienced this kind of persistent pain before.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "Yes, I saw my GP about two weeks ago",
+      "sha256": "5a31117119c7e2f8d5abb016d0dfbde8f8f167f4c3a542377f9c645b4e9555ae",
+      "duration": 3.4675,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Yes, I saw my GP about two weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-10/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "because the pain wasn't improving.",
+      "sha256": "bd9c39fb474cc03843f37232bec2f62947428c9f4f3fe6f4cf349b80a3825888",
+      "duration": 1.82,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "because the pain wasn't improving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-10/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-10",
+      "expected": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "sha256": "fcfe3637d9b06e422db3abd79138d02008fa9c0c6c3f4584200685f8cea094e2",
+      "duration": 5.1375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Yes, I saw my GP about two weeks ago, because the pain wasn't improving.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries,",
+      "sha256": "e07737db820b47bae843a2d2b63635ebc1c9988365904a05f11bae87b7a27127",
+      "duration": 2.1625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "hospitalisations or surgeries?",
+      "sha256": "39ca64417ed37344fdaa35d7ed531aa78573499ad8d0738e6f0ab75a86a5481e",
+      "duration": 1.8925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "hospitalizations or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/female/full.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "fed2c1055b3b579f4ebd41182e33cc7889ee8cc58ad2992bad92f63b29f60049",
+      "duration": 4.04,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries,",
+      "sha256": "f8f5a7b001c8ae21ba0350d9ee9249b82ca9f2cf3b70b2e4940f51b6e5fdd052",
+      "duration": 2.24,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "hospitalisations or surgeries?",
+      "sha256": "939b6dc8c7ab77e8c7ad85d63bffdefca8452f75bdedec6e49edb4de718ff67f",
+      "duration": 1.97,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "hospitalizations or surgeries.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-15/male/full.m4a",
+      "kind": "practice",
+      "unit": "line-15",
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "sha256": "06b1b6c6d3e3c9de8ec3a1f8c66fd04f1134df45e9aef7052de0f8b479933fd5",
+      "duration": 4.06,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness,",
+      "sha256": "190b84268a7aece9896b20fccfcc33b1153e96b5ec86b64c09e7960173c0ce45",
+      "duration": 2.235,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I've occasionally experienced some next stiffness.",
+          "exact": false,
+          "ratio": 0.8333333333333334
+        },
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "but nothing that required medical treatment.",
+      "sha256": "f55c3556288f246d8190d9cd6a9a92411226377801779cdb396be952fe650a06",
+      "duration": 2.1875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-16",
+      "expected": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "sha256": "e2304ea14507596bd62f6958c48848f4873e6469f1f41029eab2a892672dd9c4",
+      "duration": 4.3225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "I've occasionally experienced some next stiffness, but nothing that required medical treatment.",
+          "exact": false,
+          "ratio": 0.9166666666666666
+        },
+        {
+          "model": "small.en",
+          "recognized": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history",
+      "sha256": "7a80015ae0184fc3d5a083c8feded7293d12db23081c34a88fc9d9fbb2112374",
+      "duration": 2.3975,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "and how your symptoms have developed.",
+      "sha256": "2fbbdaab3332161bed16bb9a07cecb87131a0304bd813850cfdbdf500c416a20",
+      "duration": 2.0071875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/female/full.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "5cca2fe9d2615a594d989aad3bede83282cbeec62c402158334300f89bfa2f63",
+      "duration": 4.4021875,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history",
+      "sha256": "e8239adf841b989c5a2a3d03fe8dd424c309ed395eed8c42abf0ce69e665a23c",
+      "duration": 2.43,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/male/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "and how your symptoms have developed.",
+      "sha256": "814198667c59affc119b84346ea60d5c819244d43f19b9ca6d59800b8f093e39",
+      "duration": 2.2364375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-2026-11-16-v1/line-20/male/full.m4a",
+      "kind": "practice",
+      "unit": "line-20",
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "sha256": "0c18cf3da1c6ea95e9825208c49e5468c7749925a28d5aa989c3d4d0e738149a",
+      "duration": 4.6664375,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "base.en",
+          "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 63,
+    "exact": 63,
+    "review": 0
+  }
+}
