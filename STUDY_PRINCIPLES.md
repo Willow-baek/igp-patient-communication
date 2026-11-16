@@ -67,7 +67,7 @@
 - 복습 완료 기록은 브라우저별로 저장한다. 다른 참여자와 공유되는 진도처럼 표현하지 않는다.
 
 ### 8. 공유·배포와 검수
-- 소수 친구와 공유하되 공개 GitHub Pages 링크를 사용한다. 로그인·초대 전용이라고 설명하지 않는다.
+- 소수 친구와 공유하되 공개 GitHub Pages 링크를 사용한다. `free.html`에는 공통 비밀번호 편의 입장이 있지만 서버 인증은 아니며, 기존 전체 페이지와 정적 자료·오디오는 직접 접근 가능하다. 로그인·초대 전용의 비공개 자료라고 설명하지 않는다.
 - 현재 저장소: https://github.com/Willow-baek/igp-patient-communication
 - 현재 사이트: https://willow-baek.github.io/igp-patient-communication/
 - main push 후 GitHub Actions 배포 성공을 확인한다. 업로드만 하고 배포 완료라고 보고하지 않는다.

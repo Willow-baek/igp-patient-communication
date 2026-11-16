@@ -61,8 +61,17 @@ test('a failed free release request does not fall back to displaying the full ca
   assert(!result.elements.get('#weeks')?.innerHTML);
 });
 
-test('free entry shell shares the main layout, assets and guide and keeps its home link free',()=>{
+test('free entry adds only its entry check while sharing the main layout, assets and guide',()=>{
   const main=fs.readFileSync(new URL('../docs/index.html',import.meta.url),'utf8');
   const free=fs.readFileSync(new URL('../docs/free.html',import.meta.url),'utf8');
-  assert.equal(free,main.replace('<html lang="ko">','<html lang="ko" data-release-config="free-weeks.json">').replace('href="./"','href="./free.html"'));
+  assert(free.includes('data-free-locked'));
+  assert(free.includes('id="access-password"'));
+  const shared=free
+    .replace(/ data-study-app="app\.js\?v=\d+"/,'')
+    .replace('<html lang="ko" data-free-locked data-release-config="free-weeks.json">','<html lang="ko">')
+    .replace('href="./free.html"','href="./"')
+    .replace('<link rel="stylesheet" href="free-access.css?v=1">','')
+    .replace(/<section id="free-access"[\s\S]*?<\/section>/,'')
+    .replace('src="free-entry.mjs?v=1"','src="app.js?v=28"');
+  assert.equal(shared,main);
 });
