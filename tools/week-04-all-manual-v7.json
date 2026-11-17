@@ -1,0 +1,1782 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "assetVersion": "practice-all-manual-2026-11-17-v7",
+  "userTurns": [
+    "Can you tell me/ how your back pain /first started?",
+    "It started about six weeks ago/ during a particularly/ busy period at work./ I was sitting at my desk/ for long hours, but /there wasn't any specific injury or incident /that triggered it.",
+    "Did the pain /come on suddenly, /or did it develop gradually?",
+    "It developed gradually. /At first, it was just a mild discomfort,/ but I started noticing it /more frequently over time.",
+    "How has the pain changed / over the last six weeks?",
+    "It's become more noticeable/ over the last few weeks. Initially, I only felt it occasionally, / but now I experience it/ almost every day.",
+    "Have you experienced /anything similar in the past?",
+    "Not really. /I've had occasional back stiffness /after sitting for long periods, /but I've never experienced this/ kind of persistent pain before.",
+    "Have you seen a doctor /or another healthcare professional /about this problem?",
+    "Yes, I saw my GP /about two weeks ago /because the pain wasn't improving.",
+    "Did your GP recommend /any treatment or /further investigations?",
+    "They prescribed ibuprofen /and advised me to keep moving /and avoid prolonged bed rest. /I haven't had any scans /or other investigations.",
+    "Do you have /any other medical conditions /that we should be aware of?",
+    "No, I don't have /any major medical conditions.",
+    "Have you had any /previous injuries, /hospitalisations /or surgeries?",
+    "No previous major injuries or surgeries. /I've occasionally experienced /some neck stiffness, /but nothing that required /medical treatment.",
+    "Are you currently taking/ any medications or supplements?",
+    "Just ibuprofen /when the pain gets worse. /I'm not taking /any other regular medication.",
+    "Okay, thank you. /That's really helpful. /It gives me /a better understanding of /your medical history and /how your symptoms have developed."
+  ],
+  "sources": {
+    "female": {
+      "path": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "sha256": "c7a2dd0587fce4a37223589e6d51e0039d99cc034b5dba23a62a85677a057e2b"
+    },
+    "male": {
+      "path": "audio/week-04/original/W4_PT_male.mp3",
+      "sha256": "2b00dc415619c161932f3f764b7348bed90e87d3a820799e01faec19c81d0cf0"
+    },
+    "patient": {
+      "path": "audio/week-04/original/W4_pt.mp3",
+      "sha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5"
+    }
+  },
+  "humanListening": false,
+  "method": "Exact user slash groups with original normal bubble/source bounds, waveform energy review, small.en whole-bubble word realignment and adjacent fragment candidate checks. Original-source tail overlaps where needed; no synthetic silence, gain, fades or concatenation. Completed chunk endings reset prefixes; user chunk spanning a period is preserved verbatim. ASR is not human listening.",
+  "units": [
+    {
+      "id": "line-01",
+      "speaker": "Physio",
+      "lines": [
+        0
+      ],
+      "text": "Can you tell me how your back pain first started?",
+      "userSelected": true,
+      "chunks": [
+        "Can you tell me",
+        "how your back pain",
+        "first started?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-02",
+      "speaker": "Patient",
+      "lines": [
+        1
+      ],
+      "text": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "It started about six weeks ago during a particularly busy period at work.",
+          "range": {
+            "start": 0,
+            "end": 73
+          },
+          "chunks": [
+            "It started about six weeks ago",
+            "during a particularly",
+            "busy period at work."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "range": {
+            "start": 74,
+            "end": 182
+          },
+          "chunks": [
+            "I was sitting at my desk",
+            "for long hours, but",
+            "there wasn't any specific injury or incident",
+            "that triggered it."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-03",
+      "speaker": "Physio",
+      "lines": [
+        2
+      ],
+      "text": "Did the pain come on suddenly, or did it develop gradually?",
+      "userSelected": true,
+      "chunks": [
+        "Did the pain",
+        "come on suddenly,",
+        "or did it develop gradually?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-04",
+      "speaker": "Patient",
+      "lines": [
+        3
+      ],
+      "text": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "It developed gradually.",
+          "range": {
+            "start": 0,
+            "end": 23
+          },
+          "chunks": [
+            "It developed gradually."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+          "range": {
+            "start": 24,
+            "end": 117
+          },
+          "chunks": [
+            "At first, it was just a mild discomfort,",
+            "but I started noticing it",
+            "more frequently over time."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-05",
+      "speaker": "Physio",
+      "lines": [
+        4
+      ],
+      "text": "How has the pain changed over the last six weeks?",
+      "userSelected": true,
+      "chunks": [
+        "How has the pain changed",
+        "over the last six weeks?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-06",
+      "speaker": "Patient",
+      "lines": [
+        5
+      ],
+      "text": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "userSelected": true,
+      "chunks": [
+        "It's become more noticeable",
+        "over the last few weeks. Initially, I only felt it occasionally,",
+        "but now I experience it",
+        "almost every day."
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-07",
+      "speaker": "Physio",
+      "lines": [
+        6
+      ],
+      "text": "Have you experienced anything similar in the past?",
+      "userSelected": true,
+      "chunks": [
+        "Have you experienced",
+        "anything similar in the past?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-08",
+      "speaker": "Patient",
+      "lines": [
+        7
+      ],
+      "text": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "Not really.",
+          "range": {
+            "start": 0,
+            "end": 11
+          },
+          "chunks": [
+            "Not really."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+          "range": {
+            "start": 12,
+            "end": 142
+          },
+          "chunks": [
+            "I've had occasional back stiffness",
+            "after sitting for long periods,",
+            "but I've never experienced this",
+            "kind of persistent pain before."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-09",
+      "speaker": "Physio",
+      "lines": [
+        8
+      ],
+      "text": "Have you seen a doctor or another healthcare professional about this problem?",
+      "userSelected": true,
+      "chunks": [
+        "Have you seen a doctor",
+        "or another healthcare professional",
+        "about this problem?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-10",
+      "speaker": "Patient",
+      "lines": [
+        9
+      ],
+      "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "userSelected": true,
+      "chunks": [
+        "Yes, I saw my GP",
+        "about two weeks ago",
+        "because the pain wasn't improving."
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-11",
+      "speaker": "Physio",
+      "lines": [
+        10
+      ],
+      "text": "Did your GP recommend any treatment or further investigations?",
+      "userSelected": true,
+      "chunks": [
+        "Did your GP recommend",
+        "any treatment or",
+        "further investigations?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-12",
+      "speaker": "Patient",
+      "lines": [
+        11
+      ],
+      "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+          "range": {
+            "start": 0,
+            "end": 85
+          },
+          "chunks": [
+            "They prescribed ibuprofen",
+            "and advised me to keep moving",
+            "and avoid prolonged bed rest."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "I haven't had any scans or other investigations.",
+          "range": {
+            "start": 86,
+            "end": 134
+          },
+          "chunks": [
+            "I haven't had any scans",
+            "or other investigations."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-13",
+      "speaker": "Physio",
+      "lines": [
+        12
+      ],
+      "text": "Do you have any other medical conditions that we should be aware of?",
+      "userSelected": true,
+      "chunks": [
+        "Do you have",
+        "any other medical conditions",
+        "that we should be aware of?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-14",
+      "speaker": "Patient",
+      "lines": [
+        13
+      ],
+      "text": "No, I don't have any major medical conditions.",
+      "userSelected": true,
+      "chunks": [
+        "No, I don't have",
+        "any major medical conditions."
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-15",
+      "speaker": "Physio",
+      "lines": [
+        14
+      ],
+      "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "userSelected": true,
+      "chunks": [
+        "Have you had any",
+        "previous injuries,",
+        "hospitalisations",
+        "or surgeries?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-16",
+      "speaker": "Patient",
+      "lines": [
+        15
+      ],
+      "text": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "No previous major injuries or surgeries.",
+          "range": {
+            "start": 0,
+            "end": 40
+          },
+          "chunks": [
+            "No previous major injuries or surgeries."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "range": {
+            "start": 41,
+            "end": 136
+          },
+          "chunks": [
+            "I've occasionally experienced",
+            "some neck stiffness,",
+            "but nothing that required",
+            "medical treatment."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-17",
+      "speaker": "Physio",
+      "lines": [
+        16
+      ],
+      "text": "Are you currently taking any medications or supplements?",
+      "userSelected": true,
+      "chunks": [
+        "Are you currently taking",
+        "any medications or supplements?"
+      ],
+      "audio": {}
+    },
+    {
+      "id": "line-18",
+      "speaker": "Patient",
+      "lines": [
+        17
+      ],
+      "text": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "Just ibuprofen when the pain gets worse.",
+          "range": {
+            "start": 0,
+            "end": 40
+          },
+          "chunks": [
+            "Just ibuprofen",
+            "when the pain gets worse."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "I'm not taking any other regular medication.",
+          "range": {
+            "start": 41,
+            "end": 85
+          },
+          "chunks": [
+            "I'm not taking",
+            "any other regular medication."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-19",
+      "speaker": "Physio",
+      "lines": [
+        18
+      ],
+      "text": "Okay, thank you. That's really helpful.",
+      "userSelected": true,
+      "sentences": [
+        {
+          "text": "Okay, thank you.",
+          "range": {
+            "start": 0,
+            "end": 16
+          },
+          "chunks": [
+            "Okay, thank you."
+          ],
+          "audio": {}
+        },
+        {
+          "text": "That's really helpful.",
+          "range": {
+            "start": 17,
+            "end": 39
+          },
+          "chunks": [
+            "That's really helpful."
+          ],
+          "audio": {}
+        }
+      ]
+    },
+    {
+      "id": "line-20",
+      "speaker": "Physio",
+      "lines": [
+        19
+      ],
+      "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "userSelected": true,
+      "chunks": [
+        "It gives me",
+        "a better understanding of",
+        "your medical history and",
+        "how your symptoms have developed."
+      ],
+      "audio": {}
+    }
+  ],
+  "tracks": [
+    {
+      "unit": 0,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 0,
+      "end": 2.5975,
+      "cuts": [
+        0.66,
+        1.46
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "me",
+          "right": "how",
+          "asrBoundary": 0.62,
+          "cut": 0.66,
+          "draftCut": 0.725,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 0.66,
+          "refinedNextStart": 0.66
+        },
+        {
+          "left": "pain",
+          "right": "first",
+          "asrBoundary": 1.4,
+          "cut": 1.46,
+          "draftCut": 1.58,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 1.46,
+          "refinedNextStart": 1.46
+        }
+      ]
+    },
+    {
+      "unit": 0,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 0,
+      "end": 2.4125,
+      "cuts": [
+        0.64,
+        1.38
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "me",
+          "right": "how",
+          "asrBoundary": 0.6,
+          "cut": 0.64,
+          "draftCut": 0.5775,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 0.64,
+          "refinedNextStart": 0.64
+        },
+        {
+          "left": "pain",
+          "right": "first",
+          "asrBoundary": 1.32,
+          "cut": 1.38,
+          "draftCut": 1.4925,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 1.38,
+          "refinedNextStart": 1.38
+        }
+      ]
+    },
+    {
+      "unit": 1,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 0,
+      "end": 3.5375,
+      "cuts": [
+        1.435,
+        2.14
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "ago",
+          "right": "during",
+          "asrBoundary": 1.28,
+          "cut": 1.435,
+          "draftCut": 1.435,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 1.36,
+          "refinedNextStart": 1.36
+        },
+        {
+          "left": "particularly",
+          "right": "busy",
+          "asrBoundary": 1.9,
+          "cut": 2.04,
+          "draftCut": 1.955,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 2.04,
+          "refinedNextStart": 2.04,
+          "candidateSelected": 2.14
+        }
+      ]
+    },
+    {
+      "unit": 1,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 3.5375,
+      "end": 9.11,
+      "cuts": [
+        5.12,
+        6.46,
+        8.42
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "desk",
+          "right": "for",
+          "asrBoundary": 5.02,
+          "cut": 5.12,
+          "draftCut": 5.2,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 5.12,
+          "refinedNextStart": 5.12
+        },
+        {
+          "left": "but",
+          "right": "there",
+          "asrBoundary": 6.4,
+          "cut": 6.46,
+          "draftCut": 6.36,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 6.46,
+          "refinedNextStart": 6.46,
+          "candidateSelected": 6.46
+        },
+        {
+          "left": "incident",
+          "right": "that",
+          "asrBoundary": 8.26,
+          "cut": 8.42,
+          "draftCut": 8.42,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 8.28,
+          "refinedNextStart": 8.28
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 2.5975,
+      "end": 5.9275,
+      "cuts": [
+        3.32,
+        4.1875
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "pain",
+          "right": "come",
+          "asrBoundary": 3.2,
+          "cut": 3.2775,
+          "draftCut": 3.3825,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 3.2775,
+          "refinedNextStart": 3.2775,
+          "candidateSelected": 3.2775,
+          "finalSourceReview": 3.32
+        },
+        {
+          "left": "suddenly",
+          "right": "or",
+          "asrBoundary": 3.86,
+          "cut": 4.1875,
+          "draftCut": 3.8525,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 4.0175,
+          "refinedNextStart": 4.3575
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 2.4125,
+      "end": 6.4675,
+      "cuts": [
+        3.2125,
+        4.3625
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "pain",
+          "right": "come",
+          "asrBoundary": 3.12,
+          "cut": 3.2125,
+          "draftCut": 3.3175,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 3.2125,
+          "refinedNextStart": 3.2125
+        },
+        {
+          "left": "suddenly",
+          "right": "or",
+          "asrBoundary": 3.82,
+          "cut": 4.3625,
+          "draftCut": 3.825,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 3.9925,
+          "refinedNextStart": 4.7325
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 9.11,
+      "end": 10.9075,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 3,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 10.9075,
+      "end": 16.555,
+      "cuts": [
+        13.7,
+        15.19
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "discomfort,",
+          "right": "but",
+          "asrBoundary": 13.3,
+          "cut": 13.7
+        },
+        {
+          "left": "it",
+          "right": "more",
+          "asrBoundary": 15.16,
+          "cut": 15.19
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 5.9275,
+      "end": 8.655,
+      "cuts": [
+        7.1275
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "changed",
+          "right": "over",
+          "asrBoundary": 6.94,
+          "cut": 7.1275,
+          "draftCut": 6.9275,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 7.1275,
+          "refinedNextStart": 7.1275
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 6.4675,
+      "end": 9.535,
+      "cuts": [
+        8.0475
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "changed",
+          "right": "over",
+          "asrBoundary": 7.82,
+          "cut": 8.0475,
+          "draftCut": 7.7975,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 8.0475,
+          "refinedNextStart": 8.0475
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "group": null,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 16.555,
+      "end": 23.9075,
+      "cuts": [
+        17.8125,
+        21.5825,
+        22.8175
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "noticeable",
+          "right": "over",
+          "asrBoundary": 17.68,
+          "cut": 17.8125
+        },
+        {
+          "left": "occasionally,",
+          "right": "but",
+          "asrBoundary": 21.14,
+          "cut": 21.5825
+        },
+        {
+          "left": "it",
+          "right": "almost",
+          "asrBoundary": 22.82,
+          "cut": 22.8175
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 8.655,
+      "end": 11.5175,
+      "cuts": [
+        9.8075
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "experienced",
+          "right": "anything",
+          "asrBoundary": 9.68,
+          "cut": 9.8075
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 9.535,
+      "end": 12.5575,
+      "cuts": [
+        10.775
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "experienced",
+          "right": "anything",
+          "asrBoundary": 10.62,
+          "cut": 10.775
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 23.9075,
+      "end": 25.1675,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 7,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 25.1675,
+      "end": 32.625,
+      "cuts": [
+        26.85,
+        28.4375,
+        30.8475
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "stiffness",
+          "right": "after",
+          "asrBoundary": 26.62,
+          "cut": 26.7475,
+          "draftCut": 26.7,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 26.7475,
+          "refinedNextStart": 26.7475,
+          "candidateSelected": 26.85
+        },
+        {
+          "left": "periods.",
+          "right": "But",
+          "asrBoundary": 27.92,
+          "cut": 28.4375,
+          "draftCut": 28.4025,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 28.1075,
+          "refinedNextStart": 28.7675
+        },
+        {
+          "left": "this",
+          "right": "kind",
+          "asrBoundary": 30.78,
+          "cut": 30.8475,
+          "draftCut": 30.71,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 30.8475,
+          "refinedNextStart": 30.8475
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 11.5175,
+      "end": 15.58,
+      "cuts": [
+        12.7,
+        14.2375
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "doctor",
+          "right": "or",
+          "asrBoundary": 12.52,
+          "cut": 12.5775,
+          "draftCut": 12.585,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 12.5775,
+          "refinedNextStart": 12.5775,
+          "candidateSelected": 12.7
+        },
+        {
+          "left": "professional",
+          "right": "about",
+          "asrBoundary": 14.08,
+          "cut": 14.2375,
+          "draftCut": 14.145,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 14.2375,
+          "refinedNextStart": 14.2375
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 12.5575,
+      "end": 17.2675,
+      "cuts": [
+        13.88,
+        15.6375
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "doctor",
+          "right": "or",
+          "asrBoundary": 13.74,
+          "cut": 13.7575,
+          "draftCut": 13.7575,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 13.7575,
+          "refinedNextStart": 13.7575,
+          "finalSourceReview": 13.88
+        },
+        {
+          "left": "professional",
+          "right": "about",
+          "asrBoundary": 15.44,
+          "cut": 15.6375
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "group": null,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 32.625,
+      "end": 37.7625,
+      "cuts": [
+        34.82,
+        35.875
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "GP",
+          "right": "about",
+          "asrBoundary": 34.56,
+          "cut": 34.725,
+          "draftCut": 34.655,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 34.725,
+          "refinedNextStart": 34.725,
+          "candidateSelected": 34.82
+        },
+        {
+          "left": "ago,",
+          "right": "because",
+          "asrBoundary": 35.64,
+          "cut": 35.875
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 15.58,
+      "end": 19.8975,
+      "cuts": [
+        17.24,
+        18.26
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "recommend",
+          "right": "any",
+          "asrBoundary": 16.98,
+          "cut": 17.18,
+          "draftCut": 17.0075,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 17.18,
+          "refinedNextStart": 17.18,
+          "candidateSelected": 17.18,
+          "finalSourceReview": 17.24
+        },
+        {
+          "left": "or",
+          "right": "further",
+          "asrBoundary": 18.18,
+          "cut": 18.26,
+          "draftCut": 18.115,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 18.26,
+          "refinedNextStart": 18.26
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 17.2675,
+      "end": 21.6525,
+      "cuts": [
+        18.84,
+        20.0875
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "recommend",
+          "right": "any",
+          "asrBoundary": 18.56,
+          "cut": 18.7875,
+          "draftCut": 18.5775,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 18.7875,
+          "refinedNextStart": 18.7875,
+          "finalAdjacentReview": 18.84
+        },
+        {
+          "left": "or",
+          "right": "further",
+          "asrBoundary": 20.04,
+          "cut": 20.0875,
+          "draftCut": 19.9725,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 20.0875,
+          "refinedNextStart": 20.0875,
+          "candidateSelected": 20.0875,
+          "finalAdjacentReview": 20.12,
+          "finalSourceReview": {
+            "prefixEnd": 20.0875,
+            "nextChunkStart": 20.12,
+            "reason": "Keep source or ending before the strong further fricative; the standalone next chunk starts after the linked or tail. Short dangling conjunction may be omitted by ASR, not treated as proof of missing audio."
+          }
+        }
+      ],
+      "chunkStarts": [
+        17.2675,
+        18.84,
+        20.12
+      ]
+    },
+    {
+      "unit": 11,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 37.7625,
+      "end": 42.32,
+      "cuts": [
+        39.1625,
+        40.6625
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "ibuprofen",
+          "right": "and",
+          "asrBoundary": 39.14,
+          "cut": 39.1625,
+          "draftCut": 39.3275,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 39.1625,
+          "refinedNextStart": 39.1625
+        },
+        {
+          "left": "moving",
+          "right": "and",
+          "asrBoundary": 40.64,
+          "cut": 40.6625,
+          "draftCut": 40.84,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 40.6625,
+          "refinedNextStart": 40.6625
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 42.32,
+      "end": 44.79,
+      "cuts": [
+        43.74
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "scans",
+          "right": "or",
+          "asrBoundary": 43.5,
+          "cut": 43.6625,
+          "draftCut": 43.4325,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 43.6625,
+          "refinedNextStart": 43.6625,
+          "candidateSelected": 43.74
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 19.8975,
+      "end": 23.3575,
+      "cuts": [
+        20.4775,
+        21.96
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "have",
+          "right": "any",
+          "asrBoundary": 20.44,
+          "cut": 20.4775,
+          "draftCut": 20.54,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 20.4775,
+          "refinedNextStart": 20.4775
+        },
+        {
+          "left": "conditions",
+          "right": "that",
+          "asrBoundary": 21.68,
+          "cut": 21.8375,
+          "draftCut": 21.82,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 21.8375,
+          "refinedNextStart": 21.8375,
+          "candidateSelected": 21.96
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 21.6525,
+      "end": 24.78,
+      "cuts": [
+        22.2875,
+        23.4025
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "have",
+          "right": "any",
+          "asrBoundary": 22.26,
+          "cut": 22.2875
+        },
+        {
+          "left": "conditions",
+          "right": "that",
+          "asrBoundary": 23.34,
+          "cut": 23.4025
+        }
+      ]
+    },
+    {
+      "unit": 13,
+      "group": null,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 44.79,
+      "end": 47.32,
+      "cuts": [
+        45.79
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "have",
+          "right": "any",
+          "asrBoundary": 45.78,
+          "cut": 45.79
+        }
+      ]
+    },
+    {
+      "unit": 14,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 23.3575,
+      "end": 27.3975,
+      "cuts": [
+        24.475,
+        25.42,
+        26.4
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0.04,
+        0
+      ],
+      "review": [
+        {
+          "left": "any",
+          "right": "previous",
+          "asrBoundary": 24.28,
+          "cut": 24.475
+        },
+        {
+          "left": "injuries,",
+          "right": "hospitalizations",
+          "asrBoundary": 25.18,
+          "cut": 25.3175,
+          "draftCut": 25.525,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 25.3175,
+          "refinedNextStart": 25.3175,
+          "candidateSelected": 25.42
+        },
+        {
+          "left": "hospitalizations",
+          "right": "or",
+          "asrBoundary": 26.08,
+          "cut": 26.3375,
+          "draftCut": 26.07,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 26.3375,
+          "refinedNextStart": 26.3375,
+          "candidateSelected": 26.3375,
+          "tailReview": "Keep final source suffix with a short original overlap; adjacent or surgeries remains complete. Isolated ASR may choose singular hospitalization."
+        }
+      ]
+    },
+    {
+      "unit": 14,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 24.78,
+      "end": 28.84,
+      "cuts": [
+        25.7275,
+        26.82,
+        27.9
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0.04,
+        0
+      ],
+      "review": [
+        {
+          "left": "any",
+          "right": "previous",
+          "asrBoundary": 25.6,
+          "cut": 25.7275
+        },
+        {
+          "left": "injuries,",
+          "right": "hospitalizations",
+          "asrBoundary": 26.4,
+          "cut": 26.82,
+          "draftCut": 26.9075,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 26.54,
+          "refinedNextStart": 27.1
+        },
+        {
+          "left": "hospitalizations",
+          "right": "or",
+          "asrBoundary": 27.62,
+          "cut": 27.82,
+          "draftCut": 27.5725,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 27.82,
+          "refinedNextStart": 27.82,
+          "candidateSelected": 27.9,
+          "tailReview": "Keep final source suffix with a short original overlap; adjacent or surgeries remains complete. Isolated ASR may choose singular hospitalization."
+        }
+      ]
+    },
+    {
+      "unit": 15,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 47.32,
+      "end": 49.6675,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 15,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 49.6675,
+      "end": 54.2375,
+      "cuts": [
+        51.1,
+        52.0,
+        53.24
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "experienced",
+          "right": "some",
+          "asrBoundary": 51.02,
+          "cut": 51.1,
+          "draftCut": 51.085,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 51.1,
+          "refinedNextStart": 51.1
+        },
+        {
+          "left": "stiffness,",
+          "right": "but",
+          "asrBoundary": 51.64,
+          "cut": 52.0,
+          "draftCut": 52.0875,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 51.78,
+          "refinedNextStart": 52.22
+        },
+        {
+          "left": "required",
+          "right": "medical",
+          "asrBoundary": 53.08,
+          "cut": 53.18,
+          "draftCut": 53.0425,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 53.18,
+          "refinedNextStart": 53.18,
+          "candidateSelected": 53.24
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 27.3975,
+      "end": 30.78,
+      "cuts": [
+        28.7175
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "taking",
+          "right": "any",
+          "asrBoundary": 28.66,
+          "cut": 28.7175,
+          "draftCut": 28.6825,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 28.7175,
+          "refinedNextStart": 28.7175
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 28.84,
+      "end": 31.8775,
+      "cuts": [
+        30.0125
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "taking",
+          "right": "any",
+          "asrBoundary": 29.98,
+          "cut": 30.0125
+        }
+      ]
+    },
+    {
+      "unit": 17,
+      "group": 0,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 54.2375,
+      "end": 56.315,
+      "cuts": [
+        55.4775
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "ibuprofen",
+          "right": "when",
+          "asrBoundary": 55.44,
+          "cut": 55.4775,
+          "draftCut": 55.43,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 55.4775,
+          "refinedNextStart": 55.4775
+        }
+      ]
+    },
+    {
+      "unit": 17,
+      "group": 1,
+      "voice": "patient",
+      "source": "audio/week-04/original/W4_pt.mp3",
+      "start": 56.315,
+      "end": 59.115125,
+      "cuts": [
+        57.4575
+      ],
+      "tailPadding": [
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "taking",
+          "right": "any",
+          "asrBoundary": 57.42,
+          "cut": 57.4575,
+          "draftCut": 57.425,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 57.4575,
+          "refinedNextStart": 57.4575
+        }
+      ]
+    },
+    {
+      "unit": 18,
+      "group": 0,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 30.78,
+      "end": 32.095,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 18,
+      "group": 1,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 32.095,
+      "end": 33.2925,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 18,
+      "group": 0,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 31.8775,
+      "end": 33.1675,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 18,
+      "group": 1,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 33.1675,
+      "end": 34.465,
+      "cuts": [],
+      "tailPadding": [
+        0
+      ],
+      "review": []
+    },
+    {
+      "unit": 19,
+      "group": null,
+      "voice": "female",
+      "source": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/original/W4_PT_female.m4a",
+      "start": 33.2925,
+      "end": 37.6946875,
+      "cuts": [
+        33.9125,
+        34.9525,
+        36.0625
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "me",
+          "right": "a",
+          "asrBoundary": 33.86,
+          "cut": 33.9125,
+          "draftCut": 33.79,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 33.9125,
+          "refinedNextStart": 33.9125
+        },
+        {
+          "left": "of",
+          "right": "your",
+          "asrBoundary": 34.9,
+          "cut": 34.9525,
+          "draftCut": 34.94,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 34.9525,
+          "refinedNextStart": 34.9525
+        },
+        {
+          "left": "and",
+          "right": "how",
+          "asrBoundary": 35.98,
+          "cut": 36.0625
+        }
+      ]
+    },
+    {
+      "unit": 19,
+      "group": null,
+      "voice": "male",
+      "source": "audio/week-04/original/W4_PT_male.mp3",
+      "start": 34.465,
+      "end": 39.1314375,
+      "cuts": [
+        35.18,
+        36.205,
+        37.445
+      ],
+      "tailPadding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "review": [
+        {
+          "left": "me",
+          "right": "a",
+          "asrBoundary": 35.18,
+          "cut": 35.245,
+          "draftCut": 35.345,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 35.245,
+          "refinedNextStart": 35.245,
+          "candidateSelected": 35.18
+        },
+        {
+          "left": "of",
+          "right": "your",
+          "asrBoundary": 36.16,
+          "cut": 36.205,
+          "draftCut": 36.1775,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 36.205,
+          "refinedNextStart": 36.205
+        },
+        {
+          "left": "and",
+          "right": "how",
+          "asrBoundary": 37.4,
+          "cut": 37.445,
+          "draftCut": 37.34,
+          "refinedFrom": "small.en whole-bubble word alignment",
+          "refinedWordEnd": 37.445,
+          "refinedNextStart": 37.445,
+          "candidateSelected": 37.5,
+          "finalSourceReview": 37.445,
+          "nextChunkStart": 37.5,
+          "reason": "Original and tail belongs to the preceding prefix; standalone how begins at 37.50. Full sentence keeps the original continuous transition."
+        }
+      ],
+      "chunkStarts": [
+        34.465,
+        35.18,
+        36.205,
+        37.5
+      ]
+    }
+  ]
+}

@@ -24,8 +24,8 @@ model_name='base.en' if '--base' in sys.argv else ('small.en' if retry or change
 cache=os.environ.get('IGP_WHISPER_MODEL_DIR','/Users/hansol/Documents/Codex/2026-10-27/new-chat/work/audio-alignment/models')
 model=WhisperModel(model_name,device='cpu',compute_type='int8',download_root=cache,cpu_threads=4)
 report_path=root/'tools/week-04-audio-verification.json'
-report=json.loads(report_path.read_text()) if retry or changed or missing else {'week':'week-04','scriptRevision':week['scriptRevision'],'humanListening':False,'method':'Independent ASR on current dialogue and practice files; US/UK hospitalization spelling normalized.','assets':[]}
-norm=lambda s:re.findall(r"[a-z0-9']+",s.lower().replace('hospitalisations','hospitalizations'))
+report=json.loads(report_path.read_text()) if retry or changed or missing else {'week':'week-04','scriptRevision':week['scriptRevision'],'humanListening':False,'method':'Independent ASR on current dialogue and practice files; US/UK hospitalization spelling and health care/bedrest spacing normalized.','assets':[]}
+norm=lambda s:re.findall(r"[a-z0-9']+",s.lower().replace('hospitalisations','hospitalizations').replace('health care','healthcare').replace('bedrest','bed rest'))
 targets={}
 for i,l in enumerate(week['lines']):
     tracks=l['audioVoices'].values() if l['speaker']=='Physio' else [l['audio']]
@@ -36,6 +36,14 @@ for u in week.get('practice',{}).get('units',[]):
             for url,text in zip(track['chunks'],group['chunks']):targets[url]={'kind':'practice','unit':u['id'],'expected':text}
             for n,url in enumerate(track['buildUp'],2):targets[url]={'kind':'practice','unit':u['id'],'expected':' '.join(group['chunks'][:n])}
             targets[track['full']]={'kind':'practice','unit':u['id'],'expected':group['text']}
+report['normalization']=['US/UK hospitalisations spelling','health care/healthcare spacing','bedrest/bed rest spacing']
+# Apply the same documented orthographic normalization to cached observations.
+for item in report['assets']:
+    if not item.get('recognitions'):continue
+    observation=item['recognitions'][-1]
+    observation['exact']=norm(item['expected'])==norm(observation['recognized'])
+    observation['ratio']=difflib.SequenceMatcher(None,norm(item['expected']),norm(observation['recognized'])).ratio()
+    item['exact']=observation['exact']
 retired=[a for a in report['assets'] if a['url'] not in targets]
 if retired:report.setdefault('previousAssets',[]).extend(retired)
 report['assets']=[a for a in report['assets'] if a['url'] in targets]

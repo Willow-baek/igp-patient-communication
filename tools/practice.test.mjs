@@ -221,3 +221,19 @@ test('multi-sentence practice resets prefixes at each sentence and rejects skipp
   delete missing.sentences[1].audio.patient;
   assert.deepEqual(practiceSteps(missing,'female'),[]);
 });
+
+test('Week 4 follows every user-selected slash, including the explicit cross-sentence chunk',()=>{
+  const week=weeks.find(w=>w.id==='week-04');
+  const plan=JSON.parse(fs.readFileSync(new URL('./week-04-all-manual-v7.json',import.meta.url)));
+  const turns=plan.userTurns.map(text=>text.split('/').map(chunk=>chunk.trim()));
+  const closing=turns.pop();turns.push(closing.slice(0,2),closing.slice(2));
+  assert.equal(turns.length,week.lines.length);
+  assert.equal(turns.flat().length,70);
+  for(const [index,chunks] of turns.entries()){
+    const unit=practiceForLine(week,index);assert(unit,`line ${index+1} exposes practice`);
+    assert.equal(unit.userSelected,true);
+    assert.deepEqual((unit.sentences||[unit]).flatMap(group=>group.chunks),chunks);
+    for(const voice of ['female','male'])assert(practiceSteps(unit,voice).length>0);
+  }
+  assert.equal(practiceForLine(week,5).chunks[1],'over the last few weeks. Initially, I only felt it occasionally,');
+});

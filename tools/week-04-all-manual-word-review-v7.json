@@ -1,0 +1,2336 @@
+{
+  "method": "Independent small.en word timing per full original bubble, not human listening.",
+  "clips": [
+    {
+      "voice": "female",
+      "line": 1,
+      "expected": "Can you tell me how your back pain first started?",
+      "recognized": "Can you tell me how your back pain first started?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Can",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": " you",
+          "start": 0.22,
+          "end": 0.36
+        },
+        {
+          "word": " tell",
+          "start": 0.36,
+          "end": 0.52
+        },
+        {
+          "word": " me",
+          "start": 0.52,
+          "end": 0.66
+        },
+        {
+          "word": " how",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "word": " your",
+          "start": 0.84,
+          "end": 0.98
+        },
+        {
+          "word": " back",
+          "start": 0.98,
+          "end": 1.2
+        },
+        {
+          "word": " pain",
+          "start": 1.2,
+          "end": 1.46
+        },
+        {
+          "word": " first",
+          "start": 1.46,
+          "end": 1.72
+        },
+        {
+          "word": " started?",
+          "start": 1.72,
+          "end": 2.2
+        }
+      ],
+      "start": 0,
+      "end": 2.5975
+    },
+    {
+      "voice": "female",
+      "line": 3,
+      "expected": "Did the pain come on suddenly, or did it develop gradually?",
+      "recognized": "Did the pain come on suddenly, or did it develop gradually?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Did",
+          "start": 2.5975,
+          "end": 2.9175
+        },
+        {
+          "word": " the",
+          "start": 2.9175,
+          "end": 3.0575
+        },
+        {
+          "word": " pain",
+          "start": 3.0575,
+          "end": 3.2775
+        },
+        {
+          "word": " come",
+          "start": 3.2775,
+          "end": 3.4575
+        },
+        {
+          "word": " on",
+          "start": 3.4575,
+          "end": 3.6775
+        },
+        {
+          "word": " suddenly,",
+          "start": 3.6775,
+          "end": 4.0175
+        },
+        {
+          "word": " or",
+          "start": 4.3575,
+          "end": 4.3975
+        },
+        {
+          "word": " did",
+          "start": 4.3975,
+          "end": 4.5575
+        },
+        {
+          "word": " it",
+          "start": 4.5575,
+          "end": 4.6775
+        },
+        {
+          "word": " develop",
+          "start": 4.6775,
+          "end": 4.9375
+        },
+        {
+          "word": " gradually?",
+          "start": 4.9375,
+          "end": 5.3575
+        }
+      ],
+      "start": 2.5975,
+      "end": 5.9275
+    },
+    {
+      "voice": "female",
+      "line": 5,
+      "expected": "How has the pain changed over the last six weeks?",
+      "recognized": "How has the pain changed over the last six weeks?",
+      "exact": true,
+      "words": [
+        {
+          "word": " How",
+          "start": 5.9275,
+          "end": 6.3075
+        },
+        {
+          "word": " has",
+          "start": 6.3075,
+          "end": 6.4475
+        },
+        {
+          "word": " the",
+          "start": 6.4475,
+          "end": 6.5675
+        },
+        {
+          "word": " pain",
+          "start": 6.5675,
+          "end": 6.7675
+        },
+        {
+          "word": " changed",
+          "start": 6.7675,
+          "end": 7.1275
+        },
+        {
+          "word": " over",
+          "start": 7.1275,
+          "end": 7.3675
+        },
+        {
+          "word": " the",
+          "start": 7.3675,
+          "end": 7.5075
+        },
+        {
+          "word": " last",
+          "start": 7.5075,
+          "end": 7.6875
+        },
+        {
+          "word": " six",
+          "start": 7.6875,
+          "end": 7.9475
+        },
+        {
+          "word": " weeks?",
+          "start": 7.9475,
+          "end": 8.1875
+        }
+      ],
+      "start": 5.9275,
+      "end": 8.655
+    },
+    {
+      "voice": "female",
+      "line": 7,
+      "expected": "Have you experienced anything similar in the past?",
+      "recognized": "Have you experienced anything similar in the past?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 8.655,
+          "end": 9.155
+        },
+        {
+          "word": " you",
+          "start": 9.155,
+          "end": 9.295
+        },
+        {
+          "word": " experienced",
+          "start": 9.295,
+          "end": 9.735
+        },
+        {
+          "word": " anything",
+          "start": 9.735,
+          "end": 10.155
+        },
+        {
+          "word": " similar",
+          "start": 10.155,
+          "end": 10.535
+        },
+        {
+          "word": " in",
+          "start": 10.535,
+          "end": 10.735
+        },
+        {
+          "word": " the",
+          "start": 10.735,
+          "end": 10.835
+        },
+        {
+          "word": " past?",
+          "start": 10.835,
+          "end": 11.055
+        }
+      ],
+      "start": 8.655,
+      "end": 11.5175
+    },
+    {
+      "voice": "female",
+      "line": 9,
+      "expected": "Have you seen a doctor or another healthcare professional about this problem?",
+      "recognized": "Have you seen a doctor or another healthcare professional about this problem?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 11.5175,
+          "end": 11.8975
+        },
+        {
+          "word": " you",
+          "start": 11.8975,
+          "end": 12.0375
+        },
+        {
+          "word": " seen",
+          "start": 12.0375,
+          "end": 12.1975
+        },
+        {
+          "word": " a",
+          "start": 12.1975,
+          "end": 12.3575
+        },
+        {
+          "word": " doctor",
+          "start": 12.3575,
+          "end": 12.5775
+        },
+        {
+          "word": " or",
+          "start": 12.5775,
+          "end": 12.8775
+        },
+        {
+          "word": " another",
+          "start": 12.8775,
+          "end": 13.2375
+        },
+        {
+          "word": " healthcare",
+          "start": 13.2375,
+          "end": 13.6375
+        },
+        {
+          "word": " professional",
+          "start": 13.6375,
+          "end": 14.2375
+        },
+        {
+          "word": " about",
+          "start": 14.2375,
+          "end": 14.5375
+        },
+        {
+          "word": " this",
+          "start": 14.5375,
+          "end": 14.7775
+        },
+        {
+          "word": " problem?",
+          "start": 14.7775,
+          "end": 15.1775
+        }
+      ],
+      "start": 11.5175,
+      "end": 15.58
+    },
+    {
+      "voice": "female",
+      "line": 11,
+      "expected": "Did your GP recommend any treatment or further investigations?",
+      "recognized": "Did your GP recommend any treatment or further investigations?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Did",
+          "start": 15.58,
+          "end": 16.08
+        },
+        {
+          "word": " your",
+          "start": 16.08,
+          "end": 16.26
+        },
+        {
+          "word": " GP",
+          "start": 16.26,
+          "end": 16.66
+        },
+        {
+          "word": " recommend",
+          "start": 16.66,
+          "end": 17.18
+        },
+        {
+          "word": " any",
+          "start": 17.18,
+          "end": 17.52
+        },
+        {
+          "word": " treatment",
+          "start": 17.52,
+          "end": 17.9
+        },
+        {
+          "word": " or",
+          "start": 17.9,
+          "end": 18.26
+        },
+        {
+          "word": " further",
+          "start": 18.26,
+          "end": 18.52
+        },
+        {
+          "word": " investigations?",
+          "start": 18.52,
+          "end": 19.16
+        }
+      ],
+      "start": 15.58,
+      "end": 19.8975
+    },
+    {
+      "voice": "female",
+      "line": 13,
+      "expected": "Do you have any other medical conditions that we should be aware of?",
+      "recognized": "Do you have any other medical conditions that we should be aware of?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Do",
+          "start": 19.8975,
+          "end": 20.2375
+        },
+        {
+          "word": " you",
+          "start": 20.2375,
+          "end": 20.3175
+        },
+        {
+          "word": " have",
+          "start": 20.3175,
+          "end": 20.4775
+        },
+        {
+          "word": " any",
+          "start": 20.4775,
+          "end": 20.7775
+        },
+        {
+          "word": " other",
+          "start": 20.7775,
+          "end": 20.9975
+        },
+        {
+          "word": " medical",
+          "start": 20.9975,
+          "end": 21.2975
+        },
+        {
+          "word": " conditions",
+          "start": 21.2975,
+          "end": 21.8375
+        },
+        {
+          "word": " that",
+          "start": 21.8375,
+          "end": 22.1175
+        },
+        {
+          "word": " we",
+          "start": 22.1175,
+          "end": 22.2775
+        },
+        {
+          "word": " should",
+          "start": 22.2775,
+          "end": 22.3975
+        },
+        {
+          "word": " be",
+          "start": 22.3975,
+          "end": 22.5575
+        },
+        {
+          "word": " aware",
+          "start": 22.5575,
+          "end": 22.7975
+        },
+        {
+          "word": " of?",
+          "start": 22.7975,
+          "end": 23.1175
+        }
+      ],
+      "start": 19.8975,
+      "end": 23.3575
+    },
+    {
+      "voice": "female",
+      "line": 15,
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "recognized": "Have you had any previous injuries hospitalizations or surgeries?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 23.3575,
+          "end": 23.8775
+        },
+        {
+          "word": " you",
+          "start": 23.8775,
+          "end": 24.0175
+        },
+        {
+          "word": " had",
+          "start": 24.0175,
+          "end": 24.1775
+        },
+        {
+          "word": " any",
+          "start": 24.1775,
+          "end": 24.3575
+        },
+        {
+          "word": " previous",
+          "start": 24.3575,
+          "end": 24.7375
+        },
+        {
+          "word": " injuries",
+          "start": 24.7375,
+          "end": 25.3175
+        },
+        {
+          "word": " hospitalizations",
+          "start": 25.3175,
+          "end": 26.3375
+        },
+        {
+          "word": " or",
+          "start": 26.3375,
+          "end": 26.5775
+        },
+        {
+          "word": " surgeries?",
+          "start": 26.5775,
+          "end": 27.0175
+        }
+      ],
+      "start": 23.3575,
+      "end": 27.3975
+    },
+    {
+      "voice": "female",
+      "line": 17,
+      "expected": "Are you currently taking any medications or supplements?",
+      "recognized": "Are you currently taking any medications or supplements?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Are",
+          "start": 27.3975,
+          "end": 27.8975
+        },
+        {
+          "word": " you",
+          "start": 27.8975,
+          "end": 28.0575
+        },
+        {
+          "word": " currently",
+          "start": 28.0575,
+          "end": 28.3175
+        },
+        {
+          "word": " taking",
+          "start": 28.3175,
+          "end": 28.7175
+        },
+        {
+          "word": " any",
+          "start": 28.7175,
+          "end": 28.9775
+        },
+        {
+          "word": " medications",
+          "start": 28.9775,
+          "end": 29.3975
+        },
+        {
+          "word": " or",
+          "start": 29.3975,
+          "end": 29.7775
+        },
+        {
+          "word": " supplements?",
+          "start": 29.7775,
+          "end": 30.1175
+        }
+      ],
+      "start": 27.3975,
+      "end": 30.78
+    },
+    {
+      "voice": "female",
+      "line": 19,
+      "expected": "Okay, thank you. That's really helpful.",
+      "recognized": "Okay, thank you. That's really helpful.",
+      "exact": true,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 30.78,
+          "end": 31.34
+        },
+        {
+          "word": " thank",
+          "start": 31.48,
+          "end": 31.58
+        },
+        {
+          "word": " you.",
+          "start": 31.58,
+          "end": 31.84
+        },
+        {
+          "word": " That's",
+          "start": 32.14,
+          "end": 32.34
+        },
+        {
+          "word": " really",
+          "start": 32.34,
+          "end": 32.48
+        },
+        {
+          "word": " helpful.",
+          "start": 32.48,
+          "end": 32.82
+        }
+      ],
+      "start": 30.78,
+      "end": 33.2925
+    },
+    {
+      "voice": "female",
+      "line": 20,
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "exact": true,
+      "words": [
+        {
+          "word": " It",
+          "start": 33.2925,
+          "end": 33.5725
+        },
+        {
+          "word": " gives",
+          "start": 33.5725,
+          "end": 33.7325
+        },
+        {
+          "word": " me",
+          "start": 33.7325,
+          "end": 33.9125
+        },
+        {
+          "word": " a",
+          "start": 33.9125,
+          "end": 34.0125
+        },
+        {
+          "word": " better",
+          "start": 34.0125,
+          "end": 34.1725
+        },
+        {
+          "word": " understanding",
+          "start": 34.1725,
+          "end": 34.6925
+        },
+        {
+          "word": " of",
+          "start": 34.6925,
+          "end": 34.9525
+        },
+        {
+          "word": " your",
+          "start": 34.9525,
+          "end": 35.0725
+        },
+        {
+          "word": " medical",
+          "start": 35.0725,
+          "end": 35.3325
+        },
+        {
+          "word": " history",
+          "start": 35.3325,
+          "end": 35.6925
+        },
+        {
+          "word": " and",
+          "start": 35.6925,
+          "end": 36.0325
+        },
+        {
+          "word": " how",
+          "start": 36.0325,
+          "end": 36.1925
+        },
+        {
+          "word": " your",
+          "start": 36.1925,
+          "end": 36.3525
+        },
+        {
+          "word": " symptoms",
+          "start": 36.3525,
+          "end": 36.6125
+        },
+        {
+          "word": " have",
+          "start": 36.6125,
+          "end": 36.9125
+        },
+        {
+          "word": " developed.",
+          "start": 36.9125,
+          "end": 37.2525
+        }
+      ],
+      "start": 33.2925,
+      "end": 37.6946875
+    },
+    {
+      "voice": "male",
+      "line": 1,
+      "expected": "Can you tell me how your back pain first started?",
+      "recognized": "Can you tell me how your back pain first started?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Can",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": " you",
+          "start": 0.2,
+          "end": 0.34
+        },
+        {
+          "word": " tell",
+          "start": 0.34,
+          "end": 0.5
+        },
+        {
+          "word": " me",
+          "start": 0.5,
+          "end": 0.64
+        },
+        {
+          "word": " how",
+          "start": 0.64,
+          "end": 0.78
+        },
+        {
+          "word": " your",
+          "start": 0.78,
+          "end": 0.92
+        },
+        {
+          "word": " back",
+          "start": 0.92,
+          "end": 1.14
+        },
+        {
+          "word": " pain",
+          "start": 1.14,
+          "end": 1.38
+        },
+        {
+          "word": " first",
+          "start": 1.38,
+          "end": 1.64
+        },
+        {
+          "word": " started?",
+          "start": 1.64,
+          "end": 2.06
+        }
+      ],
+      "start": 0,
+      "end": 2.4125
+    },
+    {
+      "voice": "male",
+      "line": 3,
+      "expected": "Did the pain come on suddenly, or did it develop gradually?",
+      "recognized": "Did the pain come on suddenly, or did it develop gradually?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Did",
+          "start": 2.4125,
+          "end": 2.8325
+        },
+        {
+          "word": " the",
+          "start": 2.8325,
+          "end": 2.9725
+        },
+        {
+          "word": " pain",
+          "start": 2.9725,
+          "end": 3.2125
+        },
+        {
+          "word": " come",
+          "start": 3.2125,
+          "end": 3.4125
+        },
+        {
+          "word": " on",
+          "start": 3.4125,
+          "end": 3.6325
+        },
+        {
+          "word": " suddenly,",
+          "start": 3.6325,
+          "end": 3.9925
+        },
+        {
+          "word": " or",
+          "start": 4.7325,
+          "end": 4.7725
+        },
+        {
+          "word": " did",
+          "start": 4.7725,
+          "end": 4.9525
+        },
+        {
+          "word": " it",
+          "start": 4.9525,
+          "end": 5.0725
+        },
+        {
+          "word": " develop",
+          "start": 5.0725,
+          "end": 5.3925
+        },
+        {
+          "word": " gradually?",
+          "start": 5.3925,
+          "end": 5.8325
+        }
+      ],
+      "start": 2.4125,
+      "end": 6.4675
+    },
+    {
+      "voice": "male",
+      "line": 5,
+      "expected": "How has the pain changed over the last six weeks?",
+      "recognized": "How has the pain changed over the last six weeks?",
+      "exact": true,
+      "words": [
+        {
+          "word": " How",
+          "start": 6.4675,
+          "end": 7.1275
+        },
+        {
+          "word": " has",
+          "start": 7.1275,
+          "end": 7.2875
+        },
+        {
+          "word": " the",
+          "start": 7.2875,
+          "end": 7.4275
+        },
+        {
+          "word": " pain",
+          "start": 7.4275,
+          "end": 7.6275
+        },
+        {
+          "word": " changed",
+          "start": 7.6275,
+          "end": 8.0475
+        },
+        {
+          "word": " over",
+          "start": 8.0475,
+          "end": 8.3075
+        },
+        {
+          "word": " the",
+          "start": 8.3075,
+          "end": 8.4275
+        },
+        {
+          "word": " last",
+          "start": 8.4275,
+          "end": 8.5875
+        },
+        {
+          "word": " six",
+          "start": 8.5875,
+          "end": 8.8475
+        },
+        {
+          "word": " weeks?",
+          "start": 8.8475,
+          "end": 9.0875
+        }
+      ],
+      "start": 6.4675,
+      "end": 9.535
+    },
+    {
+      "voice": "male",
+      "line": 7,
+      "expected": "Have you experienced anything similar in the past?",
+      "recognized": "Have you experienced anything similar in the past?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 9.535,
+          "end": 10.055
+        },
+        {
+          "word": " you",
+          "start": 10.055,
+          "end": 10.195
+        },
+        {
+          "word": " experienced",
+          "start": 10.195,
+          "end": 10.695
+        },
+        {
+          "word": " anything",
+          "start": 10.695,
+          "end": 11.095
+        },
+        {
+          "word": " similar",
+          "start": 11.095,
+          "end": 11.535
+        },
+        {
+          "word": " in",
+          "start": 11.535,
+          "end": 11.735
+        },
+        {
+          "word": " the",
+          "start": 11.735,
+          "end": 11.855
+        },
+        {
+          "word": " past?",
+          "start": 11.855,
+          "end": 12.095
+        }
+      ],
+      "start": 9.535,
+      "end": 12.5575
+    },
+    {
+      "voice": "male",
+      "line": 9,
+      "expected": "Have you seen a doctor or another healthcare professional about this problem?",
+      "recognized": "Have you seen a doctor or another healthcare professional about this problem?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 12.5575,
+          "end": 13.0575
+        },
+        {
+          "word": " you",
+          "start": 13.0575,
+          "end": 13.1975
+        },
+        {
+          "word": " seen",
+          "start": 13.1975,
+          "end": 13.3575
+        },
+        {
+          "word": " a",
+          "start": 13.3575,
+          "end": 13.5375
+        },
+        {
+          "word": " doctor",
+          "start": 13.5375,
+          "end": 13.7575
+        },
+        {
+          "word": " or",
+          "start": 13.7575,
+          "end": 14.2375
+        },
+        {
+          "word": " another",
+          "start": 14.2375,
+          "end": 14.5175
+        },
+        {
+          "word": " healthcare",
+          "start": 14.5175,
+          "end": 14.9175
+        },
+        {
+          "word": " professional",
+          "start": 14.9175,
+          "end": 15.4975
+        },
+        {
+          "word": " about",
+          "start": 15.4975,
+          "end": 16.2575
+        },
+        {
+          "word": " this",
+          "start": 16.2575,
+          "end": 16.5175
+        },
+        {
+          "word": " problem?",
+          "start": 16.5175,
+          "end": 16.8375
+        }
+      ],
+      "start": 12.5575,
+      "end": 17.2675
+    },
+    {
+      "voice": "male",
+      "line": 11,
+      "expected": "Did your GP recommend any treatment or further investigations?",
+      "recognized": "Did your GP recommend any treatment or further investigations?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Did",
+          "start": 17.2675,
+          "end": 17.7275
+        },
+        {
+          "word": " your",
+          "start": 17.7275,
+          "end": 17.9075
+        },
+        {
+          "word": " GP",
+          "start": 17.9075,
+          "end": 18.2675
+        },
+        {
+          "word": " recommend",
+          "start": 18.2675,
+          "end": 18.7875
+        },
+        {
+          "word": " any",
+          "start": 18.7875,
+          "end": 19.0675
+        },
+        {
+          "word": " treatment",
+          "start": 19.0675,
+          "end": 19.4075
+        },
+        {
+          "word": " or",
+          "start": 19.4075,
+          "end": 20.0875
+        },
+        {
+          "word": " further",
+          "start": 20.0875,
+          "end": 20.3675
+        },
+        {
+          "word": " investigations?",
+          "start": 20.3675,
+          "end": 21.0075
+        }
+      ],
+      "start": 17.2675,
+      "end": 21.6525
+    },
+    {
+      "voice": "male",
+      "line": 13,
+      "expected": "Do you have any other medical conditions that we should be aware of?",
+      "recognized": "Do you have any other medical conditions that we should be aware of?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Do",
+          "start": 21.6525,
+          "end": 22.0525
+        },
+        {
+          "word": " you",
+          "start": 22.0525,
+          "end": 22.1525
+        },
+        {
+          "word": " have",
+          "start": 22.1525,
+          "end": 22.2925
+        },
+        {
+          "word": " any",
+          "start": 22.2925,
+          "end": 22.4725
+        },
+        {
+          "word": " other",
+          "start": 22.4725,
+          "end": 22.6125
+        },
+        {
+          "word": " medical",
+          "start": 22.6125,
+          "end": 22.8925
+        },
+        {
+          "word": " conditions",
+          "start": 22.8925,
+          "end": 23.4125
+        },
+        {
+          "word": " that",
+          "start": 23.4125,
+          "end": 23.6525
+        },
+        {
+          "word": " we",
+          "start": 23.6525,
+          "end": 23.7925
+        },
+        {
+          "word": " should",
+          "start": 23.7925,
+          "end": 23.9325
+        },
+        {
+          "word": " be",
+          "start": 23.9325,
+          "end": 24.0925
+        },
+        {
+          "word": " aware",
+          "start": 24.0925,
+          "end": 24.3125
+        },
+        {
+          "word": " of?",
+          "start": 24.3125,
+          "end": 24.5725
+        }
+      ],
+      "start": 21.6525,
+      "end": 24.78
+    },
+    {
+      "voice": "male",
+      "line": 15,
+      "expected": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "recognized": "Have you had any previous injuries, hospitalizations or surgeries?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Have",
+          "start": 24.78,
+          "end": 25.26
+        },
+        {
+          "word": " you",
+          "start": 25.26,
+          "end": 25.38
+        },
+        {
+          "word": " had",
+          "start": 25.38,
+          "end": 25.52
+        },
+        {
+          "word": " any",
+          "start": 25.52,
+          "end": 25.68
+        },
+        {
+          "word": " previous",
+          "start": 25.68,
+          "end": 26.06
+        },
+        {
+          "word": " injuries,",
+          "start": 26.06,
+          "end": 26.54
+        },
+        {
+          "word": " hospitalizations",
+          "start": 27.1,
+          "end": 27.82
+        },
+        {
+          "word": " or",
+          "start": 27.82,
+          "end": 28.1
+        },
+        {
+          "word": " surgeries?",
+          "start": 28.1,
+          "end": 28.5
+        }
+      ],
+      "start": 24.78,
+      "end": 28.84
+    },
+    {
+      "voice": "male",
+      "line": 17,
+      "expected": "Are you currently taking any medications or supplements?",
+      "recognized": "Are you currently taking any medications or supplements?",
+      "exact": true,
+      "words": [
+        {
+          "word": " Are",
+          "start": 28.84,
+          "end": 29.3
+        },
+        {
+          "word": " you",
+          "start": 29.3,
+          "end": 29.42
+        },
+        {
+          "word": " currently",
+          "start": 29.42,
+          "end": 29.66
+        },
+        {
+          "word": " taking",
+          "start": 29.66,
+          "end": 30.02
+        },
+        {
+          "word": " any",
+          "start": 30.02,
+          "end": 30.26
+        },
+        {
+          "word": " medications",
+          "start": 30.26,
+          "end": 30.66
+        },
+        {
+          "word": " or",
+          "start": 30.66,
+          "end": 31.04
+        },
+        {
+          "word": " supplements?",
+          "start": 31.04,
+          "end": 31.36
+        }
+      ],
+      "start": 28.84,
+      "end": 31.8775
+    },
+    {
+      "voice": "male",
+      "line": 19,
+      "expected": "Okay, thank you. That's really helpful.",
+      "recognized": "Okay, thank you. That's really helpful",
+      "exact": true,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 31.8775,
+          "end": 32.3775
+        },
+        {
+          "word": " thank",
+          "start": 32.4575,
+          "end": 32.6175
+        },
+        {
+          "word": " you.",
+          "start": 32.6175,
+          "end": 32.8775
+        },
+        {
+          "word": " That's",
+          "start": 33.2375,
+          "end": 33.5975
+        },
+        {
+          "word": " really",
+          "start": 33.5975,
+          "end": 33.7375
+        },
+        {
+          "word": " helpful",
+          "start": 33.7375,
+          "end": 34.0775
+        }
+      ],
+      "start": 31.8775,
+      "end": 34.465
+    },
+    {
+      "voice": "male",
+      "line": 20,
+      "expected": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "recognized": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "exact": true,
+      "words": [
+        {
+          "word": " It",
+          "start": 34.465,
+          "end": 34.885
+        },
+        {
+          "word": " gives",
+          "start": 34.885,
+          "end": 35.065
+        },
+        {
+          "word": " me",
+          "start": 35.065,
+          "end": 35.245
+        },
+        {
+          "word": " a",
+          "start": 35.245,
+          "end": 35.325
+        },
+        {
+          "word": " better",
+          "start": 35.325,
+          "end": 35.465
+        },
+        {
+          "word": " understanding",
+          "start": 35.465,
+          "end": 35.965
+        },
+        {
+          "word": " of",
+          "start": 35.965,
+          "end": 36.205
+        },
+        {
+          "word": " your",
+          "start": 36.205,
+          "end": 36.325
+        },
+        {
+          "word": " medical",
+          "start": 36.325,
+          "end": 36.585
+        },
+        {
+          "word": " history",
+          "start": 36.585,
+          "end": 37.005
+        },
+        {
+          "word": " and",
+          "start": 37.005,
+          "end": 37.445
+        },
+        {
+          "word": " how",
+          "start": 37.445,
+          "end": 37.605
+        },
+        {
+          "word": " your",
+          "start": 37.605,
+          "end": 37.765
+        },
+        {
+          "word": " symptoms",
+          "start": 37.765,
+          "end": 38.065
+        },
+        {
+          "word": " have",
+          "start": 38.065,
+          "end": 38.345
+        },
+        {
+          "word": " developed.",
+          "start": 38.345,
+          "end": 38.705
+        }
+      ],
+      "start": 34.465,
+      "end": 39.1314375
+    },
+    {
+      "voice": "patient",
+      "line": 2,
+      "expected": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "recognized": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "exact": true,
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "word": " started",
+          "start": 0.18,
+          "end": 0.4
+        },
+        {
+          "word": " about",
+          "start": 0.4,
+          "end": 0.64
+        },
+        {
+          "word": " six",
+          "start": 0.64,
+          "end": 0.88
+        },
+        {
+          "word": " weeks",
+          "start": 0.88,
+          "end": 1.08
+        },
+        {
+          "word": " ago",
+          "start": 1.08,
+          "end": 1.36
+        },
+        {
+          "word": " during",
+          "start": 1.36,
+          "end": 1.58
+        },
+        {
+          "word": " a",
+          "start": 1.58,
+          "end": 1.72
+        },
+        {
+          "word": " particularly",
+          "start": 1.72,
+          "end": 2.04
+        },
+        {
+          "word": " busy",
+          "start": 2.04,
+          "end": 2.34
+        },
+        {
+          "word": " period",
+          "start": 2.34,
+          "end": 2.7
+        },
+        {
+          "word": " at",
+          "start": 2.7,
+          "end": 2.82
+        },
+        {
+          "word": " work.",
+          "start": 2.82,
+          "end": 3.1
+        },
+        {
+          "word": " I",
+          "start": 4.22,
+          "end": 4.36
+        },
+        {
+          "word": " was",
+          "start": 4.36,
+          "end": 4.44
+        },
+        {
+          "word": " sitting",
+          "start": 4.44,
+          "end": 4.6
+        },
+        {
+          "word": " at",
+          "start": 4.6,
+          "end": 4.76
+        },
+        {
+          "word": " my",
+          "start": 4.76,
+          "end": 4.88
+        },
+        {
+          "word": " desk",
+          "start": 4.88,
+          "end": 5.12
+        },
+        {
+          "word": " for",
+          "start": 5.12,
+          "end": 5.32
+        },
+        {
+          "word": " long",
+          "start": 5.32,
+          "end": 5.48
+        },
+        {
+          "word": " hours,",
+          "start": 5.48,
+          "end": 5.88
+        },
+        {
+          "word": " but",
+          "start": 6.2,
+          "end": 6.46
+        },
+        {
+          "word": " there",
+          "start": 6.46,
+          "end": 6.56
+        },
+        {
+          "word": " wasn't",
+          "start": 6.56,
+          "end": 6.86
+        },
+        {
+          "word": " any",
+          "start": 6.86,
+          "end": 7.04
+        },
+        {
+          "word": " specific",
+          "start": 7.04,
+          "end": 7.38
+        },
+        {
+          "word": " injury",
+          "start": 7.38,
+          "end": 7.8
+        },
+        {
+          "word": " or",
+          "start": 7.8,
+          "end": 8.04
+        },
+        {
+          "word": " incident",
+          "start": 8.04,
+          "end": 8.28
+        },
+        {
+          "word": " that",
+          "start": 8.28,
+          "end": 8.54
+        },
+        {
+          "word": " triggered",
+          "start": 8.54,
+          "end": 8.74
+        },
+        {
+          "word": " it.",
+          "start": 8.74,
+          "end": 8.96
+        }
+      ],
+      "start": 0,
+      "end": 9.11
+    },
+    {
+      "voice": "patient",
+      "line": 4,
+      "expected": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "recognized": "it developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "exact": true,
+      "words": [
+        {
+          "word": " it",
+          "start": 9.11,
+          "end": 9.71
+        },
+        {
+          "word": " developed",
+          "start": 9.71,
+          "end": 9.99
+        },
+        {
+          "word": " gradually.",
+          "start": 9.99,
+          "end": 10.51
+        },
+        {
+          "word": " At",
+          "start": 11.61,
+          "end": 11.71
+        },
+        {
+          "word": " first,",
+          "start": 11.71,
+          "end": 11.97
+        },
+        {
+          "word": " it",
+          "start": 12.37,
+          "end": 12.51
+        },
+        {
+          "word": " was",
+          "start": 12.51,
+          "end": 12.59
+        },
+        {
+          "word": " just",
+          "start": 12.59,
+          "end": 12.75
+        },
+        {
+          "word": " a",
+          "start": 12.75,
+          "end": 12.87
+        },
+        {
+          "word": " mild",
+          "start": 12.87,
+          "end": 13.07
+        },
+        {
+          "word": " discomfort,",
+          "start": 13.07,
+          "end": 13.51
+        },
+        {
+          "word": " but",
+          "start": 14.01,
+          "end": 14.29
+        },
+        {
+          "word": " I",
+          "start": 14.29,
+          "end": 14.43
+        },
+        {
+          "word": " started",
+          "start": 14.43,
+          "end": 14.71
+        },
+        {
+          "word": " noticing",
+          "start": 14.71,
+          "end": 15.01
+        },
+        {
+          "word": " it",
+          "start": 15.01,
+          "end": 15.21
+        },
+        {
+          "word": " more",
+          "start": 15.21,
+          "end": 15.35
+        },
+        {
+          "word": " frequently",
+          "start": 15.35,
+          "end": 15.65
+        },
+        {
+          "word": " over",
+          "start": 15.65,
+          "end": 15.87
+        },
+        {
+          "word": " time.",
+          "start": 15.87,
+          "end": 16.17
+        }
+      ],
+      "start": 9.11,
+      "end": 16.555
+    },
+    {
+      "voice": "patient",
+      "line": 6,
+      "expected": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "recognized": "it's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "exact": true,
+      "words": [
+        {
+          "word": " it's",
+          "start": 16.555,
+          "end": 17.015
+        },
+        {
+          "word": " become",
+          "start": 17.015,
+          "end": 17.215
+        },
+        {
+          "word": " more",
+          "start": 17.215,
+          "end": 17.395
+        },
+        {
+          "word": " noticeable",
+          "start": 17.395,
+          "end": 17.795
+        },
+        {
+          "word": " over",
+          "start": 17.795,
+          "end": 18.255
+        },
+        {
+          "word": " the",
+          "start": 18.255,
+          "end": 18.355
+        },
+        {
+          "word": " last",
+          "start": 18.355,
+          "end": 18.515
+        },
+        {
+          "word": " few",
+          "start": 18.515,
+          "end": 18.695
+        },
+        {
+          "word": " weeks.",
+          "start": 18.695,
+          "end": 18.975
+        },
+        {
+          "word": " Initially,",
+          "start": 20.015,
+          "end": 20.195
+        },
+        {
+          "word": " I",
+          "start": 20.415,
+          "end": 20.535
+        },
+        {
+          "word": " only",
+          "start": 20.535,
+          "end": 20.675
+        },
+        {
+          "word": " felt",
+          "start": 20.675,
+          "end": 20.875
+        },
+        {
+          "word": " it",
+          "start": 20.875,
+          "end": 20.995
+        },
+        {
+          "word": " occasionally,",
+          "start": 20.995,
+          "end": 21.375
+        },
+        {
+          "word": " but",
+          "start": 21.975,
+          "end": 22.095
+        },
+        {
+          "word": " now",
+          "start": 22.095,
+          "end": 22.275
+        },
+        {
+          "word": " I",
+          "start": 22.275,
+          "end": 22.395
+        },
+        {
+          "word": " experience",
+          "start": 22.395,
+          "end": 22.655
+        },
+        {
+          "word": " it",
+          "start": 22.655,
+          "end": 22.855
+        },
+        {
+          "word": " almost",
+          "start": 22.855,
+          "end": 23.035
+        },
+        {
+          "word": " every",
+          "start": 23.035,
+          "end": 23.295
+        },
+        {
+          "word": " day.",
+          "start": 23.295,
+          "end": 23.495
+        }
+      ],
+      "start": 16.555,
+      "end": 23.9075
+    },
+    {
+      "voice": "patient",
+      "line": 8,
+      "expected": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "recognized": "Not really, I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "exact": true,
+      "words": [
+        {
+          "word": " Not",
+          "start": 23.9075,
+          "end": 24.6675
+        },
+        {
+          "word": " really,",
+          "start": 24.6675,
+          "end": 24.9075
+        },
+        {
+          "word": " I've",
+          "start": 25.5475,
+          "end": 25.7075
+        },
+        {
+          "word": " had",
+          "start": 25.7075,
+          "end": 25.7875
+        },
+        {
+          "word": " occasional",
+          "start": 25.7875,
+          "end": 26.1675
+        },
+        {
+          "word": " back",
+          "start": 26.1675,
+          "end": 26.4275
+        },
+        {
+          "word": " stiffness",
+          "start": 26.4275,
+          "end": 26.7475
+        },
+        {
+          "word": " after",
+          "start": 26.7475,
+          "end": 27.0875
+        },
+        {
+          "word": " sitting",
+          "start": 27.0875,
+          "end": 27.2875
+        },
+        {
+          "word": " for",
+          "start": 27.2875,
+          "end": 27.4875
+        },
+        {
+          "word": " long",
+          "start": 27.4875,
+          "end": 27.6675
+        },
+        {
+          "word": " periods,",
+          "start": 27.6675,
+          "end": 28.1075
+        },
+        {
+          "word": " but",
+          "start": 28.7675,
+          "end": 29.5275
+        },
+        {
+          "word": " I've",
+          "start": 29.5275,
+          "end": 29.9675
+        },
+        {
+          "word": " never",
+          "start": 29.9675,
+          "end": 30.1075
+        },
+        {
+          "word": " experienced",
+          "start": 30.1075,
+          "end": 30.6075
+        },
+        {
+          "word": " this",
+          "start": 30.6075,
+          "end": 30.8475
+        },
+        {
+          "word": " kind",
+          "start": 30.8475,
+          "end": 31.0275
+        },
+        {
+          "word": " of",
+          "start": 31.0275,
+          "end": 31.1475
+        },
+        {
+          "word": " persistent",
+          "start": 31.1475,
+          "end": 31.4275
+        },
+        {
+          "word": " pain",
+          "start": 31.4275,
+          "end": 31.7275
+        },
+        {
+          "word": " before.",
+          "start": 31.7275,
+          "end": 32.0475
+        }
+      ],
+      "start": 23.9075,
+      "end": 32.625
+    },
+    {
+      "voice": "patient",
+      "line": 10,
+      "expected": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "recognized": "Yes, I saw my GP about two weeks ago, because the pain wasn't improving.",
+      "exact": true,
+      "words": [
+        {
+          "word": " Yes,",
+          "start": 32.625,
+          "end": 33.445
+        },
+        {
+          "word": " I",
+          "start": 33.905,
+          "end": 34.085
+        },
+        {
+          "word": " saw",
+          "start": 34.085,
+          "end": 34.225
+        },
+        {
+          "word": " my",
+          "start": 34.225,
+          "end": 34.425
+        },
+        {
+          "word": " GP",
+          "start": 34.425,
+          "end": 34.725
+        },
+        {
+          "word": " about",
+          "start": 34.725,
+          "end": 35.045
+        },
+        {
+          "word": " two",
+          "start": 35.045,
+          "end": 35.265
+        },
+        {
+          "word": " weeks",
+          "start": 35.265,
+          "end": 35.425
+        },
+        {
+          "word": " ago,",
+          "start": 35.425,
+          "end": 35.725
+        },
+        {
+          "word": " because",
+          "start": 36.145,
+          "end": 36.385
+        },
+        {
+          "word": " the",
+          "start": 36.385,
+          "end": 36.525
+        },
+        {
+          "word": " pain",
+          "start": 36.525,
+          "end": 36.725
+        },
+        {
+          "word": " wasn't",
+          "start": 36.725,
+          "end": 36.965
+        },
+        {
+          "word": " improving.",
+          "start": 36.965,
+          "end": 37.305
+        }
+      ],
+      "start": 32.625,
+      "end": 37.7625
+    },
+    {
+      "voice": "patient",
+      "line": 12,
+      "expected": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "recognized": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "exact": true,
+      "words": [
+        {
+          "word": " They",
+          "start": 37.7625,
+          "end": 38.2025
+        },
+        {
+          "word": " prescribed",
+          "start": 38.2025,
+          "end": 38.5825
+        },
+        {
+          "word": " ibuprofen",
+          "start": 38.5825,
+          "end": 39.1625
+        },
+        {
+          "word": " and",
+          "start": 39.1625,
+          "end": 39.6625
+        },
+        {
+          "word": " advised",
+          "start": 39.6625,
+          "end": 39.9425
+        },
+        {
+          "word": " me",
+          "start": 39.9425,
+          "end": 40.1225
+        },
+        {
+          "word": " to",
+          "start": 40.1225,
+          "end": 40.2225
+        },
+        {
+          "word": " keep",
+          "start": 40.2225,
+          "end": 40.3425
+        },
+        {
+          "word": " moving",
+          "start": 40.3425,
+          "end": 40.6625
+        },
+        {
+          "word": " and",
+          "start": 40.6625,
+          "end": 40.9825
+        },
+        {
+          "word": " avoid",
+          "start": 40.9825,
+          "end": 41.2425
+        },
+        {
+          "word": " prolonged",
+          "start": 41.2425,
+          "end": 41.5825
+        },
+        {
+          "word": " bed",
+          "start": 41.5825,
+          "end": 41.8225
+        },
+        {
+          "word": " rest.",
+          "start": 41.8225,
+          "end": 42.0625
+        },
+        {
+          "word": " I",
+          "start": 42.8025,
+          "end": 42.8425
+        },
+        {
+          "word": " haven't",
+          "start": 42.8425,
+          "end": 43.0025
+        },
+        {
+          "word": " had",
+          "start": 43.0025,
+          "end": 43.1425
+        },
+        {
+          "word": " any",
+          "start": 43.1425,
+          "end": 43.3025
+        },
+        {
+          "word": " scans",
+          "start": 43.3025,
+          "end": 43.6625
+        },
+        {
+          "word": " or",
+          "start": 43.6625,
+          "end": 43.8425
+        },
+        {
+          "word": " other",
+          "start": 43.8425,
+          "end": 44.0025
+        },
+        {
+          "word": " investigations.",
+          "start": 44.0025,
+          "end": 44.4825
+        }
+      ],
+      "start": 37.7625,
+      "end": 44.79
+    },
+    {
+      "voice": "patient",
+      "line": 14,
+      "expected": "No, I don't have any major medical conditions.",
+      "recognized": "No, I don't have any major medical conditions.",
+      "exact": true,
+      "words": [
+        {
+          "word": " No,",
+          "start": 44.79,
+          "end": 44.99
+        },
+        {
+          "word": " I",
+          "start": 45.41,
+          "end": 45.55
+        },
+        {
+          "word": " don't",
+          "start": 45.55,
+          "end": 45.67
+        },
+        {
+          "word": " have",
+          "start": 45.67,
+          "end": 45.81
+        },
+        {
+          "word": " any",
+          "start": 45.81,
+          "end": 45.93
+        },
+        {
+          "word": " major",
+          "start": 45.93,
+          "end": 46.17
+        },
+        {
+          "word": " medical",
+          "start": 46.17,
+          "end": 46.45
+        },
+        {
+          "word": " conditions.",
+          "start": 46.45,
+          "end": 46.85
+        }
+      ],
+      "start": 44.79,
+      "end": 47.32
+    },
+    {
+      "voice": "patient",
+      "line": 16,
+      "expected": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "recognized": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "exact": true,
+      "words": [
+        {
+          "word": " No",
+          "start": 47.32,
+          "end": 47.72
+        },
+        {
+          "word": " previous",
+          "start": 47.72,
+          "end": 48.06
+        },
+        {
+          "word": " major",
+          "start": 48.06,
+          "end": 48.34
+        },
+        {
+          "word": " injuries",
+          "start": 48.34,
+          "end": 48.72
+        },
+        {
+          "word": " or",
+          "start": 48.72,
+          "end": 48.9
+        },
+        {
+          "word": " surgeries.",
+          "start": 48.9,
+          "end": 49.26
+        },
+        {
+          "word": " I've",
+          "start": 50.1,
+          "end": 50.28
+        },
+        {
+          "word": " occasionally",
+          "start": 50.28,
+          "end": 50.6
+        },
+        {
+          "word": " experienced",
+          "start": 50.6,
+          "end": 51.1
+        },
+        {
+          "word": " some",
+          "start": 51.1,
+          "end": 51.26
+        },
+        {
+          "word": " neck",
+          "start": 51.26,
+          "end": 51.42
+        },
+        {
+          "word": " stiffness,",
+          "start": 51.42,
+          "end": 51.78
+        },
+        {
+          "word": " but",
+          "start": 52.22,
+          "end": 52.38
+        },
+        {
+          "word": " nothing",
+          "start": 52.38,
+          "end": 52.62
+        },
+        {
+          "word": " that",
+          "start": 52.62,
+          "end": 52.86
+        },
+        {
+          "word": " required",
+          "start": 52.86,
+          "end": 53.18
+        },
+        {
+          "word": " medical",
+          "start": 53.18,
+          "end": 53.48
+        },
+        {
+          "word": " treatment.",
+          "start": 53.48,
+          "end": 53.82
+        }
+      ],
+      "start": 47.32,
+      "end": 54.2375
+    },
+    {
+      "voice": "patient",
+      "line": 18,
+      "expected": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "recognized": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "exact": true,
+      "words": [
+        {
+          "word": " Just",
+          "start": 54.2375,
+          "end": 54.8975
+        },
+        {
+          "word": " ibuprofen",
+          "start": 54.8975,
+          "end": 55.4775
+        },
+        {
+          "word": " when",
+          "start": 55.4775,
+          "end": 55.5975
+        },
+        {
+          "word": " the",
+          "start": 55.5975,
+          "end": 55.6975
+        },
+        {
+          "word": " pain",
+          "start": 55.6975,
+          "end": 55.8775
+        },
+        {
+          "word": " gets",
+          "start": 55.8775,
+          "end": 56.0575
+        },
+        {
+          "word": " worse.",
+          "start": 56.0575,
+          "end": 56.3375
+        },
+        {
+          "word": " I'm",
+          "start": 56.9375,
+          "end": 57.0975
+        },
+        {
+          "word": " not",
+          "start": 57.0975,
+          "end": 57.1975
+        },
+        {
+          "word": " taking",
+          "start": 57.1975,
+          "end": 57.4575
+        },
+        {
+          "word": " any",
+          "start": 57.4575,
+          "end": 57.6775
+        },
+        {
+          "word": " other",
+          "start": 57.6775,
+          "end": 57.8575
+        },
+        {
+          "word": " regular",
+          "start": 57.8575,
+          "end": 58.1175
+        },
+        {
+          "word": " medication.",
+          "start": 58.1175,
+          "end": 58.5375
+        }
+      ],
+      "start": 54.2375,
+      "end": 59.115125
+    }
+  ]
+}

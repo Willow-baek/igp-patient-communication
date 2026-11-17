@@ -1,0 +1,532 @@
+{
+  "humanListening": false,
+  "method": "Independent ASR of both adjacent source fragments at candidate shared boundaries; exact user text unchanged; orthographic health care/healthcare and bedrest/bed rest normalized.",
+  "boundaries": [
+    {
+      "line": 2,
+      "voice": "patient",
+      "group": 0,
+      "left": "during a particularly",
+      "right": "busy period at work.",
+      "oldCut": 2.04,
+      "candidates": [
+        {
+          "cut": 2.04,
+          "leftRecognized": "during a particular.",
+          "rightRecognized": "busy period at work.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 2.14,
+          "leftRecognized": "during a particularly.",
+          "rightRecognized": "busy period at work.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 2.14,
+        "leftRecognized": "during a particularly.",
+        "rightRecognized": "busy period at work.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 2,
+      "voice": "patient",
+      "group": 1,
+      "left": "for long hours, but",
+      "right": "there wasn't any specific injury or incident",
+      "oldCut": 6.46,
+      "candidates": [
+        {
+          "cut": 6.46,
+          "leftRecognized": "for long hours.",
+          "rightRecognized": "there wasn't any specific injury or incident.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 6.54,
+          "leftRecognized": "for long hours.",
+          "rightRecognized": "There wasn't any specific injury or incident.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 6.5,
+          "leftRecognized": "for long hours.",
+          "rightRecognized": "There wasn't any specific injury or incident.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 6.58,
+          "leftRecognized": "for long hours, but they're",
+          "rightRecognized": "wasn't any specific injury or incident.",
+          "wordDistance": 2
+        }
+      ],
+      "selected": {
+        "cut": 6.46,
+        "leftRecognized": "for long hours.",
+        "rightRecognized": "there wasn't any specific injury or incident.",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 3,
+      "voice": "female",
+      "group": null,
+      "left": "Did the pain",
+      "right": "come on suddenly,",
+      "oldCut": 3.2775,
+      "candidates": [
+        {
+          "cut": 3.2775,
+          "leftRecognized": "Did the pain-",
+          "rightRecognized": "come on suddenly.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 3.2775,
+        "leftRecognized": "Did the pain-",
+        "rightRecognized": "come on suddenly.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 8,
+      "voice": "patient",
+      "group": 1,
+      "left": "I've had occasional back stiffness",
+      "right": "after sitting for long periods,",
+      "oldCut": 26.7475,
+      "candidates": [
+        {
+          "cut": 26.7475,
+          "leftRecognized": "I've had occasional back stiffness.",
+          "rightRecognized": "us after sitting for long periods.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 26.85,
+          "leftRecognized": "I've had occasional back stiffness.",
+          "rightRecognized": "after sitting for long periods.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 26.85,
+        "leftRecognized": "I've had occasional back stiffness.",
+        "rightRecognized": "after sitting for long periods.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 9,
+      "voice": "female",
+      "group": null,
+      "left": "Have you seen a doctor",
+      "right": "or another healthcare professional",
+      "oldCut": 12.5775,
+      "candidates": [
+        {
+          "cut": 12.5775,
+          "leftRecognized": "Have you seen a dog?",
+          "rightRecognized": "another healthcare professional.",
+          "wordDistance": 2
+        },
+        {
+          "cut": 12.7,
+          "leftRecognized": "Have you seen a doctor?",
+          "rightRecognized": "another healthcare professional.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 12.65,
+          "leftRecognized": "Have you seen a doctor?",
+          "rightRecognized": "another healthcare professional.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 12.75,
+          "leftRecognized": "Have you seen a doctor?",
+          "rightRecognized": "another healthcare professional.",
+          "wordDistance": 1
+        }
+      ],
+      "selected": {
+        "cut": 12.7,
+        "leftRecognized": "Have you seen a doctor?",
+        "rightRecognized": "another healthcare professional.",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 10,
+      "voice": "patient",
+      "group": null,
+      "left": "Yes, I saw my GP",
+      "right": "about two weeks ago",
+      "oldCut": 34.725,
+      "candidates": [
+        {
+          "cut": 34.725,
+          "leftRecognized": "Yes, I saw my jeep.",
+          "rightRecognized": "about two weeks ago.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 34.82,
+          "leftRecognized": "Yes, I saw my GP.",
+          "rightRecognized": "about two weeks ago.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 34.82,
+        "leftRecognized": "Yes, I saw my GP.",
+        "rightRecognized": "about two weeks ago.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 11,
+      "voice": "female",
+      "group": null,
+      "left": "Did your GP recommend",
+      "right": "any treatment or",
+      "oldCut": 17.18,
+      "candidates": [
+        {
+          "cut": 17.18,
+          "leftRecognized": "Did your GP recommend-",
+          "rightRecognized": "any treatment or",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 17.18,
+        "leftRecognized": "Did your GP recommend-",
+        "rightRecognized": "any treatment or",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 11,
+      "voice": "male",
+      "group": null,
+      "left": "any treatment or",
+      "right": "further investigations?",
+      "oldCut": 20.0875,
+      "candidates": [
+        {
+          "cut": 20.0875,
+          "leftRecognized": "any treatment.",
+          "rightRecognized": "further investigations.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 20.2,
+          "leftRecognized": "and any treatment of",
+          "rightRecognized": "further investigations.",
+          "wordDistance": 2
+        },
+        {
+          "cut": 20.16,
+          "leftRecognized": "and any treatment, or",
+          "rightRecognized": "further investigations.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 20.24,
+          "leftRecognized": "any treatment, or f-",
+          "rightRecognized": "further investigations.",
+          "wordDistance": 1
+        }
+      ],
+      "selected": {
+        "cut": 20.0875,
+        "leftRecognized": "any treatment.",
+        "rightRecognized": "further investigations.",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 12,
+      "voice": "patient",
+      "group": 1,
+      "left": "I haven't had any scans",
+      "right": "or other investigations.",
+      "oldCut": 43.6625,
+      "candidates": [
+        {
+          "cut": 43.6625,
+          "leftRecognized": "I haven't had any scan",
+          "rightRecognized": "or other investigations.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 43.74,
+          "leftRecognized": "I haven't had any scans",
+          "rightRecognized": "or other investigations.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 43.74,
+        "leftRecognized": "I haven't had any scans",
+        "rightRecognized": "or other investigations.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 13,
+      "voice": "female",
+      "group": null,
+      "left": "any other medical conditions",
+      "right": "that we should be aware of?",
+      "oldCut": 21.8375,
+      "candidates": [
+        {
+          "cut": 21.8375,
+          "leftRecognized": "any other medical condition.",
+          "rightRecognized": "that we should be aware of.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 21.92,
+          "leftRecognized": "any other medical condition.",
+          "rightRecognized": "that we should be aware of.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 21.89,
+          "leftRecognized": "any other medical condition.",
+          "rightRecognized": "that we should be aware of.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 21.96,
+          "leftRecognized": "any other medical conditions.",
+          "rightRecognized": "that we should be aware of.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 21.96,
+        "leftRecognized": "any other medical conditions.",
+        "rightRecognized": "that we should be aware of.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 15,
+      "voice": "female",
+      "group": null,
+      "left": "previous injuries,",
+      "right": "hospitalisations",
+      "oldCut": 25.3175,
+      "candidates": [
+        {
+          "cut": 25.3175,
+          "leftRecognized": "previous injury.",
+          "rightRecognized": "hospitalization",
+          "wordDistance": 2
+        },
+        {
+          "cut": 25.42,
+          "leftRecognized": "previous injuries.",
+          "rightRecognized": "hospitalization",
+          "wordDistance": 1
+        },
+        {
+          "cut": 25.39,
+          "leftRecognized": "previous injury.",
+          "rightRecognized": "hospitalisation.",
+          "wordDistance": 2
+        },
+        {
+          "cut": 25.46,
+          "leftRecognized": "previous injuries.",
+          "rightRecognized": "hospitalisation",
+          "wordDistance": 1
+        }
+      ],
+      "selected": {
+        "cut": 25.42,
+        "leftRecognized": "previous injuries.",
+        "rightRecognized": "hospitalization",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 15,
+      "voice": "female",
+      "group": null,
+      "left": "hospitalisations",
+      "right": "or surgeries?",
+      "oldCut": 26.3375,
+      "candidates": [
+        {
+          "cut": 26.3375,
+          "leftRecognized": "hospitalization",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 26.4,
+          "leftRecognized": "hospitalisation.",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 26.44,
+          "leftRecognized": "hospitalisation.",
+          "rightRecognized": "surgeries.",
+          "wordDistance": 2
+        },
+        {
+          "cut": 26.38,
+          "leftRecognized": "hospitalisation.",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        }
+      ],
+      "selected": {
+        "cut": 26.3375,
+        "leftRecognized": "hospitalization",
+        "rightRecognized": "or surgeries.",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 15,
+      "voice": "male",
+      "group": null,
+      "left": "hospitalisations",
+      "right": "or surgeries?",
+      "oldCut": 27.82,
+      "candidates": [
+        {
+          "cut": 27.82,
+          "leftRecognized": "hospitalization",
+          "rightRecognized": "of surgeries.",
+          "wordDistance": 2
+        },
+        {
+          "cut": 27.9,
+          "leftRecognized": "hospitalization",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 27.94,
+          "leftRecognized": "hospitalization",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 27.86,
+          "leftRecognized": "hospitalization",
+          "rightRecognized": "or surgeries.",
+          "wordDistance": 1
+        }
+      ],
+      "selected": {
+        "cut": 27.9,
+        "leftRecognized": "hospitalization",
+        "rightRecognized": "or surgeries.",
+        "wordDistance": 1
+      }
+    },
+    {
+      "line": 16,
+      "voice": "patient",
+      "group": 1,
+      "left": "but nothing that required",
+      "right": "medical treatment.",
+      "oldCut": 53.18,
+      "candidates": [
+        {
+          "cut": 53.18,
+          "leftRecognized": "but nothing that requires...",
+          "rightRecognized": "medical treatment.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 53.24,
+          "leftRecognized": "but nothing that required",
+          "rightRecognized": "medical treatment.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 53.24,
+        "leftRecognized": "but nothing that required",
+        "rightRecognized": "medical treatment.",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 20,
+      "voice": "male",
+      "group": null,
+      "left": "It gives me",
+      "right": "a better understanding of",
+      "oldCut": 35.245,
+      "candidates": [
+        {
+          "cut": 35.245,
+          "leftRecognized": "It gives me a",
+          "rightRecognized": "a better understanding of",
+          "wordDistance": 1
+        },
+        {
+          "cut": 35.18,
+          "leftRecognized": "It gives me...",
+          "rightRecognized": "a better understanding of",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 35.18,
+        "leftRecognized": "It gives me...",
+        "rightRecognized": "a better understanding of",
+        "wordDistance": 0
+      }
+    },
+    {
+      "line": 20,
+      "voice": "male",
+      "group": null,
+      "left": "your medical history and",
+      "right": "how your symptoms have developed.",
+      "oldCut": 37.445,
+      "candidates": [
+        {
+          "cut": 37.445,
+          "leftRecognized": "your medical history and",
+          "rightRecognized": "and how your symptoms have developed.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 37.54,
+          "leftRecognized": "your medical history and",
+          "rightRecognized": "your symptoms have developed.",
+          "wordDistance": 1
+        },
+        {
+          "cut": 37.5,
+          "leftRecognized": "your medical history and",
+          "rightRecognized": "how your symptoms have developed.",
+          "wordDistance": 0
+        }
+      ],
+      "selected": {
+        "cut": 37.5,
+        "leftRecognized": "your medical history and",
+        "rightRecognized": "how your symptoms have developed.",
+        "wordDistance": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "week": "week-04",
+  "humanListening": false,
+  "userChunks": 70,
+  "practiceBubbles": 20,
+  "newPracticeFiles": 163,
+  "newPracticeAsrExact": 156,
+  "fullPracticeGroups": 39,
+  "fullPracticeGroupAsrExact": true,
+  "sourceBubblesAsrExact": 31,
+  "normalPlaybackScriptVolumeAndOtherWeeksUnchanged": true,
+  "automatedTestsPassed": 48,
+  "reviewItems": [
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/chunk-2.m4a",
+      "expected": "for long hours, but",
+      "recognized": "for long hours.",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/chunk-2.m4a",
+      "expected": "or another healthcare professional",
+      "recognized": "another healthcare professional.",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/build-2.m4a",
+      "expected": "Did your GP recommend any treatment or",
+      "recognized": "Did your GP recommend any treatment?",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/chunk-2.m4a",
+      "expected": "and advised me to keep moving",
+      "recognized": "and advise me to keep moving.",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/chunk-3.m4a",
+      "expected": "hospitalisations",
+      "recognized": "hospitalization",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/build-3.m4a",
+      "expected": "Have you had any previous injuries, hospitalisations",
+      "recognized": "Have you had any previous injuries, hospitalization,",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    },
+    {
+      "url": "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/chunk-2.m4a",
+      "expected": "some neck stiffness,",
+      "recognized": "some next stiffness.",
+      "note": "Retained as an ASR review item. Full source bubble matches the script; isolated recognition is not human listening or proof of complete end sounds."
+    }
+  ],
+  "limits": "ASR is supplementary. Short dangling conjunctions, suffixes and linked words may differ in recognition; retain these records for direct listening. No human listening claim."
+}
