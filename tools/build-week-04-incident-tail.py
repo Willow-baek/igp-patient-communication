@@ -1,6 +1,7 @@
 """Restore the incident ending from preserved audio after shorter-practice v4.
 
-Run last. Extract continuous original ranges without silence, gain, fade or
+Run after v4, before the user-selected v6 builder. Extract continuous original
+ranges without silence, gain, fade or
 concatenation. Old assets and boundary manifests remain unchanged.
 """
 import hashlib

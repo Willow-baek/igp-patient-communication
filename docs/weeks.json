@@ -1513,19 +1513,25 @@
                   "end": 73
                 },
                 "chunks": [
-                  "It started about six weeks ago",
-                  "during a particularly busy period at work."
+                  "It started",
+                  "about six weeks ago",
+                  "during a particularly busy period",
+                  "at work."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-1.m4a",
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-2.m4a"
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-1.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-2.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-3.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-4.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a"
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/build-2.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/build-3.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a"
+                    "full": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/full.m4a"
                   }
                 }
               },
@@ -1534,26 +1540,26 @@
                 "chunks": [
                   "I was sitting at my desk",
                   "for long hours,",
-                  "but there wasn't",
-                  "any specific injury or incident",
+                  "but there wasn't any",
+                  "specific injury or incident",
                   "that triggered it."
                 ],
                 "audio": {
                   "patient": {
                     "chunks": [
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-1.m4a",
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-2.m4a",
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-3.m4a",
-                      "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-4.m4a",
-                      "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-5.m4a"
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-1.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-2.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-3.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-4.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-5.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-3.m4a",
-                      "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/build-4.m4a",
-                      "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a"
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-2.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-3.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-4.m4a",
+                      "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/full.m4a"
                     ],
-                    "full": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a"
+                    "full": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/full.m4a"
                   }
                 },
                 "range": {

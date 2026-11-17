@@ -813,247 +813,6 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-1.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "It started about six weeks ago",
-      "sha256": "0ecad3fd324074b6949ca762bead44065ef89770c7c72191379c107667161b10",
-      "duration": 1.437,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "It started about six weeks ago.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-2.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "during a particularly busy period at work.",
-      "sha256": "699a82cd44251f35bd1b4b10db9aac35e81aa5198e57553d03c21e378a9e4fab",
-      "duration": 2.2125,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "during a particularly busy period at work.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "It started about six weeks ago during a particularly busy period at work.",
-      "sha256": "9a4291e0779878f3ccf5b6c6eaa1b836798a19a7967aae474947936c3b2beabf",
-      "duration": 3.6475,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "It started about six weeks ago, during a particularly busy period at work.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-1.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "I was sitting at my desk",
-      "sha256": "e6880bbe4cb6d49c72ef803441058bf9fb849831e026d71df8d57b96f50c6393",
-      "duration": 1.5525,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "I was sitting at my desk.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "previousVersions": [
-        {
-          "sha256": "d1f94d319560f63c528585dda24efa2a51f84d72787cf5347b97f2b4b14330ad",
-          "expected": "I was sitting at my desk",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "I was sitting at my desk.",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-2.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "for long hours,",
-      "sha256": "108a33e247dcc8028e655d5d3cc59c5ade745b439dedd123eeaf07aebc9e294f",
-      "duration": 1.07,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "for long hours.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-3.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "but there wasn't",
-      "sha256": "646cfdbfa2df3173b6f16c39598205f821e61f214a14e6b987432fa6b8b90b46",
-      "duration": 0.6725,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "But there wasn't.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "previousVersions": [
-        {
-          "sha256": "21ae4e9b492af8625d09c8e95fbbb354b54dc8c5bc3616ee0f2bb473fa077e2b",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "But there wasn't any specific injury-",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        },
-        {
-          "sha256": "930b664ef5dac65fc8887437969df00e48c9325beaf01d0dc187773b368ad686",
-          "expected": "but there wasn't any specific injury",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "But there wasn't any specific injury",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        },
-        {
-          "sha256": "aeac7f8c4d08f773e44de415728ba0dab2a4ac5180eeb79bd1d294aaa89c5111",
-          "expected": "but there wasn't",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "But there wasn't any",
-              "exact": false,
-              "ratio": 0.8571428571428571
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "I was sitting at my desk for long hours,",
-      "sha256": "55a48f317567bec8171b093f0d8f102f7e458066ce4fba2bdfea4728cc3e6075",
-      "duration": 2.6225,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "I was sitting at my desk for long hours.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-3.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "I was sitting at my desk for long hours, but there wasn't",
-      "sha256": "edbf619689d3a15456a3791c8d16778e0ca720ed98c95c0c9e08ab21af4e6d61",
-      "duration": 3.1525,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "I was sitting at my desk for long hours, but there wasn't",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "previousVersions": [
-        {
-          "sha256": "82913727fc47fbfa3fbc361eb8b81e54dd157f51e6b79505301d44495a0eee00",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        },
-        {
-          "sha256": "296f8c4d3ddde9e7380f93b9bc61a95587616a5281b6c6957502b53c0973e7b4",
-          "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        },
-        {
-          "sha256": "04d2328999808bf006651cb1a30c1ce6d57f3c3129ac697317c2886796991596",
-          "expected": "I was sitting at my desk for long hours, but there wasn't",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "I was sitting at my desk for long hours, but there wasn't any",
-              "exact": false,
-              "ratio": 0.96
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
-      "sha256": "5aa7f7569085fe5ff91e49c5ca80f40773c275ea941de211860ea79021173d79",
-      "duration": 5.4625,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-04/sentence-2/patient/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-04",
@@ -2088,24 +1847,194 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-4.m4a",
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-02",
-      "expected": "any specific injury or incident",
-      "sha256": "aa82315d2e1efc129a0c7a1c3a49ee0813a029463403d6ca391adc8767e2bfc8",
-      "duration": 1.62,
+      "expected": "It started",
+      "sha256": "a4182e4657a39f547b3297856094b25a107d481fc7385790615dbab5b644666f",
+      "duration": 0.53,
       "exact": true,
       "recognitions": [
         {
           "model": "small.en",
-          "recognized": "any specific injury or incident.",
+          "recognized": "It started.",
           "exact": true,
           "ratio": 1.0
         }
       ]
     },
     {
-      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-5.m4a",
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "about six weeks ago",
+      "sha256": "bf84a29eec53948ccfd5609104620b8ef60fe2adeebdd328972abfaa0ece4061",
+      "duration": 0.907,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "about six weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "during a particularly busy period",
+      "sha256": "8d411e39dfda891223bcf9d54ab347de675b4458b8a0f7bbb641d0e7a3409ce3",
+      "duration": 1.295,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "during a particularly busy period.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "at work.",
+      "sha256": "70b1f546b7e2a85488fab17d12f592275ef2035f18b8eb9849b41e8aff4f7b01",
+      "duration": 0.9675,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago",
+      "sha256": "0ecad3fd324074b6949ca762bead44065ef89770c7c72191379c107667161b10",
+      "duration": 1.437,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago during a particularly busy period",
+      "sha256": "e871b31cb2dd8193728cd43c33f3f4ed9a8a73b72cbd7e79630460ebd81dfe30",
+      "duration": 2.73,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago, during a particularly busy period",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago during a particularly busy period at work.",
+      "sha256": "9a4291e0779878f3ccf5b6c6eaa1b836798a19a7967aae474947936c3b2beabf",
+      "duration": 3.6475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago, during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk",
+      "sha256": "e6880bbe4cb6d49c72ef803441058bf9fb849831e026d71df8d57b96f50c6393",
+      "duration": 1.5525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "for long hours,",
+      "sha256": "108a33e247dcc8028e655d5d3cc59c5ade745b439dedd123eeaf07aebc9e294f",
+      "duration": 1.07,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "but there wasn't any",
+      "sha256": "5d29ce832dc9f0c9b25755691be5559a02fd6ee4f1e4c04486110c5f7008ddc6",
+      "duration": 0.9125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "But there wasn't any",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "specific injury or incident",
+      "sha256": "6d7add2b691e7deed2246ff9a51a062f29bb9437bdc77123c88c6fa66059781e",
+      "duration": 1.42,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/chunk-5.m4a",
       "kind": "practice",
       "unit": "line-02",
       "expected": "that triggered it.",
@@ -2122,7 +2051,41 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/build-4.m4a",
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours,",
+      "sha256": "55a48f317567bec8171b093f0d8f102f7e458066ce4fba2bdfea4728cc3e6075",
+      "duration": 2.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any",
+      "sha256": "e187542b32771f6fa9f1d3c428452e1891072206e62ac24aa45a8a768dfa2886",
+      "duration": 3.3925,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/build-4.m4a",
       "kind": "practice",
       "unit": "line-02",
       "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
@@ -2137,11 +2100,28 @@
           "ratio": 1.0
         }
       ]
+    },
+    {
+      "url": "audio/week-04/practice-patient-manual-2026-11-17-v6/line-02/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sha256": "5aa7f7569085fe5ff91e49c5ca80f40773c275ea941de211860ea79021173d79",
+      "duration": 5.4625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
     }
   ],
   "summary": {
-    "total": 106,
-    "exact": 105,
+    "total": 110,
+    "exact": 109,
     "review": 1
   },
   "previousAssets": [
@@ -2913,6 +2893,298 @@
         {
           "model": "small.en",
           "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago",
+      "sha256": "0ecad3fd324074b6949ca762bead44065ef89770c7c72191379c107667161b10",
+      "duration": 1.437,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "during a particularly busy period at work.",
+      "sha256": "699a82cd44251f35bd1b4b10db9aac35e81aa5198e57553d03c21e378a9e4fab",
+      "duration": 2.2125,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-1/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "It started about six weeks ago during a particularly busy period at work.",
+      "sha256": "9a4291e0779878f3ccf5b6c6eaa1b836798a19a7967aae474947936c3b2beabf",
+      "duration": 3.6475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "It started about six weeks ago, during a particularly busy period at work.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-1.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk",
+      "sha256": "e6880bbe4cb6d49c72ef803441058bf9fb849831e026d71df8d57b96f50c6393",
+      "duration": 1.5525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "d1f94d319560f63c528585dda24efa2a51f84d72787cf5347b97f2b4b14330ad",
+          "expected": "I was sitting at my desk",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "for long hours,",
+      "sha256": "108a33e247dcc8028e655d5d3cc59c5ade745b439dedd123eeaf07aebc9e294f",
+      "duration": 1.07,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "but there wasn't",
+      "sha256": "646cfdbfa2df3173b6f16c39598205f821e61f214a14e6b987432fa6b8b90b46",
+      "duration": 0.6725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "But there wasn't.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "21ae4e9b492af8625d09c8e95fbbb354b54dc8c5bc3616ee0f2bb473fa077e2b",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any specific injury-",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "930b664ef5dac65fc8887437969df00e48c9325beaf01d0dc187773b368ad686",
+          "expected": "but there wasn't any specific injury",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any specific injury",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "aeac7f8c4d08f773e44de415728ba0dab2a4ac5180eeb79bd1d294aaa89c5111",
+          "expected": "but there wasn't",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "But there wasn't any",
+              "exact": false,
+              "ratio": 0.8571428571428571
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours,",
+      "sha256": "55a48f317567bec8171b093f0d8f102f7e458066ce4fba2bdfea4728cc3e6075",
+      "duration": 2.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-3.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't",
+      "sha256": "edbf619689d3a15456a3791c8d16778e0ca720ed98c95c0c9e08ab21af4e6d61",
+      "duration": 3.1525,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "82913727fc47fbfa3fbc361eb8b81e54dd157f51e6b79505301d44495a0eee00",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "296f8c4d3ddde9e7380f93b9bc61a95587616a5281b6c6957502b53c0973e7b4",
+          "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        },
+        {
+          "sha256": "04d2328999808bf006651cb1a30c1ce6d57f3c3129ac697317c2886796991596",
+          "expected": "I was sitting at my desk for long hours, but there wasn't",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "I was sitting at my desk for long hours, but there wasn't any",
+              "exact": false,
+              "ratio": 0.96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/full.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "sha256": "5aa7f7569085fe5ff91e49c5ca80f40773c275ea941de211860ea79021173d79",
+      "duration": 5.4625,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "any specific injury or incident",
+      "sha256": "aa82315d2e1efc129a0c7a1c3a49ee0813a029463403d6ca391adc8767e2bfc8",
+      "duration": 1.62,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-5.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "that triggered it.",
+      "sha256": "b30da1caa8535d96addc27d5a60cca67847c9937f2e1741787a43382ab1ac48a",
+      "duration": 0.69,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/build-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+      "sha256": "67148fc4f85ee0dc56b149f56959eed89a4a91993dd9ce2c6ff9a59bf6e2031d",
+      "duration": 4.7725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident.",
           "exact": true,
           "ratio": 1.0
         }

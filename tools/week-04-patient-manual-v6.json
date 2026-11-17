@@ -1,0 +1,68 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "unit": "line-02",
+  "assetVersion": "practice-patient-manual-2026-11-17-v6",
+  "source": "audio/week-04/original/W4_pt.mp3",
+  "sourceSha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+  "userSegmentation": "It started /about six weeks ago /during a particularly busy period /at work. /I was sitting at my desk /for long hours, /but there wasn't any /specific injury or incident/ that triggered it.",
+  "humanListening": false,
+  "method": "Exact user phrase boundaries aligned using source waveform energy and independent ASR candidate checks. Preserve approved incident end at 8.42s. Tiny original-source tail overlaps retain word endings; no synthetic silence, volume change, fade or concatenation.",
+  "sentences": [
+    {
+      "start": 0,
+      "end": 3.6475,
+      "chunks": [
+        "It started",
+        "about six weeks ago",
+        "during a particularly busy period",
+        "at work."
+      ],
+      "cuts": [
+        0.53,
+        1.435,
+        2.68
+      ],
+      "tailPadding": [
+        0,
+        0.002,
+        0.05,
+        0
+      ],
+      "boundaryReview": [
+        "0.53: low-energy transition; independent chunks recognized It started / about six weeks ago",
+        "1.435: retained prior reviewed ago/during boundary",
+        "2.68 start of at, preceding period tail retained through 2.73; both isolated candidate chunks match expected words"
+      ]
+    },
+    {
+      "start": 3.6475,
+      "end": 9.11,
+      "chunks": [
+        "I was sitting at my desk",
+        "for long hours,",
+        "but there wasn't any",
+        "specific injury or incident",
+        "that triggered it."
+      ],
+      "cuts": [
+        5.2,
+        6.1275,
+        7.0,
+        8.42
+      ],
+      "tailPadding": [
+        0,
+        0.1425,
+        0.04,
+        0,
+        0
+      ],
+      "boundaryReview": [
+        "First two boundaries retained from v4",
+        "7.0 start of specific, preceding any retained through 7.04; both isolated candidate chunks match expected words without extra s sound",
+        "8.42 retains user-approved restored incident ending from v5"
+      ]
+    }
+  ]
+}
