@@ -1,0 +1,43 @@
+{
+  "week": "week-04",
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "unit": "line-02",
+  "sentence": 1,
+  "source": "audio/week-04/original/W4_pt.mp3",
+  "sourceSha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+  "reason": "User hears only inc at the old practice ending. Restore the remaining source waveform through 8.42s and move the shared following-chunk start to the same boundary. No script or volume changes.",
+  "oldChunkEnd": 8.27,
+  "oldSharedBoundary": 8.2625,
+  "newSharedBoundary": 8.42,
+  "humanListening": false,
+  "evidence": "Source spectrum and amplitude review, plus independent small.en ASR of candidate endings; ASR recognizes incident even at the old cut and is not proof of intact final phonemes. New 8.42 end recognizes incident without that; next chunk recognizes that triggered it.",
+  "assets": [
+    {
+      "collection": "chunks",
+      "index": 3,
+      "previousUrl": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-4.m4a",
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-4.m4a",
+      "start": 6.8,
+      "end": 8.42,
+      "expected": "any specific injury or incident"
+    },
+    {
+      "collection": "chunks",
+      "index": 4,
+      "previousUrl": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-5.m4a",
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-5.m4a",
+      "start": 8.42,
+      "end": 9.11,
+      "expected": "that triggered it."
+    },
+    {
+      "collection": "buildUp",
+      "index": 2,
+      "previousUrl": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-4.m4a",
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/build-4.m4a",
+      "start": 3.6475,
+      "end": 8.42,
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident"
+    }
+  ]
+}

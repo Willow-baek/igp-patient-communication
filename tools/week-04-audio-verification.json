@@ -966,60 +966,6 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-4.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "any specific injury or incident",
-      "sha256": "8cad2de71f79e57212eb494e3e88cd2ebfd014e80e3caa79d4a7de4d2f9dc730",
-      "duration": 1.47,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "any specific injury or incident.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ],
-      "previousVersions": [
-        {
-          "sha256": "6df760d0ed1eae45610ac7fa0d427c0f80d93cc1a4b16b9024fabd0205ac4e77",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "injury or incident that triggered it.",
-              "exact": false,
-              "ratio": 0.9090909090909091
-            }
-          ]
-        },
-        {
-          "sha256": "1bd7bfebaa9eaead2741d51058132fba0db1b070bf299f4d77662ccc465d9823",
-          "expected": "or incident that triggered it.",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "your incident that triggered it.",
-              "exact": false,
-              "ratio": 0.8
-            }
-          ]
-        },
-        {
-          "sha256": "79426808fa660db2fe032963cc38084a768bdfe24d67f1e2ce1955103716c126",
-          "expected": "any specific injury or incident",
-          "recognitions": [
-            {
-              "model": "small.en",
-              "recognized": "any specific injury or incident.",
-              "exact": true,
-              "ratio": 1.0
-            }
-          ]
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-2.m4a",
       "kind": "practice",
       "unit": "line-02",
@@ -2091,40 +2037,6 @@
       ]
     },
     {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-5.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "that triggered it.",
-      "sha256": "bbb6def65270e4b003b785b501185b879d2c794832f57c2719bb6c786ac281ff",
-      "duration": 0.8475,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "that triggered it.",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
-      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-4.m4a",
-      "kind": "practice",
-      "unit": "line-02",
-      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
-      "sha256": "c88f4ceb6f657f1e66745cc0686fa0eedd893e10fcc7a22758d2eb00d308fea8",
-      "duration": 4.6225,
-      "exact": true,
-      "recognitions": [
-        {
-          "model": "small.en",
-          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
-          "exact": true,
-          "ratio": 1.0
-        }
-      ]
-    },
-    {
       "url": "audio/week-04/practice-2026-11-16-v1/line-16/patient/chunk-1.m4a",
       "kind": "practice",
       "unit": "line-16",
@@ -2170,6 +2082,57 @@
         {
           "model": "small.en",
           "recognized": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "any specific injury or incident",
+      "sha256": "aa82315d2e1efc129a0c7a1c3a49ee0813a029463403d6ca391adc8767e2bfc8",
+      "duration": 1.62,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/chunk-5.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "that triggered it.",
+      "sha256": "b30da1caa8535d96addc27d5a60cca67847c9937f2e1741787a43382ab1ac48a",
+      "duration": 0.69,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-incident-tail-2026-11-17-v5/line-02/sentence-2/patient/build-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+      "sha256": "67148fc4f85ee0dc56b149f56959eed89a4a91993dd9ce2c6ff9a59bf6e2031d",
+      "duration": 4.7725,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident.",
           "exact": true,
           "ratio": 1.0
         }
@@ -2862,6 +2825,94 @@
         {
           "model": "small.en",
           "recognized": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "any specific injury or incident",
+      "sha256": "8cad2de71f79e57212eb494e3e88cd2ebfd014e80e3caa79d4a7de4d2f9dc730",
+      "duration": 1.47,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "any specific injury or incident.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ],
+      "previousVersions": [
+        {
+          "sha256": "6df760d0ed1eae45610ac7fa0d427c0f80d93cc1a4b16b9024fabd0205ac4e77",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "injury or incident that triggered it.",
+              "exact": false,
+              "ratio": 0.9090909090909091
+            }
+          ]
+        },
+        {
+          "sha256": "1bd7bfebaa9eaead2741d51058132fba0db1b070bf299f4d77662ccc465d9823",
+          "expected": "or incident that triggered it.",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "your incident that triggered it.",
+              "exact": false,
+              "ratio": 0.8
+            }
+          ]
+        },
+        {
+          "sha256": "79426808fa660db2fe032963cc38084a768bdfe24d67f1e2ce1955103716c126",
+          "expected": "any specific injury or incident",
+          "recognitions": [
+            {
+              "model": "small.en",
+              "recognized": "any specific injury or incident.",
+              "exact": true,
+              "ratio": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/chunk-5.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "that triggered it.",
+      "sha256": "bbb6def65270e4b003b785b501185b879d2c794832f57c2719bb6c786ac281ff",
+      "duration": 0.8475,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "that triggered it.",
+          "exact": true,
+          "ratio": 1.0
+        }
+      ]
+    },
+    {
+      "url": "audio/week-04/practice-shorter-2026-11-16-v4/line-02/sentence-2/patient/build-4.m4a",
+      "kind": "practice",
+      "unit": "line-02",
+      "expected": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
+      "sha256": "c88f4ceb6f657f1e66745cc0686fa0eedd893e10fcc7a22758d2eb00d308fea8",
+      "duration": 4.6225,
+      "exact": true,
+      "recognitions": [
+        {
+          "model": "small.en",
+          "recognized": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident",
           "exact": true,
           "ratio": 1.0
         }
