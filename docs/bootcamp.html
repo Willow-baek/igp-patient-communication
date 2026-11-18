@@ -10,9 +10,9 @@
   <meta property="og:type" content="website">
   <title>IGP 무료 영어 스피킹 부트캠프 안내</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="bootcamp.css?v=2">
+  <link rel="stylesheet" href="bootcamp.css?v=3">
   <script src="analytics.js?v=1"></script>
-  <script type="module" src="bootcamp.js?v=2"></script>
+  <script type="module" src="bootcamp.js?v=3"></script>
 </head>
 <body>
 <a class="skip" href="#main">본문으로 바로가기</a>
@@ -46,6 +46,7 @@
   <section class="session wrap" id="session" aria-labelledby="session-title">
     <div><h2 id="session-title">온라인 스피킹 세션</h2><p id="session-description">매주 수요일 저녁 8시 (한국시간), Zoom에서 만나요.</p><p class="session-status" id="session-status" role="status">Zoom 링크가 열리면 이곳에서 입장할 수 있어요.</p></div>
     <div class="session-action">
+      <a class="button green" id="zoom-link" hidden>Zoom 세션 입장하기 <span aria-hidden="true">↗</span></a>
       <div id="session-countdown" hidden>
         <p class="countdown-date" id="countdown-date"></p>
         <div class="countdown" role="timer" aria-live="off" aria-label="다음 스피킹 세션까지 남은 시간">
@@ -55,7 +56,6 @@
           <span><strong id="countdown-seconds">00</strong><small>초</small></span>
         </div>
       </div>
-      <a class="button green" id="zoom-link" hidden>Zoom 세션 입장하기 <span aria-hidden="true">↗</span></a>
       <noscript><p>매주 수요일 저녁 8시 (한국시간)에 만나요. Zoom 링크와 남은 시간을 보려면 JavaScript를 켜 주세요.</p></noscript>
     </div>
   </section>

@@ -15,11 +15,12 @@ function setStatus(text) {
   if (status.textContent !== text) status.textContent = text;
 }
 function tick() {
-  if (linkOpen) return;
   const time = remainingTime(target);
   for (const unit of ['days','hours','minutes','seconds'])
     $(`#countdown-${unit}`).textContent = String(time[unit]).padStart(2,'0');
-  if (time.ended) setStatus('세션 시작 시간이 되었어요. Zoom 링크가 열리면 입장해 주세요.');
+  if (time.ended) setStatus(linkOpen
+    ? '세션 시작 시간이 되었어요. Zoom 입장 버튼으로 참여해 주세요.'
+    : '세션 시작 시간이 되었어요. Zoom 링크가 열리면 입장해 주세요.');
 }
 
 // Re-read the organizer's link so an already-open page can also become joinable.
@@ -34,7 +35,7 @@ async function refreshSession() {
     const link = $('#zoom-link');
     linkOpen = Boolean(url);
     link.hidden = !linkOpen;
-    countdown.hidden = linkOpen;
+    countdown.hidden = false;
     if (linkOpen) {
       link.href = url;
       link.target = '_blank';
@@ -44,8 +45,8 @@ async function refreshSession() {
     } else {
       link.removeAttribute('href');
       setStatus('Zoom 링크가 열리면 이곳에서 입장할 수 있어요.');
-      tick();
     }
+    tick();
   } catch {
     // Keep a working countdown on a failed refresh; never expose a stale join link.
     linkOpen = false;

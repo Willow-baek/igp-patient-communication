@@ -57,10 +57,20 @@ test('page ticks from actual current time and waits at zero until the link is su
   a.advance(9000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'00');assert(a.element('#session-status').textContent.includes('시작 시간이'));
   assert.equal(a.practice[0].href,'free.html#week-02');
 });
-test('an open page switches between countdown and live Zoom without reloading',async()=>{
+test('an open page toggles live Zoom without hiding the countdown',async()=>{
   const a=await app();assert.equal(a.element('#session-countdown').hidden,false);assert.equal(a.element('#zoom-link').hidden,true);
   const url='https://us02web.zoom.us/j/123?pwd=a%2Bb';a.session({zoomUrl:url,sessionLabel:'이번 주 세션'});await a.refresh();
-  assert.equal(a.element('#session-countdown').hidden,true);assert.equal(a.element('#zoom-link').href,url);assert.equal(a.element('#zoom-link').hidden,false);
+  assert.equal(a.element('#session-countdown').hidden,false);assert.equal(a.element('#zoom-link').href,url);assert.equal(a.element('#zoom-link').hidden,false);
   a.session({zoomUrl:''});await a.refresh();assert.equal(a.element('#session-countdown').hidden,false);assert.equal(a.element('#zoom-link').hidden,true);assert.equal(a.element('#zoom-link').href,undefined);
   a.fail();await a.refresh();a.advance(1000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'04');
+});
+
+test('a live Zoom link keeps ticking and remains available when the counter reaches zero',async()=>{
+  const a=await app();a.session({zoomUrl:'https://uni-sydney.zoom.us/j/88303049321'});await a.refresh();
+  assert.equal(a.element('#session-countdown').hidden,false);assert.equal(a.element('#zoom-link').hidden,false);
+  a.advance(1000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'04');
+  a.advance(70000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'00');
+  assert(a.element('#session-status').textContent.includes('Zoom 입장 버튼'));
+  await a.refresh();assert(a.element('#session-status').textContent.includes('Zoom 입장 버튼'));
+  assert.equal(a.element('#zoom-link').hidden,false);assert.equal(a.element('#session-countdown').hidden,false);
 });
