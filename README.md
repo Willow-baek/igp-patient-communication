@@ -136,7 +136,7 @@ python3 -m http.server 8080 --directory docs
 
 로컬 미리보기: `http://localhost:8080`. 모든 오디오 경로, 남녀 전환 시 환자 음성 고정, 말풍선 전환, 전체 듣기 시작·정지·자연 종료, Gap, 모바일 320/390px와 PC를 변경 범위에 맞춰 확인한다. ASR 대조를 직접 청취 검수라고 보고하지 않는다.
 
-`.github/workflows/pages.yml`이 main의 `docs/`를 GitHub Pages에 자동 배포한다. 코드 수정 시 JS/CSS 자산 버전도 갱신한다. 배포 성공 후 링크를 전달해 사용자가 청취 검수할 수 있게 한다.
+`.github/workflows/pages.yml`이 main의 `docs/`를 GitHub Pages에 자동 배포한다. 배포 산출물 이름은 실행·재실행별로 고유하게 만들고, 업로드 뒤 API에서 파일이 조회되는 것을 확인한 후 배포해 조회 지연·중복 산출물 오류를 방지한다. 코드 수정 시 JS/CSS 자산 버전도 갱신한다. 배포 성공 후 링크를 전달해 사용자가 청취 검수할 수 있게 한다.
 
 ## 나눠 연습 자료 추가
 
