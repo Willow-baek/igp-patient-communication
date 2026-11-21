@@ -72,6 +72,6 @@ test('free entry adds only its entry check while sharing the main layout, assets
     .replace('href="./free.html"','href="./"')
     .replace('<link rel="stylesheet" href="free-access.css?v=1">','')
     .replace(/<section id="free-access"[\s\S]*?<\/section>/,'')
-    .replace('src="free-entry.mjs?v=1"','src="app.js?v=28"');
+    .replace('src="free-entry.mjs?v=1"',main.match(/src="app\.js\?v=\d+"/)[0]);
   assert.equal(shared,main);
 });
