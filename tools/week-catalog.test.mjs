@@ -1,3 +1,4 @@
+import {installWeekStudy,patternMarkup} from '../docs/week-study.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -7,6 +8,7 @@ import {selectPublishedWeeks} from '../docs/week-catalog.mjs';
 import {resolveAudio} from '../docs/audio-source.mjs';
 
 const content=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url),'utf8'));
+const study=JSON.parse(fs.readFileSync(new URL('../docs/week-04-study.json',import.meta.url),'utf8'));
 const release=JSON.parse(fs.readFileSync(new URL('../docs/free-weeks.json',import.meta.url),'utf8'));
 const appSource=fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8').replace(/^import .*?;\n/gm,'');
 
@@ -19,19 +21,19 @@ test('free release reuses canonical Week 1 and adding IDs reveals weeks in sourc
   for(const invalid of [undefined,null,'all',['week-99']])assert.throws(()=>selectPublishedWeeks(content.weeks,invalid));
 });
 
-async function load({free=false,hash='',failedRelease=false}={}){
+async function load({free=false,hash='',failedRelease=false,failedStudy=false,staleStudy=false}={}){
   const elements=new Map(),requests=[],replaced=[];
   function element(id){
     if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',disabled:false,hidden:false,style:{},append(){},setAttribute(){},classList:{add(){},remove(){}}});
     return elements.get(id);
   }
-  const sandbox={selectPublishedWeeks,resolveAudio,
+  const sandbox={selectPublishedWeeks,resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},handleClick(){return false;}}),
     createPractice:()=>({decorate(){},close(){},syncPlayback(){}}),Audio:class {},
     localStorage:{getItem(){return null;}},
     document:{documentElement:{dataset:free?{releaseConfig:'free-weeks.json'}:{}},querySelector:element,querySelectorAll(){return [];},addEventListener(){}},
     window:{addEventListener(){}},location:{hash},history:{replaceState(...args){replaced.push(args[2]);}},
     matchMedia:()=>({matches:false,addEventListener(){}}),setTimeout,clearTimeout,
-    fetch:async url=>{requests.push(url);return {ok:!(url==='free-weeks.json'&&failedRelease),json:async()=>url==='weeks.json'?content:release};},
+    fetch:async url=>{requests.push(url);return {ok:!((url==='free-weeks.json'&&failedRelease)||(url==='week-04-study.json'&&failedStudy)),json:async()=>url==='weeks.json'?content:url==='week-04-study.json'?(staleStudy?{...study,baseScriptRevision:'stale'}:study):release};},
   };
   vm.createContext(sandbox);vm.runInContext(appSource,sandbox);await tick();
   return {elements,requests,replaced};
@@ -39,7 +41,9 @@ async function load({free=false,hash='',failedRelease=false}={}){
 
 test('main entry retains all weeks and never loads the free release list',async()=>{
   const result=await load({hash:'#week-04'});
-  assert.deepEqual(result.requests,['weeks.json']);
+  assert.deepEqual(result.requests,['weeks.json','week-04-study.json']);
+  assert(result.elements.get('#content').innerHTML.includes('패턴 워크북'));
+  assert.equal((result.elements.get('#content').innerHTML.match(/data-play=/g)||[]).length,27);
   const nav=result.elements.get('#weeks').innerHTML;
   for(const week of content.weeks)assert(nav.includes(`data-week="${week.id}"`));
   assert(result.elements.get('#content').innerHTML.includes(content.weeks[3].shortTitle));
@@ -74,4 +78,18 @@ test('free entry adds only its entry check while sharing the main layout, assets
     .replace(/<section id="free-access"[\s\S]*?<\/section>/,'')
     .replace('src="free-entry.mjs?v=1"',main.match(/src="app\.js\?v=\d+"/)[0]);
   assert.equal(shared,main);
+});
+
+
+test('missing study module falls back to the canonical Week 4 dialogue',async()=>{
+  const result=await load({hash:'#week-04',failedStudy:true});
+  const html=result.elements.get('#content').innerHTML;
+  assert.equal((html.match(/data-play=/g)||[]).length,20);
+  assert(!html.includes('role="tablist"'));assert(html.includes('대화는 그대로 연습'));
+});
+
+
+test('a stale study module keeps normal dialogue and does not show the workbook',async()=>{
+ const result=await load({hash:'#week-04',staleStudy:true});const html=result.elements.get('#content').innerHTML;
+ assert.equal((html.match(/data-play=/g)||[]).length,20);assert(!html.includes('role="tablist"'));
 });

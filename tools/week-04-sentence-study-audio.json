@@ -1,0 +1,59 @@
+{
+  "workbookCorrection": "Exercise 1-2: knee pain, approved by user 2026-11-22; original key said neck pain.",
+  "sourcePlan": "tools/week-04-all-manual-v7.json",
+  "sourceSha256": "1819d28e4e2ed19fdef0c6579d0bac23d2e59a2b37631cd4a40a31de28891cd5",
+  "humanListening": false,
+  "newBoundary": {
+    "time": 19.495,
+    "precedingWordEnd": 18.975,
+    "nextWordStart": 20.015
+  },
+  "files": [
+    {
+      "path": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1.m4a",
+      "start": 16.555,
+      "end": 19.495,
+      "sha256": "111ed359d344dbf355734fa883ad1e63db52dd0968bed0751ed2b16e5f0db114",
+      "expected": "It's become more noticeable over the last few weeks.",
+      "recognized": "It's become more noticeable over the last few weeks.",
+      "asrExact": true
+    },
+    {
+      "path": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2.m4a",
+      "start": 19.495,
+      "end": 23.9075,
+      "sha256": "8eb2ede532bdbccde1fb94fc8e9d4576c6906a99a9a5fab575348bd55ee64be7",
+      "expected": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "recognized": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "asrExact": true
+    },
+    {
+      "path": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1-chunk-2.m4a",
+      "start": 17.8125,
+      "end": 19.495,
+      "sha256": "839176dd2612a046591302247c9e4d9bec83a3718b6a17149ff367398610acd3",
+      "expected": "over the last few weeks.",
+      "recognized": "over the last few weeks.",
+      "asrExact": true
+    },
+    {
+      "path": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2-chunk-1.m4a",
+      "start": 19.495,
+      "end": 21.5825,
+      "sha256": "2d96cd4ab173986a904b20899bab34ec71f380ad973bab80417fc9f0205ba376",
+      "expected": "Initially, I only felt it occasionally,",
+      "recognized": "Initially, I only felt it occasionally.",
+      "asrExact": true
+    },
+    {
+      "path": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2-build-2.m4a",
+      "start": 19.495,
+      "end": 22.8175,
+      "sha256": "25307c5e6f2a78d8b9638ed1c40a3d60000ca5cd90ecb3c2ccf336bee62c7b9e",
+      "expected": "Initially, I only felt it occasionally, but now I experience it",
+      "recognized": "Initially, I only felt it occasionally, but now I experience it",
+      "asrExact": true
+    }
+  ],
+  "asrMethod": "faster-whisper small.en; this is not direct listening."
+}

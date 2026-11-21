@@ -1,3 +1,4 @@
+import {installWeekStudy,patternMarkup} from '../docs/week-study.mjs';
 // Regression coverage for real app playback paths, including load() rate resets.
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -20,7 +21,7 @@ function app(weekIndex=1,voice='female',{deferLoad=false}={}){
     play(){this.paused=false;this.plays.push({url:this.src,rate:this.playbackRate});return Promise.resolve();}
     pause(){this.paused=true;}
   }
-  const sandbox={resolveAudio,createPractice:()=>({close(){},syncPlayback(){},handleClick(){return false;}}),Audio:Media,localStorage:{getItem(){return null;}},
+  const sandbox={resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},handleClick(){return false;}}),createPractice:()=>({close(){},syncPlayback(){},handleClick(){return false;}}),Audio:Media,localStorage:{getItem(){return null;}},
     document:{querySelector:element,querySelectorAll(){return [];},addEventListener:(name,fn)=>listeners.set(name,fn)},
     window:{addEventListener(){}},matchMedia:()=>({matches:false,addEventListener(){}}),
     fetch:()=>new Promise(()=>{}),setTimeout:fn=>{timers.set(++timerId,fn);return timerId;},clearTimeout:id=>timers.delete(id),
@@ -105,4 +106,17 @@ test('another line or full-dialogue playback resets the paused position',async()
   await a.toggleLine(3);await a.play(0,true);assert.equal(a.audio.paused,false);
   await a.toggleLine(0);assert.equal(a.audio.loads,4);assert.equal(a.audio.currentTime,0);
   a.stop();assert.equal(a.element('#playAll').textContent,'전체 듣기');
+});
+
+
+test('the 27-bubble Week 4 study dialogue plays all sentences in order for both voices',async()=>{
+ const data=JSON.parse(fs.readFileSync(new URL('../docs/week-04-study.json',import.meta.url)));
+ const w=installWeekStudy(content,data)[3];
+ for(const voice of ['female','male']){
+  const a=app(3,voice);a.setWeek(w,voice);await a.play(0,true);
+  for(let i=1;i<w.lines.length;i++){a.audio.onended();await a.next();}
+  assert.equal(a.audio.plays.length,27);
+  assert.deepEqual(a.audio.plays.map(p=>p.url),w.lines.map(l=>resolveAudio(l,w,voice).url));
+  a.audio.onended();assert.equal(a.element('#playAll').textContent,'전체 듣기');
+ }
 });

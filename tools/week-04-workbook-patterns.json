@@ -1,0 +1,200 @@
+[
+  {
+    "id": "pattern-1",
+    "title": "How did ... first start?",
+    "meaning": "처음 어떻게 시작됐나요?",
+    "explanation": "How did + 증상/문제 + first start? 구조로 최초 시작 상황을 물어봅니다.",
+    "emphasis": [
+      "How did",
+      "first start"
+    ],
+    "exercises": [
+      {
+        "id": "1-1",
+        "ko": "허리 통증은 처음 어떻게 시작됐나요?",
+        "before": "How did your ",
+        "answer": "back pain",
+        "after": " first start?"
+      },
+      {
+        "id": "1-2",
+        "ko": "달리기 후 생긴 무릎 통증은 처음 어떻게 시작됐나요?",
+        "before": "How did the ",
+        "answer": "knee pain after your run",
+        "after": " first start?"
+      },
+      {
+        "id": "1-3",
+        "ko": "손에 나타난 저림 증상은 처음 어떻게 시작됐나요?",
+        "before": "How did the ",
+        "answer": "tingling in your hand",
+        "after": " first start?"
+      }
+    ]
+  },
+  {
+    "id": "pattern-2",
+    "title": "Did ... come on suddenly or develop gradually?",
+    "meaning": "갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+    "explanation": "Did + 증상 + come on suddenly or develop gradually? 구조를 유지합니다.",
+    "emphasis": [
+      "Did",
+      "come on suddenly",
+      "or develop gradually"
+    ],
+    "exercises": [
+      {
+        "id": "2-1",
+        "ko": "두통은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+        "before": "Did your headache come on ",
+        "answer": "suddenly",
+        "after": " or develop gradually?"
+      },
+      {
+        "id": "2-2",
+        "ko": "어깨 통증은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+        "before": "Did your shoulder pain come on suddenly or develop ",
+        "answer": "gradually",
+        "after": "?"
+      },
+      {
+        "id": "2-3",
+        "ko": "발의 저림은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+        "before": "Did the numbness in your foot come on ",
+        "answer": "suddenly",
+        "after": " or develop gradually?"
+      }
+    ]
+  },
+  {
+    "id": "pattern-3",
+    "title": "How has ... changed over ...?",
+    "meaning": "~동안 어떻게 달라졌나요?",
+    "explanation": "How has + 증상/상태 + changed over + 기간?으로 변화를 확인합니다.",
+    "emphasis": [
+      "How has",
+      "changed over"
+    ],
+    "exercises": [
+      {
+        "id": "3-1",
+        "ko": "지난 6주 동안 허리 통증은 어떻게 달라졌나요?",
+        "before": "How has your back pain ",
+        "answer": "changed",
+        "after": " over the last six weeks?"
+      },
+      {
+        "id": "3-2",
+        "ko": "지난 며칠 동안 부기는 어떻게 달라졌나요?",
+        "before": "How has the swelling changed over the last ",
+        "answer": "few days",
+        "after": "?"
+      },
+      {
+        "id": "3-3",
+        "ko": "지난 한 달 동안 걷는 능력은 어떻게 달라졌나요?",
+        "before": "How has your walking ability changed over the last ",
+        "answer": "month",
+        "after": "?"
+      }
+    ]
+  },
+  {
+    "id": "pattern-4",
+    "title": "Have you experienced ... in the past?",
+    "meaning": "과거에 ~을 경험한 적이 있나요?",
+    "explanation": "Have you experienced + 증상/경험 + in the past?를 반복 연습합니다.",
+    "emphasis": [
+      "Have you experienced",
+      "in the past"
+    ],
+    "exercises": [
+      {
+        "id": "4-1",
+        "ko": "과거에 비슷한 허리 통증을 경험한 적이 있나요?",
+        "before": "Have you experienced similar back pain in the ",
+        "answer": "past",
+        "after": "?"
+      },
+      {
+        "id": "4-2",
+        "ko": "과거에 이런 종류의 어지러움을 경험한 적이 있나요?",
+        "before": "Have you experienced this type of ",
+        "answer": "dizziness",
+        "after": " in the past?"
+      },
+      {
+        "id": "4-3",
+        "ko": "과거에 손목에서 같은 증상을 경험한 적이 있나요?",
+        "before": "Have you experienced the same symptoms in your ",
+        "answer": "wrist",
+        "after": " in the past?"
+      }
+    ]
+  },
+  {
+    "id": "pattern-5",
+    "title": "Have you seen ... about ...?",
+    "meaning": "~에 관해 진료받은 적이 있나요?",
+    "explanation": "Have you seen + 의료진 + about + 증상/문제? 구조를 연습합니다.",
+    "emphasis": [
+      "Have you seen",
+      "about"
+    ],
+    "exercises": [
+      {
+        "id": "5-1",
+        "ko": "무릎 통증으로 GP를 본 적이 있나요?",
+        "before": "Have you seen your ",
+        "answer": "GP",
+        "after": " about your knee pain?"
+      },
+      {
+        "id": "5-2",
+        "ko": "어깨 문제로 전문의를 본 적이 있나요?",
+        "before": "Have you seen a specialist about your ",
+        "answer": "shoulder",
+        "after": " problem?"
+      },
+      {
+        "id": "5-3",
+        "ko": "지속되는 두통으로 다른 의료진을 만난 적이 있나요?",
+        "before": "Have you seen another healthcare professional about your persistent ",
+        "answer": "headaches",
+        "after": "?"
+      }
+    ]
+  },
+  {
+    "id": "pattern-6",
+    "title": "Are you currently taking any ...?",
+    "meaning": "현재 ~을 복용하고 있나요?",
+    "explanation": "Are you currently taking any + 약물/보충제? 구조를 활용합니다.",
+    "emphasis": [
+      "Are you currently taking any"
+    ],
+    "exercises": [
+      {
+        "id": "6-1",
+        "ko": "현재 진통제를 복용하고 있나요?",
+        "before": "Are you currently taking any ",
+        "answer": "painkillers",
+        "after": "?"
+      },
+      {
+        "id": "6-2",
+        "ko": "현재 허리 통증 때문에 약을 복용하고 있나요?",
+        "before": "Are you currently taking any medication for your ",
+        "answer": "back pain",
+        "after": "?"
+      },
+      {
+        "id": "6-3",
+        "ko": "현재 비타민이나 영양제를 복용하고 있나요?",
+        "before": "Are you currently taking any vitamins or ",
+        "answer": "supplements",
+        "after": "?"
+      }
+    ]
+  }
+]

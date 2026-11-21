@@ -1,0 +1,1512 @@
+{
+  "weekId": "week-04",
+  "baseScriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1",
+  "baseLines": [
+    {
+      "speaker": "Physio",
+      "en": "Can you tell me how your back pain first started?",
+      "ko": "허리 통증이 처음 어떻게 시작됐는지 말씀해 주시겠어요?",
+      "turn": 1,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/01.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "It started about six weeks ago during a particularly busy period at work. I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "ko": "약 6주 전, 일이 유난히 바빴던 시기에 시작됐어요. 책상에 오랜 시간 앉아 있었는데, 통증을 유발한 특별한 부상이나 사건은 없었어요.",
+      "turn": 2,
+      "audio": "audio/week-04/2026-11-16-v1/patient/02.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Did the pain come on suddenly, or did it develop gradually?",
+      "ko": "통증이 갑자기 시작됐나요, 아니면 서서히 생겼나요?",
+      "turn": 3,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/03.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "It developed gradually. At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "ko": "서서히 생겼어요. 처음에는 가벼운 불편감 정도였는데, 시간이 지나면서 더 자주 느껴지기 시작했어요.",
+      "turn": 4,
+      "audio": "audio/week-04/2026-11-16-v1/patient/04.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "How has the pain changed over the last six weeks?",
+      "ko": "지난 6주 동안 통증이 어떻게 달라졌나요?",
+      "turn": 5,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/05.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "It's become more noticeable over the last few weeks. Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "ko": "지난 몇 주 동안 통증이 더 뚜렷하게 느껴져요. 처음에는 가끔만 느꼈는데, 이제는 거의 매일 아파요.",
+      "turn": 6,
+      "audio": "audio/week-04/2026-11-16-v1/patient/06.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you experienced anything similar in the past?",
+      "ko": "과거에도 비슷한 증상을 겪은 적이 있나요?",
+      "turn": 7,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/07.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "Not really. I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "ko": "딱히 없어요. 오래 앉아 있으면 가끔 허리가 뻣뻣했던 적은 있지만, 이렇게 통증이 지속된 적은 없어요.",
+      "turn": 8,
+      "audio": "audio/week-04/2026-11-16-v1/patient/08.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you seen a doctor or another healthcare professional about this problem?",
+      "ko": "이 문제로 의사나 다른 의료 전문가에게 진료를 받은 적이 있나요?",
+      "turn": 9,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/09.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "ko": "네, 통증이 나아지지 않아서 약 2주 전에 GP에게 진료를 받았어요.",
+      "turn": 10,
+      "audio": "audio/week-04/2026-11-16-v1/patient/10.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Did your GP recommend any treatment or further investigations?",
+      "ko": "GP가 치료나 추가 검사를 권했나요?",
+      "turn": 11,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/11.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest. I haven't had any scans or other investigations.",
+      "ko": "이부프로펜을 처방해 주셨고, 계속 움직이되 오랫동안 침대에 누워 쉬는 것은 피하라고 하셨어요. 영상 검사나 다른 검사는 받지 않았어요.",
+      "turn": 12,
+      "audio": "audio/week-04/2026-11-16-v1/patient/12.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Do you have any other medical conditions that we should be aware of?",
+      "ko": "저희가 알아두어야 할 다른 질환이 있나요?",
+      "turn": 13,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/13.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "No, I don't have any major medical conditions.",
+      "ko": "아니요, 큰 질환은 없어요.",
+      "turn": 14,
+      "audio": "audio/week-04/2026-11-16-v1/patient/14.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "ko": "과거에 다치거나 입원하거나 수술받은 적이 있나요?",
+      "turn": 15,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/15.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "No previous major injuries or surgeries. I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "ko": "이전에 크게 다치거나 수술받은 적은 없어요. 가끔 목이 뻣뻣했던 적은 있지만, 치료가 필요할 정도는 아니었어요.",
+      "turn": 16,
+      "audio": "audio/week-04/2026-11-16-v1/patient/16.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Are you currently taking any medications or supplements?",
+      "ko": "현재 복용 중인 약이나 보충제가 있나요?",
+      "turn": 17,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/17.m4a"
+      }
+    },
+    {
+      "speaker": "Patient",
+      "en": "Just ibuprofen when the pain gets worse. I'm not taking any other regular medication.",
+      "ko": "통증이 심해질 때 이부프로펜만 먹어요. 그 외에 정기적으로 복용하는 약은 없어요.",
+      "turn": 18,
+      "audio": "audio/week-04/2026-11-16-v1/patient/18.m4a"
+    },
+    {
+      "speaker": "Physio",
+      "en": "Okay, thank you. That's really helpful.",
+      "ko": "네, 감사합니다. 정말 도움이 되는 정보예요.",
+      "turn": 19,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/19.m4a"
+      }
+    },
+    {
+      "speaker": "Physio",
+      "en": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "ko": "병력과 증상이 어떻게 진행됐는지 더 잘 이해할 수 있겠어요.",
+      "turn": 19,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/20.m4a"
+      }
+    }
+  ],
+  "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1-sentence-study-2026-11-22-v1",
+  "lines": [
+    {
+      "speaker": "Physio",
+      "en": "Can you tell me how your back pain first started?",
+      "ko": "허리 통증이 처음 어떻게 시작됐는지 말씀해 주시겠어요?",
+      "turn": 1,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/01.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/01.m4a"
+      },
+      "sourceLine": 0,
+      "patternRanges": [
+        {
+          "start": 16,
+          "end": 19
+        },
+        {
+          "start": 35,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "It started about six weeks ago during a particularly busy period at work.",
+      "ko": "약 6주 전, 일이 유난히 바빴던 시기에 시작됐어요.",
+      "turn": 2,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/full.m4a",
+      "sourceLine": 1
+    },
+    {
+      "speaker": "Patient",
+      "en": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+      "ko": "책상에 오랜 시간 앉아 있었는데, 통증을 유발한 특별한 부상이나 사건은 없었어요.",
+      "turn": 2,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/full.m4a",
+      "sourceLine": 1
+    },
+    {
+      "speaker": "Physio",
+      "en": "Did the pain come on suddenly, or did it develop gradually?",
+      "ko": "통증이 갑자기 시작됐나요, 아니면 서서히 생겼나요?",
+      "turn": 3,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/03.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/03.m4a"
+      },
+      "sourceLine": 2,
+      "patternRanges": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 13,
+          "end": 29
+        },
+        {
+          "start": 31,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "It developed gradually.",
+      "ko": "서서히 생겼어요.",
+      "turn": 4,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-1/patient/full.m4a",
+      "sourceLine": 3
+    },
+    {
+      "speaker": "Patient",
+      "en": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+      "ko": "처음에는 가벼운 불편감 정도였는데, 시간이 지나면서 더 자주 느껴지기 시작했어요.",
+      "turn": 4,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/full.m4a",
+      "sourceLine": 3
+    },
+    {
+      "speaker": "Physio",
+      "en": "How has the pain changed over the last six weeks?",
+      "ko": "지난 6주 동안 통증이 어떻게 달라졌나요?",
+      "turn": 5,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/05.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/05.m4a"
+      },
+      "sourceLine": 4,
+      "patternRanges": [
+        {
+          "start": 0,
+          "end": 7
+        },
+        {
+          "start": 17,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "It's become more noticeable over the last few weeks.",
+      "ko": "지난 몇 주 동안 통증이 더 뚜렷하게 느껴져요.",
+      "turn": 6,
+      "audio": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1.m4a",
+      "sourceLine": 5
+    },
+    {
+      "speaker": "Patient",
+      "en": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+      "ko": "처음에는 가끔만 느꼈는데, 이제는 거의 매일 아파요.",
+      "turn": 6,
+      "audio": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2.m4a",
+      "sourceLine": 5
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you experienced anything similar in the past?",
+      "ko": "과거에도 비슷한 증상을 겪은 적이 있나요?",
+      "turn": 7,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/07.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/07.m4a"
+      },
+      "sourceLine": 6,
+      "patternRanges": [
+        {
+          "start": 0,
+          "end": 20
+        },
+        {
+          "start": 38,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "Not really.",
+      "ko": "딱히 없어요.",
+      "turn": 8,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-1/patient/full.m4a",
+      "sourceLine": 7
+    },
+    {
+      "speaker": "Patient",
+      "en": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+      "ko": "오래 앉아 있으면 가끔 허리가 뻣뻣했던 적은 있지만, 이렇게 통증이 지속된 적은 없어요.",
+      "turn": 8,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/full.m4a",
+      "sourceLine": 7
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you seen a doctor or another healthcare professional about this problem?",
+      "ko": "이 문제로 의사나 다른 의료 전문가에게 진료를 받은 적이 있나요?",
+      "turn": 9,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/09.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/09.m4a"
+      },
+      "sourceLine": 8,
+      "patternRanges": [
+        {
+          "start": 0,
+          "end": 13
+        },
+        {
+          "start": 58,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+      "ko": "네, 통증이 나아지지 않아서 약 2주 전에 GP에게 진료를 받았어요.",
+      "turn": 10,
+      "audio": "audio/week-04/2026-11-16-v1/patient/10.m4a",
+      "sourceLine": 9
+    },
+    {
+      "speaker": "Physio",
+      "en": "Did your GP recommend any treatment or further investigations?",
+      "ko": "GP가 치료나 추가 검사를 권했나요?",
+      "turn": 11,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/11.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/11.m4a"
+      },
+      "sourceLine": 10
+    },
+    {
+      "speaker": "Patient",
+      "en": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+      "ko": "이부프로펜을 처방해 주셨고, 계속 움직이되 오랫동안 침대에 누워 쉬는 것은 피하라고 하셨어요.",
+      "turn": 12,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/full.m4a",
+      "sourceLine": 11
+    },
+    {
+      "speaker": "Patient",
+      "en": "I haven't had any scans or other investigations.",
+      "ko": "영상 검사나 다른 검사는 받지 않았어요.",
+      "turn": 12,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-2/patient/full.m4a",
+      "sourceLine": 11
+    },
+    {
+      "speaker": "Physio",
+      "en": "Do you have any other medical conditions that we should be aware of?",
+      "ko": "저희가 알아두어야 할 다른 질환이 있나요?",
+      "turn": 13,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/13.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/13.m4a"
+      },
+      "sourceLine": 12
+    },
+    {
+      "speaker": "Patient",
+      "en": "No, I don't have any major medical conditions.",
+      "ko": "아니요, 큰 질환은 없어요.",
+      "turn": 14,
+      "audio": "audio/week-04/2026-11-16-v1/patient/14.m4a",
+      "sourceLine": 13
+    },
+    {
+      "speaker": "Physio",
+      "en": "Have you had any previous injuries, hospitalisations or surgeries?",
+      "ko": "과거에 다치거나 입원하거나 수술받은 적이 있나요?",
+      "turn": 15,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/15.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/15.m4a"
+      },
+      "sourceLine": 14
+    },
+    {
+      "speaker": "Patient",
+      "en": "No previous major injuries or surgeries.",
+      "ko": "이전에 크게 다치거나 수술받은 적은 없어요.",
+      "turn": 16,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-1/patient/full.m4a",
+      "sourceLine": 15
+    },
+    {
+      "speaker": "Patient",
+      "en": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+      "ko": "가끔 목이 뻣뻣했던 적은 있지만, 치료가 필요할 정도는 아니었어요.",
+      "turn": 16,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/full.m4a",
+      "sourceLine": 15
+    },
+    {
+      "speaker": "Physio",
+      "en": "Are you currently taking any medications or supplements?",
+      "ko": "현재 복용 중인 약이나 보충제가 있나요?",
+      "turn": 17,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/17.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/17.m4a"
+      },
+      "sourceLine": 16,
+      "patternRanges": [
+        {
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "speaker": "Patient",
+      "en": "Just ibuprofen when the pain gets worse.",
+      "ko": "통증이 심해질 때 이부프로펜만 먹어요.",
+      "turn": 18,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-1/patient/full.m4a",
+      "sourceLine": 17
+    },
+    {
+      "speaker": "Patient",
+      "en": "I'm not taking any other regular medication.",
+      "ko": "그 외에 정기적으로 복용하는 약은 없어요.",
+      "turn": 18,
+      "audio": "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-2/patient/full.m4a",
+      "sourceLine": 17
+    },
+    {
+      "speaker": "Physio",
+      "en": "Okay, thank you. That's really helpful.",
+      "ko": "네, 감사합니다. 정말 도움이 되는 정보예요.",
+      "turn": 19,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/19.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/19.m4a"
+      },
+      "sourceLine": 18
+    },
+    {
+      "speaker": "Physio",
+      "en": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+      "ko": "병력과 증상이 어떻게 진행됐는지 더 잘 이해할 수 있겠어요.",
+      "turn": 19,
+      "audioVoices": {
+        "female": "audio/week-04/volume-up-2026-11-16-v2/volume-balanced-2026-11-16/2026-11-16-v1/female/20.m4a",
+        "male": "audio/week-04/2026-11-16-v1/male/20.m4a"
+      },
+      "sourceLine": 19
+    }
+  ],
+  "practice": {
+    "scriptRevision": "2026-11-16-google-docs-week-04-day-02-revision-2-audio-split-1-sentence-study-2026-11-22-v1",
+    "units": [
+      {
+        "id": "study-line-01",
+        "speaker": "Physio",
+        "lines": [
+          0
+        ],
+        "text": "Can you tell me how your back pain first started?",
+        "userSelected": true,
+        "chunks": [
+          "Can you tell me",
+          "how your back pain",
+          "first started?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-01/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "It started about six weeks ago during a particularly busy period at work.",
+        "chunks": [
+          "It started about six weeks ago",
+          "during a particularly",
+          "busy period at work."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-1/patient/full.m4a"
+          }
+        },
+        "id": "study-line-02",
+        "speaker": "Patient",
+        "lines": [
+          1
+        ],
+        "userSelected": true
+      },
+      {
+        "text": "I was sitting at my desk for long hours, but there wasn't any specific injury or incident that triggered it.",
+        "chunks": [
+          "I was sitting at my desk",
+          "for long hours, but",
+          "there wasn't any specific injury or incident",
+          "that triggered it."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-02/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-03",
+        "speaker": "Patient",
+        "lines": [
+          2
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-04",
+        "speaker": "Physio",
+        "lines": [
+          3
+        ],
+        "text": "Did the pain come on suddenly, or did it develop gradually?",
+        "userSelected": true,
+        "chunks": [
+          "Did the pain",
+          "come on suddenly,",
+          "or did it develop gradually?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-03/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "At first, it was just a mild discomfort, but I started noticing it more frequently over time.",
+        "chunks": [
+          "At first, it was just a mild discomfort,",
+          "but I started noticing it",
+          "more frequently over time."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-04/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-06",
+        "speaker": "Patient",
+        "lines": [
+          5
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-07",
+        "speaker": "Physio",
+        "lines": [
+          6
+        ],
+        "text": "How has the pain changed over the last six weeks?",
+        "userSelected": true,
+        "chunks": [
+          "How has the pain changed",
+          "over the last six weeks?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/female/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/male/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-05/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "It's become more noticeable over the last few weeks.",
+        "chunks": [
+          "It's become more noticeable",
+          "over the last few weeks."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-06/single/patient/chunk-1.m4a",
+              "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1-chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1.m4a"
+            ],
+            "full": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-1.m4a"
+          }
+        },
+        "id": "study-line-08",
+        "speaker": "Patient",
+        "lines": [
+          7
+        ],
+        "userSelected": true
+      },
+      {
+        "text": "Initially, I only felt it occasionally, but now I experience it almost every day.",
+        "chunks": [
+          "Initially, I only felt it occasionally,",
+          "but now I experience it",
+          "almost every day."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2-chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-06/single/patient/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-06/single/patient/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2-build-2.m4a",
+              "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2.m4a"
+            ],
+            "full": "audio/week-04/sentence-study-2026-11-22-v1/line-06-sentence-2.m4a"
+          }
+        },
+        "id": "study-line-09",
+        "speaker": "Patient",
+        "lines": [
+          8
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-10",
+        "speaker": "Physio",
+        "lines": [
+          9
+        ],
+        "text": "Have you experienced anything similar in the past?",
+        "userSelected": true,
+        "chunks": [
+          "Have you experienced",
+          "anything similar in the past?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/female/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/male/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-07/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "I've had occasional back stiffness after sitting for long periods, but I've never experienced this kind of persistent pain before.",
+        "chunks": [
+          "I've had occasional back stiffness",
+          "after sitting for long periods,",
+          "but I've never experienced this",
+          "kind of persistent pain before."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-08/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-12",
+        "speaker": "Patient",
+        "lines": [
+          11
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-13",
+        "speaker": "Physio",
+        "lines": [
+          12
+        ],
+        "text": "Have you seen a doctor or another healthcare professional about this problem?",
+        "userSelected": true,
+        "chunks": [
+          "Have you seen a doctor",
+          "or another healthcare professional",
+          "about this problem?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-09/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "id": "study-line-14",
+        "speaker": "Patient",
+        "lines": [
+          13
+        ],
+        "text": "Yes, I saw my GP about two weeks ago because the pain wasn't improving.",
+        "userSelected": true,
+        "chunks": [
+          "Yes, I saw my GP",
+          "about two weeks ago",
+          "because the pain wasn't improving."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-10/single/patient/full.m4a"
+          }
+        }
+      },
+      {
+        "id": "study-line-15",
+        "speaker": "Physio",
+        "lines": [
+          14
+        ],
+        "text": "Did your GP recommend any treatment or further investigations?",
+        "userSelected": true,
+        "chunks": [
+          "Did your GP recommend",
+          "any treatment or",
+          "further investigations?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-11/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "They prescribed ibuprofen and advised me to keep moving and avoid prolonged bed rest.",
+        "chunks": [
+          "They prescribed ibuprofen",
+          "and advised me to keep moving",
+          "and avoid prolonged bed rest."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-1/patient/full.m4a"
+          }
+        },
+        "id": "study-line-16",
+        "speaker": "Patient",
+        "lines": [
+          15
+        ],
+        "userSelected": true
+      },
+      {
+        "text": "I haven't had any scans or other investigations.",
+        "chunks": [
+          "I haven't had any scans",
+          "or other investigations."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-2/patient/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-12/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-17",
+        "speaker": "Patient",
+        "lines": [
+          16
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-18",
+        "speaker": "Physio",
+        "lines": [
+          17
+        ],
+        "text": "Do you have any other medical conditions that we should be aware of?",
+        "userSelected": true,
+        "chunks": [
+          "Do you have",
+          "any other medical conditions",
+          "that we should be aware of?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/chunk-3.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-13/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "id": "study-line-19",
+        "speaker": "Patient",
+        "lines": [
+          18
+        ],
+        "text": "No, I don't have any major medical conditions.",
+        "userSelected": true,
+        "chunks": [
+          "No, I don't have",
+          "any major medical conditions."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-14/single/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-14/single/patient/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-14/single/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-14/single/patient/full.m4a"
+          }
+        }
+      },
+      {
+        "id": "study-line-20",
+        "speaker": "Physio",
+        "lines": [
+          19
+        ],
+        "text": "Have you had any previous injuries, hospitalisations or surgeries?",
+        "userSelected": true,
+        "chunks": [
+          "Have you had any",
+          "previous injuries,",
+          "hospitalisations",
+          "or surgeries?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-15/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "I've occasionally experienced some neck stiffness, but nothing that required medical treatment.",
+        "chunks": [
+          "I've occasionally experienced",
+          "some neck stiffness,",
+          "but nothing that required",
+          "medical treatment."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-16/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-22",
+        "speaker": "Patient",
+        "lines": [
+          21
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-23",
+        "speaker": "Physio",
+        "lines": [
+          22
+        ],
+        "text": "Are you currently taking any medications or supplements?",
+        "userSelected": true,
+        "chunks": [
+          "Are you currently taking",
+          "any medications or supplements?"
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/female/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/male/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-17/single/male/full.m4a"
+          }
+        }
+      },
+      {
+        "text": "Just ibuprofen when the pain gets worse.",
+        "chunks": [
+          "Just ibuprofen",
+          "when the pain gets worse."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-1/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-1/patient/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-1/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-1/patient/full.m4a"
+          }
+        },
+        "id": "study-line-24",
+        "speaker": "Patient",
+        "lines": [
+          23
+        ],
+        "userSelected": true
+      },
+      {
+        "text": "I'm not taking any other regular medication.",
+        "chunks": [
+          "I'm not taking",
+          "any other regular medication."
+        ],
+        "audio": {
+          "patient": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-2/patient/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-2/patient/chunk-2.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-2/patient/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-18/sentence-2/patient/full.m4a"
+          }
+        },
+        "id": "study-line-25",
+        "speaker": "Patient",
+        "lines": [
+          24
+        ],
+        "userSelected": true
+      },
+      {
+        "id": "study-line-26",
+        "speaker": "Physio",
+        "lines": [
+          25
+        ],
+        "text": "Okay, thank you. That's really helpful.",
+        "userSelected": true,
+        "sentences": [
+          {
+            "text": "Okay, thank you.",
+            "range": {
+              "start": 0,
+              "end": 16
+            },
+            "chunks": [
+              "Okay, thank you."
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-1/female/full.m4a"
+                ],
+                "buildUp": [],
+                "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-1/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-1/male/full.m4a"
+                ],
+                "buildUp": [],
+                "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-1/male/full.m4a"
+              }
+            }
+          },
+          {
+            "text": "That's really helpful.",
+            "range": {
+              "start": 17,
+              "end": 39
+            },
+            "chunks": [
+              "That's really helpful."
+            ],
+            "audio": {
+              "female": {
+                "chunks": [
+                  "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-2/female/full.m4a"
+                ],
+                "buildUp": [],
+                "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-2/female/full.m4a"
+              },
+              "male": {
+                "chunks": [
+                  "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-2/male/full.m4a"
+                ],
+                "buildUp": [],
+                "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-19/sentence-2/male/full.m4a"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "study-line-27",
+        "speaker": "Physio",
+        "lines": [
+          26
+        ],
+        "text": "It gives me a better understanding of your medical history and how your symptoms have developed.",
+        "userSelected": true,
+        "chunks": [
+          "It gives me",
+          "a better understanding of",
+          "your medical history and",
+          "how your symptoms have developed."
+        ],
+        "audio": {
+          "female": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/female/full.m4a"
+          },
+          "male": {
+            "chunks": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/chunk-1.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/chunk-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/chunk-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/chunk-4.m4a"
+            ],
+            "buildUp": [
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/build-2.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/build-3.m4a",
+              "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/full.m4a"
+            ],
+            "full": "audio/week-04/practice-all-manual-2026-11-17-v7/line-20/single/male/full.m4a"
+          }
+        }
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "id": "pattern-1",
+      "title": "How did ... first start?",
+      "meaning": "처음 어떻게 시작됐나요?",
+      "explanation": "How did + 증상/문제 + first start? 구조로 최초 시작 상황을 물어봅니다.",
+      "emphasis": [
+        "How did",
+        "first start"
+      ],
+      "exercises": [
+        {
+          "id": "1-1",
+          "ko": "허리 통증은 처음 어떻게 시작됐나요?",
+          "before": "How did your ",
+          "answer": "back pain",
+          "after": " first start?"
+        },
+        {
+          "id": "1-2",
+          "ko": "달리기 후 생긴 무릎 통증은 처음 어떻게 시작됐나요?",
+          "before": "How did the ",
+          "answer": "knee pain after your run",
+          "after": " first start?"
+        },
+        {
+          "id": "1-3",
+          "ko": "손에 나타난 저림 증상은 처음 어떻게 시작됐나요?",
+          "before": "How did the ",
+          "answer": "tingling in your hand",
+          "after": " first start?"
+        }
+      ]
+    },
+    {
+      "id": "pattern-2",
+      "title": "Did ... come on suddenly or develop gradually?",
+      "meaning": "갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+      "explanation": "Did + 증상 + come on suddenly or develop gradually? 구조를 유지합니다.",
+      "emphasis": [
+        "Did",
+        "come on suddenly",
+        "or develop gradually"
+      ],
+      "exercises": [
+        {
+          "id": "2-1",
+          "ko": "두통은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+          "before": "Did your headache come on ",
+          "answer": "suddenly",
+          "after": " or develop gradually?"
+        },
+        {
+          "id": "2-2",
+          "ko": "어깨 통증은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+          "before": "Did your shoulder pain come on suddenly or develop ",
+          "answer": "gradually",
+          "after": "?"
+        },
+        {
+          "id": "2-3",
+          "ko": "발의 저림은 갑자기 시작됐나요, 아니면 서서히 나타났나요?",
+          "before": "Did the numbness in your foot come on ",
+          "answer": "suddenly",
+          "after": " or develop gradually?"
+        }
+      ]
+    },
+    {
+      "id": "pattern-3",
+      "title": "How has ... changed over ...?",
+      "meaning": "~동안 어떻게 달라졌나요?",
+      "explanation": "How has + 증상/상태 + changed over + 기간?으로 변화를 확인합니다.",
+      "emphasis": [
+        "How has",
+        "changed over"
+      ],
+      "exercises": [
+        {
+          "id": "3-1",
+          "ko": "지난 6주 동안 허리 통증은 어떻게 달라졌나요?",
+          "before": "How has your back pain ",
+          "answer": "changed",
+          "after": " over the last six weeks?"
+        },
+        {
+          "id": "3-2",
+          "ko": "지난 며칠 동안 부기는 어떻게 달라졌나요?",
+          "before": "How has the swelling changed over the last ",
+          "answer": "few days",
+          "after": "?"
+        },
+        {
+          "id": "3-3",
+          "ko": "지난 한 달 동안 걷는 능력은 어떻게 달라졌나요?",
+          "before": "How has your walking ability changed over the last ",
+          "answer": "month",
+          "after": "?"
+        }
+      ]
+    },
+    {
+      "id": "pattern-4",
+      "title": "Have you experienced ... in the past?",
+      "meaning": "과거에 ~을 경험한 적이 있나요?",
+      "explanation": "Have you experienced + 증상/경험 + in the past?를 반복 연습합니다.",
+      "emphasis": [
+        "Have you experienced",
+        "in the past"
+      ],
+      "exercises": [
+        {
+          "id": "4-1",
+          "ko": "과거에 비슷한 허리 통증을 경험한 적이 있나요?",
+          "before": "Have you experienced similar back pain in the ",
+          "answer": "past",
+          "after": "?"
+        },
+        {
+          "id": "4-2",
+          "ko": "과거에 이런 종류의 어지러움을 경험한 적이 있나요?",
+          "before": "Have you experienced this type of ",
+          "answer": "dizziness",
+          "after": " in the past?"
+        },
+        {
+          "id": "4-3",
+          "ko": "과거에 손목에서 같은 증상을 경험한 적이 있나요?",
+          "before": "Have you experienced the same symptoms in your ",
+          "answer": "wrist",
+          "after": " in the past?"
+        }
+      ]
+    },
+    {
+      "id": "pattern-5",
+      "title": "Have you seen ... about ...?",
+      "meaning": "~에 관해 진료받은 적이 있나요?",
+      "explanation": "Have you seen + 의료진 + about + 증상/문제? 구조를 연습합니다.",
+      "emphasis": [
+        "Have you seen",
+        "about"
+      ],
+      "exercises": [
+        {
+          "id": "5-1",
+          "ko": "무릎 통증으로 GP를 본 적이 있나요?",
+          "before": "Have you seen your ",
+          "answer": "GP",
+          "after": " about your knee pain?"
+        },
+        {
+          "id": "5-2",
+          "ko": "어깨 문제로 전문의를 본 적이 있나요?",
+          "before": "Have you seen a specialist about your ",
+          "answer": "shoulder",
+          "after": " problem?"
+        },
+        {
+          "id": "5-3",
+          "ko": "지속되는 두통으로 다른 의료진을 만난 적이 있나요?",
+          "before": "Have you seen another healthcare professional about your persistent ",
+          "answer": "headaches",
+          "after": "?"
+        }
+      ]
+    },
+    {
+      "id": "pattern-6",
+      "title": "Are you currently taking any ...?",
+      "meaning": "현재 ~을 복용하고 있나요?",
+      "explanation": "Are you currently taking any + 약물/보충제? 구조를 활용합니다.",
+      "emphasis": [
+        "Are you currently taking any"
+      ],
+      "exercises": [
+        {
+          "id": "6-1",
+          "ko": "현재 진통제를 복용하고 있나요?",
+          "before": "Are you currently taking any ",
+          "answer": "painkillers",
+          "after": "?"
+        },
+        {
+          "id": "6-2",
+          "ko": "현재 허리 통증 때문에 약을 복용하고 있나요?",
+          "before": "Are you currently taking any medication for your ",
+          "answer": "back pain",
+          "after": "?"
+        },
+        {
+          "id": "6-3",
+          "ko": "현재 비타민이나 영양제를 복용하고 있나요?",
+          "before": "Are you currently taking any vitamins or ",
+          "answer": "supplements",
+          "after": "?"
+        }
+      ]
+    }
+  ]
+}
