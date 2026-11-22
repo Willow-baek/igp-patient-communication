@@ -1,6 +1,6 @@
 import {createBrowserVoice} from './shadow-voice.mjs?v=1';
 import {installWeekStudy,patternMarkup} from './week-study.mjs?v=2';
-import {createWorkbook} from './workbook-ui.mjs?v=2';
+import {createWorkbook} from './workbook-ui.mjs?v=3';
 import {resolveAudio} from './audio-source.mjs';
 import {createPractice} from './practice-ui.mjs?v=8';
 import {selectPublishedWeeks} from './week-catalog.mjs?v=1';

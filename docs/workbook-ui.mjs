@@ -4,7 +4,7 @@ const esc=text=>String(text??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;',
 export function createWorkbook({onStart=()=>{},getRate=()=>1,createVoice}={}){
   let patterns=null,session=null,host=null,mode='reading',lastId=null,lastComplete=false;
   const $=selector=>host?.querySelector(selector);
-  const modes=[['reading','보고 말하기'],['hint','힌트로 말하기'],['ko','한국어만'],['hidden','모두 가리기']];
+  const modes=[['reading','문장전체'],['hint','빈칸'],['ko','한국어'],['hidden','가리기']];
   function prompt(){
     const item=session.state.item;if(!item)return;
     const english=$('#shadowEnglish'),korean=$('#shadowKorean');
