@@ -29,21 +29,3 @@ export function installWeekStudy(weeks,data){
   }
   return weeks.map(w=>w===base?{...w,lines:data.lines,scriptRevision:data.scriptRevision,practice:data.practice,study:{patterns:data.patterns}}:w);
 }
-export const normalizeAnswer=value=>String(value).normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ').replace(/[.!?。！？]+$/,'').trim();
-export function createQuizSession(patterns){
-  const questions=patterns.flatMap((p,patternIndex)=>p.exercises.map(q=>({...q,patternIndex})));
-  let order=[],cursor=0,phase='intro',review=false,input='',checked=false,correct=false,empty=false;
-  const firstResults=new Map(),mistakes=new Set();
-  function resetQuestion(){input='';checked=false;correct=false;empty=false;}
-  function restart(){order=questions.map(q=>q.id);cursor=0;phase='intro';review=false;firstResults.clear();mistakes.clear();resetQuestion();}
-  restart();
-  return {
-    get state(){const question=questions.find(q=>q.id===order[cursor]);return {phase,review,input,checked,correct,empty,question,pattern:question&&patterns[question.patternIndex],cursor,total:order.length,firstCorrect:[...firstResults.values()].filter(Boolean).length,firstTotal:questions.length,mistakes:[...mistakes],patternScores:patterns.map((p,i)=>({id:p.id,title:p.title,correct:questions.filter(q=>q.patternIndex===i&&firstResults.get(q.id)).length,total:p.exercises.length}))};},
-    start(){if(phase==='intro')phase='question';},
-    setInput(value){if(!checked){input=value;empty=false;}},
-    check(){if(phase!=='question'||checked)return;const q=questions.find(q=>q.id===order[cursor]);if(!normalizeAnswer(input)){empty=true;return;}correct=normalizeAnswer(input)===normalizeAnswer(q.answer);checked=true;empty=false;if(!review)firstResults.set(q.id,correct);if(correct)mistakes.delete(q.id);else mistakes.add(q.id);},
-    next(){if(phase!=='question'||!checked)return;const previous=questions.find(q=>q.id===order[cursor]);cursor++;resetQuestion();if(cursor===order.length){phase='result';return;}const next=questions.find(q=>q.id===order[cursor]);phase=!review&&next.patternIndex!==previous.patternIndex?'intro':'question';},
-    retry(){if(phase!=='result'||!mistakes.size)return;order=questions.filter(q=>mistakes.has(q.id)).map(q=>q.id);cursor=0;review=true;phase='question';resetQuestion();},
-    restart,
-  };
-}

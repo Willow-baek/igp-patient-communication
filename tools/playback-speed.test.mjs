@@ -21,7 +21,7 @@ function app(weekIndex=1,voice='female',{deferLoad=false}={}){
     play(){this.paused=false;this.plays.push({url:this.src,rate:this.playbackRate});return Promise.resolve();}
     pause(){this.paused=true;}
   }
-  const sandbox={resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},handleClick(){return false;}}),createPractice:()=>({close(){},syncPlayback(){},handleClick(){return false;}}),Audio:Media,localStorage:{getItem(){return null;}},
+  const sandbox={createBrowserVoice:()=>({}),resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},stop(){},handleClick(){return false;}}),createPractice:()=>({close(){},syncPlayback(){},handleClick(){return false;}}),Audio:Media,localStorage:{getItem(){return null;}},
     document:{querySelector:element,querySelectorAll(){return [];},addEventListener:(name,fn)=>listeners.set(name,fn)},
     window:{addEventListener(){}},matchMedia:()=>({matches:false,addEventListener(){}}),
     fetch:()=>new Promise(()=>{}),setTimeout:fn=>{timers.set(++timerId,fn);return timerId;},clearTimeout:id=>timers.delete(id),

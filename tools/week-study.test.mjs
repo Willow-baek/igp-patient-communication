@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {installWeekStudy,patternMarkup,phraseRanges,normalizeAnswer,createQuizSession} from '../docs/week-study.mjs';
+import {installWeekStudy,patternMarkup,phraseRanges} from '../docs/week-study.mjs';
 import {resolveAudio} from '../docs/audio-source.mjs';
 import {practiceForLine,practiceSteps} from '../docs/practice-model.mjs';
 const weeks=JSON.parse(fs.readFileSync(new URL('../docs/weeks.json',import.meta.url))).weeks;
@@ -47,20 +47,4 @@ test('all 18 workbook answers reconstruct the source answer sentences, including
  assert.equal(module.patterns.length,6);assert.equal(module.patterns.flatMap(p=>p.exercises).length,18);
  assert.equal(module.patterns[0].exercises[1].answer,'knee pain after your run');
  for(const p of module.patterns)for(const q of p.exercises){assert(q.ko&&q.before&&q.answer&&q.after);assert((q.before+q.answer+q.after).endsWith('?'));}
-});
-test('answer checking accepts case/space/final punctuation but rejects missing or different words',()=>{
- assert.equal(normalizeAnswer('  Back   PAIN.  '),'back pain');
- const q=createQuizSession(module.patterns);q.start();q.setInput('   ');q.check();assert(q.state.empty);assert(!q.state.checked);
- q.setInput('back ache');q.check();assert(q.state.checked);assert(!q.state.correct);q.setInput('back pain');assert.equal(q.state.input,'back ache');
-});
-test('quiz runs three questions per pattern, records first attempts, retries only mistakes, and restarts',()=>{
- const q=createQuizSession(module.patterns);let seen=0;
- while(q.state.phase!=='result'){
-  if(q.state.phase==='intro'){assert.equal(q.state.cursor%3,0);q.start();}
-  const s=q.state;q.setInput(seen===1?'wrong':s.question.answer.toUpperCase()+'?');q.check();q.check();q.next();seen++;
- }
- assert.equal(seen,18);assert.equal(q.state.firstCorrect,17);assert.deepEqual(q.state.mistakes,['1-2']);
- q.retry();assert.equal(q.state.total,1);assert.equal(q.state.question.id,'1-2');q.setInput(q.state.question.answer);q.check();q.next();
- assert.equal(q.state.phase,'result');assert.equal(q.state.mistakes.length,0);assert.equal(q.state.firstCorrect,17);
- q.restart();assert.equal(q.state.phase,'intro');assert.equal(q.state.cursor,0);assert.equal(q.state.firstCorrect,0);
 });

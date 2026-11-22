@@ -27,7 +27,7 @@ async function load({free=false,hash='',failedRelease=false,failedStudy=false,st
     if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',disabled:false,hidden:false,style:{},append(){},setAttribute(){},classList:{add(){},remove(){}}});
     return elements.get(id);
   }
-  const sandbox={selectPublishedWeeks,resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},handleClick(){return false;}}),
+  const sandbox={createBrowserVoice:()=>({}),selectPublishedWeeks,resolveAudio,installWeekStudy,patternMarkup,createWorkbook:()=>({mount(){},stop(){},handleClick(){return false;}}),
     createPractice:()=>({decorate(){},close(){},syncPlayback(){}}),Audio:class {},
     localStorage:{getItem(){return null;}},
     document:{documentElement:{dataset:free?{releaseConfig:'free-weeks.json'}:{}},querySelector:element,querySelectorAll(){return [];},addEventListener(){}},
@@ -42,7 +42,7 @@ async function load({free=false,hash='',failedRelease=false,failedStudy=false,st
 test('main entry retains all weeks and never loads the free release list',async()=>{
   const result=await load({hash:'#week-04'});
   assert.deepEqual(result.requests,['weeks.json','week-04-study.json']);
-  assert(result.elements.get('#content').innerHTML.includes('패턴 워크북'));
+  assert(result.elements.get('#content').innerHTML.includes('패턴 쉐도잉'));
   assert.equal((result.elements.get('#content').innerHTML.match(/data-play=/g)||[]).length,27);
   const nav=result.elements.get('#weeks').innerHTML;
   for(const week of content.weeks)assert(nav.includes(`data-week="${week.id}"`));
