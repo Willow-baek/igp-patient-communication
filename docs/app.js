@@ -3,7 +3,7 @@ import {installWeekStudy,patternMarkup} from './week-study.mjs?v=2';
 import {createWorkbook} from './workbook-ui.mjs?v=3';
 import {resolveAudio} from './audio-source.mjs';
 import {createPractice} from './practice-ui.mjs?v=8';
-import {selectPublishedWeeks} from './week-catalog.mjs?v=1';
+import {selectPublishedWeeks} from './week-catalog.mjs?v=2';
 'use strict';
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const playIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>';
@@ -82,7 +82,7 @@ fetch('weeks.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.
     const response=await fetch(releaseFile,{cache:'no-cache'});
     if(!response.ok)throw Error();
     const release=await response.json();
-    weeks=selectPublishedWeeks(data.weeks,release.publishedWeekIds);
+    weeks=selectPublishedWeeks(data.weeks,release.publishedWeekIds,release.displayLabels);
   }else{
     weeks=data.weeks;
     let studyTimer;

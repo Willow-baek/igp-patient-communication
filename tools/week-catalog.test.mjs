@@ -12,10 +12,13 @@ const study=JSON.parse(fs.readFileSync(new URL('../docs/week-04-study.json',impo
 const release=JSON.parse(fs.readFileSync(new URL('../docs/free-weeks.json',import.meta.url),'utf8'));
 const appSource=fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8').replace(/^import .*?;\n/gm,'');
 
-test('free release reuses canonical Week 1 and adding IDs reveals weeks in source order',()=>{
-  assert.deepEqual(release.publishedWeekIds,['week-01']);
-  const initial=selectPublishedWeeks(content.weeks,release.publishedWeekIds);
-  assert.equal(initial.length,1);assert.equal(initial[0],content.weeks[0]);
+test('free release reuses Week 1 and displays canonical Week 3 as Week 2',()=>{
+  assert.deepEqual(release.publishedWeekIds,['week-01','week-03']);
+  const initial=selectPublishedWeeks(content.weeks,release.publishedWeekIds,release.displayLabels);
+  assert.equal(initial[0],content.weeks[0]);
+  assert.deepEqual(initial[1],{...content.weeks[2],label:'Week 2'});
+  assert.equal(initial[1].lines,content.weeks[2].lines);
+  assert.equal(content.weeks[2].label,'Week 3');
   assert.deepEqual(selectPublishedWeeks(content.weeks,['week-03','week-01','week-02']).map(w=>w.id),['week-01','week-02','week-03']);
   assert.deepEqual(selectPublishedWeeks(content.weeks,[]),[]);
   for(const invalid of [undefined,null,'all',['week-99']])assert.throws(()=>selectPublishedWeeks(content.weeks,invalid));
@@ -49,14 +52,25 @@ test('main entry retains all weeks and never loads the free release list',async(
   assert(result.elements.get('#content').innerHTML.includes(content.weeks[3].shortTitle));
 });
 
-test('free entry cannot select a hidden week with its URL hash',async()=>{
-  const result=await load({free:true,hash:'#week-04'});
+test('free entry cannot select canonical Week 2 with its URL hash',async()=>{
+  const result=await load({free:true,hash:'#week-02'});
   assert.deepEqual(result.requests,['weeks.json','free-weeks.json']);
   const nav=result.elements.get('#weeks').innerHTML;
   assert(nav.includes('data-week="week-01"'));
-  for(const week of content.weeks.slice(1))assert(!nav.includes(`data-week="${week.id}"`));
+  assert(nav.includes('data-week="week-03"'));
+  for(const id of ['week-02','week-04'])assert(!nav.includes(`data-week="${id}"`));
   assert(result.elements.get('#content').innerHTML.includes(content.weeks[0].title));
   assert.deepEqual(result.replaced,['#week-01']);
+});
+
+test('the free Week 3 link opens the shared dialogue under the Week 2 label',async()=>{
+  const result=await load({free:true,hash:'#week-03'});
+  assert.equal(result.elements.get('#currentWeek').textContent,'Week 2');
+  const html=result.elements.get('#content').innerHTML;
+  assert(html.includes(content.weeks[2].lines[0].en.replaceAll("'",'&#39;')));
+  assert.equal((html.match(/data-play=/g)||[]).length,content.weeks[2].lines.length);
+  assert.equal(result.elements.get('#playAll').disabled,false);
+  assert.deepEqual(result.replaced,[]);
 });
 
 test('a failed free release request does not fall back to displaying the full catalogue',async()=>{

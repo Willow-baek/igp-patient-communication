@@ -1,5 +1,9 @@
 {
   "publishedWeekIds": [
-    "week-01"
-  ]
+    "week-01",
+    "week-03"
+  ],
+  "displayLabels": {
+    "week-03": "Week 2"
+  }
 }

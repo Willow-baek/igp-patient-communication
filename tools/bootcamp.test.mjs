@@ -33,6 +33,7 @@ test('Zoom links preserve passcodes and reject unexpected hosts/protocols',()=>{
   for(const bad of ['https://zoom.us.example.com/j/1','javascript:alert(1)','http://zoom.us/j/1','https://user@zoom.us/j/1'])assert.throws(()=>zoomSessionUrl(bad));
 });
 const source=fs.readFileSync(new URL('../docs/bootcamp.js',import.meta.url),'utf8').replace(/^import .*;\n/m,'');
+const release=JSON.parse(fs.readFileSync(new URL('../docs/free-weeks.json',import.meta.url),'utf8'));
 async function app(){
   let now=first-65000,session={zoomUrl:''},failed=false;
   const intervals=new Map(),elements=new Map(),events=new Map(),practice=[{},{}];
@@ -45,7 +46,7 @@ async function app(){
     Date:Clock,Intl,URL,nextSessionAt:()=>nextSessionAt(now),remainingTime:target=>remainingTime(target,now),zoomSessionUrl,
     document:{hidden:false,querySelector:element,querySelectorAll:()=>practice,addEventListener:(name,cb)=>events.set(name,cb)},
     window:{addEventListener(){}},setInterval:(cb,ms)=>{intervals.set(ms,cb);return ms;},clearInterval(){},
-    fetch:async path=>({ok:!failed,json:async()=>path==='free-weeks.json'?{publishedWeekIds:['week-01','week-02']}:session}),
+    fetch:async path=>({ok:!failed,json:async()=>path==='free-weeks.json'?release:session}),
   });
   await flush();
   return {element,practice,tick:()=>intervals.get(1000)(),refresh:async()=>{await intervals.get(30000)();await flush();},advance:ms=>{now+=ms;},session:value=>{session=value;},fail:()=>{failed=true;},resume:()=>events.get('visibilitychange')()};
@@ -55,7 +56,7 @@ test('page ticks from actual current time and waits at zero until the link is su
   a.advance(1000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'04');
   a.advance(60000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'04');assert.equal(a.element('#countdown-minutes').textContent,'00');
   a.advance(9000);a.tick();assert.equal(a.element('#countdown-seconds').textContent,'00');assert(a.element('#session-status').textContent.includes('시작 시간이'));
-  assert.equal(a.practice[0].href,'free.html#week-02');
+  assert.deepEqual(a.practice.map(link=>link.href),['free.html#week-03','free.html#week-03']);
 });
 test('an open page toggles live Zoom without hiding the countdown',async()=>{
   const a=await app();assert.equal(a.element('#session-countdown').hidden,false);assert.equal(a.element('#zoom-link').hidden,true);

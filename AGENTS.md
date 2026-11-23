@@ -15,7 +15,7 @@
 - ASR 검증과 직접 청취 검수를 구분한다. 배포 성공을 확인하고 사용자가 검수할 링크를 제공한다.
 - 기능 변경 시 문서를 최종 동작에 맞춰 정리한다. 불필요한 승인 단계나 매주 자동 실행 일정은 추가하지 않는다.
 
-- 무료 공개 페이지는 `docs/free.html`, 공개 주차 목록은 `docs/free-weeks.json`이다. 현재 Week 1만 표시하며 이후 공개할 주차 id를 목록에 추가한다. 기존 전체 페이지와 원본 자료·오디오·기능을 공유한다. `docs/index.html`을 수정한 뒤 `node tools/build-free-page.mjs`로 무료 화면을 갱신한다.
+- 무료 공개 페이지는 `docs/free.html`, 공개 주차 목록은 `docs/free-weeks.json`이다. 현재 Week 1과 무료 Week 2를 표시한다. 무료 Week 2는 기존 Week 3 자료를 사용하며 `displayLabels`에서 `week-03`의 화면 이름만 지정한다. 이후 공개할 원본 주차 id는 `publishedWeekIds`에 추가한다. 기존 전체 페이지와 원본 자료·오디오·기능을 공유한다. `docs/index.html`을 수정한 뒤 `node tools/build-free-page.mjs`로 무료 화면을 갱신한다.
 
 - `free.html`에만 공통 비밀번호 편의 입장을 유지한다. 확인 전 학습 UI·학습 데이터 로딩을 보류하고 확인 후 기존 공유 앱을 실행한다. `docs/free-access.json`은 salt·SHA-256 digest·version만 보관하고 문서에 평문 비밀번호를 쓰지 않는다. localStorage의 `version:digest` 확인값으로 재방문을 기억하며 설정 교체·사이트 데이터 삭제 시 다시 입력한다. 저장 차단 시 현재 페이지 입장은 허용하되 재방문은 다시 확인한다. 생성기는 입장 HTML·CSS·`free-entry.mjs`를 삽입하고 `data-study-app`에 공유 앱의 현재 버전을 보존한다. 서버 인증·비공개 자료라고 설명하지 않는다. 기존 전체 페이지와 정적 자산은 직접 접근 가능한 공개 상태다.
 
