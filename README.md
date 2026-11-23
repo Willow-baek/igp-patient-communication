@@ -67,6 +67,8 @@ Week 4에는 기존 Google Docs 원본 [IGP Patient Communication_v1](https://do
 
 재현 순서: `python tools/build-week-04-audio.py` → `python tools/balance-female-audio.py tools/female-volume-balance-2026-11-16-week-04.json` → `python tools/build-practice-audio.py tools/week-04-practice-boundaries.json` → `python tools/balance-female-audio.py tools/female-volume-week-04-2026-11-16-v2.json` → `python tools/build-week-04-first-sentence-practice.py` → `python tools/build-week-04-shorter-practice.py` → `python tools/build-week-04-incident-tail.py` → `python tools/build-week-04-patient-manual-practice.py` → `python tools/build-week-04-all-manual-practice.py`. `imageio-ffmpeg`가 필요하다. 원본·단어 시간 정보·파형 경계는 `tools/week-04-audio-boundaries.json`, 나눠 연습 계획은 `tools/week-04-practice-boundaries.json`, ASR 대조는 `tools/week-04-audio-verification.json`에 기록한다. 현재 연결 기준은 `docs/weeks.json`이며 ASR 검증은 사람의 직접 청취 검수와 구분한다.
 
+Week 5에는 Google Docs Day 2의 *Explaining Your Clinical Impression* 대화를 등록했다. 영어 원문은 `W5/W5_script.md`에 보존하며, 기존 전체 앱에서 18개 발화를 28개 한영 말풍선으로 표시한다. Eng / Kor / Blind로 연습할 수 있다. 음성이 없는 동안에는 대사별 재생과 전체 듣기가 비활성화된다.
+
 ## 매주 자료 추가
 
 1. `STUDY_PRINCIPLES.md`의 절차를 읽고, 최신 대본과 환자 인물 정보, 피지오 남녀·환자 고정 음성을 확인한다.

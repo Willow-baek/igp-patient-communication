@@ -39,7 +39,13 @@ function bubbleMarkup(line,i){
   const translated=mode==='hidden'?language==='en':language!==mode;
   return `<button class="bubble ${translated?'translated':''}" data-bubble="${i}" lang="${language==='en'?'en':'ko'}" aria-label="${esc(`${i+1}번째 대사: ${text}. ${language==='hidden'?'한국어 대사 확인':action}`)}"><span class="${language==='hidden'?'concealed':'bubble-text'}">${language==='en'?patternMarkup(text,line.patternRanges):esc(text)}</span></button>`;
 }
-function modeHint(){return mode==='en'?'음성을 듣고 쉐도잉해 보세요. 말풍선을 누르면 한국어로 바뀝니다.':mode==='ko'?'한국어를 보고 외운 영어 대사를 떠올려 말해 보세요. 말풍선을 누르면 영어로 바뀝니다.':'대본 없이 말해 보세요. 말풍선을 누르면 한국어, 한 번 더 누르면 영어가 보여요.'}
+function modeHint(){
+  if(mode==='en'){
+    const instruction=available()?'음성을 듣고 쉐도잉해 보세요.':'영어 대사를 소리 내어 읽어 보세요.';
+    return `${instruction} 말풍선을 누르면 한국어로 바뀝니다.`;
+  }
+  return mode==='ko'?'한국어를 보고 외운 영어 대사를 떠올려 말해 보세요. 말풍선을 누르면 영어로 바뀝니다.':'대본 없이 말해 보세요. 말풍선을 누르면 한국어, 한 번 더 누르면 영어가 보여요.';
+}
 function studyTabs(){return week.study?`<div class="study-tabs" role="tablist" aria-label="Week 4 학습"><button type="button" id="dialogueTab" class="study-tab" role="tab" data-study-view="dialogue" aria-selected="${studyView==='dialogue'}" tabindex="${studyView==='dialogue'?0:-1}" aria-controls="dialogueView">대화 연습</button><button type="button" id="workbookTab" class="study-tab" role="tab" data-study-view="workbook" aria-selected="${studyView==='workbook'}" tabindex="${studyView==='workbook'?0:-1}" aria-controls="workbookView">패턴 쉐도잉</button></div>`:''}
 function showStudyView(view){
   if(view!=='workbook')workbook.stop();practice.close();stop();studyView=view;
