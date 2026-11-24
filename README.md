@@ -71,6 +71,8 @@ Week 5에는 Google Docs Day 2의 *Explaining Your Clinical Impression* 2026-11-
 
 Eleven Multilingual v2로 생성한 원본 MP3 세 개는 `W5/`와 `docs/audio/week-05/original/`에 보존한다. 일반 재생은 원본에서 합성 무음이나 페이드 없이 추출한 `docs/audio/week-05/2026-11-24-v1/`의 40개 클립을 사용한다. 여성 음성은 피지오 남녀 클립의 대표 음량 차이를 기준으로 +9.10dB 보정했고, 같은 게인을 여성 전체 참조에도 적용했다. 원본 해시, 클립 경계와 음량은 `W5/audio-source-manifest.json`에 기록한다. Free 플랜에서 생성한 비상업용 스터디 음성의 출처는 Week 5 제목에 표시한다.
 
+Week 5의 13개 말풍선에 나눠 연습을 제공한다. PC에서는 더블클릭, 모바일에서는 길게 눌러 연다. 한 말풍선에 문장이 여러 개면 첫 문장부터 재생하고 문장별로 누적 연습을 다시 시작한다. 3개 원본에서 연습 구간을 연속으로 추출하며 여성은 일반 재생과 같은 +9.10dB를 적용한다. 경계는 `tools/week-05-practice-boundaries.json`에 보존한다. 재현 명령은 `python tools/build-practice-audio.py tools/week-05-practice-boundaries.json`이다.
+
 ## 매주 자료 추가
 
 1. `STUDY_PRINCIPLES.md`의 절차를 읽고, 최신 대본과 환자 인물 정보, 피지오 남녀·환자 고정 음성을 확인한다.
@@ -148,7 +150,7 @@ python3 -m http.server 8080 --directory docs
 
 ## 나눠 연습 자료 추가
 
-현재 나눠 연습 범위는 Week 1의 3개, Week 2의 8개, Week 3의 11개, Week 4의 20개 말풍선이다. Week 1~3의 48개 대사 검토에서는 26개를 일반 재생으로 유지했다. Week 4에서도 안정적인 내부 쉼이 없거나 짧은 완성 문장은 일반 재생으로 연습한다. 더블클릭한 말풍선 안에서만 짧은 구간부터 전체 말풍선까지 이어 연습한다. 같은 화자의 차례여도 마침표·물음표·느낌표로 끝난 문장은 다음 문장과 묶지 않는다. 짧은 “That makes sense.”는 기존 단독 재생을 사용한다.
+공유 원본의 나눠 연습 범위는 Week 1의 3개, Week 2의 8개, Week 3의 11개, Week 4의 20개, Week 5의 13개 말풍선이다. Week 1~3의 48개 대사 검토에서는 26개를 일반 재생으로 유지했다. Week 4에서도 안정적인 내부 쉼이 없거나 짧은 완성 문장은 일반 재생으로 연습한다. 더블클릭한 말풍선 안에서만 짧은 구간부터 전체 말풍선까지 이어 연습한다. 같은 화자의 차례여도 마침표·물음표·느낌표로 끝난 문장은 다음 문장과 묶지 않는다. 짧은 “That makes sense.”는 기존 단독 재생을 사용한다.
 
 `weeks.json`의 선택적 `practice`는 `scriptRevision`과 일치해야 한다. 각 unit은 원문 말풍선의 0부터 시작하는 `lines`와 원문과 정확히 일치하는 `text`를 가진다. 한 문장 연습은 `chunks`·`audio`, 여러 문장을 순서대로 연습하는 자료는 `sentences` 배열에 문장별 `text`, 문자 `range`, `chunks`, `audio`를 둔다. `sentences`는 첫 문장에서 시작해 말풍선 전체를 빠짐없이 덮어야 한다. 피지오는 female/male, 환자는 patient만 둔다. 대본이 바뀌거나 자료가 없으면 해당 연습을 노출하지 않는다.
 

@@ -1,0 +1,575 @@
+{
+  "week": "week-05",
+  "scriptRevision": "2026-11-24-google-docs-week-05-day-02",
+  "assetVersion": "practice-2026-11-24-v1",
+  "method": "Meaningful boundaries checked against word timings and original waveforms. Sentences in a bubble practice in order with independent prefixes.",
+  "units": [
+    {
+      "id": "w5-line-02",
+      "lines": [
+        1
+      ],
+      "speaker": "Physio",
+      "text": "I'd like to explain what I think might be going on with your back. Is that okay?",
+      "sentences": [
+        {
+          "text": "I'd like to explain what I think might be going on with your back.",
+          "range": {
+            "start": 0,
+            "end": 66
+          },
+          "chunks": [
+            "I'd like to explain what I think might be going on",
+            "with your back."
+          ]
+        },
+        {
+          "text": "Is that okay?",
+          "range": {
+            "start": 67,
+            "end": 80
+          },
+          "chunks": [
+            "Is that okay?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w5-line-04",
+      "lines": [
+        3
+      ],
+      "speaker": "Physio",
+      "text": "Based on what you've told me and what I've found during the assessment,",
+      "chunks": [
+        "Based on what you've told me and what I've found",
+        "during the assessment,"
+      ]
+    },
+    {
+      "id": "w5-line-05",
+      "lines": [
+        4
+      ],
+      "speaker": "Physio",
+      "text": "it seems that your back has become quite sensitive to certain movements and activities.",
+      "chunks": [
+        "it seems that your back has become quite sensitive",
+        "to certain movements and activities."
+      ]
+    },
+    {
+      "id": "w5-line-06",
+      "lines": [
+        5
+      ],
+      "speaker": "Patient",
+      "text": "Yeah, even simple things like putting my shoes on can be uncomfortable.",
+      "chunks": [
+        "Yeah, even simple things like putting my shoes on",
+        "can be uncomfortable."
+      ]
+    },
+    {
+      "id": "w5-line-07",
+      "lines": [
+        6
+      ],
+      "speaker": "Physio",
+      "text": "I understand. Sometimes, when you've had pain for a while, your body can become a bit more protective.",
+      "sentences": [
+        {
+          "text": "I understand.",
+          "range": {
+            "start": 0,
+            "end": 13
+          },
+          "chunks": [
+            "I understand."
+          ]
+        },
+        {
+          "text": "Sometimes, when you've had pain for a while, your body can become a bit more protective.",
+          "range": {
+            "start": 14,
+            "end": 102
+          },
+          "chunks": [
+            "Sometimes, when you've had pain for a while,",
+            "your body can become a bit more protective."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w5-line-09",
+      "lines": [
+        8
+      ],
+      "speaker": "Physio",
+      "text": "Its job is to warn you about danger, but sometimes it can go off even when there's no real danger.",
+      "chunks": [
+        "Its job is to warn you about danger, but sometimes it can go off",
+        "even when there's no real danger."
+      ]
+    },
+    {
+      "id": "w5-line-10",
+      "lines": [
+        9
+      ],
+      "speaker": "Patient",
+      "text": "So, does that mean I've damaged something in my back?",
+      "chunks": [
+        "So, does that mean",
+        "I've damaged something in my back?"
+      ]
+    },
+    {
+      "id": "w5-line-12",
+      "lines": [
+        11
+      ],
+      "speaker": "Physio",
+      "text": "Sometimes, your body is just being extra careful and sending out pain signals more easily than usual.",
+      "chunks": [
+        "Sometimes, your body is just being extra careful",
+        "and sending out pain signals",
+        "more easily than usual."
+      ]
+    },
+    {
+      "id": "w5-line-15",
+      "lines": [
+        14
+      ],
+      "speaker": "Physio",
+      "text": "I haven't identified anything that immediately suggests a serious problem.",
+      "chunks": [
+        "I haven't identified anything",
+        "that immediately suggests a serious problem."
+      ]
+    },
+    {
+      "id": "w5-line-18",
+      "lines": [
+        17
+      ],
+      "speaker": "Physio",
+      "text": "We can start by finding movements that feel comfortable for you and gradually build things up.",
+      "chunks": [
+        "We can start by finding movements",
+        "that feel comfortable for you",
+        "and gradually build things up."
+      ]
+    },
+    {
+      "id": "w5-line-19",
+      "lines": [
+        18
+      ],
+      "speaker": "Physio",
+      "text": "The aim is to help your back feel more comfortable with movement again.",
+      "chunks": [
+        "The aim is to help your back",
+        "feel more comfortable with movement again."
+      ]
+    },
+    {
+      "id": "w5-line-21",
+      "lines": [
+        20
+      ],
+      "speaker": "Physio",
+      "text": "Absolutely. We'll work towards that together, one step at a time.",
+      "sentences": [
+        {
+          "text": "Absolutely.",
+          "range": {
+            "start": 0,
+            "end": 11
+          },
+          "chunks": [
+            "Absolutely."
+          ]
+        },
+        {
+          "text": "We'll work towards that together, one step at a time.",
+          "range": {
+            "start": 12,
+            "end": 65
+          },
+          "chunks": [
+            "We'll work towards that together,",
+            "one step at a time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w5-line-23",
+      "lines": [
+        22
+      ],
+      "speaker": "Physio",
+      "text": "No worries. Do you have any other questions about what we've discussed?",
+      "sentences": [
+        {
+          "text": "No worries.",
+          "range": {
+            "start": 0,
+            "end": 11
+          },
+          "chunks": [
+            "No worries."
+          ]
+        },
+        {
+          "text": "Do you have any other questions about what we've discussed?",
+          "range": {
+            "start": 12,
+            "end": 71
+          },
+          "chunks": [
+            "Do you have any other questions",
+            "about what we've discussed?"
+          ]
+        }
+      ]
+    }
+  ],
+  "tracks": {
+    "female": [
+      {
+        "unit": 0,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 2.275,
+        "cuts": [
+          4.345
+        ],
+        "end": 5.0,
+        "sentence": 0,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 0,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 5.0,
+        "cuts": [],
+        "end": 6.185,
+        "sentence": 1,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 1,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 6.815,
+        "cuts": [
+          8.72
+        ],
+        "end": 9.595,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 9.595,
+        "cuts": [
+          11.705
+        ],
+        "end": 14.015,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 14.56,
+        "cuts": [],
+        "end": 16.1,
+        "sentence": 0,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 16.1,
+        "cuts": [
+          18.55
+        ],
+        "end": 20.64,
+        "sentence": 1,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 5,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 23.345,
+        "cuts": [
+          26.78
+        ],
+        "end": 28.475,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 32.385,
+        "cuts": [
+          35.252,
+          36.714
+        ],
+        "end": 38.305,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 40.145,
+        "cuts": [
+          41.613
+        ],
+        "end": 44.26,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 9,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 46.675,
+        "cuts": [
+          48.253,
+          49.488
+        ],
+        "end": 51.7,
+        "gainDb": 9.1,
+        "tailPadding": [
+          0,
+          0.045,
+          0
+        ]
+      },
+      {
+        "unit": 10,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 51.955,
+        "cuts": [
+          53.428
+        ],
+        "end": 55.26,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 11,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 55.355,
+        "cuts": [],
+        "end": 56.285,
+        "sentence": 0,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 11,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 56.285,
+        "cuts": [
+          58.123
+        ],
+        "end": 59.94,
+        "sentence": 1,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 12,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 59.99,
+        "cuts": [],
+        "end": 61.44,
+        "sentence": 0,
+        "gainDb": 9.1
+      },
+      {
+        "unit": 12,
+        "source": "audio/week-05/original/W5_PT_female.mp3",
+        "start": 61.44,
+        "cuts": [
+          63.544
+        ],
+        "end": 65.149,
+        "sentence": 1,
+        "gainDb": 9.1
+      }
+    ],
+    "male": [
+      {
+        "unit": 0,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 3.26,
+        "cuts": [
+          5.875
+        ],
+        "end": 6.72,
+        "sentence": 0
+      },
+      {
+        "unit": 0,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 6.72,
+        "cuts": [],
+        "end": 8.22,
+        "sentence": 1
+      },
+      {
+        "unit": 1,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 8.42,
+        "cuts": [
+          11.155
+        ],
+        "end": 12.54
+      },
+      {
+        "unit": 2,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 12.555,
+        "cuts": [
+          15.292
+        ],
+        "end": 17.16
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 17.705,
+        "cuts": [],
+        "end": 18.858,
+        "sentence": 0
+      },
+      {
+        "unit": 4,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 18.858,
+        "cuts": [
+          21.715
+        ],
+        "end": 23.82,
+        "sentence": 1
+      },
+      {
+        "unit": 5,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 26.0,
+        "cuts": [
+          29.751
+        ],
+        "end": 31.46
+      },
+      {
+        "unit": 7,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 35.95,
+        "cuts": [
+          38.507,
+          40.243
+        ],
+        "end": 41.815
+      },
+      {
+        "unit": 8,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 44.36,
+        "cuts": [
+          45.8
+        ],
+        "end": 48.295
+      },
+      {
+        "unit": 9,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 50.535,
+        "cuts": [
+          52.269,
+          53.62
+        ],
+        "end": 55.595,
+        "tailPadding": [
+          0,
+          0.09,
+          0
+        ]
+      },
+      {
+        "unit": 10,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 55.675,
+        "cuts": [
+          57.037
+        ],
+        "end": 59.245
+      },
+      {
+        "unit": 11,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 59.78,
+        "cuts": [],
+        "end": 60.63,
+        "sentence": 0
+      },
+      {
+        "unit": 11,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 60.63,
+        "cuts": [
+          62.481
+        ],
+        "end": 64.06,
+        "sentence": 1
+      },
+      {
+        "unit": 12,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 64.1,
+        "cuts": [],
+        "end": 65.355,
+        "sentence": 0
+      },
+      {
+        "unit": 12,
+        "source": "audio/week-05/original/W5_PT_male.mp3",
+        "start": 65.355,
+        "cuts": [
+          66.922
+        ],
+        "end": 68.728,
+        "sentence": 1
+      }
+    ],
+    "patient": [
+      {
+        "unit": 3,
+        "source": "audio/week-05/original/W5_pt.mp3",
+        "start": 1.105,
+        "cuts": [
+          3.178
+        ],
+        "end": 4.24
+      },
+      {
+        "unit": 6,
+        "source": "audio/week-05/original/W5_pt.mp3",
+        "start": 4.385,
+        "cuts": [
+          5.59
+        ],
+        "end": 7.24
+      }
+    ]
+  },
+  "verification": {
+    "models": [
+      "Whisper small.en",
+      "Whisper base.en"
+    ],
+    "matchedClips": 88,
+    "directListeningReviewed": false
+  }
+}
