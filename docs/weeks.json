@@ -2797,19 +2797,22 @@
             "speaker": "Patient",
             "text": "Yeah, even simple things like putting my shoes on can be uncomfortable.",
             "chunks": [
-              "Yeah, even simple things like putting my shoes on",
+              "Yeah, even simple things",
+              "like putting my shoes on",
               "can be uncomfortable."
             ],
             "audio": {
               "patient": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-06/patient/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-06/patient/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-06/patient/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-06/patient/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-06/patient/full.m4a"
               }
             }
           },
@@ -2854,29 +2857,34 @@
                   "end": 102
                 },
                 "chunks": [
-                  "Sometimes, when you've had pain for a while,",
+                  "Sometimes,",
+                  "when you've had pain for a while,",
                   "your body can become a bit more protective."
                 ],
                 "audio": {
                   "female": {
                     "chunks": [
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/female/chunk-1.m4a",
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/female/chunk-2.m4a"
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/chunk-1.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/chunk-2.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/chunk-3.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/female/full.m4a"
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/build-2.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/full.m4a"
                     ],
-                    "full": "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/female/full.m4a"
+                    "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/female/full.m4a"
                   },
                   "male": {
                     "chunks": [
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/male/chunk-1.m4a",
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/male/chunk-2.m4a"
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/chunk-1.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/chunk-2.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/chunk-3.m4a"
                     ],
                     "buildUp": [
-                      "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/male/full.m4a"
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/build-2.m4a",
+                      "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/full.m4a"
                     ],
-                    "full": "audio/week-05/practice-2026-11-24-v1/w5-line-07/sentence-2/male/full.m4a"
+                    "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-07/sentence-2/male/full.m4a"
                   }
                 }
               }
@@ -2890,29 +2898,34 @@
             "speaker": "Physio",
             "text": "Its job is to warn you about danger, but sometimes it can go off even when there's no real danger.",
             "chunks": [
-              "Its job is to warn you about danger, but sometimes it can go off",
+              "Its job is to warn you about danger,",
+              "but sometimes it can go off",
               "even when there's no real danger."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/female/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/female/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/female/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-09/female/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/male/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/male/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-09/male/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-09/male/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-09/male/full.m4a"
               }
             }
           },
@@ -2948,34 +2961,39 @@
             "speaker": "Physio",
             "text": "Sometimes, your body is just being extra careful and sending out pain signals more easily than usual.",
             "chunks": [
-              "Sometimes, your body is just being extra careful",
+              "Sometimes,",
+              "your body is just being extra careful",
               "and sending out pain signals",
               "more easily than usual."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/chunk-2.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/chunk-3.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/chunk-3.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/chunk-4.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/build-2.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/build-3.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-12/female/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/chunk-2.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/chunk-3.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/chunk-3.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/chunk-4.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/build-2.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/build-3.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-12/male/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-12/male/full.m4a"
               }
             }
           },
@@ -2988,28 +3006,33 @@
             "text": "I haven't identified anything that immediately suggests a serious problem.",
             "chunks": [
               "I haven't identified anything",
-              "that immediately suggests a serious problem."
+              "that immediately suggests",
+              "a serious problem."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/female/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/female/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/female/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-15/female/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/male/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/male/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-15/male/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-15/male/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-15/male/full.m4a"
               }
             }
           },
@@ -3061,28 +3084,33 @@
             "text": "The aim is to help your back feel more comfortable with movement again.",
             "chunks": [
               "The aim is to help your back",
-              "feel more comfortable with movement again."
+              "feel more comfortable",
+              "with movement again."
             ],
             "audio": {
               "female": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/female/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/female/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/female/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-19/female/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/female/full.m4a"
               },
               "male": {
                 "chunks": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/male/chunk-1.m4a",
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/male/chunk-2.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/chunk-1.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/chunk-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/chunk-3.m4a"
                 ],
                 "buildUp": [
-                  "audio/week-05/practice-2026-11-24-v1/w5-line-19/male/full.m4a"
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/build-2.m4a",
+                  "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/full.m4a"
                 ],
-                "full": "audio/week-05/practice-2026-11-24-v1/w5-line-19/male/full.m4a"
+                "full": "audio/week-05/practice-2026-11-24-rhythm-v2/w5-line-19/male/full.m4a"
               }
             }
           },

@@ -71,7 +71,7 @@ Week 5에는 Google Docs Day 2의 *Explaining Your Clinical Impression* 2026-11-
 
 Eleven Multilingual v2로 생성한 원본 MP3 세 개는 `W5/`와 `docs/audio/week-05/original/`에 보존한다. 일반 재생은 원본에서 합성 무음이나 페이드 없이 추출한 `docs/audio/week-05/2026-11-24-v1/`의 40개 클립을 사용한다. 여성 음성은 피지오 남녀 클립의 대표 음량 차이를 기준으로 +9.10dB 보정했고, 같은 게인을 여성 전체 참조에도 적용했다. 원본 해시, 클립 경계와 음량은 `W5/audio-source-manifest.json`에 기록한다. Free 플랜에서 생성한 비상업용 스터디 음성의 출처는 Week 5 제목에 표시한다.
 
-Week 5의 13개 말풍선에 나눠 연습을 제공한다. PC에서는 더블클릭, 모바일에서는 길게 눌러 연다. 한 말풍선에 문장이 여러 개면 첫 문장부터 재생하고 문장별로 누적 연습을 다시 시작한다. 3개 원본에서 연습 구간을 연속으로 추출하며 여성은 일반 재생과 같은 +9.10dB를 적용한다. 경계는 `tools/week-05-practice-boundaries.json`에 보존한다. 재현 명령은 `python tools/build-practice-audio.py tools/week-05-practice-boundaries.json`이다.
+Week 5의 13개 말풍선에 38개 구간으로 나눠 연습을 제공한다. PC에서는 더블클릭, 모바일에서는 길게 눌러 연다. 한 말풍선에 문장이 여러 개면 첫 문장부터 재생하고 문장별로 누적 연습을 다시 시작한다. 원본의 의미 단위와 발화 사이의 소리 변화를 확인해 6개 말풍선의 구간을 더 짧게 나눴다. 3개 원본에서 연습 구간을 연속으로 추출하며 여성은 일반 재생과 같은 +9.10dB를 적용한다. 초기 경계는 `tools/week-05-practice-boundaries.json`, 최신 경계와 이전 구간 참조는 `tools/week-05-practice-rhythm-v2.json`에 있다. 재현은 `python tools/build-practice-audio.py tools/week-05-practice-boundaries.json`을 실행한 뒤 같은 명령에 `tools/week-05-practice-rhythm-v2.json`을 지정한다.
 
 ## 매주 자료 추가
 
