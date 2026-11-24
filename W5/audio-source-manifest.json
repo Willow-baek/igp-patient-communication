@@ -1,0 +1,316 @@
+{
+  "week": "week-05",
+  "scriptRevision": "2026-11-24-google-docs-week-05-day-02",
+  "generation": {
+    "service": "ElevenLabs",
+    "reportedPlan": "Free",
+    "model": "Eleven Multilingual v2",
+    "reportedVoices": {
+      "female": "Rachel - Fun, Casual, Australian Woman, English speaker",
+      "male": "Australian Neutral - Calm / Professional",
+      "patient": "John C"
+    }
+  },
+  "sourceMeasurements": {
+    "female": {
+      "lufs": -34.2,
+      "truePeakDbfs": -16.6,
+      "bubbleMedianLufs": -34.05,
+      "gainDb": 9.1,
+      "playback": {
+        "lufs": -25.1,
+        "truePeakDbfs": -7.5
+      }
+    },
+    "male": {
+      "lufs": -25.5,
+      "truePeakDbfs": -1.4,
+      "bubbleMedianLufs": -24.95
+    },
+    "patient": {
+      "lufs": -17.9,
+      "truePeakDbfs": -1.1
+    }
+  },
+  "tracks": {
+    "female": {
+      "original": "audio/week-05/original/W5_PT_female.mp3",
+      "sha256": "af4852edaa6961e40b0655ca703f2ce252bf3a8165a4edab73003b270246c7df",
+      "fullPlaybackSource": "audio/week-05/2026-11-24-v1/female/full.m4a",
+      "clips": [
+        {
+          "line": 1,
+          "start": 0,
+          "end": 2.275,
+          "audio": "audio/week-05/2026-11-24-v1/female/01.m4a"
+        },
+        {
+          "line": 2,
+          "start": 2.275,
+          "end": 6.185,
+          "audio": "audio/week-05/2026-11-24-v1/female/02.m4a"
+        },
+        {
+          "line": 4,
+          "start": 6.815,
+          "end": 9.595,
+          "audio": "audio/week-05/2026-11-24-v1/female/04.m4a"
+        },
+        {
+          "line": 5,
+          "start": 9.595,
+          "end": 14.015,
+          "audio": "audio/week-05/2026-11-24-v1/female/05.m4a"
+        },
+        {
+          "line": 7,
+          "start": 14.56,
+          "end": 20.64,
+          "audio": "audio/week-05/2026-11-24-v1/female/07.m4a"
+        },
+        {
+          "line": 8,
+          "start": 20.81,
+          "end": 22.8,
+          "audio": "audio/week-05/2026-11-24-v1/female/08.m4a"
+        },
+        {
+          "line": 9,
+          "start": 23.345,
+          "end": 28.475,
+          "audio": "audio/week-05/2026-11-24-v1/female/09.m4a"
+        },
+        {
+          "line": 11,
+          "start": 28.575,
+          "end": 32.385,
+          "audio": "audio/week-05/2026-11-24-v1/female/11.m4a"
+        },
+        {
+          "line": 12,
+          "start": 32.385,
+          "end": 38.305,
+          "audio": "audio/week-05/2026-11-24-v1/female/12.m4a"
+        },
+        {
+          "line": 14,
+          "start": 38.34,
+          "end": 40.145,
+          "audio": "audio/week-05/2026-11-24-v1/female/14.m4a"
+        },
+        {
+          "line": 15,
+          "start": 40.145,
+          "end": 44.26,
+          "audio": "audio/week-05/2026-11-24-v1/female/15.m4a"
+        },
+        {
+          "line": 16,
+          "start": 44.44,
+          "end": 46.64,
+          "audio": "audio/week-05/2026-11-24-v1/female/16.m4a"
+        },
+        {
+          "line": 18,
+          "start": 46.675,
+          "end": 51.7,
+          "audio": "audio/week-05/2026-11-24-v1/female/18.m4a"
+        },
+        {
+          "line": 19,
+          "start": 51.955,
+          "end": 55.26,
+          "audio": "audio/week-05/2026-11-24-v1/female/19.m4a"
+        },
+        {
+          "line": 21,
+          "start": 55.355,
+          "end": 59.94,
+          "audio": "audio/week-05/2026-11-24-v1/female/21.m4a"
+        },
+        {
+          "line": 23,
+          "start": 59.99,
+          "end": 65.149,
+          "audio": "audio/week-05/2026-11-24-v1/female/23.m4a"
+        }
+      ]
+    },
+    "male": {
+      "original": "audio/week-05/original/W5_PT_male.mp3",
+      "sha256": "14eb07490237c63c19f36e143e4cfe3d6228fa9fa28f20e3538a8e3b85820a02",
+      "fullPlaybackSource": "audio/week-05/original/W5_PT_male.mp3",
+      "clips": [
+        {
+          "line": 1,
+          "start": 0,
+          "end": 2.975,
+          "audio": "audio/week-05/2026-11-24-v1/male/01.m4a"
+        },
+        {
+          "line": 2,
+          "start": 3.26,
+          "end": 8.22,
+          "audio": "audio/week-05/2026-11-24-v1/male/02.m4a"
+        },
+        {
+          "line": 4,
+          "start": 8.42,
+          "end": 12.54,
+          "audio": "audio/week-05/2026-11-24-v1/male/04.m4a"
+        },
+        {
+          "line": 5,
+          "start": 12.555,
+          "end": 17.16,
+          "audio": "audio/week-05/2026-11-24-v1/male/05.m4a"
+        },
+        {
+          "line": 7,
+          "start": 17.705,
+          "end": 23.82,
+          "audio": "audio/week-05/2026-11-24-v1/male/07.m4a"
+        },
+        {
+          "line": 8,
+          "start": 23.925,
+          "end": 25.945,
+          "audio": "audio/week-05/2026-11-24-v1/male/08.m4a"
+        },
+        {
+          "line": 9,
+          "start": 26.0,
+          "end": 31.46,
+          "audio": "audio/week-05/2026-11-24-v1/male/09.m4a"
+        },
+        {
+          "line": 11,
+          "start": 32.04,
+          "end": 35.625,
+          "audio": "audio/week-05/2026-11-24-v1/male/11.m4a"
+        },
+        {
+          "line": 12,
+          "start": 35.95,
+          "end": 41.815,
+          "audio": "audio/week-05/2026-11-24-v1/male/12.m4a"
+        },
+        {
+          "line": 14,
+          "start": 42.17,
+          "end": 44.36,
+          "audio": "audio/week-05/2026-11-24-v1/male/14.m4a"
+        },
+        {
+          "line": 15,
+          "start": 44.36,
+          "end": 48.295,
+          "audio": "audio/week-05/2026-11-24-v1/male/15.m4a"
+        },
+        {
+          "line": 16,
+          "start": 48.325,
+          "end": 50.535,
+          "audio": "audio/week-05/2026-11-24-v1/male/16.m4a"
+        },
+        {
+          "line": 18,
+          "start": 50.535,
+          "end": 55.595,
+          "audio": "audio/week-05/2026-11-24-v1/male/18.m4a"
+        },
+        {
+          "line": 19,
+          "start": 55.675,
+          "end": 59.245,
+          "audio": "audio/week-05/2026-11-24-v1/male/19.m4a"
+        },
+        {
+          "line": 21,
+          "start": 59.78,
+          "end": 64.06,
+          "audio": "audio/week-05/2026-11-24-v1/male/21.m4a"
+        },
+        {
+          "line": 23,
+          "start": 64.1,
+          "end": 68.728,
+          "audio": "audio/week-05/2026-11-24-v1/male/23.m4a"
+        }
+      ]
+    },
+    "patient": {
+      "original": "audio/week-05/original/W5_pt.mp3",
+      "sha256": "e515441734e181d2eaa525a51dd46e122a2f82ea915743f91c0ecd9f7fcd95cb",
+      "fullPlaybackSource": "audio/week-05/original/W5_pt.mp3",
+      "clips": [
+        {
+          "line": 3,
+          "start": 0,
+          "end": 0.855,
+          "audio": "audio/week-05/2026-11-24-v1/patient/03.m4a"
+        },
+        {
+          "line": 6,
+          "start": 1.105,
+          "end": 4.24,
+          "audio": "audio/week-05/2026-11-24-v1/patient/06.m4a"
+        },
+        {
+          "line": 10,
+          "start": 4.385,
+          "end": 7.24,
+          "audio": "audio/week-05/2026-11-24-v1/patient/10.m4a"
+        },
+        {
+          "line": 13,
+          "start": 7.805,
+          "end": 10.75,
+          "audio": "audio/week-05/2026-11-24-v1/patient/13.m4a"
+        },
+        {
+          "line": 17,
+          "start": 10.81,
+          "end": 14.365,
+          "audio": "audio/week-05/2026-11-24-v1/patient/17.m4a"
+        },
+        {
+          "line": 20,
+          "start": 14.465,
+          "end": 17.265,
+          "audio": "audio/week-05/2026-11-24-v1/patient/20.m4a"
+        },
+        {
+          "line": 22,
+          "start": 17.805,
+          "end": 20.465,
+          "audio": "audio/week-05/2026-11-24-v1/patient/22.m4a"
+        },
+        {
+          "line": 24,
+          "start": 20.465,
+          "end": 22.23,
+          "audio": "audio/week-05/2026-11-24-v1/patient/24.m4a"
+        }
+      ]
+    }
+  },
+  "verification": {
+    "method": "Whisper small.en clip-level text checks with base.en cross-check, and waveform inspection of cuts",
+    "matchedClips": 40,
+    "totalClips": 40,
+    "notes": {
+      "female": {
+        "line": 4,
+        "model": "base.en",
+        "transcript": "Based on what you've told me and what I've found during the assessment..."
+      },
+      "male": {
+        "line": 21,
+        "model": "small.en",
+        "transcript": "Absolutely. We'll work towards that together, one step at a time."
+      }
+    },
+    "directListeningReviewed": false
+  }
+}

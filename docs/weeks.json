@@ -2403,10 +2403,10 @@
     {
       "id": "week-05",
       "label": "Week 5",
-      "title": "Explaining Your Clinical Impression",
+      "title": "Explaining Your Clinical Impression · Audio by elevenlabs.io",
       "shortTitle": "환자에게 첫 소견 설명하기",
-      "description": "검사에서 확인한 내용을 쉬운 말로 설명하고, 통증의 원인을 단정하지 않으면서 환자가 이해했는지 확인하는 대화를 연습해요.",
-      "scenario": "John의 허리 통증에 대해 문진과 신체검사를 마쳤습니다. 증상과 병력, 검사 결과를 바탕으로 어떤 움직임이 통증을 더 심하게 하는지 환자에게 설명합니다.",
+      "description": "검사에서 확인한 내용을 쉬운 말로 설명하고, 통증에 대한 환자의 걱정을 듣고 다음 단계를 안내하는 대화를 연습해요.",
+      "scenario": "John의 허리 통증에 대해 문진과 신체검사를 마쳤습니다. 증상과 병력, 검사 결과를 바탕으로 허리 통증에 영향을 줄 수 있는 요인을 환자가 이해하기 쉬운 말로 설명합니다.",
       "audio": null,
       "expressions": [
         "John, I'd like to go over a couple of things I noticed during the assessment.",
@@ -2420,169 +2420,217 @@
           "speaker": "Physio",
           "turn": 1,
           "en": "Alright, John. We've covered quite a bit today.",
-          "ko": "좋아요, John. 오늘 여러 가지를 살펴봤네요."
+          "ko": "좋아요, John. 오늘 여러 가지를 살펴봤네요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/01.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/01.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 1,
-          "en": "I'd like to talk through what I think might be going on with your back. Is that okay?",
-          "ko": "허리에 어떤 일이 있는 것 같은지 제가 생각하는 바를 말씀드리고 싶어요. 괜찮으실까요?"
+          "en": "I'd like to explain what I think might be going on with your back. Is that okay?",
+          "ko": "허리에 어떤 일이 있는 것 같은지 설명해 드리고 싶어요. 괜찮으실까요?",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/02.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/02.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 2,
           "en": "Yeah, sure.",
-          "ko": "네, 좋아요."
+          "ko": "네, 좋아요.",
+          "audio": "audio/week-05/2026-11-24-v1/patient/03.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 3,
-          "en": "So, based on what you've told me and what I've found during the assessment,",
-          "ko": "말씀해 주신 내용과 제가 검사에서 확인한 내용을 바탕으로 보면,"
+          "en": "Based on what you've told me and what I've found during the assessment,",
+          "ko": "말씀해 주신 내용과 제가 검사에서 확인한 내용을 바탕으로 보면,",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/04.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/04.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 3,
-          "en": "it seems that bending forward is one of the movements that's currently aggravating your back pain.",
-          "ko": "앞으로 몸을 숙이는 동작이 지금 허리 통증을 더 심하게 하는 동작 중 하나인 것 같아요."
+          "en": "it seems that your back has become quite sensitive to certain movements and activities.",
+          "ko": "허리가 특정 동작이나 활동에 꽤 예민해진 것 같아요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/05.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/05.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 4,
-          "en": "Yeah, definitely. That's when I notice it the most.",
-          "ko": "네, 확실히 그래요. 그때 통증이 가장 많이 느껴져요."
+          "en": "Yeah, even simple things like putting my shoes on can be uncomfortable.",
+          "ko": "네, 신발을 신는 것처럼 간단한 일도 불편할 때가 있어요.",
+          "audio": "audio/week-05/2026-11-24-v1/patient/06.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 5,
-          "en": "Right. What I'm thinking is that your back is currently quite sensitive to certain movements, particularly bending forward.",
-          "ko": "그렇군요. 지금 허리가 특정 동작에 꽤 예민하게 반응하는 것 같아요. 특히 앞으로 몸을 숙일 때 그렇고요."
+          "en": "I understand. Sometimes, when you've had pain for a while, your body can become a bit more protective.",
+          "ko": "그렇군요. 통증이 한동안 이어지면 몸이 스스로를 조금 더 보호하려고 할 때가 있어요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/07.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/07.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 5,
-          "en": "There could be a few reasons for this, so I wouldn't want to jump to any conclusions just yet.",
-          "ko": "여기에는 몇 가지 이유가 있을 수 있어서, 지금 바로 결론을 내리지는 않으려고 해요."
+          "en": "It's almost like a smoke alarm.",
+          "ko": "화재경보기와 비슷해요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/08.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/08.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 5,
+          "en": "Its job is to warn you about danger, but sometimes it can go off even when there's no real danger.",
+          "ko": "위험을 알려 주는 게 경보기의 역할이지만, 실제로 위험하지 않아도 울릴 때가 있잖아요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/09.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/09.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 6,
-          "en": "What do you mean by sensitive?",
-          "ko": "예민하다는 게 무슨 뜻이에요?"
-        },
-        {
-          "speaker": "Patient",
-          "turn": 6,
-          "en": "Does that mean I've damaged something in my back?",
-          "ko": "제 허리 어딘가가 손상됐다는 뜻인가요?"
+          "en": "So, does that mean I've damaged something in my back?",
+          "ko": "그럼 제 허리 어딘가가 손상됐다는 뜻인가요?",
+          "audio": "audio/week-05/2026-11-24-v1/patient/10.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 7,
-          "en": "Not necessarily. Pain doesn't always mean there's ongoing damage.",
-          "ko": "꼭 그렇지는 않아요. 통증이 있다고 해서 손상이 계속되고 있다는 뜻은 아니에요."
+          "en": "Not necessarily. Pain doesn't always mean something is damaged.",
+          "ko": "꼭 그렇지는 않아요. 통증이 있다고 해서 항상 어딘가가 손상됐다는 뜻은 아니에요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/11.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/11.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 7,
-          "en": "Sometimes, the structures around your back can become more sensitive, and certain movements can trigger your symptoms more easily.",
-          "ko": "때로는 허리 주변 조직이 더 예민해져서 특정 동작에서 증상이 더 쉽게 나타날 수 있어요."
+          "en": "Sometimes, your body is just being extra careful and sending out pain signals more easily than usual.",
+          "ko": "가끔은 몸이 평소보다 더 조심하면서 통증 신호를 더 쉽게 보낼 때가 있어요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/12.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/12.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 8,
-          "en": "Okay. So, what do you think is actually causing it?",
-          "ko": "그렇군요. 그럼 실제로 뭐 때문에 아프다고 보세요?"
+          "en": "I see. So, is it something I should be worried about?",
+          "ko": "그렇군요. 그럼 걱정해야 할 문제인가요?",
+          "audio": "audio/week-05/2026-11-24-v1/patient/13.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 9,
-          "en": "At this stage, my impression is that your pain is being aggravated by certain movements rather than one specific activity or injury.",
-          "ko": "지금까지 살펴본 바로는 특정 활동이나 부상 하나 때문이라기보다, 몇몇 동작을 할 때 통증이 심해지는 것으로 보여요."
+          "en": "From what we've discussed and found today,",
+          "ko": "오늘 나눈 이야기와 검사에서 확인한 내용을 보면,",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/14.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/14.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 9,
-          "en": "I'd like to consider everything we've discussed today before drawing any firm conclusions.",
-          "ko": "확실한 결론을 내리기 전에 오늘 나눈 이야기를 모두 고려해 보고 싶어요."
+          "en": "I haven't identified anything that immediately suggests a serious problem.",
+          "ko": "당장 심각한 문제를 의심할 만한 소견은 없었어요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/15.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/15.m4a"
+          }
+        },
+        {
+          "speaker": "Physio",
+          "turn": 9,
+          "en": "We'll keep an eye on your symptoms as we go.",
+          "ko": "앞으로도 증상이 어떻게 변하는지 계속 살펴볼게요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/16.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/16.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 10,
-          "en": "I see. Is it something I should be worried about?",
-          "ko": "그렇군요. 걱정해야 할 문제인가요?"
+          "en": "Okay, that's good to hear. So, what can we do about it?",
+          "ko": "그 말을 들으니 안심이 되네요. 그럼 어떻게 하면 될까요?",
+          "audio": "audio/week-05/2026-11-24-v1/patient/17.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 11,
-          "en": "From what we've discussed and found today, I haven't identified anything that immediately suggests a serious problem.",
-          "ko": "오늘 나눈 이야기와 검사 결과를 보면, 당장 심각한 문제를 의심할 만한 소견은 없었어요."
+          "en": "We can start by finding movements that feel comfortable for you and gradually build things up.",
+          "ko": "편하게 할 수 있는 동작부터 찾아서 조금씩 늘려 갈 수 있어요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/18.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/18.m4a"
+          }
         },
         {
           "speaker": "Physio",
           "turn": 11,
-          "en": "We'll continue to monitor your symptoms and how you respond to treatment.",
-          "ko": "앞으로 증상이 어떻게 변하고 치료에 어떻게 반응하는지 계속 살펴볼 거예요."
+          "en": "The aim is to help your back feel more comfortable with movement again.",
+          "ko": "다시 움직일 때 허리가 좀 더 편안해지도록 돕는 게 목표예요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/19.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/19.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 12,
-          "en": "Okay, that makes me feel a bit better.",
-          "ko": "네, 그 말을 들으니 조금 안심이 되네요."
+          "en": "That sounds good. I just want to get back to normal.",
+          "ko": "좋네요. 그냥 예전처럼 지내고 싶어요.",
+          "audio": "audio/week-05/2026-11-24-v1/patient/20.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 13,
-          "en": "Good. Does that sound similar to what you've been experiencing?",
-          "ko": "좋아요. 제가 말한 내용이 실제로 겪고 계신 것과 비슷한가요?"
+          "en": "Absolutely. We'll work towards that together, one step at a time.",
+          "ko": "그럼요. 한 걸음씩 같이 해 나가요.",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/21.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/21.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 14,
-          "en": "Yeah, that makes sense.",
-          "ko": "네, 이해가 돼요."
-        },
-        {
-          "speaker": "Patient",
-          "turn": 14,
-          "en": "I just want to understand what's happening and how I can get back to normal.",
-          "ko": "그냥 무슨 일이 있는 건지, 어떻게 하면 평소처럼 지낼 수 있을지 알고 싶어요."
+          "en": "Thanks. That makes a bit more sense now.",
+          "ko": "고마워요. 이제 조금 더 이해가 되네요.",
+          "audio": "audio/week-05/2026-11-24-v1/patient/22.m4a"
         },
         {
           "speaker": "Physio",
           "turn": 15,
-          "en": "Absolutely. That's what we'll work towards.",
-          "ko": "그럼요. 그걸 목표로 함께 노력해 볼 거예요."
-        },
-        {
-          "speaker": "Physio",
-          "turn": 15,
-          "en": "The good thing is that we've identified some movements that are currently more challenging for you.",
-          "ko": "다행히 지금 어떤 동작이 더 힘든지 확인했어요."
-        },
-        {
-          "speaker": "Physio",
-          "turn": 15,
-          "en": "We can use that information to guide your treatment and gradually build your confidence with movement again.",
-          "ko": "그 정보를 바탕으로 치료 방향을 잡고, 다시 움직이는 데 조금씩 자신감을 되찾도록 도울 수 있어요."
+          "en": "No worries. Do you have any other questions about what we've discussed?",
+          "ko": "천만에요. 지금까지 이야기한 내용에 대해 다른 질문 있으세요?",
+          "audioVoices": {
+            "female": "audio/week-05/2026-11-24-v1/female/23.m4a",
+            "male": "audio/week-05/2026-11-24-v1/male/23.m4a"
+          }
         },
         {
           "speaker": "Patient",
           "turn": 16,
-          "en": "Sounds good.",
-          "ko": "좋아요."
-        },
-        {
-          "speaker": "Physio",
-          "turn": 17,
-          "en": "Do you have any questions about what we've discussed so far?",
-          "ko": "지금까지 이야기한 내용에 대해 궁금한 점 있으세요?"
-        },
-        {
-          "speaker": "Patient",
-          "turn": 18,
-          "en": "No, I think that makes sense. Thanks for explaining.",
-          "ko": "아니요, 이해한 것 같아요. 설명해 주셔서 감사합니다."
+          "en": "Not for now! Thanks.",
+          "ko": "지금은 없어요! 감사합니다.",
+          "audio": "audio/week-05/2026-11-24-v1/patient/24.m4a"
         }
       ],
       "patient": {
@@ -2590,16 +2638,16 @@
         "name": "John Thompson"
       },
       "physioAudio": {
-        "female": null,
-        "male": null
+        "female": "audio/week-05/2026-11-24-v1/female/full.m4a",
+        "male": "audio/week-05/original/W5_PT_male.mp3"
       },
-      "patientAudio": null,
-      "scriptRevision": "2026-11-23-google-docs-week-05-day-02",
+      "patientAudio": "audio/week-05/original/W5_pt.mp3",
+      "scriptRevision": "2026-11-24-google-docs-week-05-day-02",
       "source": {
         "url": "https://docs.google.com/document/d/12ICQDlhwW27aswKXWDUX8OxQ6GnuPGyWQXOxxTHngME/edit",
         "section": "WEEK 5 — Day 2: Reading & Key Expressions / Explaining Your Clinical Impression",
-        "checkedAt": "2026-11-23",
-        "documentRevisionId": "AHj4eMT5xK1CR7NdwW_nuXDgAje8UZrcarV6wTLisKdWM_d7QyFpL0cdKcpBdqgzxb-4DCcFlShnWhhaMls77xVFaA7jtzBy4Bq1yKepj5EV"
+        "checkedAt": "2026-11-24",
+        "documentRevisionId": "AHj4eMRZ9HgB19KpoeFneVw1KI5dNNS8oGbwPo24WAfI6mynSE3Vx6Tpij89UrL773AAgWK2Sewk6nWaF6cUfuvEOldf_ayY5NNBe3TaL9QI"
       }
     }
   ]

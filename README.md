@@ -67,7 +67,9 @@ Week 4에는 기존 Google Docs 원본 [IGP Patient Communication_v1](https://do
 
 재현 순서: `python tools/build-week-04-audio.py` → `python tools/balance-female-audio.py tools/female-volume-balance-2026-11-16-week-04.json` → `python tools/build-practice-audio.py tools/week-04-practice-boundaries.json` → `python tools/balance-female-audio.py tools/female-volume-week-04-2026-11-16-v2.json` → `python tools/build-week-04-first-sentence-practice.py` → `python tools/build-week-04-shorter-practice.py` → `python tools/build-week-04-incident-tail.py` → `python tools/build-week-04-patient-manual-practice.py` → `python tools/build-week-04-all-manual-practice.py`. `imageio-ffmpeg`가 필요하다. 원본·단어 시간 정보·파형 경계는 `tools/week-04-audio-boundaries.json`, 나눠 연습 계획은 `tools/week-04-practice-boundaries.json`, ASR 대조는 `tools/week-04-audio-verification.json`에 기록한다. 현재 연결 기준은 `docs/weeks.json`이며 ASR 검증은 사람의 직접 청취 검수와 구분한다.
 
-Week 5에는 Google Docs Day 2의 *Explaining Your Clinical Impression* 대화를 등록했다. 영어 원문은 `W5/W5_script.md`에 보존하며, 기존 전체 앱에서 18개 발화를 28개 한영 말풍선으로 표시한다. Eng / Kor / Blind로 연습할 수 있다. 음성이 없는 동안에는 대사별 재생과 전체 듣기가 비활성화된다.
+Week 5에는 Google Docs Day 2의 *Explaining Your Clinical Impression* 2026-11-24 개정본을 등록했다. 영어 원문은 `W5/W5_script.md`, 역할별 생성 대본은 `W5/W5_physio_script.txt`와 `W5/W5_patient_script.txt`에 있다. 16개 발화를 24개 한영 말풍선으로 표시한다. 피지오 여성 Rachel·남성 Australian Neutral과 환자 John C의 대사별 재생 및 전체 듣기를 제공한다.
+
+Eleven Multilingual v2로 생성한 원본 MP3 세 개는 `W5/`와 `docs/audio/week-05/original/`에 보존한다. 일반 재생은 원본에서 합성 무음이나 페이드 없이 추출한 `docs/audio/week-05/2026-11-24-v1/`의 40개 클립을 사용한다. 여성 음성은 피지오 남녀 클립의 대표 음량 차이를 기준으로 +9.10dB 보정했고, 같은 게인을 여성 전체 참조에도 적용했다. 원본 해시, 클립 경계와 음량은 `W5/audio-source-manifest.json`에 기록한다. Free 플랜에서 생성한 비상업용 스터디 음성의 출처는 Week 5 제목에 표시한다.
 
 ## 매주 자료 추가
 
